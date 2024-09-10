@@ -1,4 +1,4 @@
-# 007revad scripts
+# All my scripts
 
 #### Contents
 - [Plex](#plex)
