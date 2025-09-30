@@ -145,6 +145,12 @@
 - **<a href="https://github.com/007revad/Synology_HDD_db/blob/main/2025_plus_models.md">2025 series or later Plus models</a>**
   - Unverified 3rd party drive limitations and unofficial solutions.
 
+- **<a href="https://github.com/007revad/Synology_HDD_db/blob/main/2025_plus_models.md#setting-up-a-new-2025-or-later-plus-model-with-only-unverified-hdds">Setup with only 3rd party drives</a>**
+  - Setting up a new 2025 or later plus model with only unverified HDDs.
+
+- **<a href="https://github.com/007revad/Synology_HDD_db/blob/main/2025_plus_models.md#deleting-and-recreating-your-storage-pool-on-unverified-hdds">Recreating storage pool on migrated drives</a>**
+  - Deleting and recreating your storage pool on unverified HDDs.
+
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Back to Contents](#contents)
 
 ### How To Guides
