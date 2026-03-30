@@ -8,7 +8,7 @@ on:
       - main
     paths:
       - 'README.md'
-  workflow_dispatch:  # allows manual trigger
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -22,82 +22,60 @@ jobs:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
           CONTENT=$(base64 -w 0 README.md)
-          
-          REPOS=(
-            "007revad/Asustor_Ookla_Speedtest"
-            "007revad/Asustor_Open_Speedtest"
-            "007revad/Asustor_Plex_Backup"
-            "007revad/Asustor_SMART_info"
-            "007revad/ContainerManager_for_all_armv8"
-            "007revad/Docker_Autocompose"
-            "007revad/DTC_GUI_for_Windows"
-            "007revad/Linux_Plex_Backup"
-            "007revad/my_repos"
-            "007revad/Plex_Server_Sync"
-            "007revad/Restore_RS3621_Fan_Speed"
-            "007revad/ScriptNotify"
-            "007revad/Seagate_lowCurrentSpinup"
-            "007revad/SS_Motion_Detection"
-            "007revad/Syno_DSM_Extractor_GUI"
-            "007revad/Syno_enable_nail_polish"
-            "007revad/Synoboot_backup"
-            "007revad/Synology_app_mover"
-            "007revad/Synology_Cleanup_Coredumps"
-            "007revad/Synology_clear_drive_error"
-            "007revad/Synology_Config_Backup"
-            "007revad/Synology_ContainerManager_IPv6"
-            "007revad/Synology_CPU_temperature"
-            "007revad/Synology_created_date"
-            "007revad/Synology_docker_cleanup"
-            "007revad/Synology_Docker_Export"
-            "007revad/Synology_Download_Station_Chrome_Extension"
-            "007revad/Synology_DSM_reinstall"
-            "007revad/Synology_DSM_Telnet_Password"
-            "007revad/Synology_enable_Deduplication"
-            "007revad/Synology_enable_eunit"
-            "007revad/Synology_enable_M2_card"
-            "007revad/Synology_enable_M2_volume"
-            "007revad/Synology_enable_sequential_IO"
-            "007revad/Synology_HDD_db"
-            "007revad/Synology_Information_Wiki"
-            "007revad/Synology_M2_volume"
-            "007revad/Synology_Ookla_Speedtest"
-            "007revad/Synology_Open_Speedtest\my-other-scripts.md
-            "007revad/Synology_package_updater"
-            "007revad/Synology_Plex_Backup"
-            "007revad/Synology_Recover_Data"
-            "007revad/Synology_SHR_switch"
-            "007revad/Synology_SMART_info"
-            "007revad/Synology_toggle_reset_button"
-            "007revad/template"
-            "007revad/Transcode_for_x25"
-            "007revad/Video_Station_for_DSM_722"
-          )
-          
-          for REPO in "${REPOS[@]}"; do
-            echo "Syncing to $REPO..."
-            
-            # Get the current file's SHA (needed for update), if it exists
-            SHA=$(gh api \
-              "repos/$REPO/contents/my-other-scripts.md" \
-              --jq '.sha' 2>/dev/null || echo "")
-            
-            if [ -n "$SHA" ]; then
-              # Update existing file
-              gh api \
-                --method PUT \
-                "repos/$REPO/contents/my-other-scripts.md" \
-                --field message="Sync my-other-scripts.md from 007revad.github.io" \
-                --field content="$CONTENT" \
-                --field sha="$SHA"
-            else
-              # Create new file
-              gh api \
-                --method PUT \
-                "repos/$REPO/contents/my-other-scripts.md" \
-                --field message="Add my-other-scripts.md synced from 007revad.github.io" \
-                --field content="$CONTENT"
+
+          echo "Finding repos with my-other-scripts.md..."
+          REPOS=$(gh search code \
+            --owner 007revad \
+            "filename:my-other-scripts.md" \
+            --json repository \
+            --jq '.[].repository.nameWithOwner')
+
+          echo "Found repos:"
+          echo "$REPOS"
+
+          while IFS= read -r REPO; do
+            # Skip the source repo itself
+            if [ "$REPO" = "007revad/007revad.github.io" ]; then
+              continue
             fi
-            
-            echo "✓ Done: $REPO"
-          done
+
+            echo "Syncing to $REPO..."
+
+            SHA=$(curl -s \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/$REPO/contents/my-other-scripts.md" \
+              | jq -r '.sha // empty')
+
+            if [ -n "$SHA" ]; then
+              echo "  Updating existing file (sha: $SHA)"
+              jq -n \
+                --arg msg "Sync my-other-scripts.md from 007revad.github.io" \
+                --arg content "$CONTENT" \
+                --arg sha "$SHA" \
+                '{message: $msg, content: $content, sha: $sha}' > /tmp/payload.json
+            else
+              echo "  Creating new file"
+              jq -n \
+                --arg msg "Add my-other-scripts.md synced from 007revad.github.io" \
+                --arg content "$CONTENT" \
+                '{message: $msg, content: $content}' > /tmp/payload.json
+            fi
+
+            RESULT=$(curl -s -w "\n%{http_code}" \
+              -X PUT \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              -H "Content-Type: application/json" \
+              "https://api.github.com/repos/$REPO/contents/my-other-scripts.md" \
+              -d @/tmp/payload.json)
+
+            HTTP_CODE=$(echo "$RESULT" | tail -1)
+            if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
+              echo "✓ Done: $REPO"
+            else
+              echo "✗ Failed: $REPO (HTTP $HTTP_CODE)"
+              echo "$RESULT" | head -1
+            fi
+
+          done <<< "$REPOS"
