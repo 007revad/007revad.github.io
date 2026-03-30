@@ -11,7 +11,7 @@
 - [Synology recovery](#synology-recovery)
 - [Other Synology scripts and packages](#other-synology-scripts-and-packages)
 - [Synology hardware restrictions](#synology-hardware-restrictions)
-- [2025 plus models](#2025-plus-models)
+- [Synology 2025 plus models](#synology-2025-plus-models)
 - [How To Guides](#how-to-guides)
 - [Synology dev](#synology-dev)
 
@@ -187,7 +187,7 @@
 
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Back to Contents](#contents)
 
-### 2025 plus models
+### Synology 2025 plus models
 
 - **<a href="https://github.com/007revad/Transcode_for_x25">Transcode for x25</a>**
   - Installs the modules needed for Plex or Jellyfin hardware transcoding on Synology DS425+ and DS225+.
