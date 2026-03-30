@@ -23,14 +23,22 @@ jobs:
         run: |
           CONTENT=$(base64 -w 0 README.md)
 
-          REPOS=(
-            "007revad/Synospeedtest"
-            "007revad/Synology_Open_Speedtest"
-            "007revad/asustor_smart_info"
-            "007revad/syno_smart_info"
-          )
+          echo "Finding repos with my-other-scripts.md..."
+          REPOS=$(gh search code \
+            --owner 007revad \
+            "filename:my-other-scripts.md" \
+            --json repository \
+            --jq '.[].repository.nameWithOwner')
 
-          for REPO in "${REPOS[@]}"; do
+          echo "Found repos:"
+          echo "$REPOS"
+
+          while IFS= read -r REPO; do
+            # Skip the source repo itself
+            if [ "$REPO" = "007revad/007revad.github.io" ]; then
+              continue
+            fi
+
             echo "Syncing to $REPO..."
 
             SHA=$(curl -s \
@@ -70,4 +78,4 @@ jobs:
               echo "$RESULT" | head -1
             fi
 
-          done
+          done <<< "$REPOS"
