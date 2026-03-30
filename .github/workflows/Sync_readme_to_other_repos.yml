@@ -1,23 +1,6 @@
 # Sync https://github.com/007revad/007revad.github.io README.md to other repos' my-other-scripts.md
 
-name: Sync README to other repos
-
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'README.md'
-  workflow_dispatch:
-
-jobs:
-  sync:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout source repo
-        uses: actions/checkout@v4
-
-      - name: Sync to other repos
+- name: Sync to other repos
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
@@ -33,27 +16,42 @@ jobs:
           for REPO in "${REPOS[@]}"; do
             echo "Syncing to $REPO..."
 
-            # Get the current file's SHA if it exists
-            SHA=$(gh api "repos/$REPO/contents/my-other-scripts.md" --jq '.sha' 2>/dev/null || echo "")
+            # Use curl instead of gh api to avoid exit code 1 on 404
+            SHA=$(curl -s \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/$REPO/contents/my-other-scripts.md" \
+              | jq -r '.sha // empty')
 
-            # Build JSON payload in a temp file to avoid quoting issues
             if [ -n "$SHA" ]; then
+              echo "  Updating existing file (sha: $SHA)"
               jq -n \
                 --arg msg "Sync my-other-scripts.md from 007revad.github.io" \
                 --arg content "$CONTENT" \
                 --arg sha "$SHA" \
                 '{message: $msg, content: $content, sha: $sha}' > /tmp/payload.json
             else
+              echo "  Creating new file"
               jq -n \
                 --arg msg "Add my-other-scripts.md synced from 007revad.github.io" \
                 --arg content "$CONTENT" \
                 '{message: $msg, content: $content}' > /tmp/payload.json
             fi
 
-            gh api \
-              --method PUT \
-              "repos/$REPO/contents/my-other-scripts.md" \
-              --input /tmp/payload.json
+            RESULT=$(curl -s -w "\n%{http_code}" \
+              -X PUT \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              -H "Content-Type: application/json" \
+              "https://api.github.com/repos/$REPO/contents/my-other-scripts.md" \
+              -d @/tmp/payload.json)
 
-            echo "✓ Done: $REPO"
+            HTTP_CODE=$(echo "$RESULT" | tail -1)
+            if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
+              echo "✓ Done: $REPO"
+            else
+              echo "✗ Failed: $REPO (HTTP $HTTP_CODE)"
+              echo "$RESULT" | head -1
+            fi
+
           done
