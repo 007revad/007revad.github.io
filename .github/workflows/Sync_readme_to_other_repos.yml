@@ -24,10 +24,17 @@ jobs:
           CONTENT=$(base64 -w 0 README.md)
 
           echo "Getting all repos for 007revad..."
-          # Public and private repos
-          REPOS=$(gh api \
-            "user/repos?per_page=100&type=owner" \
-            --jq '.[].full_name')
+          REPOS=""
+          PAGE=1
+          while true; do
+            BATCH=$(gh api \
+              "user/repos?per_page=100&type=owner&page=$PAGE" \
+              --jq '.[].full_name')
+            [ -z "$BATCH" ] && break
+            REPOS="$REPOS"$'\n'"$BATCH"
+            PAGE=$((PAGE + 1))
+          done
+          REPOS=$(echo "$REPOS" | sed '/^$/d')
 
           echo "Checking each repo for my-other-scripts.md..."
 
