@@ -23,15 +23,12 @@ jobs:
         run: |
           CONTENT=$(base64 -w 0 README.md)
 
-          echo "Finding repos with my-other-scripts.md..."
-          REPOS=$(gh search code \
-            --owner 007revad \
-            "filename:my-other-scripts.md" \
-            --json repository \
-            --jq '.[].repository.nameWithOwner')
+          echo "Getting all repos for 007revad..."
+          REPOS=$(gh api \
+            "users/007revad/repos?per_page=100&type=owner" \
+            --jq '.[].full_name')
 
-          echo "Found repos:"
-          echo "$REPOS"
+          echo "Checking each repo for my-other-scripts.md..."
 
           while IFS= read -r REPO; do
             # Skip the source repo itself
@@ -39,28 +36,25 @@ jobs:
               continue
             fi
 
-            echo "Syncing to $REPO..."
-
+            # Check if my-other-scripts.md exists in this repo
             SHA=$(curl -s \
               -H "Authorization: Bearer $GH_TOKEN" \
               -H "Accept: application/vnd.github+json" \
               "https://api.github.com/repos/$REPO/contents/my-other-scripts.md" \
               | jq -r '.sha // empty')
 
-            if [ -n "$SHA" ]; then
-              echo "  Updating existing file (sha: $SHA)"
-              jq -n \
-                --arg msg "Sync my-other-scripts.md from 007revad.github.io" \
-                --arg content "$CONTENT" \
-                --arg sha "$SHA" \
-                '{message: $msg, content: $content, sha: $sha}' > /tmp/payload.json
-            else
-              echo "  Creating new file"
-              jq -n \
-                --arg msg "Add my-other-scripts.md synced from 007revad.github.io" \
-                --arg content "$CONTENT" \
-                '{message: $msg, content: $content}' > /tmp/payload.json
+            # Skip repos that don't have the file
+            if [ -z "$SHA" ]; then
+              echo "⊘ Skipping: $REPO (no my-other-scripts.md)"
+              continue
             fi
+
+            echo "Syncing to $REPO..."
+            jq -n \
+              --arg msg "Sync my-other-scripts.md from 007revad.github.io" \
+              --arg content "$CONTENT" \
+              --arg sha "$SHA" \
+              '{message: $msg, content: $content, sha: $sha}' > /tmp/payload.json
 
             RESULT=$(curl -s -w "\n%{http_code}" \
               -X PUT \
