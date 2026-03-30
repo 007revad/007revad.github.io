@@ -25,7 +25,10 @@ jobs:
 
           echo "Getting all repos for 007revad..."
           REPOS=$(gh api \
-            "users/007revad/repos?per_page=100&type=owner" \
+            # Public repos only
+            #"users/007revad/repos?per_page=100&type=owner" \
+            # Public and private repos
+            "user/repos?per_page=100&type=owner&affiliation=owner" \
             --jq '.[].full_name')
 
           echo "Checking each repo for my-other-scripts.md..."
