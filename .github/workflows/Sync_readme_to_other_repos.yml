@@ -1,6 +1,23 @@
 # Sync https://github.com/007revad/007revad.github.io README.md to other repos' my-other-scripts.md
 
-- name: Sync to other repos
+name: Sync README to other repos
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+
+      - name: Sync to other repos
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
@@ -16,7 +33,6 @@
           for REPO in "${REPOS[@]}"; do
             echo "Syncing to $REPO..."
 
-            # Use curl instead of gh api to avoid exit code 1 on 404
             SHA=$(curl -s \
               -H "Authorization: Bearer $GH_TOKEN" \
               -H "Accept: application/vnd.github+json" \
