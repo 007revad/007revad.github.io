@@ -118,6 +118,11 @@
         <td><a href="https://github.com/007revad/Asustor_Libre_Speedtest/releases"><img src="https://img.shields.io/github/downloads/007revad/Asustor_Libre_Speedtest/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/Asustor_Libre_Speedtest">Download stats</a></td>
       </tr>
+      <tr>
+        <td>Synoloy toolkit cache</td>
+        <td><a href="https://github.com/007revad/synology-toolkit-cache/releases"><img src="https://img.shields.io/github/downloads/007revad/synology-toolkit-cache/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/synology-toolkit-cache">Download stats</a></td>
+      </tr>
     </tbody>
   </table>
 </body>
