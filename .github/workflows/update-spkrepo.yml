@@ -1,0 +1,298 @@
+name: Update spkrepo index.json
+
+# Triggers:
+#   1. Called via repository_dispatch from each package repo (on new release)
+#   2. Manual run from Actions tab
+#   3. Weekly Sunday at 02:00 UTC (safety net catch-up)
+on:
+  repository_dispatch:
+    types: [spk-release]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * 0'
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout 007revad.github.io
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SYNC_TOKEN }}
+
+      - name: Fetch latest release info and regenerate index.json
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          # ------------------------------------------------------------------ #
+          # Helper: fetch latest release for a repo and emit a package object.
+          # Usage: make_entry <repo> <package_id> <dname> <desc> <arch_list>
+          # ------------------------------------------------------------------ #
+          make_entry() {
+            local repo="$1"
+            local pkg="$2"
+            local dname="$3"
+            local desc="$4"
+            local arch="$5"
+
+            local api_url="https://api.github.com/repos/007revad/${repo}/releases/latest"
+            local release
+            release=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" \
+                           -H "Accept: application/vnd.github+json" \
+                           "${api_url}")
+
+            local tag version spk_url size md5
+            tag=$(echo "$release" | jq -r '.tag_name // empty')
+            # Strip leading 'v' from tag to get bare version string
+            version="${tag#v}"
+
+            # Locate the .spk asset
+            spk_url=$(echo "$release" | jq -r \
+              --arg pkg "${pkg}" \
+              '.assets[] | select(.name | test("^" + $pkg + ".*\\.spk$"; "i")) | .browser_download_url' \
+              | head -1)
+
+            if [[ -z "$spk_url" ]]; then
+              echo "WARNING: No .spk asset found for ${pkg} in ${repo} ${tag}" >&2
+              # Fall back to predictable URL pattern
+              spk_url="https://github.com/007revad/${repo}/releases/latest/download/${pkg}.spk"
+            fi
+
+            size=$(echo "$release" | jq -r \
+              --arg pkg "${pkg}" \
+              '.assets[] | select(.name | test("^" + $pkg + ".*\\.spk$"; "i")) | .size' \
+              | head -1)
+            size="${size:-0}"
+
+            jq -n \
+              --arg package        "${pkg}" \
+              --arg version        "${version}-0001" \
+              --arg dname          "${dname}" \
+              --arg desc           "${desc}" \
+              --arg maintainer     "007revad" \
+              --arg maintainer_url "https://github.com/007revad" \
+              --arg distributor    "007revad" \
+              --arg dist_url       "https://github.com/007revad/${repo}" \
+              --arg support_url    "https://github.com/007revad/${repo}/issues" \
+              --arg report_url     "https://github.com/007revad/${repo}/issues" \
+              --arg link           "${spk_url}" \
+              --arg arch           "${arch}" \
+              --arg thumbnail      "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
+              --argjson size       "${size}" \
+              '{
+                package:          $package,
+                version:          $version,
+                dname:            $dname,
+                desc:             $desc,
+                maintainer:       $maintainer,
+                maintainer_url:   $maintainer_url,
+                distributor:      $distributor,
+                distributor_url:  $dist_url,
+                support_url:      $support_url,
+                report_url:       $report_url,
+                link:             $link,
+                arch:             $arch,
+                firmware:         "7.0-0000",
+                thumbnail:        [$thumbnail],
+                snapshot:         [],
+                beta:             false,
+                size:             $size
+              }'
+          }
+
+          # ------------------------------------------------------------------ #
+          # Helper: like make_entry but for versioned SPK filenames and with
+          # explicit firmware bounds. The SPK asset is matched by a pattern
+          # rather than assuming a fixed filename.
+          # Usage: make_transcode_entry <dsm_ver> <firmware_min> <firmware_max>
+          #   dsm_ver     : string used in asset name pattern, e.g. "7.2" or "7.3"
+          #   firmware_min: e.g. "7.2-0000"
+          #   firmware_max: e.g. "7.2-99999"  (empty string = no upper bound)
+          # ------------------------------------------------------------------ #
+          make_transcode_entry() {
+            local dsm_ver="$1"
+            local fw_min="$2"
+            local fw_max="$3"
+
+            local repo="Transcode_for_x25"
+            local pkg="Transcode-drivers"
+            local arch="geminilakenk"
+            local thumbnail="https://007revad.github.io/spkrepo/thumbnails/Transcode-drivers_120.png"
+
+            local api_url="https://api.github.com/repos/007revad/${repo}/releases/latest"
+            local release
+            release=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" \
+                           -H "Accept: application/vnd.github+json" \
+                           "${api_url}")
+
+            local tag version spk_url size
+            tag=$(echo "$release" | jq -r '.tag_name // empty')
+            version="${tag#v}"
+
+            # Match asset containing DSM version and arch, e.g. Transcode_v3.0.9-DSM-7.2-geminilakenk.spk
+            local pattern="DSM-${dsm_ver}-${arch}\\.spk\$"
+            spk_url=$(echo "$release" | jq -r \
+              --arg pat "${pattern}" \
+              '.assets[] | select(.name | test($pat; "i")) | .browser_download_url' \
+              | head -1)
+
+            if [[ -z "$spk_url" ]]; then
+              echo "WARNING: No .spk asset found matching DSM-${dsm_ver}-${arch} in ${repo} ${tag}" >&2
+              spk_url="https://github.com/007revad/${repo}/releases/latest/download/Transcode_${tag}-DSM-${dsm_ver}-${arch}.spk"
+            fi
+
+            size=$(echo "$release" | jq -r \
+              --arg pat "${pattern}" \
+              '.assets[] | select(.name | test($pat; "i")) | .size' \
+              | head -1)
+            size="${size:-0}"
+
+            local dname="Transcode Drivers for x25 (DSM ${dsm_ver})"
+            local desc="Kernel modules for Plex or Jellyfin hardware transcoding on DS425+ and DS225+. For DSM ${dsm_ver}."
+
+            # Build the jq args — conditionally include os_max_ver
+            if [[ -n "$fw_max" ]]; then
+              jq -n \
+                --arg package        "${pkg}" \
+                --arg version        "${version}-0001" \
+                --arg dname          "${dname}" \
+                --arg desc           "${desc}" \
+                --arg maintainer     "007revad" \
+                --arg maintainer_url "https://github.com/007revad" \
+                --arg distributor    "007revad" \
+                --arg dist_url       "https://github.com/007revad/${repo}" \
+                --arg support_url    "https://github.com/007revad/${repo}/issues" \
+                --arg report_url     "https://github.com/007revad/${repo}/issues" \
+                --arg link           "${spk_url}" \
+                --arg arch           "${arch}" \
+                --arg firmware       "${fw_min}" \
+                --arg os_max_ver     "${fw_max}" \
+                --arg thumbnail      "${thumbnail}" \
+                --argjson size       "${size}" \
+                '{
+                  package:          $package,
+                  version:          $version,
+                  dname:            $dname,
+                  desc:             $desc,
+                  maintainer:       $maintainer,
+                  maintainer_url:   $maintainer_url,
+                  distributor:      $distributor,
+                  distributor_url:  $dist_url,
+                  support_url:      $support_url,
+                  report_url:       $report_url,
+                  link:             $link,
+                  arch:             $arch,
+                  firmware:         $firmware,
+                  os_max_ver:       $os_max_ver,
+                  thumbnail:        [$thumbnail],
+                  snapshot:         [],
+                  beta:             false,
+                  size:             $size
+                }'
+            else
+              jq -n \
+                --arg package        "${pkg}" \
+                --arg version        "${version}-0001" \
+                --arg dname          "${dname}" \
+                --arg desc           "${desc}" \
+                --arg maintainer     "007revad" \
+                --arg maintainer_url "https://github.com/007revad" \
+                --arg distributor    "007revad" \
+                --arg dist_url       "https://github.com/007revad/${repo}" \
+                --arg support_url    "https://github.com/007revad/${repo}/issues" \
+                --arg report_url     "https://github.com/007revad/${repo}/issues" \
+                --arg link           "${spk_url}" \
+                --arg arch           "${arch}" \
+                --arg firmware       "${fw_min}" \
+                --arg thumbnail      "${thumbnail}" \
+                --argjson size       "${size}" \
+                '{
+                  package:          $package,
+                  version:          $version,
+                  dname:            $dname,
+                  desc:             $desc,
+                  maintainer:       $maintainer,
+                  maintainer_url:   $maintainer_url,
+                  distributor:      $distributor,
+                  distributor_url:  $dist_url,
+                  support_url:      $support_url,
+                  report_url:       $report_url,
+                  link:             $link,
+                  arch:             $arch,
+                  firmware:         $firmware,
+                  thumbnail:        [$thumbnail],
+                  snapshot:         [],
+                  beta:             false,
+                  size:             $size
+                }'
+            fi
+          }
+
+          # ------------------------------------------------------------------ #
+          # Arch lists
+          # ------------------------------------------------------------------ #
+          INTEL_AMD="x86_64 apollolake avoton broadwellnk broadwellnkv2 broadwellntbap bromolow butalbital denverton epyc7002 geminilake grantley haswell kvmx64 purley r1000 v1000"
+          ARM="armv8 rtd1296 rtd1619b aarch64 armada37xx armada38x"
+          ARCH_OOKLA="${INTEL_AMD} ${ARM}"
+          ARCH_NOARCH="${INTEL_AMD} ${ARM} alpine alpine4k"
+
+          # ------------------------------------------------------------------ #
+          # Build each package entry
+          # ------------------------------------------------------------------ #
+          entry_ookla=$(make_entry \
+            "Synology_Ookla_Speedtest" \
+            "Synospeedtest" \
+            "Ookla Speedtest" \
+            "Run Ookla Speedtest in a GUI to test your Internet speed. Supports selecting a test server." \
+            "${ARCH_OOKLA}")
+
+          entry_open=$(make_entry \
+            "Synology_Open_Speedtest" \
+            "Synoopenspdtest" \
+            "Open Speedtest" \
+            "Run OpenSpeedtest in a GUI to test your LAN speed. No Internet connection required." \
+            "${ARCH_NOARCH}")
+
+          entry_libre=$(make_entry \
+            "Synology_Libre_Speedtest" \
+            "Synolibrespdtest" \
+            "Libre Speedtest" \
+            "Run LibreSpeed in a GUI to test your LAN speed. No Internet connection or Flash plugin required." \
+            "${ARCH_NOARCH}")
+
+          # DSM 7.2 build: capped at 7.2.x so DSM 7.3 users don't get offered it
+          entry_transcode_72=$(make_transcode_entry "7.2" "7.2-0000" "7.2-99999")
+          # DSM 7.3 build: no upper cap (latest DSM)
+          entry_transcode_73=$(make_transcode_entry "7.3" "7.3-0000" "")
+
+          # ------------------------------------------------------------------ #
+          # Combine into final index.json
+          # ------------------------------------------------------------------ #
+          jq -n \
+            --argjson e1 "${entry_ookla}" \
+            --argjson e2 "${entry_open}" \
+            --argjson e3 "${entry_libre}" \
+            --argjson e4 "${entry_transcode_72}" \
+            --argjson e5 "${entry_transcode_73}" \
+            '{"packages": [$e1, $e2, $e3, $e4, $e5]}' \
+            > spkrepo/index.json
+
+          echo "Generated spkrepo/index.json:"
+          cat spkrepo/index.json
+
+      - name: Commit and push updated index.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add spkrepo/index.json
+          if git diff --cached --quiet; then
+            echo "No changes to index.json — skipping commit."
+          else
+            git commit -m "chore: update spkrepo index.json [skip ci]"
+            git push
+          fi
