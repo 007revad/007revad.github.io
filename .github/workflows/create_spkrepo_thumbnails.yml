@@ -16,11 +16,11 @@ jobs:
       matrix:
         include:
           - repo: Synology_Ookla_Speedtest
-            pkg_json: synology/package.json
+            pkg_json: package.json
           - repo: Synology_Open_Speedtest
-            pkg_json: synology/package.json
+            pkg_json: package.json
           - repo: Synology_Libre_Speedtest
-            pkg_json: synology/package.json
+            pkg_json: package.json
           - repo: Transcode_for_x25
             pkg_json: package.json
 
@@ -37,6 +37,9 @@ jobs:
           token: ${{ secrets.SYNC_TOKEN }}
           path: _pkg
 
+      - name: Install ImageMagick
+        run: sudo apt-get install -y imagemagick
+
       - name: Resize icon and commit thumbnail
         run: |
           set -euo pipefail
@@ -45,7 +48,7 @@ jobs:
           DEST="spkrepo/thumbnails/${PKG_NAME}_120.png"
 
           mkdir -p spkrepo/thumbnails
-          convert "_pkg/synology/PACKAGE_ICON.PNG" \
+          magick "_pkg/synology/PACKAGE_ICON.PNG" \
             -resize 120x120 \
             -gravity center \
             -extent 120x120 \
