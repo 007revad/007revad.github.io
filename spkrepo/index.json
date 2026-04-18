@@ -2,7 +2,7 @@
   "packages": [
     {
       "package": "Syno-Ookla-Speedtest",
-      "version": "1.0.22-0001",
+      "version": "1.0.22",
       "dname": "Syno-Ookla-Speedtest",
       "desc": "Ookla Speedtest GUI for Synology NAS",
       "maintainer": "007revad",
@@ -23,7 +23,7 @@
     },
     {
       "package": "Syno-OpenSpeedTest",
-      "version": "1.0.8-0001",
+      "version": "1.0.8",
       "dname": "Syno-OpenSpeedTest",
       "desc": "OpenSpeedTest for Synology NAS",
       "maintainer": "007revad",
@@ -44,7 +44,7 @@
     },
     {
       "package": "Libre-SpeedTest",
-      "version": "5.5.0-1-0001",
+      "version": "5.5.0-1",
       "dname": "Libre-SpeedTest",
       "desc": "LibreSpeedTest GUI for Synology NAS",
       "maintainer": "007revad",
@@ -65,7 +65,7 @@
     },
     {
       "package": "Transcode-drivers",
-      "version": "3.0.9-0001",
+      "version": "3.0.9",
       "dname": "Transcode-drivers (DSM 7.2)",
       "desc": "Drivers for Plex or Jellyfin hardware transcoding in DS425+ and DS225+",
       "maintainer": "007revad",
@@ -87,7 +87,7 @@
     },
     {
       "package": "Transcode-drivers",
-      "version": "3.0.9-0001",
+      "version": "3.0.9",
       "dname": "Transcode-drivers (DSM 7.3)",
       "desc": "Drivers for Plex or Jellyfin hardware transcoding in DS425+ and DS225+",
       "maintainer": "007revad",
