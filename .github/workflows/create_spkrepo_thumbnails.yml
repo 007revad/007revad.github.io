@@ -11,55 +11,60 @@ jobs:
     permissions:
       contents: write
 
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - repo: Synology_Ookla_Speedtest
-            pkg_json: package.json
-          - repo: Synology_Open_Speedtest
-            pkg_json: package.json
-          - repo: Synology_Libre_Speedtest
-            pkg_json: package.json
-          - repo: Transcode_for_x25
-            pkg_json: package.json
-
     steps:
       - name: Checkout 007revad.github.io
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.SYNC_TOKEN }}
 
-      - name: Checkout ${{ matrix.repo }}
-        uses: actions/checkout@v4
-        with:
-          repository: 007revad/${{ matrix.repo }}
-          token: ${{ secrets.SYNC_TOKEN }}
-          path: _pkg
-
       - name: Install ImageMagick
         run: sudo apt-get install -y --no-install-recommends imagemagick
 
-      - name: Resize icon and commit thumbnail
+      - name: Process each package repo
+        env:
+          GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
           set -euo pipefail
 
-          PKG_NAME=$(jq -r '.package' "_pkg/${{ matrix.pkg_json }}")
-          DEST="spkrepo/thumbnails/${PKG_NAME}_120.png"
-
-          mkdir -p spkrepo/thumbnails
-          /usr/bin/convert "_pkg/synology/PACKAGE_ICON.PNG" \
-            -resize 120x120 \
-            -gravity center \
-            -extent 120x120 \
-            "${DEST}"
-
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "${DEST}"
-          if git diff --cached --quiet; then
-            echo "Thumbnail for ${PKG_NAME} unchanged — skipping commit."
-          else
-            git commit -m "chore: bootstrap spkrepo thumbnail for ${PKG_NAME} [skip ci]"
-            git push
-          fi
+
+          process_repo() {
+            local repo="$1"
+            local pkg_json="$2"
+
+            echo "--- Processing ${repo} ---"
+
+            # Shallow clone into a temp dir
+            local tmp
+            tmp=$(mktemp -d)
+            git clone --depth 1 \
+              "https://x-access-token:${GH_TOKEN}@github.com/007revad/${repo}.git" \
+              "${tmp}"
+
+            PKG_NAME=$(jq -r '.package' "${tmp}/${pkg_json}")
+            DEST="spkrepo/thumbnails/${PKG_NAME}_120.png"
+
+            mkdir -p spkrepo/thumbnails
+            /usr/bin/convert "${tmp}/synology/PACKAGE_ICON.PNG" \
+              -resize 120x120 \
+              -gravity center \
+              -extent 120x120 \
+              "${DEST}"
+
+            rm -rf "${tmp}"
+
+            git add "${DEST}"
+            if git diff --cached --quiet; then
+              echo "Thumbnail for ${PKG_NAME} unchanged — skipping."
+            else
+              git commit -m "chore: bootstrap spkrepo thumbnail for ${PKG_NAME} [skip ci]"
+              git push
+              echo "Pushed thumbnail for ${PKG_NAME}."
+            fi
+          }
+
+          process_repo "Synology_Ookla_Speedtest"  "package.json"
+          process_repo "Synology_Open_Speedtest"   "package.json"
+          process_repo "Synology_Libre_Speedtest"  "package.json"
+          process_repo "Transcode_for_x25"         "package.json"
