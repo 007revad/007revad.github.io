@@ -1,0 +1,62 @@
+name: Bootstrap spkrepo thumbnails
+
+# Run manually from the Actions tab in 007revad.github.io to populate
+# all package thumbnails in one shot, without touching any package repos.
+on:
+  workflow_dispatch:
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - repo: Synology_Ookla_Speedtest
+            pkg_json: synology/package.json
+          - repo: Synology_Open_Speedtest
+            pkg_json: synology/package.json
+          - repo: Synology_Libre_Speedtest
+            pkg_json: synology/package.json
+          - repo: Transcode_for_x25
+            pkg_json: package.json
+
+    steps:
+      - name: Checkout 007revad.github.io
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.SYNC_TOKEN }}
+
+      - name: Checkout ${{ matrix.repo }}
+        uses: actions/checkout@v4
+        with:
+          repository: 007revad/${{ matrix.repo }}
+          token: ${{ secrets.SYNC_TOKEN }}
+          path: _pkg
+
+      - name: Resize icon and commit thumbnail
+        run: |
+          set -euo pipefail
+
+          PKG_NAME=$(jq -r '.package' "_pkg/${{ matrix.pkg_json }}")
+          DEST="spkrepo/thumbnails/${PKG_NAME}_120.png"
+
+          mkdir -p spkrepo/thumbnails
+          convert "_pkg/synology/PACKAGE_ICON.PNG" \
+            -resize 120x120 \
+            -gravity center \
+            -extent 120x120 \
+            "${DEST}"
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${DEST}"
+          if git diff --cached --quiet; then
+            echo "Thumbnail for ${PKG_NAME} unchanged — skipping commit."
+          else
+            git commit -m "chore: bootstrap spkrepo thumbnail for ${PKG_NAME} [skip ci]"
+            git push
+          fi
