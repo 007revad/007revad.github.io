@@ -48,7 +48,7 @@ jobs:
           DEST="spkrepo/thumbnails/${PKG_NAME}_120.png"
 
           mkdir -p spkrepo/thumbnails
-          magick "_pkg/synology/PACKAGE_ICON.PNG" \
+          convert "_pkg/synology/PACKAGE_ICON.PNG" \
             -resize 120x120 \
             -gravity center \
             -extent 120x120 \
