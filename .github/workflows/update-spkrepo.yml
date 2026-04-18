@@ -83,7 +83,7 @@ jobs:
 
             jq -n \
               --arg package        "${pkg}" \
-              --arg version        "${version}-0001" \
+              --arg version        "${version}" \
               --arg dname          "${dname}" \
               --arg desc           "${desc}" \
               --arg maintainer     "007revad" \
@@ -178,7 +178,7 @@ jobs:
             if [[ -n "$fw_max" ]]; then
               jq -n \
                 --arg package        "${pkg}" \
-                --arg version        "${version}-0001" \
+                --arg version        "${version}" \
                 --arg dname          "${dname}" \
                 --arg desc           "${desc}" \
                 --arg maintainer     "007revad" \
@@ -216,7 +216,7 @@ jobs:
             else
               jq -n \
                 --arg package        "${pkg}" \
-                --arg version        "${version}-0001" \
+                --arg version        "${version}" \
                 --arg dname          "${dname}" \
                 --arg desc           "${desc}" \
                 --arg maintainer     "007revad" \
