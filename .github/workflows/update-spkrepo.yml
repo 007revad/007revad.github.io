@@ -30,15 +30,18 @@ jobs:
           set -euo pipefail
 
           # ------------------------------------------------------------------ #
-          # Helper: fetch latest release for a repo and emit a package object.
-          # Usage: make_entry <repo> <package_id> <dname> <desc> <arch_list>
+          # Helper: fetch latest release for a repo, read package metadata from
+          # the repo's own package.json, and emit a repository package object.
+          #
+          # Usage: make_entry <repo> <arch_list> <firmware>
+          #   repo     : GitHub repo name under 007revad/
+          #   arch     : space-separated DSM arch string
+          #   firmware : minimum DSM version e.g. "7.0-0000"
           # ------------------------------------------------------------------ #
           make_entry() {
             local repo="$1"
-            local pkg="$2"
-            local dname="$3"
-            local desc="$4"
-            local arch="$5"
+            local arch="$2"
+            local firmware="$3"
 
             local api_url="https://api.github.com/repos/007revad/${repo}/releases/latest"
             local release
@@ -46,12 +49,22 @@ jobs:
                            -H "Accept: application/vnd.github+json" \
                            "${api_url}")
 
-            local tag version spk_url size md5
+            local tag version
             tag=$(echo "$release" | jq -r '.tag_name // empty')
-            # Strip leading 'v' from tag to get bare version string
             version="${tag#v}"
 
-            # Locate the .spk asset
+            # Read package metadata directly from the repo's package.json
+            local pkg_json_url="https://raw.githubusercontent.com/007revad/${repo}/main/package.json"
+            local pkg_json
+            pkg_json=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${pkg_json_url}")
+
+            local pkg dname desc
+            pkg=$(echo "$pkg_json"   | jq -r '.package')
+            dname=$(echo "$pkg_json" | jq -r '.displayname // .package')
+            desc=$(echo "$pkg_json"  | jq -r '.description // ""')
+
+            # Locate the .spk asset by package name pattern
+            local spk_url size
             spk_url=$(echo "$release" | jq -r \
               --arg pkg "${pkg}" \
               '.assets[] | select(.name | test("^" + $pkg + ".*\\.spk$"; "i")) | .browser_download_url' \
@@ -59,7 +72,6 @@ jobs:
 
             if [[ -z "$spk_url" ]]; then
               echo "WARNING: No .spk asset found for ${pkg} in ${repo} ${tag}" >&2
-              # Fall back to predictable URL pattern
               spk_url="https://github.com/007revad/${repo}/releases/latest/download/${pkg}.spk"
             fi
 
@@ -82,6 +94,7 @@ jobs:
               --arg report_url     "https://github.com/007revad/${repo}/issues" \
               --arg link           "${spk_url}" \
               --arg arch           "${arch}" \
+              --arg firmware       "${firmware}" \
               --arg thumbnail      "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
               --argjson size       "${size}" \
               '{
@@ -97,7 +110,7 @@ jobs:
                 report_url:       $report_url,
                 link:             $link,
                 arch:             $arch,
-                firmware:         "7.0-0000",
+                firmware:         $firmware,
                 thumbnail:        [$thumbnail],
                 snapshot:         [],
                 beta:             false,
@@ -106,11 +119,11 @@ jobs:
           }
 
           # ------------------------------------------------------------------ #
-          # Helper: like make_entry but for versioned SPK filenames and with
-          # explicit firmware bounds. The SPK asset is matched by a pattern
-          # rather than assuming a fixed filename.
+          # Helper: like make_entry but for versioned SPK filenames with
+          # explicit firmware bounds (Transcode_for_x25 DSM 7.2 / 7.3 builds).
+          #
           # Usage: make_transcode_entry <dsm_ver> <firmware_min> <firmware_max>
-          #   dsm_ver     : string used in asset name pattern, e.g. "7.2" or "7.3"
+          #   dsm_ver     : e.g. "7.2" or "7.3"
           #   firmware_min: e.g. "7.2-0000"
           #   firmware_max: e.g. "7.2-99999"  (empty string = no upper bound)
           # ------------------------------------------------------------------ #
@@ -120,9 +133,7 @@ jobs:
             local fw_max="$3"
 
             local repo="Transcode_for_x25"
-            local pkg="Transcode-drivers"
             local arch="geminilakenk"
-            local thumbnail="https://007revad.github.io/spkrepo/thumbnails/Transcode-drivers_120.png"
 
             local api_url="https://api.github.com/repos/007revad/${repo}/releases/latest"
             local release
@@ -130,19 +141,31 @@ jobs:
                            -H "Accept: application/vnd.github+json" \
                            "${api_url}")
 
-            local tag version spk_url size
+            local tag version
             tag=$(echo "$release" | jq -r '.tag_name // empty')
             version="${tag#v}"
 
-            # Match asset containing DSM version and arch, e.g. Transcode_v3.0.9-DSM-7.2-geminilakenk.spk
+            # Read package metadata from the repo's package.json
+            local pkg_json_url="https://raw.githubusercontent.com/007revad/${repo}/main/package.json"
+            local pkg_json
+            pkg_json=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${pkg_json_url}")
+
+            local pkg desc
+            pkg=$(echo "$pkg_json"  | jq -r '.package')
+            desc=$(echo "$pkg_json" | jq -r '.description // ""')
+            local dname="${pkg} (DSM ${dsm_ver})"
+            local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png"
+
+            # Match asset by DSM version and arch pattern
             local pattern="DSM-${dsm_ver}-${arch}\\.spk\$"
+            local spk_url size
             spk_url=$(echo "$release" | jq -r \
               --arg pat "${pattern}" \
               '.assets[] | select(.name | test($pat; "i")) | .browser_download_url' \
               | head -1)
 
             if [[ -z "$spk_url" ]]; then
-              echo "WARNING: No .spk asset found matching DSM-${dsm_ver}-${arch} in ${repo} ${tag}" >&2
+              echo "WARNING: No .spk asset matching DSM-${dsm_ver}-${arch} in ${repo} ${tag}" >&2
               spk_url="https://github.com/007revad/${repo}/releases/latest/download/Transcode_${tag}-DSM-${dsm_ver}-${arch}.spk"
             fi
 
@@ -152,10 +175,6 @@ jobs:
               | head -1)
             size="${size:-0}"
 
-            local dname="Transcode Drivers for x25 (DSM ${dsm_ver})"
-            local desc="Kernel modules for Plex or Jellyfin hardware transcoding on DS425+ and DS225+. For DSM ${dsm_ver}."
-
-            # Build the jq args — conditionally include os_max_ver
             if [[ -n "$fw_max" ]]; then
               jq -n \
                 --arg package        "${pkg}" \
@@ -243,27 +262,11 @@ jobs:
 
           # ------------------------------------------------------------------ #
           # Build each package entry
+          # (package ID, displayname, desc all read from each repo's package.json)
           # ------------------------------------------------------------------ #
-          entry_ookla=$(make_entry \
-            "Synology_Ookla_Speedtest" \
-            "Synospeedtest" \
-            "Ookla Speedtest" \
-            "Run Ookla Speedtest in a GUI to test your Internet speed. Supports selecting a test server." \
-            "${ARCH_OOKLA}")
-
-          entry_open=$(make_entry \
-            "Synology_Open_Speedtest" \
-            "Synoopenspdtest" \
-            "Open Speedtest" \
-            "Run OpenSpeedtest in a GUI to test your LAN speed. No Internet connection required." \
-            "${ARCH_NOARCH}")
-
-          entry_libre=$(make_entry \
-            "Synology_Libre_Speedtest" \
-            "Synolibrespdtest" \
-            "Libre Speedtest" \
-            "Run LibreSpeed in a GUI to test your LAN speed. No Internet connection or Flash plugin required." \
-            "${ARCH_NOARCH}")
+          entry_ookla=$(make_entry  "Synology_Ookla_Speedtest"  "${ARCH_OOKLA}"  "7.0-0000")
+          entry_open=$(make_entry   "Synology_Open_Speedtest"   "${ARCH_NOARCH}" "7.0-0000")
+          entry_libre=$(make_entry  "Synology_Libre_Speedtest"  "${ARCH_NOARCH}" "7.0-0000")
 
           # DSM 7.2 build: capped at 7.2.x so DSM 7.3 users don't get offered it
           entry_transcode_72=$(make_transcode_entry "7.2" "7.2-0000" "7.2-99999")
