@@ -38,7 +38,7 @@ jobs:
           path: _pkg
 
       - name: Install ImageMagick
-        run: sudo apt-get install -y imagemagick
+        run: sudo apt-get install -y --no-install-recommends imagemagick
 
       - name: Resize icon and commit thumbnail
         run: |
@@ -48,7 +48,7 @@ jobs:
           DEST="spkrepo/thumbnails/${PKG_NAME}_120.png"
 
           mkdir -p spkrepo/thumbnails
-          convert "_pkg/synology/PACKAGE_ICON.PNG" \
+          /usr/bin/convert "_pkg/synology/PACKAGE_ICON.PNG" \
             -resize 120x120 \
             -gravity center \
             -extent 120x120 \
