@@ -58,26 +58,34 @@ jobs:
             local pkg_json
             pkg_json=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${pkg_json_url}")
 
-            local pkg dname desc
+            local pkg name dname desc
             pkg=$(echo "$pkg_json"   | jq -r '.package')
+            name=$(echo "$pkg_json"  | jq -r '.name // .package')
             dname=$(echo "$pkg_json" | jq -r '.displayname // .package')
             desc=$(echo "$pkg_json"  | jq -r '.description // ""')
 
-            # Locate the .spk asset by package name pattern
+            # Locate the .spk asset — prefer noarch, fall back to any matching spk
             local spk_url size
             spk_url=$(echo "$release" | jq -r \
-              --arg pkg "${pkg}" \
-              '.assets[] | select(.name | test("^" + $pkg + ".*\\.spk$"; "i")) | .browser_download_url' \
+              --arg name "${name}" \
+              '.assets[] | select(.name | test($name + ".*noarch.*\\.spk$"; "i")) | .browser_download_url' \
               | head -1)
 
             if [[ -z "$spk_url" ]]; then
-              echo "WARNING: No .spk asset found for ${pkg} in ${repo} ${tag}" >&2
-              spk_url="https://github.com/007revad/${repo}/releases/latest/download/${pkg}.spk"
+              spk_url=$(echo "$release" | jq -r \
+                --arg name "${name}" \
+                '.assets[] | select(.name | test("^" + $name + ".*\\.spk$"; "i")) | .browser_download_url' \
+                | head -1)
+            fi
+
+            if [[ -z "$spk_url" ]]; then
+              echo "WARNING: No .spk asset found for ${name} in ${repo} ${tag}" >&2
+              spk_url="https://github.com/007revad/${repo}/releases/latest/download/${name}.spk"
             fi
 
             size=$(echo "$release" | jq -r \
-              --arg pkg "${pkg}" \
-              '.assets[] | select(.name | test("^" + $pkg + ".*\\.spk$"; "i")) | .size' \
+              --arg url "${spk_url}" \
+              '.assets[] | select(.browser_download_url == $url) | .size' \
               | head -1)
             size="${size:-0}"
 
