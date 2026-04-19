@@ -30,6 +30,33 @@ jobs:
           set -euo pipefail
 
           # ------------------------------------------------------------------ #
+          # Helper: sum download counts for all .spk assets across all releases.
+          # Usage: get_total_downloads <repo>
+          # ------------------------------------------------------------------ #
+          get_total_downloads() {
+            local repo="$1"
+            local total=0
+            local page=1
+            while true; do
+              local page_data
+              page_data=$(curl -fsSL \
+                -H "Authorization: Bearer ${GH_TOKEN}" \
+                -H "Accept: application/vnd.github+json" \
+                "https://api.github.com/repos/007revad/${repo}/releases?per_page=100&page=${page}")
+              local page_count
+              page_count=$(echo "$page_data" | jq 'length')
+              if [[ "$page_count" -eq 0 ]]; then break; fi
+              local page_total
+              page_total=$(echo "$page_data" | jq -r \
+                '[.[].assets[] | select(.name | test("\\.spk$"; "i")) | .download_count] | add // 0')
+              total=$(( total + page_total ))
+              if [[ "$page_count" -lt 100 ]]; then break; fi
+              (( page++ ))
+            done
+            echo "$total"
+          }
+
+          # ------------------------------------------------------------------ #
           # Helper: fetch latest release for a repo, read package metadata from
           # the repo's own package.json, and emit a repository package object.
           #
@@ -45,9 +72,10 @@ jobs:
 
             local api_url="https://api.github.com/repos/007revad/${repo}/releases/latest"
             local release
-            release=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" \
-                           -H "Accept: application/vnd.github+json" \
-                           "${api_url}")
+            release=$(curl -fsSL \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              "${api_url}")
 
             local tag version
             tag=$(echo "$release" | jq -r '.tag_name // empty')
@@ -64,14 +92,14 @@ jobs:
             # desc     = short description
             # All metadata fields checked under .synology{} first, then top-level
             local pkg name dname desc maintainer maintainer_url distributor_url support_url
-            pkg=$(echo "$pkg_json"           | jq -r '.package')
-            name=$(echo "$pkg_json"          | jq -r '.name // .package')
-            dname=$(echo "$pkg_json"         | jq -r '.synology.displayname // .displayname // .package')
-            desc=$(echo "$pkg_json"          | jq -r '.description // ""')
-            maintainer=$(echo "$pkg_json"    | jq -r '.synology.maintainer // .maintainer // "007revad"')
-            maintainer_url=$(echo "$pkg_json"| jq -r '.synology.maintainer_url // .maintainer_url // "https://github.com/007revad"')
+            pkg=$(echo "$pkg_json"             | jq -r '.package')
+            name=$(echo "$pkg_json"            | jq -r '.name // .package')
+            dname=$(echo "$pkg_json"           | jq -r '.synology.displayname // .displayname // .package')
+            desc=$(echo "$pkg_json"            | jq -r '.description // ""')
+            maintainer=$(echo "$pkg_json"      | jq -r '.synology.maintainer // .maintainer // "007revad"')
+            maintainer_url=$(echo "$pkg_json"  | jq -r '.synology.maintainer_url // .maintainer_url // "https://github.com/007revad"')
             distributor_url=$(echo "$pkg_json" | jq -r '.synology.distributor_url // .distributor_url // ("https://github.com/007revad/" + .package + "/releases")')
-            support_url=$(echo "$pkg_json"   | jq -r '.synology.support_url // .support_url // ("https://github.com/007revad/" + .package + "/issues")')
+            support_url=$(echo "$pkg_json"     | jq -r '.synology.support_url // .support_url // ("https://github.com/007revad/" + .package + "/issues")')
 
             # Locate the .spk asset — prefer noarch, fall back to any matching spk
             local spk_url size
@@ -98,40 +126,47 @@ jobs:
               | head -1)
             size="${size:-0}"
 
+            # Sum download_count across all release .spk assets
+            local download_count
+            download_count=$(get_total_downloads "${repo}")
+
             jq -n \
-              --arg package        "${pkg}" \
-              --arg version        "${version}" \
-              --arg dname          "${dname}" \
-              --arg desc           "${desc}" \
-              --arg maintainer     "${maintainer}" \
-              --arg maintainer_url "${maintainer_url}" \
-              --arg distributor    "${maintainer}" \
-              --arg dist_url       "${distributor_url}" \
-              --arg support_url    "${support_url}" \
-              --arg report_url     "${support_url}" \
-              --arg link           "${spk_url}" \
-              --arg arch           "${arch}" \
-              --arg firmware       "${firmware}" \
-              --arg thumbnail      "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
-              --argjson size       "${size}" \
+              --arg package              "${pkg}" \
+              --arg version              "${version}" \
+              --arg dname                "${dname}" \
+              --arg desc                 "${desc}" \
+              --arg maintainer           "${maintainer}" \
+              --arg maintainer_url       "${maintainer_url}" \
+              --arg distributor          "${maintainer}" \
+              --arg dist_url             "${distributor_url}" \
+              --arg support_url          "${support_url}" \
+              --arg report_url           "${support_url}" \
+              --arg link                 "${spk_url}" \
+              --arg arch                 "${arch}" \
+              --arg firmware             "${firmware}" \
+              --arg thumbnail            "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
+              --argjson size             "${size}" \
+              --argjson download_count   "${download_count}" \
               '{
-                package:          $package,
-                version:          $version,
-                dname:            $dname,
-                desc:             $desc,
-                maintainer:       $maintainer,
-                maintainer_url:   $maintainer_url,
-                distributor:      $distributor,
-                distributor_url:  $dist_url,
-                support_url:      $support_url,
-                report_url:       $report_url,
-                link:             $link,
-                arch:             $arch,
-                firmware:         $firmware,
-                thumbnail:        [$thumbnail],
-                snapshot:         [],
-                beta:             false,
-                size:             $size
+                package:               $package,
+                version:               $version,
+                dname:                 $dname,
+                desc:                  $desc,
+                maintainer:            $maintainer,
+                maintainer_url:        $maintainer_url,
+                distributor:           $distributor,
+                distributor_url:       $dist_url,
+                support_url:           $support_url,
+                report_url:            $report_url,
+                link:                  $link,
+                arch:                  $arch,
+                firmware:              $firmware,
+                thumbnail:             [$thumbnail],
+                snapshot:              [],
+                beta:                  false,
+                size:                  $size,
+                download_count:        $download_count,
+                recent_download_count: $download_count
               }'
           }
 
@@ -154,9 +189,10 @@ jobs:
 
             local api_url="https://api.github.com/repos/007revad/${repo}/releases/latest"
             local release
-            release=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" \
-                           -H "Accept: application/vnd.github+json" \
-                           "${api_url}")
+            release=$(curl -fsSL \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              "${api_url}")
 
             local tag version
             tag=$(echo "$release" | jq -r '.tag_name // empty')
@@ -196,80 +232,56 @@ jobs:
               | head -1)
             size="${size:-0}"
 
+            local download_count
+            download_count=$(get_total_downloads "${repo}")
+
+            local common
+            common=$(jq -n \
+              --arg package              "${pkg}" \
+              --arg version              "${version}" \
+              --arg dname                "${dname}" \
+              --arg desc                 "${desc}" \
+              --arg maintainer           "${maintainer}" \
+              --arg maintainer_url       "${maintainer_url}" \
+              --arg distributor          "${maintainer}" \
+              --arg dist_url             "${distributor_url}" \
+              --arg support_url          "${support_url}" \
+              --arg report_url           "${support_url}" \
+              --arg link                 "${spk_url}" \
+              --arg arch                 "${arch}" \
+              --arg thumbnail            "${thumbnail}" \
+              --argjson size             "${size}" \
+              --argjson download_count   "${download_count}" \
+              '{
+                package:               $package,
+                version:               $version,
+                dname:                 $dname,
+                desc:                  $desc,
+                maintainer:            $maintainer,
+                maintainer_url:        $maintainer_url,
+                distributor:           $distributor,
+                distributor_url:       $dist_url,
+                support_url:           $support_url,
+                report_url:            $report_url,
+                link:                  $link,
+                arch:                  $arch,
+                thumbnail:             [$thumbnail],
+                snapshot:              [],
+                beta:                  false,
+                size:                  $size,
+                download_count:        $download_count,
+                recent_download_count: $download_count
+              }')
+
             if [[ -n "$fw_max" ]]; then
-              jq -n \
-                --arg package        "${pkg}" \
-                --arg version        "${version}" \
-                --arg dname          "${dname}" \
-                --arg desc           "${desc}" \
-                --arg maintainer     "${maintainer}" \
-                --arg maintainer_url "${maintainer_url}" \
-                --arg distributor    "${maintainer}" \
-                --arg dist_url       "${distributor_url}" \
-                --arg support_url    "${support_url}" \
-                --arg report_url     "${support_url}" \
-                --arg link           "${spk_url}" \
-                --arg arch           "${arch}" \
-                --arg firmware       "${fw_min}" \
-                --arg os_max_ver     "${fw_max}" \
-                --arg thumbnail      "${thumbnail}" \
-                --argjson size       "${size}" \
-                '{
-                  package:          $package,
-                  version:          $version,
-                  dname:            $dname,
-                  desc:             $desc,
-                  maintainer:       $maintainer,
-                  maintainer_url:   $maintainer_url,
-                  distributor:      $distributor,
-                  distributor_url:  $dist_url,
-                  support_url:      $support_url,
-                  report_url:       $report_url,
-                  link:             $link,
-                  arch:             $arch,
-                  firmware:         $firmware,
-                  os_max_ver:       $os_max_ver,
-                  thumbnail:        [$thumbnail],
-                  snapshot:         [],
-                  beta:             false,
-                  size:             $size
-                }'
+              echo "${common}" | jq \
+                --arg firmware   "${fw_min}" \
+                --arg os_max_ver "${fw_max}" \
+                '. + {firmware: $firmware, os_max_ver: $os_max_ver}'
             else
-              jq -n \
-                --arg package        "${pkg}" \
-                --arg version        "${version}" \
-                --arg dname          "${dname}" \
-                --arg desc           "${desc}" \
-                --arg maintainer     "${maintainer}" \
-                --arg maintainer_url "${maintainer_url}" \
-                --arg distributor    "${maintainer}" \
-                --arg dist_url       "${distributor_url}" \
-                --arg support_url    "${support_url}" \
-                --arg report_url     "${support_url}" \
-                --arg link           "${spk_url}" \
-                --arg arch           "${arch}" \
-                --arg firmware       "${fw_min}" \
-                --arg thumbnail      "${thumbnail}" \
-                --argjson size       "${size}" \
-                '{
-                  package:          $package,
-                  version:          $version,
-                  dname:            $dname,
-                  desc:             $desc,
-                  maintainer:       $maintainer,
-                  maintainer_url:   $maintainer_url,
-                  distributor:      $distributor,
-                  distributor_url:  $dist_url,
-                  support_url:      $support_url,
-                  report_url:       $report_url,
-                  link:             $link,
-                  arch:             $arch,
-                  firmware:         $firmware,
-                  thumbnail:        [$thumbnail],
-                  snapshot:         [],
-                  beta:             false,
-                  size:             $size
-                }'
+              echo "${common}" | jq \
+                --arg firmware "${fw_min}" \
+                '. + {firmware: $firmware}'
             fi
           }
 
