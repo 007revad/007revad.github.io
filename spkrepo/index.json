@@ -43,8 +43,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 101,
-      "recent_download_count": 101
+      "download_count": 106,
+      "recent_download_count": 106
     },
     {
       "package": "LibreSpeedTest",
@@ -66,8 +66,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 34,
-      "recent_download_count": 34
+      "download_count": 35,
+      "recent_download_count": 35
     },
     {
       "package": "TranscodeDrivers",
@@ -88,8 +88,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1423360,
-      "download_count": 13,
-      "recent_download_count": 13,
+      "download_count": 19,
+      "recent_download_count": 19,
       "firmware": "7.2-0000",
       "os_max_ver": "7.2-99999"
     },
@@ -112,9 +112,59 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 13,
-      "recent_download_count": 13,
+      "download_count": 19,
+      "recent_download_count": 19,
       "firmware": "7.3-0000"
+    },
+    {
+      "package": "Syno-Smart-Info",
+      "version": "1.4.2",
+      "dname": "Syno Smart Info",
+      "desc": "Syno Smart Info Checking Tool with Web API",
+      "maintainer": "PeterSuh-Q3,007revad",
+      "maintainer_url": "https://github.com/PeterSuh-Q3",
+      "distributor": "PeterSuh-Q3,007revad",
+      "distributor_url": "https://github.com/PeterSuh-Q3/SynoSmartInfo/releases",
+      "support_url": "https://github.com/PeterSuh-Q3/SynoSmartInfo/issues",
+      "report_url": "https://github.com/PeterSuh-Q3/SynoSmartInfo/issues",
+      "link": "https://github.com/PeterSuh-Q3/SynoSmartInfo/releases/download/v1.4.2/Synosmartinfo-noarch-1.4.2-7.1.spk",
+      "arch": "noarch",
+      "firmware": "7.0-40337",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/Syno-Smart-Info_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 286720,
+      "download_count": 1838,
+      "recent_download_count": 1838
+    },
+    {
+      "package": "LogAnalysis",
+      "version": "1.1-500",
+      "dname": "LogAnalysis",
+      "desc": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
+      "maintainer": "Tommes",
+      "maintainer_url": "",
+      "distributor": "Tommes",
+      "distributor_url": "https://github.com/toafez/LogAnalysis/releases",
+      "support_url": "",
+      "report_url": "",
+      "link": "https://github.com/toafez/LogAnalysis/releases/download/1.1-500/LogAnalysis-1.1-500.spk",
+      "arch": "noarch",
+      "firmware": "7.0-40000",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/LogAnalysis_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 10516480,
+      "download_count": 1486,
+      "recent_download_count": 1486,
+      "dname_enu": "LogAnalysis",
+      "dname_ger": "LogAnalysis",
+      "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
+      "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden."
     }
   ]
 }
