@@ -140,31 +140,27 @@
       "recent_download_count": 1838
     },
     {
-      "package": "LogAnalysis",
-      "version": "1.1-500",
-      "dname": "LogAnalysis",
-      "desc": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
-      "maintainer": "Tommes",
+      "package": "autorun",
+      "version": "V1.10.0.0011",
+      "dname": "autorun",
+      "desc": "",
+      "maintainer": "Jan Reidemeister, Horst Schmid",
       "maintainer_url": "",
-      "distributor": "Tommes",
-      "distributor_url": "https://github.com/toafez/LogAnalysis/releases",
+      "distributor": "Jan Reidemeister, Horst Schmid",
+      "distributor_url": "",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/toafez/LogAnalysis/releases/download/1.1-500/LogAnalysis-1.1-500.spk",
+      "link": "https://github.com/schmidhorst/synology-autorun/releases/download/V1.10.0.0011/autorun-1.10.0-0011.spk",
       "arch": "noarch",
       "firmware": "7.0-40000",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/LogAnalysis_120.png"
+        "https://007revad.github.io/spkrepo/thumbnails/autorun_120.png"
       ],
       "snapshot": [],
       "beta": false,
-      "size": 10516480,
-      "download_count": 1486,
-      "recent_download_count": 1486,
-      "dname_enu": "LogAnalysis",
-      "dname_ger": "LogAnalysis",
-      "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
-      "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden."
+      "size": 829440,
+      "download_count": 230,
+      "recent_download_count": 230
     }
   ]
 }
