@@ -509,6 +509,7 @@ jobs:
 
           # Friend's repo — uses INFO.sh instead of package.json
           #                   make_entry_external <user> <repo> <spk_name_prefix>
+          entry_loganalysis=$(make_entry_external "toafez" "AutoPilot" "AutoPilot")
           entry_loganalysis=$(make_entry_external "toafez" "LogAnalysis" "LogAnalysis")
           entry_loganalysis=$(make_entry_external "schmidhorst" "synology-autorun" "autorun")
 
