@@ -7,3 +7,8 @@ curl -fsSL "https://raw.githubusercontent.com/toafez/AutoPilot/main/PACKAGE_ICON
 curl -fsSL "https://raw.githubusercontent.com/PeterSuh-Q3/SynoSmartInfo/main/synology/PACKAGE_ICON_256.PNG" \
   | convert - -resize 120x120 /volume1/github/Repositories/007revad.github.io/spkrepo/thumbnails/Syno-Smart-Info_120.png
 
+curl -fsSL "https://raw.githubusercontent.com/schmidhorst/synology-autorun/main/package/ui/images/icon_256.png" \
+  | convert - -resize 120x120 /volume1/github/Repositories/007revad.github.io/spkrepo/thumbnails/autorun_120.png
+
+
+
