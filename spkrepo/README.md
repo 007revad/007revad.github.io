@@ -6,7 +6,7 @@ Add to DSM Package Center → Settings → Package Sources:
 
 | Name | Location |
 |------|----------|
-| `007revad` | `https://007revad.github.io/spkrepo/index.json` |
+| `007revad` | `https://spkrepo.007daver.workers.dev/` |
 
 ---
 
