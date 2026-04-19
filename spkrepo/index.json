@@ -11,7 +11,7 @@
       "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
       "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/latest/download/Syno-Ookla-Speedtest.spk",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.22/Synospeedtest-noarch-v1.0.22-DSM-7.x.spk",
       "arch": "x86_64 apollolake avoton broadwellnk broadwellnkv2 broadwellntbap bromolow butalbital denverton epyc7002 geminilake grantley haswell kvmx64 purley r1000 v1000 armv8 rtd1296 rtd1619b aarch64 armada37xx armada38x",
       "firmware": "7.0-0000",
       "thumbnail": [
@@ -19,7 +19,7 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 0
+      "size": 3768320
     },
     {
       "package": "Syno-OpenSpeedTest",
@@ -32,7 +32,7 @@
       "distributor_url": "https://github.com/007revad/Synology_Open_Speedtest",
       "support_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/latest/download/Syno-OpenSpeedTest.spk",
+      "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/download/v1.0.8/OpenSpeedtest-noarch-v1.0.8-DSM-7.x.spk",
       "arch": "x86_64 apollolake avoton broadwellnk broadwellnkv2 broadwellntbap bromolow butalbital denverton epyc7002 geminilake grantley haswell kvmx64 purley r1000 v1000 armv8 rtd1296 rtd1619b aarch64 armada37xx armada38x alpine alpine4k",
       "firmware": "7.0-0000",
       "thumbnail": [
@@ -40,7 +40,7 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 0
+      "size": 583680
     },
     {
       "package": "Libre-SpeedTest",
@@ -53,7 +53,7 @@
       "distributor_url": "https://github.com/007revad/Synology_Libre_Speedtest",
       "support_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/latest/download/Libre-SpeedTest.spk",
+      "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-1/LibreSpeedtest-noarch-v5.5.0-1-DSM-7.x.spk",
       "arch": "x86_64 apollolake avoton broadwellnk broadwellnkv2 broadwellntbap bromolow butalbital denverton epyc7002 geminilake grantley haswell kvmx64 purley r1000 v1000 armv8 rtd1296 rtd1619b aarch64 armada37xx armada38x alpine alpine4k",
       "firmware": "7.0-0000",
       "thumbnail": [
@@ -61,7 +61,7 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 0
+      "size": 204800
     },
     {
       "package": "Transcode-drivers",
