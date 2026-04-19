@@ -520,7 +520,7 @@ jobs:
             --argjson e7 "${entry_autopilot}" \
             --argjson e8 "${entry_loganalysis}" \
             --argjson e9 "${entry_autorun}" \
-            '{"packages": [$e1, $e2, $e3, $e4, $e5, $e6, $e7]}, $e8]}, $e9]}' \
+            '{"packages": [$e1, $e2, $e3, $e4, $e5, $e6, $e7, $e8, $e9]}' \
             > spkrepo/index.json
 
           echo "Generated spkrepo/index.json:"
