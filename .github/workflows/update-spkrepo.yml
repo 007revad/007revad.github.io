@@ -503,9 +503,9 @@ jobs:
 
           # Friend's repo — uses INFO.sh instead of package.json
           #                   make_entry_external <user> <repo> <spk_name_prefix>
-          entry_loganalysis=$(make_entry_external "toafez" "AutoPilot" "AutoPilot")
+          entry_autopilot=$(make_entry_external "toafez" "AutoPilot" "AutoPilot")
           entry_loganalysis=$(make_entry_external "toafez" "LogAnalysis" "LogAnalysis")
-          entry_loganalysis=$(make_entry_external "schmidhorst" "synology-autorun" "autorun")
+          entry_autorun=$(make_entry_external "schmidhorst" "synology-autorun" "autorun")
 
           # ------------------------------------------------------------------ #
           # Combine into final index.json
@@ -517,8 +517,10 @@ jobs:
             --argjson e4 "${entry_transcode_72}" \
             --argjson e5 "${entry_transcode_73}" \
             --argjson e6 "${entry_synosmartinfo}" \
-            --argjson e7 "${entry_loganalysis}" \
-            '{"packages": [$e1, $e2, $e3, $e4, $e5, $e6, $e7]}' \
+            --argjson e7 "${entry_autopilot}" \
+            --argjson e8 "${entry_loganalysis}" \
+            --argjson e9 "${entry_autorun}" \
+            '{"packages": [$e1, $e2, $e3, $e4, $e5, $e6, $e7]}, $e8]}, $e9]}' \
             > spkrepo/index.json
 
           echo "Generated spkrepo/index.json:"
