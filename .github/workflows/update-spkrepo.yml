@@ -486,12 +486,6 @@ jobs:
           # Build each package entry
           # ------------------------------------------------------------------ #
 
-            local user="$1"
-            local repo="$2"
-            local arch="$3"
-            local firmware="$4"
-
-
           # Your repos — user parameterised, firmware read from package.json
           entry_ookla=$(make_entry   "007revad" "Synology_Ookla_Speedtest"  "noarch" "7.0-0000")
           entry_open=$(make_entry    "007revad" "Synology_Open_Speedtest"   "noarch" "7.0-0000")
