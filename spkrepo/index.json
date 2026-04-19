@@ -19,7 +19,9 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 0
+      "size": 0,
+      "download_count": 102,
+      "recent_download_count": 102
     },
     {
       "package": "OpenSpeedTest",
@@ -40,7 +42,9 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 583680
+      "size": 583680,
+      "download_count": 101,
+      "recent_download_count": 101
     },
     {
       "package": "LibreSpeedTest",
@@ -61,13 +65,15 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 204800
+      "size": 204800,
+      "download_count": 32,
+      "recent_download_count": 32
     },
     {
       "package": "TranscodeDrivers",
       "version": "3.0.9",
       "dname": "TranscodeDrivers (DSM 7.2)",
-      "desc": "Drivers for Plex or Jellyfin hardware transcoding in DS425+ and DS225+",
+      "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
       "maintainer": "007revad",
       "maintainer_url": "https://github.com/007revad",
       "distributor": "007revad",
@@ -76,20 +82,22 @@
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.9/Transcode_v3.0.9-DSM-7.2-geminilakenk.spk",
       "arch": "geminilakenk",
-      "firmware": "7.2-0000",
-      "os_max_ver": "7.2-99999",
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_120.png"
       ],
       "snapshot": [],
       "beta": false,
-      "size": 1423360
+      "size": 1423360,
+      "download_count": 9,
+      "recent_download_count": 9,
+      "firmware": "7.2-0000",
+      "os_max_ver": "7.2-99999"
     },
     {
       "package": "TranscodeDrivers",
       "version": "3.0.9",
       "dname": "TranscodeDrivers (DSM 7.3)",
-      "desc": "Drivers for Plex or Jellyfin hardware transcoding in DS425+ and DS225+",
+      "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
       "maintainer": "007revad",
       "maintainer_url": "https://github.com/007revad",
       "distributor": "007revad",
@@ -98,13 +106,15 @@
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.9/Transcode_v3.0.9-DSM-7.3-geminilakenk.spk",
       "arch": "geminilakenk",
-      "firmware": "7.3-0000",
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_120.png"
       ],
       "snapshot": [],
       "beta": false,
-      "size": 1413120
+      "size": 1413120,
+      "download_count": 9,
+      "recent_download_count": 9,
+      "firmware": "7.3-0000"
     }
   ]
 }
