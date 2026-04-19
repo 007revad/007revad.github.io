@@ -33,9 +33,9 @@ jobs:
           # Helper: fetch latest release for a repo, read package metadata from
           # the repo's own package.json, and emit a repository package object.
           #
-          # Usage: make_entry <repo> <arch_list> <firmware>
+          # Usage: make_entry <repo> <arch> <firmware>
           #   repo     : GitHub repo name under 007revad/
-          #   arch     : space-separated DSM arch string
+          #   arch     : DSM arch string e.g. "noarch"
           #   firmware : minimum DSM version e.g. "7.0-0000"
           # ------------------------------------------------------------------ #
           make_entry() {
@@ -53,16 +53,25 @@ jobs:
             tag=$(echo "$release" | jq -r '.tag_name // empty')
             version="${tag#v}"
 
-            # Read package metadata directly from the repo's package.json
+            # Read package metadata from the repo's package.json
             local pkg_json_url="https://raw.githubusercontent.com/007revad/${repo}/main/package.json"
             local pkg_json
             pkg_json=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${pkg_json_url}")
 
-            local pkg name dname desc
-            pkg=$(echo "$pkg_json"   | jq -r '.package')
-            name=$(echo "$pkg_json"  | jq -r '.name // .package')
-            dname=$(echo "$pkg_json" | jq -r '.displayname // .package')
-            desc=$(echo "$pkg_json"  | jq -r '.description // ""')
+            # package  = system identifier, must match INFO file package= and /var/packages/<package>
+            # name     = SPK filename prefix, used to locate release assets
+            # dname    = display name shown in Package Center
+            # desc     = short description
+            # All metadata fields checked under .synology{} first, then top-level
+            local pkg name dname desc maintainer maintainer_url distributor_url support_url
+            pkg=$(echo "$pkg_json"           | jq -r '.package')
+            name=$(echo "$pkg_json"          | jq -r '.name // .package')
+            dname=$(echo "$pkg_json"         | jq -r '.synology.displayname // .displayname // .package')
+            desc=$(echo "$pkg_json"          | jq -r '.description // ""')
+            maintainer=$(echo "$pkg_json"    | jq -r '.synology.maintainer // .maintainer // "007revad"')
+            maintainer_url=$(echo "$pkg_json"| jq -r '.synology.maintainer_url // .maintainer_url // "https://github.com/007revad"')
+            distributor_url=$(echo "$pkg_json" | jq -r '.synology.distributor_url // .distributor_url // ("https://github.com/007revad/" + .package + "/releases")')
+            support_url=$(echo "$pkg_json"   | jq -r '.synology.support_url // .support_url // ("https://github.com/007revad/" + .package + "/issues")')
 
             # Locate the .spk asset — prefer noarch, fall back to any matching spk
             local spk_url size
@@ -94,12 +103,12 @@ jobs:
               --arg version        "${version}" \
               --arg dname          "${dname}" \
               --arg desc           "${desc}" \
-              --arg maintainer     "007revad" \
-              --arg maintainer_url "https://github.com/007revad" \
-              --arg distributor    "007revad" \
-              --arg dist_url       "https://github.com/007revad/${repo}" \
-              --arg support_url    "https://github.com/007revad/${repo}/issues" \
-              --arg report_url     "https://github.com/007revad/${repo}/issues" \
+              --arg maintainer     "${maintainer}" \
+              --arg maintainer_url "${maintainer_url}" \
+              --arg distributor    "${maintainer}" \
+              --arg dist_url       "${distributor_url}" \
+              --arg support_url    "${support_url}" \
+              --arg report_url     "${support_url}" \
               --arg link           "${spk_url}" \
               --arg arch           "${arch}" \
               --arg firmware       "${firmware}" \
@@ -158,9 +167,13 @@ jobs:
             local pkg_json
             pkg_json=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${pkg_json_url}")
 
-            local pkg desc
-            pkg=$(echo "$pkg_json"  | jq -r '.package')
-            desc=$(echo "$pkg_json" | jq -r '.description // ""')
+            local pkg desc maintainer maintainer_url distributor_url support_url
+            pkg=$(echo "$pkg_json"             | jq -r '.package')
+            desc=$(echo "$pkg_json"            | jq -r '.description // ""')
+            maintainer=$(echo "$pkg_json"      | jq -r '.synology.maintainer // .maintainer // "007revad"')
+            maintainer_url=$(echo "$pkg_json"  | jq -r '.synology.maintainer_url // .maintainer_url // "https://github.com/007revad"')
+            distributor_url=$(echo "$pkg_json" | jq -r '.synology.distributor_url // .distributor_url // ("https://github.com/007revad/" + .package + "/releases")')
+            support_url=$(echo "$pkg_json"     | jq -r '.synology.support_url // .support_url // ("https://github.com/007revad/" + .package + "/issues")')
             local dname="${pkg} (DSM ${dsm_ver})"
             local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png"
 
@@ -189,12 +202,12 @@ jobs:
                 --arg version        "${version}" \
                 --arg dname          "${dname}" \
                 --arg desc           "${desc}" \
-                --arg maintainer     "007revad" \
-                --arg maintainer_url "https://github.com/007revad" \
-                --arg distributor    "007revad" \
-                --arg dist_url       "https://github.com/007revad/${repo}" \
-                --arg support_url    "https://github.com/007revad/${repo}/issues" \
-                --arg report_url     "https://github.com/007revad/${repo}/issues" \
+                --arg maintainer     "${maintainer}" \
+                --arg maintainer_url "${maintainer_url}" \
+                --arg distributor    "${maintainer}" \
+                --arg dist_url       "${distributor_url}" \
+                --arg support_url    "${support_url}" \
+                --arg report_url     "${support_url}" \
                 --arg link           "${spk_url}" \
                 --arg arch           "${arch}" \
                 --arg firmware       "${fw_min}" \
@@ -227,12 +240,12 @@ jobs:
                 --arg version        "${version}" \
                 --arg dname          "${dname}" \
                 --arg desc           "${desc}" \
-                --arg maintainer     "007revad" \
-                --arg maintainer_url "https://github.com/007revad" \
-                --arg distributor    "007revad" \
-                --arg dist_url       "https://github.com/007revad/${repo}" \
-                --arg support_url    "https://github.com/007revad/${repo}/issues" \
-                --arg report_url     "https://github.com/007revad/${repo}/issues" \
+                --arg maintainer     "${maintainer}" \
+                --arg maintainer_url "${maintainer_url}" \
+                --arg distributor    "${maintainer}" \
+                --arg dist_url       "${distributor_url}" \
+                --arg support_url    "${support_url}" \
+                --arg report_url     "${support_url}" \
                 --arg link           "${spk_url}" \
                 --arg arch           "${arch}" \
                 --arg firmware       "${fw_min}" \
@@ -261,20 +274,12 @@ jobs:
           }
 
           # ------------------------------------------------------------------ #
-          # Arch lists
-          # ------------------------------------------------------------------ #
-          INTEL_AMD="x86_64 apollolake avoton broadwellnk broadwellnkv2 broadwellntbap bromolow butalbital denverton epyc7002 geminilake grantley haswell kvmx64 purley r1000 v1000"
-          ARM="armv8 rtd1296 rtd1619b aarch64 armada37xx armada38x"
-          ARCH_OOKLA="${INTEL_AMD} ${ARM}"
-          ARCH_NOARCH="${INTEL_AMD} ${ARM} alpine alpine4k"
-
-          # ------------------------------------------------------------------ #
           # Build each package entry
-          # (package ID, displayname, desc all read from each repo's package.json)
+          # (package, dname, desc, maintainer, urls all read from package.json)
           # ------------------------------------------------------------------ #
-          entry_ookla=$(make_entry  "Synology_Ookla_Speedtest"  "${ARCH_OOKLA}"  "7.0-0000")
-          entry_open=$(make_entry   "Synology_Open_Speedtest"   "${ARCH_NOARCH}" "7.0-0000")
-          entry_libre=$(make_entry  "Synology_Libre_Speedtest"  "${ARCH_NOARCH}" "7.0-0000")
+          entry_ookla=$(make_entry  "Synology_Ookla_Speedtest"  "noarch"  "7.0-0000")
+          entry_open=$(make_entry   "Synology_Open_Speedtest"   "noarch"  "7.0-0000")
+          entry_libre=$(make_entry  "Synology_Libre_Speedtest"  "noarch"  "7.0-0000")
 
           # DSM 7.2 build: capped at 7.2.x so DSM 7.3 users don't get offered it
           entry_transcode_72=$(make_transcode_entry "7.2" "7.2-0000" "7.2-99999")
