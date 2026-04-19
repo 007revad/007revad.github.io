@@ -2,7 +2,7 @@
   "packages": [
     {
       "package": "Syno-Ookla-Speedtest",
-      "version": "1.0.22-1",
+      "version": "1.0.22-3",
       "dname": "Syno-Ookla-Speedtest",
       "desc": "Ookla Speedtest GUI for Synology NAS",
       "maintainer": "007revad",
