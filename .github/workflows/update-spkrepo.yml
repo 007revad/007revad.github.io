@@ -31,10 +31,11 @@ jobs:
 
           # ------------------------------------------------------------------ #
           # Helper: sum download counts for all .spk assets across all releases.
-          # Usage: get_total_downloads <repo>
+          # Usage: get_total_downloads <user> <repo>
           # ------------------------------------------------------------------ #
           get_total_downloads() {
-            local repo="$1"
+            local user="$1"
+            local repo="$2"
             local total=0
             local page=1
             while true; do
@@ -42,7 +43,7 @@ jobs:
               page_data=$(curl -fsSL \
                 -H "Authorization: Bearer ${GH_TOKEN}" \
                 -H "Accept: application/vnd.github+json" \
-                "https://api.github.com/repos/007revad/${repo}/releases?per_page=100&page=${page}")
+                "https://api.github.com/repos/${user}/${repo}/releases?per_page=100&page=${page}")
               local page_count
               page_count=$(echo "$page_data" | jq 'length')
               if [[ "$page_count" -eq 0 ]]; then break; fi
@@ -57,20 +58,40 @@ jobs:
           }
 
           # ------------------------------------------------------------------ #
+          # Helper: build the localised displayname/description JSON fragment
+          # from a package.json object (handles future multi-language support).
+          #
+          # DSM uses the key matching the user's language (e.g. "dname_enu")
+          # and falls back to "dname" if the language key is absent.
+          #
+          # Reads all keys matching displayname_<lang> / description_<lang>
+          # from .synology{} first, then top-level.
+          #
+          # Usage: pkg_json_lang_fields <pkg_json_content>
+          # Outputs: jq --arg / --argjson lines ready for interpolation, plus
+          #          the dname_extra / desc_extra JSON objects as shell vars.
+          # ------------------------------------------------------------------ #
+          # Rather than a complex sub-function, we inline the lang extraction
+          # directly in make_entry and make_entry_external below.
+
+          # ------------------------------------------------------------------ #
           # Helper: fetch latest release for a repo, read package metadata from
           # the repo's own package.json, and emit a repository package object.
           #
-          # Usage: make_entry <repo> <arch> <firmware>
-          #   repo     : GitHub repo name under 007revad/
+          # Usage: make_entry <user> <repo> <arch> <firmware>
+          #   user     : GitHub username
+          #   repo     : GitHub repo name
           #   arch     : DSM arch string e.g. "noarch"
           #   firmware : minimum DSM version e.g. "7.0-0000"
+          #              Pass "" to read os_min_ver from package.json instead.
           # ------------------------------------------------------------------ #
           make_entry() {
-            local repo="$1"
-            local arch="$2"
-            local firmware="$3"
+            local user="$1"
+            local repo="$2"
+            local arch="$3"
+            local firmware="$4"
 
-            local api_url="https://api.github.com/repos/007revad/${repo}/releases/latest"
+            local api_url="https://api.github.com/repos/${user}/${repo}/releases/latest"
             local release
             release=$(curl -fsSL \
               -H "Authorization: Bearer ${GH_TOKEN}" \
@@ -82,24 +103,43 @@ jobs:
             version="${tag#v}"
 
             # Read package metadata from the repo's package.json
-            local pkg_json_url="https://raw.githubusercontent.com/007revad/${repo}/main/package.json"
+            local pkg_json_url="https://raw.githubusercontent.com/${user}/${repo}/main/package.json"
             local pkg_json
             pkg_json=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${pkg_json_url}")
 
-            # package  = system identifier, must match INFO file package= and /var/packages/<package>
-            # name     = SPK filename prefix, used to locate release assets
-            # dname    = display name shown in Package Center
-            # desc     = short description
-            # All metadata fields checked under .synology{} first, then top-level
+            # Core fields — .synology{} first, then top-level
             local pkg name dname desc maintainer maintainer_url distributor_url support_url
             pkg=$(echo "$pkg_json"             | jq -r '.package')
             name=$(echo "$pkg_json"            | jq -r '.name // .package')
             dname=$(echo "$pkg_json"           | jq -r '.synology.displayname // .displayname // .package')
             desc=$(echo "$pkg_json"            | jq -r '.description // ""')
-            maintainer=$(echo "$pkg_json"      | jq -r '.synology.maintainer // .maintainer // "007revad"')
-            maintainer_url=$(echo "$pkg_json"  | jq -r '.synology.maintainer_url // .maintainer_url // "https://github.com/007revad"')
-            distributor_url=$(echo "$pkg_json" | jq -r '.synology.distributor_url // .distributor_url // ("https://github.com/007revad/" + .package + "/releases")')
-            support_url=$(echo "$pkg_json"     | jq -r '.synology.support_url // .support_url // ("https://github.com/007revad/" + .package + "/issues")')
+            maintainer=$(echo "$pkg_json"      | jq -r '.synology.maintainer // .maintainer // empty // ""')
+            maintainer_url=$(echo "$pkg_json"  | jq -r '.synology.maintainer_url // .maintainer_url // ""')
+            distributor_url=$(echo "$pkg_json" | jq -r '.synology.distributor_url // .distributor_url // ""')
+            support_url=$(echo "$pkg_json"     | jq -r '.synology.support_url // .support_url // ""')
+
+            # firmware: use explicit arg if given, else read os_min_ver from package.json
+            if [[ -z "$firmware" ]]; then
+              firmware=$(echo "$pkg_json" | jq -r '.synology.os_min_ver // .os_min_ver // ""')
+            fi
+
+            # ---- Localised displayname_<lang> fields ----------------------- #
+            # Collect every displayname_<lang> key from .synology{} and
+            # top-level, merge them (synology takes precedence), emit as JSON.
+            local dname_langs
+            dname_langs=$(echo "$pkg_json" | jq -r '
+              ((.synology // {}) + .) |
+              to_entries |
+              map(select(.key | test("^displayname_"))) |
+              from_entries')
+
+            # ---- Localised description_<lang> fields ----------------------- #
+            local desc_langs
+            desc_langs=$(echo "$pkg_json" | jq -r '
+              ((.synology // {}) + .) |
+              to_entries |
+              map(select(.key | test("^description_"))) |
+              from_entries')
 
             # Locate the .spk asset — prefer noarch, fall back to any matching spk
             local spk_url size
@@ -116,8 +156,8 @@ jobs:
             fi
 
             if [[ -z "$spk_url" ]]; then
-              echo "WARNING: No .spk asset found for ${name} in ${repo} ${tag}" >&2
-              spk_url="https://github.com/007revad/${repo}/releases/latest/download/${name}.spk"
+              echo "WARNING: No .spk asset found for ${name} in ${user}/${repo} ${tag}" >&2
+              spk_url="https://github.com/${user}/${repo}/releases/latest/download/${name}.spk"
             fi
 
             size=$(echo "$release" | jq -r \
@@ -126,15 +166,16 @@ jobs:
               | head -1)
             size="${size:-0}"
 
-            # Sum download_count across all release .spk assets
             local download_count
-            download_count=$(get_total_downloads "${repo}")
+            download_count=$(get_total_downloads "${user}" "${repo}")
 
             jq -n \
               --arg package              "${pkg}" \
               --arg version              "${version}" \
               --arg dname                "${dname}" \
+              --argjson dname_langs      "${dname_langs}" \
               --arg desc                 "${desc}" \
+              --argjson desc_langs       "${desc_langs}" \
               --arg maintainer           "${maintainer}" \
               --arg maintainer_url       "${maintainer_url}" \
               --arg distributor          "${maintainer}" \
@@ -167,7 +208,147 @@ jobs:
                 size:                  $size,
                 download_count:        $download_count,
                 recent_download_count: $download_count
-              }'
+              } + $dname_langs + $desc_langs'
+          }
+
+          # ------------------------------------------------------------------ #
+          # Helper: like make_entry but for repos that use INFO.sh
+          # (key="value" shell-source format) instead of package.json.
+          # Handles displayname_<lang> and description_<lang> automatically.
+          #
+          # Usage: make_entry_external <user> <repo> <spk_name_prefix>
+          #   user            : GitHub username, e.g. "toafez"
+          #   repo            : GitHub repo name, e.g. "LogAnalysis"
+          #   spk_name_prefix : prefix to match SPK asset, e.g. "LogAnalysis"
+          # ------------------------------------------------------------------ #
+          make_entry_external() {
+            local user="$1"
+            local repo="$2"
+            local spk_prefix="$3"
+
+            local api_url="https://api.github.com/repos/${user}/${repo}/releases/latest"
+            local release
+            release=$(curl -fsSL \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              "${api_url}")
+
+            local tag version
+            tag=$(echo "$release" | jq -r '.tag_name // empty')
+            version="${tag#v}"
+
+            # Read metadata from INFO.sh — strip optional surrounding quotes
+            local info_url="https://raw.githubusercontent.com/${user}/${repo}/main/INFO.sh"
+            local info_raw
+            info_raw=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${info_url}")
+
+            # Extract a single key=value (strips quotes, handles single or double)
+            _info_get() {
+              echo "$info_raw" | grep -m1 "^$1=" | sed 's/^[^=]*=//;s/^["\x27]//;s/["\x27]$//'
+            }
+
+            local pkg dname desc maintainer maintainer_url distributor_url support_url arch firmware
+            pkg=$(           _info_get "package")
+            maintainer=$(    _info_get "maintainer")
+            maintainer_url=""
+            distributor_url=$(_info_get "distributor_url")
+            support_url=""
+            arch=$(          _info_get "arch")
+            firmware=$(      _info_get "os_min_ver")
+            [[ -z "$firmware" ]] && firmware=$(_info_get "firmware")
+
+            # Base displayname: prefer displayname_enu, fall back to displayname, then package id
+            dname=$(_info_get "displayname_enu")
+            [[ -z "$dname" ]] && dname=$(_info_get "displayname")
+            [[ -z "$dname" ]] && dname="$pkg"
+
+            # Base description: prefer description_enu, fall back to description
+            desc=$(_info_get "description_enu")
+            [[ -z "$desc"  ]] && desc=$(_info_get "description")
+
+            # ---- Collect all displayname_<lang> and description_<lang> ----- #
+            # Parse every key matching those patterns from INFO.sh and build
+            # a JSON object to merge into the final entry.
+            local dname_langs desc_langs
+            dname_langs=$(echo "$info_raw" | grep -E '^displayname_[a-z]+=' | \
+              sed 's/^displayname_\([a-z]*\)=\(.*\)$/\1 \2/' | \
+              while IFS=' ' read -r lang val; do
+                val="${val#\"}" ; val="${val%\"}"
+                val="${val#\'}" ; val="${val%\'}"
+                printf '"%s":"%s"\n' "dname_${lang}" "$val"
+              done | paste -sd ',' | sed 's/^/{/;s/$/}/')
+            [[ -z "$dname_langs" || "$dname_langs" == "{}" ]] && dname_langs="{}"
+
+            desc_langs=$(echo "$info_raw" | grep -E '^description_[a-z]+=' | \
+              sed 's/^description_\([a-z]*\)=\(.*\)$/\1 \2/' | \
+              while IFS=' ' read -r lang val; do
+                val="${val#\"}" ; val="${val%\"}"
+                val="${val#\'}" ; val="${val%\'}"
+                printf '"%s":"%s"\n' "desc_${lang}" "$val"
+              done | paste -sd ',' | sed 's/^/{/;s/$/}/')
+            [[ -z "$desc_langs" || "$desc_langs" == "{}" ]] && desc_langs="{}"
+
+            # Locate the .spk asset
+            local spk_url size
+            spk_url=$(echo "$release" | jq -r \
+              --arg pfx "${spk_prefix}" \
+              '.assets[] | select(.name | test("^" + $pfx + ".*\\.spk$"; "i")) | .browser_download_url' \
+              | head -1)
+
+            if [[ -z "$spk_url" ]]; then
+              echo "WARNING: No .spk asset matching ${spk_prefix} in ${user}/${repo} ${tag}" >&2
+              spk_url="https://github.com/${user}/${repo}/releases/latest/download/${spk_prefix}.spk"
+            fi
+
+            size=$(echo "$release" | jq -r \
+              --arg url "${spk_url}" \
+              '.assets[] | select(.browser_download_url == $url) | .size' \
+              | head -1)
+            size="${size:-0}"
+
+            local download_count
+            download_count=$(get_total_downloads "${user}" "${repo}")
+
+            jq -n \
+              --arg package              "${pkg}" \
+              --arg version              "${version}" \
+              --arg dname                "${dname}" \
+              --argjson dname_langs      "${dname_langs}" \
+              --arg desc                 "${desc}" \
+              --argjson desc_langs       "${desc_langs}" \
+              --arg maintainer           "${maintainer}" \
+              --arg maintainer_url       "${maintainer_url}" \
+              --arg distributor          "${maintainer}" \
+              --arg dist_url             "${distributor_url}" \
+              --arg support_url          "${support_url}" \
+              --arg report_url           "${support_url}" \
+              --arg link                 "${spk_url}" \
+              --arg arch                 "${arch}" \
+              --arg firmware             "${firmware}" \
+              --arg thumbnail            "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
+              --argjson size             "${size}" \
+              --argjson download_count   "${download_count}" \
+              '{
+                package:               $package,
+                version:               $version,
+                dname:                 $dname,
+                desc:                  $desc,
+                maintainer:            $maintainer,
+                maintainer_url:        $maintainer_url,
+                distributor:           $distributor,
+                distributor_url:       $dist_url,
+                support_url:           $support_url,
+                report_url:            $report_url,
+                link:                  $link,
+                arch:                  $arch,
+                firmware:              $firmware,
+                thumbnail:             [$thumbnail],
+                snapshot:              [],
+                beta:                  false,
+                size:                  $size,
+                download_count:        $download_count,
+                recent_download_count: $download_count
+              } + $dname_langs + $desc_langs'
           }
 
           # ------------------------------------------------------------------ #
@@ -184,10 +365,11 @@ jobs:
             local fw_min="$2"
             local fw_max="$3"
 
+            local user="007revad"
             local repo="Transcode_for_x25"
             local arch="geminilakenk"
 
-            local api_url="https://api.github.com/repos/007revad/${repo}/releases/latest"
+            local api_url="https://api.github.com/repos/${user}/${repo}/releases/latest"
             local release
             release=$(curl -fsSL \
               -H "Authorization: Bearer ${GH_TOKEN}" \
@@ -199,19 +381,32 @@ jobs:
             version="${tag#v}"
 
             # Read package metadata from the repo's package.json
-            local pkg_json_url="https://raw.githubusercontent.com/007revad/${repo}/main/package.json"
+            local pkg_json_url="https://raw.githubusercontent.com/${user}/${repo}/main/package.json"
             local pkg_json
             pkg_json=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${pkg_json_url}")
 
             local pkg desc maintainer maintainer_url distributor_url support_url
             pkg=$(echo "$pkg_json"             | jq -r '.package')
             desc=$(echo "$pkg_json"            | jq -r '.description // ""')
-            maintainer=$(echo "$pkg_json"      | jq -r '.synology.maintainer // .maintainer // "007revad"')
-            maintainer_url=$(echo "$pkg_json"  | jq -r '.synology.maintainer_url // .maintainer_url // "https://github.com/007revad"')
-            distributor_url=$(echo "$pkg_json" | jq -r '.synology.distributor_url // .distributor_url // ("https://github.com/007revad/" + .package + "/releases")')
-            support_url=$(echo "$pkg_json"     | jq -r '.synology.support_url // .support_url // ("https://github.com/007revad/" + .package + "/issues")')
+            maintainer=$(echo "$pkg_json"      | jq -r '.synology.maintainer // .maintainer // empty // ""')
+            maintainer_url=$(echo "$pkg_json"  | jq -r '.synology.maintainer_url // .maintainer_url // ""')
+            distributor_url=$(echo "$pkg_json" | jq -r '.synology.distributor_url // .distributor_url // ""')
+            support_url=$(echo "$pkg_json"     | jq -r '.synology.support_url // .support_url // ""')
             local dname="${pkg} (DSM ${dsm_ver})"
             local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png"
+
+            # Localised fields (future-proof; currently empty for Transcode)
+            local dname_langs desc_langs
+            dname_langs=$(echo "$pkg_json" | jq -r '
+              ((.synology // {}) + .) |
+              to_entries |
+              map(select(.key | test("^displayname_"))) |
+              from_entries')
+            desc_langs=$(echo "$pkg_json" | jq -r '
+              ((.synology // {}) + .) |
+              to_entries |
+              map(select(.key | test("^description_"))) |
+              from_entries')
 
             # Match asset by DSM version and arch pattern
             local pattern="DSM-${dsm_ver}-${arch}\\.spk\$"
@@ -222,8 +417,8 @@ jobs:
               | head -1)
 
             if [[ -z "$spk_url" ]]; then
-              echo "WARNING: No .spk asset matching DSM-${dsm_ver}-${arch} in ${repo} ${tag}" >&2
-              spk_url="https://github.com/007revad/${repo}/releases/latest/download/Transcode_${tag}-DSM-${dsm_ver}-${arch}.spk"
+              echo "WARNING: No .spk asset matching DSM-${dsm_ver}-${arch} in ${user}/${repo} ${tag}" >&2
+              spk_url="https://github.com/${user}/${repo}/releases/latest/download/Transcode_${tag}-DSM-${dsm_ver}-${arch}.spk"
             fi
 
             size=$(echo "$release" | jq -r \
@@ -233,14 +428,16 @@ jobs:
             size="${size:-0}"
 
             local download_count
-            download_count=$(get_total_downloads "${repo}")
+            download_count=$(get_total_downloads "${user}" "${repo}")
 
             local common
             common=$(jq -n \
               --arg package              "${pkg}" \
               --arg version              "${version}" \
               --arg dname                "${dname}" \
+              --argjson dname_langs      "${dname_langs}" \
               --arg desc                 "${desc}" \
+              --argjson desc_langs       "${desc_langs}" \
               --arg maintainer           "${maintainer}" \
               --arg maintainer_url       "${maintainer_url}" \
               --arg distributor          "${maintainer}" \
@@ -271,7 +468,7 @@ jobs:
                 size:                  $size,
                 download_count:        $download_count,
                 recent_download_count: $download_count
-              }')
+              } + $dname_langs + $desc_langs')
 
             if [[ -n "$fw_max" ]]; then
               echo "${common}" | jq \
@@ -287,16 +484,24 @@ jobs:
 
           # ------------------------------------------------------------------ #
           # Build each package entry
-          # (package, dname, desc, maintainer, urls all read from package.json)
           # ------------------------------------------------------------------ #
-          entry_ookla=$(make_entry  "Synology_Ookla_Speedtest"  "noarch"  "7.0-0000")
-          entry_open=$(make_entry   "Synology_Open_Speedtest"   "noarch"  "7.0-0000")
-          entry_libre=$(make_entry  "Synology_Libre_Speedtest"  "noarch"  "7.0-0000")
+
+          # Your repos — user parameterised, firmware read from package.json
+          entry_ookla=$(make_entry   "007revad" "Synology_Ookla_Speedtest"  "noarch" "7.0-0000")
+          entry_open=$(make_entry    "007revad" "Synology_Open_Speedtest"   "noarch" "7.0-0000")
+          entry_libre=$(make_entry   "007revad" "Synology_Libre_Speedtest"  "noarch" "7.0-0000")
 
           # DSM 7.2 build: capped at 7.2.x so DSM 7.3 users don't get offered it
           entry_transcode_72=$(make_transcode_entry "7.2" "7.2-0000" "7.2-99999")
           # DSM 7.3 build: no upper cap (latest DSM)
           entry_transcode_73=$(make_transcode_entry "7.3" "7.3-0000" "")
+
+          # Friend's repo — same package.json structure, just different user
+          # firmware="" means read os_min_ver from their package.json
+          entry_synosmartinfo=$(make_entry "PeterSuh-Q3" "SynoSmartInfo" "noarch" "")
+
+          # Friend's repo — uses INFO.sh instead of package.json
+          entry_loganalysis=$(make_entry_external "toafez" "LogAnalysis" "LogAnalysis")
 
           # ------------------------------------------------------------------ #
           # Combine into final index.json
@@ -307,7 +512,9 @@ jobs:
             --argjson e3 "${entry_libre}" \
             --argjson e4 "${entry_transcode_72}" \
             --argjson e5 "${entry_transcode_73}" \
-            '{"packages": [$e1, $e2, $e3, $e4, $e5]}' \
+            --argjson e6 "${entry_synosmartinfo}" \
+            --argjson e7 "${entry_loganalysis}" \
+            '{"packages": [$e1, $e2, $e3, $e4, $e5, $e6, $e7]}' \
             > spkrepo/index.json
 
           echo "Generated spkrepo/index.json:"
