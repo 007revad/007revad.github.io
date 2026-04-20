@@ -14,14 +14,15 @@
       "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.25/OoklaSpeedtest-noarch-v1.0.25-DSM-7.x.spk",
       "arch": "noarch",
       "firmware": "7.0-0000",
+      "os_max_ver": "9.9-99999",
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_120.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 106,
-      "recent_download_count": 106
+      "download_count": 116,
+      "recent_download_count": 116
     },
     {
       "package": "OpenSpeedTest",
@@ -37,14 +38,15 @@
       "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/download/v1.0.9/OpenSpeedtest-noarch-v1.0.9-DSM-7.x.spk",
       "arch": "noarch",
       "firmware": "7.0-0000",
+      "os_max_ver": "9.9-99999",
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_120.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 112,
-      "recent_download_count": 112
+      "download_count": 118,
+      "recent_download_count": 118
     },
     {
       "package": "LibreSpeedTest",
@@ -60,14 +62,15 @@
       "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-2/LibreSpeedtest-noarch-v5.5.0-2-DSM-7.x.spk",
       "arch": "noarch",
       "firmware": "7.0-0000",
+      "os_max_ver": "9.9-99999",
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/LibreSpeedTest_120.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 41,
-      "recent_download_count": 41
+      "download_count": 43,
+      "recent_download_count": 43
     },
     {
       "package": "TranscodeDrivers",
@@ -82,16 +85,16 @@
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.10/Transcode_v3.0.10-DSM-7.2-geminilakenk.spk",
       "arch": "geminilakenk",
+      "firmware": "7.2-0000",
+      "os_max_ver": "7.2-99999",
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_120.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1423360,
-      "download_count": 21,
-      "recent_download_count": 21,
-      "firmware": "7.2-0000",
-      "os_max_ver": "7.2-99999"
+      "download_count": 29,
+      "recent_download_count": 29
     },
     {
       "package": "TranscodeDrivers",
@@ -106,15 +109,16 @@
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.10/Transcode_v3.0.10-DSM-7.3-geminilakenk.spk",
       "arch": "geminilakenk",
+      "firmware": "7.3-0000",
+      "os_max_ver": null,
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_120.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 21,
-      "recent_download_count": 21,
-      "firmware": "7.3-0000"
+      "download_count": 29,
+      "recent_download_count": 29
     },
     {
       "package": "Syno-Smart-Info",
@@ -130,14 +134,15 @@
       "link": "https://github.com/PeterSuh-Q3/SynoSmartInfo/releases/download/v1.4.2/Synosmartinfo-noarch-1.4.2-7.1.spk",
       "arch": "noarch",
       "firmware": "7.0-40337",
+      "os_max_ver": "9.9-99999",
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/Syno-Smart-Info_120.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 1851,
-      "recent_download_count": 1851
+      "download_count": 1874,
+      "recent_download_count": 1874
     },
     {
       "package": "AutoPilot",
@@ -153,6 +158,7 @@
       "link": "https://github.com/toafez/AutoPilot/releases/download/1.1-900/AutoPilot-1.1-900.spk",
       "arch": "noarch",
       "firmware": "7.0-40000",
+      "os_max_ver": null,
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/AutoPilot_120.png"
       ],
@@ -180,14 +186,15 @@
       "link": "https://github.com/toafez/LogAnalysis/releases/download/1.1-500/LogAnalysis-1.1-500.spk",
       "arch": "noarch",
       "firmware": "7.0-40000",
+      "os_max_ver": null,
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/LogAnalysis_120.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1489,
-      "recent_download_count": 1489,
+      "download_count": 1493,
+      "recent_download_count": 1493,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -207,6 +214,7 @@
       "link": "https://github.com/schmidhorst/synology-autorun/releases/download/V1.10.0.0011/autorun-1.10.0-0011.spk",
       "arch": "noarch",
       "firmware": "7.0-40000",
+      "os_max_ver": null,
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/autorun_120.png"
       ],
