@@ -2,7 +2,7 @@
   "packages": [
     {
       "package": "OoklaSpeedtest",
-      "version": "1.0.23",
+      "version": "1.0.24",
       "dname": "Ookla Speedtest",
       "desc": "Ookla Speedtest GUI to test Internet speed",
       "maintainer": "007revad",
@@ -11,7 +11,7 @@
       "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest/releases",
       "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/latest/download/OoklaSpeedtest.spk",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.24/OoklaSpeedtest-noarch-v1.0.24-DSM-7.x.spk",
       "arch": "noarch",
       "firmware": "7.0-0000",
       "thumbnail": [
@@ -19,7 +19,7 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 0,
+      "size": 3768320,
       "download_count": 102,
       "recent_download_count": 102
     },
@@ -43,8 +43,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 106,
-      "recent_download_count": 106
+      "download_count": 112,
+      "recent_download_count": 112
     },
     {
       "package": "LibreSpeedTest",
@@ -66,8 +66,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 35,
-      "recent_download_count": 35
+      "download_count": 41,
+      "recent_download_count": 41
     },
     {
       "package": "TranscodeDrivers",
@@ -88,8 +88,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1423360,
-      "download_count": 20,
-      "recent_download_count": 20,
+      "download_count": 21,
+      "recent_download_count": 21,
       "firmware": "7.2-0000",
       "os_max_ver": "7.2-99999"
     },
@@ -112,8 +112,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 20,
-      "recent_download_count": 20,
+      "download_count": 21,
+      "recent_download_count": 21,
       "firmware": "7.3-0000"
     },
     {
@@ -136,8 +136,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 1838,
-      "recent_download_count": 1838
+      "download_count": 1851,
+      "recent_download_count": 1851
     },
     {
       "package": "AutoPilot",
@@ -159,8 +159,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 725,
-      "recent_download_count": 725,
+      "download_count": 726,
+      "recent_download_count": 726,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -186,8 +186,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1486,
-      "recent_download_count": 1486,
+      "download_count": 1489,
+      "recent_download_count": 1489,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
