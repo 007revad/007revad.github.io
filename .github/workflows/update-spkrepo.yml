@@ -58,21 +58,15 @@ jobs:
           }
 
           # ------------------------------------------------------------------ #
-          # Helper: build the localised displayname/description JSON fragment
-          # from a package.json object (handles future multi-language support).
+          # Helper: like make_entry but for repos that use INFO.sh
+          # (key="value" shell-source format) instead of package.json.
+          # Handles displayname_<lang> and description_<lang> automatically.
           #
-          # DSM uses the key matching the user's language (e.g. "dname_enu")
-          # and falls back to "dname" if the language key is absent.
-          #
-          # Reads all keys matching displayname_<lang> / description_<lang>
-          # from .synology{} first, then top-level.
-          #
-          # Usage: pkg_json_lang_fields <pkg_json_content>
-          # Outputs: jq --arg / --argjson lines ready for interpolation, plus
-          #          the dname_extra / desc_extra JSON objects as shell vars.
+          # Usage: make_entry_external <user> <repo> <spk_name_prefix>
+          #   user            : GitHub username, e.g. "toafez"
+          #   repo            : GitHub repo name, e.g. "LogAnalysis"
+          #   spk_name_prefix : prefix to match SPK asset, e.g. "LogAnalysis"
           # ------------------------------------------------------------------ #
-          # Rather than a complex sub-function, we inline the lang extraction
-          # directly in make_entry and make_entry_external below.
 
           # ------------------------------------------------------------------ #
           # Helper: fetch latest release for a repo, read package metadata from
@@ -122,6 +116,10 @@ jobs:
             if [[ -z "$firmware" ]]; then
               firmware=$(echo "$pkg_json" | jq -r '.synology.os_min_ver // .os_min_ver // ""')
             fi
+
+            # os_max_ver: read from package.json (.synology first, then top-level)
+            local os_max_ver
+            os_max_ver=$(echo "$pkg_json" | jq -r '.synology.os_max_ver // .os_max_ver // null')
 
             # ---- Localised displayname_<lang> fields ----------------------- #
             # Collect every displayname_<lang> key from .synology{} and
@@ -185,6 +183,7 @@ jobs:
               --arg link                 "${spk_url}" \
               --arg arch                 "${arch}" \
               --arg firmware             "${firmware}" \
+              --argjson os_max_ver       "${os_max_ver}" \
               --arg thumbnail            "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
               --argjson size             "${size}" \
               --argjson download_count   "${download_count}" \
@@ -202,6 +201,7 @@ jobs:
                 link:                  $link,
                 arch:                  $arch,
                 firmware:              $firmware,
+                os_max_ver:            $os_max_ver,
                 thumbnail:             [$thumbnail],
                 snapshot:              [],
                 beta:                  false,
@@ -256,6 +256,11 @@ jobs:
             arch=$(          _info_get "arch")
             firmware=$(      _info_get "os_min_ver")
             [[ -z "$firmware" ]] && firmware=$(_info_get "firmware")
+
+            # os_max_ver: read from INFO.sh, default to null if absent
+            local os_max_ver
+            os_max_ver=$(_info_get "os_max_ver")
+            os_max_ver="${os_max_ver:-null}"
 
             # Base displayname: prefer displayname_enu, fall back to displayname, then package id
             dname=$(_info_get "displayname_enu")
@@ -325,6 +330,7 @@ jobs:
               --arg link                 "${spk_url}" \
               --arg arch                 "${arch}" \
               --arg firmware             "${firmware}" \
+              --argjson os_max_ver       "${os_max_ver}" \
               --arg thumbnail            "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
               --argjson size             "${size}" \
               --argjson download_count   "${download_count}" \
@@ -342,6 +348,7 @@ jobs:
                 link:                  $link,
                 arch:                  $arch,
                 firmware:              $firmware,
+                os_max_ver:            $os_max_ver,
                 thumbnail:             [$thumbnail],
                 snapshot:              [],
                 beta:                  false,
@@ -430,8 +437,10 @@ jobs:
             local download_count
             download_count=$(get_total_downloads "${user}" "${repo}")
 
-            local common
-            common=$(jq -n \
+            local fw_max_json
+            fw_max_json="${fw_max:-null}"
+
+            jq -n \
               --arg package              "${pkg}" \
               --arg version              "${version}" \
               --arg dname                "${dname}" \
@@ -446,6 +455,8 @@ jobs:
               --arg report_url           "${support_url}" \
               --arg link                 "${spk_url}" \
               --arg arch                 "${arch}" \
+              --arg firmware             "${fw_min}" \
+              --argjson os_max_ver       "${fw_max_json}" \
               --arg thumbnail            "${thumbnail}" \
               --argjson size             "${size}" \
               --argjson download_count   "${download_count}" \
@@ -462,24 +473,15 @@ jobs:
                 report_url:            $report_url,
                 link:                  $link,
                 arch:                  $arch,
+                firmware:              $firmware,
+                os_max_ver:            $os_max_ver,
                 thumbnail:             [$thumbnail],
                 snapshot:              [],
                 beta:                  false,
                 size:                  $size,
                 download_count:        $download_count,
                 recent_download_count: $download_count
-              } + $dname_langs + $desc_langs')
-
-            if [[ -n "$fw_max" ]]; then
-              echo "${common}" | jq \
-                --arg firmware   "${fw_min}" \
-                --arg os_max_ver "${fw_max}" \
-                '. + {firmware: $firmware, os_max_ver: $os_max_ver}'
-            else
-              echo "${common}" | jq \
-                --arg firmware "${fw_min}" \
-                '. + {firmware: $firmware}'
-            fi
+              } + $dname_langs + $desc_langs'
           }
 
           # ------------------------------------------------------------------ #
