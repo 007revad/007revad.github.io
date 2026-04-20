@@ -117,9 +117,9 @@ jobs:
               firmware=$(echo "$pkg_json" | jq -r '.synology.os_min_ver // .os_min_ver // ""')
             fi
 
-            # os_max_ver: read from package.json (.synology first, then top-level)
+            # os_max_ver: read from package.json (.synology first, then top-level); empty if absent
             local os_max_ver
-            os_max_ver=$(echo "$pkg_json" | jq -r '.synology.os_max_ver // .os_max_ver // null')
+            os_max_ver=$(echo "$pkg_json" | jq -r '.synology.os_max_ver // .os_max_ver // empty')
 
             # ---- Localised displayname_<lang> fields ----------------------- #
             # Collect every displayname_<lang> key from .synology{} and
@@ -183,7 +183,7 @@ jobs:
               --arg link                 "${spk_url}" \
               --arg arch                 "${arch}" \
               --arg firmware             "${firmware}" \
-              --argjson os_max_ver       "${os_max_ver}" \
+              --arg os_max_ver           "${os_max_ver}" \
               --arg thumbnail            "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
               --argjson size             "${size}" \
               --argjson download_count   "${download_count}" \
@@ -201,7 +201,7 @@ jobs:
                 link:                  $link,
                 arch:                  $arch,
                 firmware:              $firmware,
-                os_max_ver:            $os_max_ver,
+                os_max_ver:            (if $os_max_ver == "" then null else $os_max_ver end),
                 thumbnail:             [$thumbnail],
                 snapshot:              [],
                 beta:                  false,
@@ -257,10 +257,9 @@ jobs:
             firmware=$(      _info_get "os_min_ver")
             [[ -z "$firmware" ]] && firmware=$(_info_get "firmware")
 
-            # os_max_ver: read from INFO.sh, default to null if absent
+            # os_max_ver: read from INFO.sh; empty string if absent
             local os_max_ver
             os_max_ver=$(_info_get "os_max_ver")
-            os_max_ver="${os_max_ver:-null}"
 
             # Base displayname: prefer displayname_enu, fall back to displayname, then package id
             dname=$(_info_get "displayname_enu")
@@ -330,7 +329,7 @@ jobs:
               --arg link                 "${spk_url}" \
               --arg arch                 "${arch}" \
               --arg firmware             "${firmware}" \
-              --argjson os_max_ver       "${os_max_ver}" \
+              --arg os_max_ver           "${os_max_ver}" \
               --arg thumbnail            "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
               --argjson size             "${size}" \
               --argjson download_count   "${download_count}" \
@@ -348,7 +347,7 @@ jobs:
                 link:                  $link,
                 arch:                  $arch,
                 firmware:              $firmware,
-                os_max_ver:            $os_max_ver,
+                os_max_ver:            (if $os_max_ver == "" then null else $os_max_ver end),
                 thumbnail:             [$thumbnail],
                 snapshot:              [],
                 beta:                  false,
@@ -437,9 +436,6 @@ jobs:
             local download_count
             download_count=$(get_total_downloads "${user}" "${repo}")
 
-            local fw_max_json
-            fw_max_json="${fw_max:-null}"
-
             jq -n \
               --arg package              "${pkg}" \
               --arg version              "${version}" \
@@ -456,7 +452,7 @@ jobs:
               --arg link                 "${spk_url}" \
               --arg arch                 "${arch}" \
               --arg firmware             "${fw_min}" \
-              --argjson os_max_ver       "${fw_max_json}" \
+              --arg os_max_ver           "${fw_max}" \
               --arg thumbnail            "${thumbnail}" \
               --argjson size             "${size}" \
               --argjson download_count   "${download_count}" \
@@ -474,7 +470,7 @@ jobs:
                 link:                  $link,
                 arch:                  $arch,
                 firmware:              $firmware,
-                os_max_ver:            $os_max_ver,
+                os_max_ver:            (if $os_max_ver == "" then null else $os_max_ver end),
                 thumbnail:             [$thumbnail],
                 snapshot:              [],
                 beta:                  false,
