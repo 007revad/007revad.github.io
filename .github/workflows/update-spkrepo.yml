@@ -483,45 +483,33 @@ jobs:
           }
 
           # ------------------------------------------------------------------ #
-          # Build each package entry
+          # Build each package entry — push JSON objects into the entries array.
+          # To add a new package, append one line here and nowhere else.
           # ------------------------------------------------------------------ #
+          entries=()
 
-          # Your repos — user parameterised, firmware read from package.json
-          entry_ookla=$(make_entry   "007revad" "Synology_Ookla_Speedtest"  "noarch" "7.0-0000")
-          entry_open=$(make_entry    "007revad" "Synology_Open_Speedtest"   "noarch" "7.0-0000")
-          entry_libre=$(make_entry   "007revad" "Synology_Libre_Speedtest"  "noarch" "7.0-0000")
+          # 007revad repos
+          entries+=( "$(make_entry "007revad" "Synology_Ookla_Speedtest" "noarch" "7.0-0000")" )
+          entries+=( "$(make_entry "007revad" "Synology_Open_Speedtest"  "noarch" "7.0-0000")" )
+          entries+=( "$(make_entry "007revad" "Synology_Libre_Speedtest" "noarch" "7.0-0000")" )
 
           # DSM 7.2 build: capped at 7.2.x so DSM 7.3 users don't get offered it
-          entry_transcode_72=$(make_transcode_entry "7.2" "7.2-0000" "7.2-99999")
+          entries+=( "$(make_transcode_entry "7.2" "7.2-0000" "7.2-99999")" )
           # DSM 7.3 build: no upper cap (latest DSM)
-          entry_transcode_73=$(make_transcode_entry "7.3" "7.3-0000" "")
+          entries+=( "$(make_transcode_entry "7.3" "7.3-0000" "")" )
 
-          # Friend's repo — same package.json structure, just different user
-          # firmware="" means read os_min_ver from their package.json
-          #                     make_entry <user> <repo> <arch> <firmware>
-          entry_synosmartinfo=$(make_entry "PeterSuh-Q3" "SynoSmartInfo" "noarch" "")
+          # Friends' repos — package.json structure
+          entries+=( "$(make_entry "PeterSuh-Q3" "SynoSmartInfo" "noarch" "")" )
 
-          # Friend's repo — uses INFO.sh instead of package.json
-          #                   make_entry_external <user> <repo> <spk_name_prefix>
-          entry_autopilot=$(make_entry_external "toafez" "AutoPilot" "AutoPilot")
-          entry_loganalysis=$(make_entry_external "toafez" "LogAnalysis" "LogAnalysis")
-          entry_autorun=$(make_entry_external "schmidhorst" "synology-autorun" "autorun")
+          # Friends' repos — INFO.sh structure
+          entries+=( "$(make_entry_external "toafez" "AutoPilot" "AutoPilot")" )
+          entries+=( "$(make_entry_external "toafez" "LogAnalysis" "LogAnalysis")" )
+          entries+=( "$(make_entry_external "schmidhorst" "synology-autorun" "autorun")" )
 
           # ------------------------------------------------------------------ #
-          # Combine into final index.json
+          # Combine into final index.json — fully dynamic, no edits needed here
           # ------------------------------------------------------------------ #
-          jq -n \
-            --argjson e1 "${entry_ookla}" \
-            --argjson e2 "${entry_open}" \
-            --argjson e3 "${entry_libre}" \
-            --argjson e4 "${entry_transcode_72}" \
-            --argjson e5 "${entry_transcode_73}" \
-            --argjson e6 "${entry_synosmartinfo}" \
-            --argjson e7 "${entry_autopilot}" \
-            --argjson e8 "${entry_loganalysis}" \
-            --argjson e9 "${entry_autorun}" \
-            '{"packages": [$e1, $e2, $e3, $e4, $e5, $e6, $e7, $e8, $e9]}' \
-            > spkrepo/index.json
+          printf '%s\n' "${entries[@]}" | jq -s '{"packages": .}' > spkrepo/index.json
 
           echo "Generated spkrepo/index.json:"
           cat spkrepo/index.json
