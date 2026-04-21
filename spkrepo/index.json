@@ -1,6 +1,54 @@
 {
   "packages": [
     {
+      "package": "OoklaSpeedtest",
+      "version": "1.0.26",
+      "dname": "Ookla Speedtest",
+      "desc": "Ookla Speedtest GUI to test Internet speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.26/OoklaSpeedtest-noarch-v1.0.26-DSM-7.x.spk",
+      "arch": "noarch",
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 3768320,
+      "download_count": 119,
+      "recent_download_count": 119
+    },
+    {
+      "package": "TranscodeDrivers",
+      "version": "3.0.11",
+      "dname": "Transcode Drivers for x25",
+      "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Transcode_for_x25",
+      "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.11/Transcode_v3.0.11-DSM-7.2-geminilakenk.spk",
+      "arch": "geminilakenk",
+      "firmware": "7.2-72806",
+      "os_max_ver": "7.2-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 1413120,
+      "download_count": 34,
+      "recent_download_count": 34
+    },
+    {
       "package": "TranscodeDrivers",
       "version": "3.0.11",
       "dname": "Transcode Drivers for x25",
