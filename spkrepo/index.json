@@ -49,6 +49,30 @@
       "recent_download_count": 122
     },
     {
+      "package": "LibreSpeedTest",
+      "version": "5.5.0-3",
+      "dname": "LibreSpeed Speedtest",
+      "desc": "LibreSpeed Speedtest GUI to test LAN speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Libre_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-3/LibreSpeedtest-noarch-v5.5.0-3-DSM-7.x.spk",
+      "arch": "noarch",
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/LibreSpeedTest_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 204800,
+      "download_count": 46,
+      "recent_download_count": 46
+    },
+    {
       "package": "TranscodeDrivers",
       "version": "3.0.11",
       "dname": "Transcode Drivers for x25",
