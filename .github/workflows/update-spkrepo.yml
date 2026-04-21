@@ -1,4 +1,4 @@
-name: Update spkrepo index.json
+name: Update spkrepo index.json and thumbnails
 
 # Triggers:
 #   1. Called via repository_dispatch from each package repo (on new release)
@@ -23,11 +23,16 @@ jobs:
         with:
           token: ${{ secrets.SYNC_TOKEN }}
 
-      - name: Fetch latest release info and regenerate index.json
+      - name: Install ImageMagick
+        run: sudo apt-get install -y --no-install-recommends imagemagick
+
+      - name: Fetch latest release info, regenerate index.json and update thumbnails
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
           set -euo pipefail
+
+          mkdir -p spkrepo/thumbnails
 
           # ------------------------------------------------------------------ #
           # Helper: sum download counts for all .spk assets across all releases.
@@ -58,468 +63,312 @@ jobs:
           }
 
           # ------------------------------------------------------------------ #
-          # Helper: like make_entry but for repos that use INFO.sh
-          # (key="value" shell-source format) instead of package.json.
-          # Handles displayname_<lang> and description_<lang> automatically.
+          # Helper: extract a named file from a remote SPK via streaming tar.
+          # SPKs are uncompressed tars — INFO and PACKAGE_ICON_256.PNG are both
+          # near the start so a 200 KB range request covers both comfortably.
           #
-          # Usage: make_entry_external <user> <repo> <spk_name_prefix>
-          #   user            : GitHub username, e.g. "toafez"
-          #   repo            : GitHub repo name, e.g. "LogAnalysis"
-          #   spk_name_prefix : prefix to match SPK asset, e.g. "LogAnalysis"
+          # Usage: fetch_from_spk <spk_url> <filename>
+          # Output: raw file contents printed to stdout
           # ------------------------------------------------------------------ #
+          fetch_from_spk() {
+            local url="$1"
+            local filename="$2"
+            curl -fsSL --range 0-204799 "${url}" | tar -xOf - "${filename}" 2>/dev/null
+          }
 
           # ------------------------------------------------------------------ #
-          # Helper: fetch latest release for a repo, read package metadata from
-          # the repo's own package.json, and emit a repository package object.
+          # Helper: extract a single key from INFO content.
+          # Strips surrounding single or double quotes.
           #
-          # Usage: make_entry <user> <repo> <arch> <firmware>
-          #   user     : GitHub username
-          #   repo     : GitHub repo name
-          #   arch     : DSM arch string e.g. "noarch"
-          #   firmware : minimum DSM version e.g. "7.0-0000"
-          #              Pass "" to read os_min_ver from package.json instead.
+          # Usage: info_get <info_content> <key>
           # ------------------------------------------------------------------ #
-          make_entry() {
+          info_get() {
+            local info="$1"
+            local key="$2"
+            echo "$info" | grep -m1 "^${key}=" | sed 's/^[^=]*=//;s/^["\x27]//;s/["\x27]$//'
+          }
+
+          # ------------------------------------------------------------------ #
+          # Helper: return the version currently recorded in index.json for a
+          # given package name. Returns empty string if not found.
+          #
+          # Usage: current_version <pkg>
+          # ------------------------------------------------------------------ #
+          current_version() {
+            local pkg="$1"
+            if [[ -f spkrepo/index.json ]]; then
+              jq -r --arg p "$pkg" \
+                '.packages[] | select(.package == $p) | .version' \
+                spkrepo/index.json | head -1
+            fi
+          }
+
+          # ------------------------------------------------------------------ #
+          # Helper: update the thumbnail for a package from a SPK, but only
+          # when the package version has changed since the last run.
+          #
+          # Extracts PACKAGE_ICON_256.PNG from the SPK, resizes to 120x120,
+          # and writes spkrepo/thumbnails/<pkg>_120.png.
+          #
+          # Usage: maybe_update_thumbnail <spk_url> <pkg> <new_version>
+          # ------------------------------------------------------------------ #
+          maybe_update_thumbnail() {
+            local spk_url="$1"
+            local pkg="$2"
+            local new_version="$3"
+
+            local dest="spkrepo/thumbnails/${pkg}_120.png"
+            local old_version
+            old_version=$(current_version "${pkg}")
+
+            # Skip if thumbnail already exists and version has not changed
+            if [[ -f "${dest}" && "${old_version}" == "${new_version}" ]]; then
+              echo "INFO: Thumbnail for ${pkg} is current (${new_version}) — skipping." >&2
+              return
+            fi
+
+            echo "INFO: Updating thumbnail for ${pkg} (${old_version:-new} -> ${new_version})." >&2
+
+            local tmp_icon
+            tmp_icon=$(mktemp --suffix=.png)
+
+            # Extract icon from SPK into temp file
+            if ! fetch_from_spk "${spk_url}" "PACKAGE_ICON_256.PNG" > "${tmp_icon}" \
+                || [[ ! -s "${tmp_icon}" ]]; then
+              echo "WARNING: Could not extract PACKAGE_ICON_256.PNG from ${spk_url}" >&2
+              rm -f "${tmp_icon}"
+              return
+            fi
+
+            # Resize to 120x120, fitting within the canvas
+            /usr/bin/convert "${tmp_icon}" \
+              -resize 120x120 \
+              -gravity center \
+              -background none \
+              -extent 120x120 \
+              "${dest}"
+
+            rm -f "${tmp_icon}"
+            echo "INFO: Wrote ${dest}" >&2
+          }
+
+          # ------------------------------------------------------------------ #
+          # Helper: fetch latest release SPKs for a repo and emit one
+          # index.json entry per unique SPK (deduplicated by firmware range).
+          #
+          # If a noarch SPK exists it is preferred over arch-specific SPKs.
+          # Any other arch with the same firmware range is skipped entirely.
+          #
+          # For repos with legitimate multiple SPKs (e.g. one per DSM version
+          # with different os_min_ver/os_max_ver), each produces its own entry.
+          #
+          # Thumbnails are updated only when the package version has changed.
+          #
+          # Usage: make_entries <user> <repo>
+          # ------------------------------------------------------------------ #
+          make_entries() {
             local user="$1"
             local repo="$2"
-            local arch="$3"
-            local firmware="$4"
 
-            local api_url="https://api.github.com/repos/${user}/${repo}/releases/latest"
             local release
             release=$(curl -fsSL \
               -H "Authorization: Bearer ${GH_TOKEN}" \
               -H "Accept: application/vnd.github+json" \
-              "${api_url}")
+              "https://api.github.com/repos/${user}/${repo}/releases/latest")
 
             local tag version
             tag=$(echo "$release" | jq -r '.tag_name // empty')
             version="${tag#v}"
 
-            # Read package metadata from the repo's package.json
-            local pkg_json_url="https://raw.githubusercontent.com/${user}/${repo}/main/package.json"
-            local pkg_json
-            pkg_json=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${pkg_json_url}")
+            local download_count
+            download_count=$(get_total_downloads "${user}" "${repo}")
 
-            # Core fields — .synology{} first, then top-level
-            local pkg name dname desc maintainer maintainer_url distributor_url support_url
-            pkg=$(echo "$pkg_json"             | jq -r '.package')
-            name=$(echo "$pkg_json"            | jq -r '.name // .package')
-            dname=$(echo "$pkg_json"           | jq -r '.synology.displayname // .displayname // .package')
-            desc=$(echo "$pkg_json"            | jq -r '.description // ""')
-            maintainer=$(echo "$pkg_json"      | jq -r '.synology.maintainer // .maintainer // empty // ""')
-            maintainer_url=$(echo "$pkg_json"  | jq -r '.synology.maintainer_url // .maintainer_url // ""')
-            distributor_url=$(echo "$pkg_json" | jq -r '.synology.distributor_url // .distributor_url // ""')
-            support_url=$(echo "$pkg_json"     | jq -r '.synology.support_url // .support_url // ""')
+            # Get all .spk asset URLs from the release, noarch first
+            local all_spk_urls
+            mapfile -t all_spk_urls < <(echo "$release" | jq -r '
+              [.assets[] | select(.name | test("\\.spk$"; "i"))] |
+              sort_by(if (.name | test("noarch"; "i")) then 0 else 1 end) |
+              .[].browser_download_url')
 
-            # firmware: use explicit arg if given, else read os_min_ver from package.json
-            if [[ -z "$firmware" ]]; then
-              firmware=$(echo "$pkg_json" | jq -r '.synology.os_min_ver // .os_min_ver // ""')
+            if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
+              echo "WARNING: No .spk assets found in ${user}/${repo} ${tag}" >&2
+              return
             fi
 
-            # os_max_ver: read from package.json (.synology first, then top-level); empty if absent
-            local os_max_ver
-            os_max_ver=$(echo "$pkg_json" | jq -r '.synology.os_max_ver // .os_max_ver // empty')
+            # Track which firmware ranges have already been emitted.
+            # Key is os_min_ver|os_max_ver — once a noarch SPK claims a range,
+            # all arch-specific SPKs for that same range are skipped.
+            declare -A seen_keys
 
-            # ---- Localised displayname_<lang> fields ----------------------- #
-            # Collect every displayname_<lang> key from .synology{} and
-            # top-level, merge them (synology takes precedence), emit as JSON.
-            local dname_langs
-            dname_langs=$(echo "$pkg_json" | jq -r '
-              ((.synology // {}) + .) |
-              to_entries |
-              map(select(.key | test("^displayname_"))) |
-              from_entries')
+            # Track which package names have had their thumbnail processed this
+            # run, so multi-SPK repos (e.g. Transcode DSM 7.2 + 7.3) only
+            # attempt the thumbnail once per package name.
+            declare -A thumbnail_done
 
-            # ---- Localised description_<lang> fields ----------------------- #
-            local desc_langs
-            desc_langs=$(echo "$pkg_json" | jq -r '
-              ((.synology // {}) + .) |
-              to_entries |
-              map(select(.key | test("^description_"))) |
-              from_entries')
+            local spk_url
+            for spk_url in "${all_spk_urls[@]}"; do
+              local info
+              info=$(fetch_from_spk "${spk_url}" "INFO")
 
-            # Locate the .spk asset — prefer noarch, fall back to any matching spk
-            local spk_url size
-            spk_url=$(echo "$release" | jq -r \
-              --arg name "${name}" \
-              '.assets[] | select(.name | test($name + ".*noarch.*\\.spk$"; "i")) | .browser_download_url' \
-              | head -1)
+              if [[ -z "$info" ]]; then
+                echo "WARNING: Could not extract INFO from ${spk_url}" >&2
+                continue
+              fi
 
-            if [[ -z "$spk_url" ]]; then
-              spk_url=$(echo "$release" | jq -r \
-                --arg name "${name}" \
-                '.assets[] | select(.name | test("^" + $name + ".*\\.spk$"; "i")) | .browser_download_url' \
+              # Read core fields from INFO
+              local pkg arch os_min_ver os_max_ver
+              pkg=$(        info_get "$info" "package")
+              arch=$(       info_get "$info" "arch")
+              os_min_ver=$( info_get "$info" "os_min_ver")
+              os_max_ver=$( info_get "$info" "os_max_ver")
+
+              # Deduplicate by firmware range only (os_min_ver + os_max_ver).
+              # Because SPKs are sorted noarch-first, the first SPK seen for a
+              # given firmware range is always the noarch one (if it exists).
+              local dedup_key="${os_min_ver}|${os_max_ver}"
+              if [[ -n "${seen_keys[$dedup_key]+x}" ]]; then
+                echo "INFO: Skipping ${arch} SPK (firmware range ${os_min_ver}..${os_max_ver} already covered by noarch): $(basename "${spk_url}")" >&2
+                continue
+              fi
+              seen_keys[$dedup_key]=1
+
+              # Update thumbnail once per package name, only if version changed
+              if [[ -z "${thumbnail_done[$pkg]+x}" ]]; then
+                maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}"
+                thumbnail_done[$pkg]=1
+              fi
+
+              # Read remaining metadata from INFO — all fields verbatim, no substitution
+              local dname desc maintainer maintainer_url distributor distributor_url support_url
+              dname=$(           info_get "$info" "displayname")
+              [[ -z "$dname" ]]  && dname="$pkg"
+              desc=$(            info_get "$info" "description")
+              maintainer=$(      info_get "$info" "maintainer")
+              maintainer_url=$(  info_get "$info" "maintainer_url")
+              distributor=$(     info_get "$info" "distributor")
+              distributor_url=$( info_get "$info" "distributor_url")
+              support_url=$(     info_get "$info" "support_url")
+
+              # Collect localised displayname_<lang> fields from INFO
+              local dname_langs
+              dname_langs=$(echo "$info" | grep -E '^displayname_[a-z]+=' | \
+                sed 's/^displayname_\([a-z]*\)=\(.*\)$/\1 \2/' | \
+                while IFS=' ' read -r lang val; do
+                  val="${val#\"}" ; val="${val%\"}"
+                  val="${val#\'}" ; val="${val%\'}"
+                  printf '"%s":"%s"\n' "dname_${lang}" "$val"
+                done | paste -sd ',' | sed 's/^/{/;s/$/}/')
+              [[ -z "$dname_langs" || "$dname_langs" == "{}" ]] && dname_langs="{}"
+
+              # Collect localised description_<lang> fields from INFO
+              local desc_langs
+              desc_langs=$(echo "$info" | grep -E '^description_[a-z]+=' | \
+                sed 's/^description_\([a-z]*\)=\(.*\)$/\1 \2/' | \
+                while IFS=' ' read -r lang val; do
+                  val="${val#\"}" ; val="${val%\"}"
+                  val="${val#\'}" ; val="${val%\'}"
+                  printf '"%s":"%s"\n' "desc_${lang}" "$val"
+                done | paste -sd ',' | sed 's/^/{/;s/$/}/')
+              [[ -z "$desc_langs" || "$desc_langs" == "{}" ]] && desc_langs="{}"
+
+              # Firmware: use os_min_ver as-is; fall back to a safe default
+              local firmware="${os_min_ver}"
+              [[ -z "$firmware" ]] && firmware="7.0-0000"
+
+              # os_max_ver: treat "9.9-99999" or absent as no upper bound
+              local max_ver_json="null"
+              if [[ -n "$os_max_ver" && "$os_max_ver" != "9.9-99999" ]]; then
+                max_ver_json="\"${os_max_ver}\""
+              fi
+
+              local size
+              size=$(echo "$release" | jq -r \
+                --arg url "${spk_url}" \
+                '.assets[] | select(.browser_download_url == $url) | .size' \
                 | head -1)
-            fi
+              size="${size:-0}"
 
-            if [[ -z "$spk_url" ]]; then
-              echo "WARNING: No .spk asset found for ${name} in ${user}/${repo} ${tag}" >&2
-              spk_url="https://github.com/${user}/${repo}/releases/latest/download/${name}.spk"
-            fi
+              local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png"
 
-            size=$(echo "$release" | jq -r \
-              --arg url "${spk_url}" \
-              '.assets[] | select(.browser_download_url == $url) | .size' \
-              | head -1)
-            size="${size:-0}"
-
-            local download_count
-            download_count=$(get_total_downloads "${user}" "${repo}")
-
-            jq -n \
-              --arg package              "${pkg}" \
-              --arg version              "${version}" \
-              --arg dname                "${dname}" \
-              --argjson dname_langs      "${dname_langs}" \
-              --arg desc                 "${desc}" \
-              --argjson desc_langs       "${desc_langs}" \
-              --arg maintainer           "${maintainer}" \
-              --arg maintainer_url       "${maintainer_url}" \
-              --arg distributor          "${maintainer}" \
-              --arg dist_url             "${distributor_url}" \
-              --arg support_url          "${support_url}" \
-              --arg report_url           "${support_url}" \
-              --arg link                 "${spk_url}" \
-              --arg arch                 "${arch}" \
-              --arg firmware             "${firmware}" \
-              --arg os_max_ver           "${os_max_ver}" \
-              --arg thumbnail            "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
-              --argjson size             "${size}" \
-              --argjson download_count   "${download_count}" \
-              '{
-                package:               $package,
-                version:               $version,
-                dname:                 $dname,
-                desc:                  $desc,
-                maintainer:            $maintainer,
-                maintainer_url:        $maintainer_url,
-                distributor:           $distributor,
-                distributor_url:       $dist_url,
-                support_url:           $support_url,
-                report_url:            $report_url,
-                link:                  $link,
-                arch:                  $arch,
-                firmware:              $firmware,
-                os_max_ver:            (if $os_max_ver == "" then null else $os_max_ver end),
-                thumbnail:             [$thumbnail],
-                snapshot:              [],
-                beta:                  false,
-                size:                  $size,
-                download_count:        $download_count,
-                recent_download_count: $download_count
-              } + $dname_langs + $desc_langs'
+              jq -n \
+                --arg package              "${pkg}" \
+                --arg version              "${version}" \
+                --arg dname                "${dname}" \
+                --argjson dname_langs      "${dname_langs}" \
+                --arg desc                 "${desc}" \
+                --argjson desc_langs       "${desc_langs}" \
+                --arg maintainer           "${maintainer}" \
+                --arg maintainer_url       "${maintainer_url}" \
+                --arg distributor          "${distributor}" \
+                --arg dist_url             "${distributor_url}" \
+                --arg support_url          "${support_url}" \
+                --arg report_url           "${support_url}" \
+                --arg link                 "${spk_url}" \
+                --arg arch                 "${arch}" \
+                --arg firmware             "${firmware}" \
+                --argjson os_max_ver       "${max_ver_json}" \
+                --arg thumbnail            "${thumbnail}" \
+                --argjson size             "${size}" \
+                --argjson download_count   "${download_count}" \
+                '{
+                  package:               $package,
+                  version:               $version,
+                  dname:                 $dname,
+                  desc:                  $desc,
+                  maintainer:            $maintainer,
+                  maintainer_url:        $maintainer_url,
+                  distributor:           $distributor,
+                  distributor_url:       $dist_url,
+                  support_url:           $support_url,
+                  report_url:            $report_url,
+                  link:                  $link,
+                  arch:                  $arch,
+                  firmware:              $firmware,
+                  os_max_ver:            $os_max_ver,
+                  thumbnail:             [$thumbnail],
+                  snapshot:              [],
+                  beta:                  false,
+                  size:                  $size,
+                  download_count:        $download_count,
+                  recent_download_count: $download_count
+                } + $dname_langs + $desc_langs'
+            done
           }
 
           # ------------------------------------------------------------------ #
-          # Helper: like make_entry but for repos that use INFO.sh
-          # (key="value" shell-source format) instead of package.json.
-          # Handles displayname_<lang> and description_<lang> automatically.
-          #
-          # Usage: make_entry_external <user> <repo> <spk_name_prefix>
-          #   user            : GitHub username, e.g. "toafez"
-          #   repo            : GitHub repo name, e.g. "LogAnalysis"
-          #   spk_name_prefix : prefix to match SPK asset, e.g. "LogAnalysis"
-          # ------------------------------------------------------------------ #
-          make_entry_external() {
-            local user="$1"
-            local repo="$2"
-            local spk_prefix="$3"
-
-            local api_url="https://api.github.com/repos/${user}/${repo}/releases/latest"
-            local release
-            release=$(curl -fsSL \
-              -H "Authorization: Bearer ${GH_TOKEN}" \
-              -H "Accept: application/vnd.github+json" \
-              "${api_url}")
-
-            local tag version
-            tag=$(echo "$release" | jq -r '.tag_name // empty')
-            version="${tag#v}"
-
-            # Read metadata from INFO.sh — strip optional surrounding quotes
-            local info_url="https://raw.githubusercontent.com/${user}/${repo}/main/INFO.sh"
-            local info_raw
-            info_raw=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${info_url}")
-
-            # Extract a single key=value (strips quotes, handles single or double)
-            _info_get() {
-              echo "$info_raw" | grep -m1 "^$1=" | sed 's/^[^=]*=//;s/^["\x27]//;s/["\x27]$//'
-            }
-
-            local pkg dname desc maintainer maintainer_url distributor_url support_url arch firmware
-            pkg=$(           _info_get "package")
-            maintainer=$(    _info_get "maintainer")
-            maintainer_url=""
-            distributor_url=$(_info_get "distributor_url")
-            support_url=""
-            arch=$(          _info_get "arch")
-            firmware=$(      _info_get "os_min_ver")
-            [[ -z "$firmware" ]] && firmware=$(_info_get "firmware")
-
-            # os_max_ver: read from INFO.sh; empty string if absent
-            local os_max_ver
-            os_max_ver=$(_info_get "os_max_ver")
-
-            # Base displayname: prefer displayname_enu, fall back to displayname, then package id
-            dname=$(_info_get "displayname_enu")
-            [[ -z "$dname" ]] && dname=$(_info_get "displayname")
-            [[ -z "$dname" ]] && dname="$pkg"
-
-            # Base description: prefer description_enu, fall back to description
-            desc=$(_info_get "description_enu")
-            [[ -z "$desc"  ]] && desc=$(_info_get "description")
-
-            # ---- Collect all displayname_<lang> and description_<lang> ----- #
-            # Parse every key matching those patterns from INFO.sh and build
-            # a JSON object to merge into the final entry.
-            local dname_langs desc_langs
-            dname_langs=$(echo "$info_raw" | grep -E '^displayname_[a-z]+=' | \
-              sed 's/^displayname_\([a-z]*\)=\(.*\)$/\1 \2/' | \
-              while IFS=' ' read -r lang val; do
-                val="${val#\"}" ; val="${val%\"}"
-                val="${val#\'}" ; val="${val%\'}"
-                printf '"%s":"%s"\n' "dname_${lang}" "$val"
-              done | paste -sd ',' | sed 's/^/{/;s/$/}/')
-            [[ -z "$dname_langs" || "$dname_langs" == "{}" ]] && dname_langs="{}"
-
-            desc_langs=$(echo "$info_raw" | grep -E '^description_[a-z]+=' | \
-              sed 's/^description_\([a-z]*\)=\(.*\)$/\1 \2/' | \
-              while IFS=' ' read -r lang val; do
-                val="${val#\"}" ; val="${val%\"}"
-                val="${val#\'}" ; val="${val%\'}"
-                printf '"%s":"%s"\n' "desc_${lang}" "$val"
-              done | paste -sd ',' | sed 's/^/{/;s/$/}/')
-            [[ -z "$desc_langs" || "$desc_langs" == "{}" ]] && desc_langs="{}"
-
-            # Locate the .spk asset
-            local spk_url size
-            spk_url=$(echo "$release" | jq -r \
-              --arg pfx "${spk_prefix}" \
-              '.assets[] | select(.name | test("^" + $pfx + ".*\\.spk$"; "i")) | .browser_download_url' \
-              | head -1)
-
-            if [[ -z "$spk_url" ]]; then
-              echo "WARNING: No .spk asset matching ${spk_prefix} in ${user}/${repo} ${tag}" >&2
-              spk_url="https://github.com/${user}/${repo}/releases/latest/download/${spk_prefix}.spk"
-            fi
-
-            size=$(echo "$release" | jq -r \
-              --arg url "${spk_url}" \
-              '.assets[] | select(.browser_download_url == $url) | .size' \
-              | head -1)
-            size="${size:-0}"
-
-            local download_count
-            download_count=$(get_total_downloads "${user}" "${repo}")
-
-            jq -n \
-              --arg package              "${pkg}" \
-              --arg version              "${version}" \
-              --arg dname                "${dname}" \
-              --argjson dname_langs      "${dname_langs}" \
-              --arg desc                 "${desc}" \
-              --argjson desc_langs       "${desc_langs}" \
-              --arg maintainer           "${maintainer}" \
-              --arg maintainer_url       "${maintainer_url}" \
-              --arg distributor          "${maintainer}" \
-              --arg dist_url             "${distributor_url}" \
-              --arg support_url          "${support_url}" \
-              --arg report_url           "${support_url}" \
-              --arg link                 "${spk_url}" \
-              --arg arch                 "${arch}" \
-              --arg firmware             "${firmware}" \
-              --arg os_max_ver           "${os_max_ver}" \
-              --arg thumbnail            "https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png" \
-              --argjson size             "${size}" \
-              --argjson download_count   "${download_count}" \
-              '{
-                package:               $package,
-                version:               $version,
-                dname:                 $dname,
-                desc:                  $desc,
-                maintainer:            $maintainer,
-                maintainer_url:        $maintainer_url,
-                distributor:           $distributor,
-                distributor_url:       $dist_url,
-                support_url:           $support_url,
-                report_url:            $report_url,
-                link:                  $link,
-                arch:                  $arch,
-                firmware:              $firmware,
-                os_max_ver:            (if $os_max_ver == "" then null else $os_max_ver end),
-                thumbnail:             [$thumbnail],
-                snapshot:              [],
-                beta:                  false,
-                size:                  $size,
-                download_count:        $download_count,
-                recent_download_count: $download_count
-              } + $dname_langs + $desc_langs'
-          }
-
-          # ------------------------------------------------------------------ #
-          # Helper: like make_entry but for versioned SPK filenames with
-          # explicit firmware bounds (Transcode_for_x25 DSM 7.2 / 7.3 builds).
-          #
-          # Usage: make_transcode_entry <dsm_ver> <firmware_min> <firmware_max>
-          #   dsm_ver     : e.g. "7.2" or "7.3"
-          #   firmware_min: e.g. "7.2-0000"
-          #   firmware_max: e.g. "7.2-99999"  (empty string = no upper bound)
-          # ------------------------------------------------------------------ #
-          make_transcode_entry() {
-            local dsm_ver="$1"
-            local fw_min="$2"
-            local fw_max="$3"
-
-            local user="007revad"
-            local repo="Transcode_for_x25"
-            local arch="geminilakenk"
-
-            local api_url="https://api.github.com/repos/${user}/${repo}/releases/latest"
-            local release
-            release=$(curl -fsSL \
-              -H "Authorization: Bearer ${GH_TOKEN}" \
-              -H "Accept: application/vnd.github+json" \
-              "${api_url}")
-
-            local tag version
-            tag=$(echo "$release" | jq -r '.tag_name // empty')
-            version="${tag#v}"
-
-            # Read package metadata from the repo's package.json
-            local pkg_json_url="https://raw.githubusercontent.com/${user}/${repo}/main/package.json"
-            local pkg_json
-            pkg_json=$(curl -fsSL -H "Authorization: Bearer ${GH_TOKEN}" "${pkg_json_url}")
-
-            local pkg desc maintainer maintainer_url distributor_url support_url
-            pkg=$(echo "$pkg_json"             | jq -r '.package')
-            desc=$(echo "$pkg_json"            | jq -r '.description // ""')
-            maintainer=$(echo "$pkg_json"      | jq -r '.synology.maintainer // .maintainer // empty // ""')
-            maintainer_url=$(echo "$pkg_json"  | jq -r '.synology.maintainer_url // .maintainer_url // ""')
-            distributor_url=$(echo "$pkg_json" | jq -r '.synology.distributor_url // .distributor_url // ""')
-            support_url=$(echo "$pkg_json"     | jq -r '.synology.support_url // .support_url // ""')
-            local dname="${pkg} (DSM ${dsm_ver})"
-            local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png"
-
-            # Localised fields (future-proof; currently empty for Transcode)
-            local dname_langs desc_langs
-            dname_langs=$(echo "$pkg_json" | jq -r '
-              ((.synology // {}) + .) |
-              to_entries |
-              map(select(.key | test("^displayname_"))) |
-              from_entries')
-            desc_langs=$(echo "$pkg_json" | jq -r '
-              ((.synology // {}) + .) |
-              to_entries |
-              map(select(.key | test("^description_"))) |
-              from_entries')
-
-            # Match asset by DSM version and arch pattern
-            local pattern="DSM-${dsm_ver}-${arch}\\.spk\$"
-            local spk_url size
-            spk_url=$(echo "$release" | jq -r \
-              --arg pat "${pattern}" \
-              '.assets[] | select(.name | test($pat; "i")) | .browser_download_url' \
-              | head -1)
-
-            if [[ -z "$spk_url" ]]; then
-              echo "WARNING: No .spk asset matching DSM-${dsm_ver}-${arch} in ${user}/${repo} ${tag}" >&2
-              spk_url="https://github.com/${user}/${repo}/releases/latest/download/Transcode_${tag}-DSM-${dsm_ver}-${arch}.spk"
-            fi
-
-            size=$(echo "$release" | jq -r \
-              --arg pat "${pattern}" \
-              '.assets[] | select(.name | test($pat; "i")) | .size' \
-              | head -1)
-            size="${size:-0}"
-
-            local download_count
-            download_count=$(get_total_downloads "${user}" "${repo}")
-
-            jq -n \
-              --arg package              "${pkg}" \
-              --arg version              "${version}" \
-              --arg dname                "${dname}" \
-              --argjson dname_langs      "${dname_langs}" \
-              --arg desc                 "${desc}" \
-              --argjson desc_langs       "${desc_langs}" \
-              --arg maintainer           "${maintainer}" \
-              --arg maintainer_url       "${maintainer_url}" \
-              --arg distributor          "${maintainer}" \
-              --arg dist_url             "${distributor_url}" \
-              --arg support_url          "${support_url}" \
-              --arg report_url           "${support_url}" \
-              --arg link                 "${spk_url}" \
-              --arg arch                 "${arch}" \
-              --arg firmware             "${fw_min}" \
-              --arg os_max_ver           "${fw_max}" \
-              --arg thumbnail            "${thumbnail}" \
-              --argjson size             "${size}" \
-              --argjson download_count   "${download_count}" \
-              '{
-                package:               $package,
-                version:               $version,
-                dname:                 $dname,
-                desc:                  $desc,
-                maintainer:            $maintainer,
-                maintainer_url:        $maintainer_url,
-                distributor:           $distributor,
-                distributor_url:       $dist_url,
-                support_url:           $support_url,
-                report_url:            $report_url,
-                link:                  $link,
-                arch:                  $arch,
-                firmware:              $firmware,
-                os_max_ver:            (if $os_max_ver == "" then null else $os_max_ver end),
-                thumbnail:             [$thumbnail],
-                snapshot:              [],
-                beta:                  false,
-                size:                  $size,
-                download_count:        $download_count,
-                recent_download_count: $download_count
-              } + $dname_langs + $desc_langs'
-          }
-
-          # ------------------------------------------------------------------ #
-          # Build each package entry — push JSON objects into the entries array.
-          # To add a new package, append one line here and nowhere else.
+          # Build each package entry.
+          # To add a new package, append one make_entries line here.
           # ------------------------------------------------------------------ #
           entries=()
 
           # 007revad repos
-          entries+=( "$(make_entry "007revad" "Synology_Ookla_Speedtest" "noarch" "7.0-0000")" )
-          entries+=( "$(make_entry "007revad" "Synology_Open_Speedtest"  "noarch" "7.0-0000")" )
-          entries+=( "$(make_entry "007revad" "Synology_Libre_Speedtest" "noarch" "7.0-0000")" )
+          entries+=( "$(make_entries "007revad" "Synology_Ookla_Speedtest")" )
+          entries+=( "$(make_entries "007revad" "Synology_Open_Speedtest")" )
+          entries+=( "$(make_entries "007revad" "Synology_Libre_Speedtest")" )
+          entries+=( "$(make_entries "007revad" "Transcode_for_x25")" )
 
-          # DSM 7.2 build: capped at 7.2.x so DSM 7.3 users don't get offered it
-          entries+=( "$(make_transcode_entry "7.2" "7.2-0000" "7.2-99999")" )
-          # DSM 7.3 build: no upper cap (latest DSM)
-          entries+=( "$(make_transcode_entry "7.3" "7.3-0000" "")" )
-
-          # Friends' repos — package.json structure
-          entries+=( "$(make_entry "PeterSuh-Q3" "SynoSmartInfo" "noarch" "")" )
-
-          # Friends' repos — INFO.sh structure
-          entries+=( "$(make_entry_external "toafez" "AutoPilot" "AutoPilot")" )
-          entries+=( "$(make_entry_external "toafez" "LogAnalysis" "LogAnalysis")" )
-          entries+=( "$(make_entry_external "schmidhorst" "synology-autorun" "autorun")" )
+          # Friends' repos
+          entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo")" )
+          entries+=( "$(make_entries "toafez"      "AutoPilot")" )
+          entries+=( "$(make_entries "toafez"      "LogAnalysis")" )
+          entries+=( "$(make_entries "schmidhorst" "synology-autorun")" )
 
           # ------------------------------------------------------------------ #
-          # Combine into final index.json — fully dynamic, no edits needed here
+          # Combine into final index.json
           # ------------------------------------------------------------------ #
           printf '%s\n' "${entries[@]}" | jq -s '{"packages": .}' > spkrepo/index.json
 
           echo "Generated spkrepo/index.json:"
           cat spkrepo/index.json
 
-      - name: Commit and push updated index.json
+      - name: Commit and push index.json and any updated thumbnails
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add spkrepo/index.json
+          git add spkrepo/index.json spkrepo/thumbnails/
           if git diff --cached --quiet; then
-            echo "No changes to index.json — skipping commit."
+            echo "No changes — skipping commit."
           else
-            git commit -m "chore: update spkrepo index.json [skip ci]"
+            git commit -m "chore: update spkrepo index.json and thumbnails [skip ci]"
             git push
           fi
