@@ -25,6 +25,30 @@
       "recent_download_count": 119
     },
     {
+      "package": "OpenSpeedTest",
+      "version": "1.0.10",
+      "dname": "OpenSpeedTest",
+      "desc": "OpenSpeedTest to test LAN speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Open_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/download/v1.0.10/OpenSpeedtest-noarch-v1.0.10-DSM-7.x.spk",
+      "arch": "noarch",
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 583680,
+      "download_count": 122,
+      "recent_download_count": 122
+    },
+    {
       "package": "TranscodeDrivers",
       "version": "3.0.11",
       "dname": "Transcode Drivers for x25",
