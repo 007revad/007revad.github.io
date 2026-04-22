@@ -21,8 +21,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 150,
-      "recent_download_count": 150
+      "download_count": 154,
+      "recent_download_count": 154
     },
     {
       "package": "OpenSpeedTest",
@@ -45,8 +45,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 148,
-      "recent_download_count": 148
+      "download_count": 152,
+      "recent_download_count": 152
     },
     {
       "package": "LibreSpeedTest",
@@ -69,8 +69,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 67,
-      "recent_download_count": 67
+      "download_count": 71,
+      "recent_download_count": 71
     },
     {
       "package": "TranscodeDrivers",
@@ -93,8 +93,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 63,
-      "recent_download_count": 63
+      "download_count": 67,
+      "recent_download_count": 67
     },
     {
       "package": "TranscodeDrivers",
@@ -117,8 +117,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 63,
-      "recent_download_count": 63
+      "download_count": 67,
+      "recent_download_count": 67
     },
     {
       "package": "Synosmartinfo",
@@ -141,8 +141,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 1933,
-      "recent_download_count": 1933
+      "download_count": 1945,
+      "recent_download_count": 1945
     },
     {
       "package": "AutoPilot",
@@ -165,8 +165,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 735,
-      "recent_download_count": 735,
+      "download_count": 737,
+      "recent_download_count": 737,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -193,8 +193,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1505,
-      "recent_download_count": 1505,
+      "download_count": 1507,
+      "recent_download_count": 1507,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -221,8 +221,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 238,
-      "recent_download_count": 238,
+      "download_count": 240,
+      "recent_download_count": 240,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
