@@ -405,6 +405,7 @@ jobs:
           entries+=( "$(make_entries "toafez"      "AutoPilot")" )
           entries+=( "$(make_entries "toafez"      "LogAnalysis")" )
           entries+=( "$(make_entries "schmidhorst" "synology-autorun")" )
+          entries+=( "$(make_entries "geimist"     "synOCR")" )
 
           # repos with spk files in repo file tree
           entries+=( "$(make_entries "BenjV" "SYNO-packages" "noreleases")" )
