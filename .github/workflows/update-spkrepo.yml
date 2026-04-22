@@ -184,7 +184,7 @@ jobs:
                   "https://api.github.com/repos/${user}/${repo}/releases/latest")
 
                 #tag=$(echo "$release" | jq -r '.tag_name // empty')
-                tag=$(jq -r '.tag_name // empty' <<< echo "$release")
+                tag=$(jq -r '.tag_name // empty' <<< "$release")
                 version="${tag#v}"
 
                 local download_count
@@ -199,7 +199,7 @@ jobs:
                 mapfile -t all_spk_urls < <(jq -r '
                   [.assets[] | select(.name | test("\\.spk$"; "i"))] |
                   sort_by(if (.name | test("noarch"; "i")) then 0 else 1 end) |
-                  .[].browser_download_url' <<< echo "$release")
+                  .[].browser_download_url' <<< "$release")
 
                 if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
                   echo "WARNING: No .spk assets found in ${user}/${repo} ${tag}" >&2
@@ -323,7 +323,7 @@ jobs:
                 #  | head -1)
                 size=$(jq -r --arg url "${spk_url}" \
                   '.assets[] | select(.browser_download_url == $url) | .size' \
-                  | head -1 <<< "$page_data")
+                  <<< "$release" | head -1)
                 size="${size:-0}"
               fi
 
