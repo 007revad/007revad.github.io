@@ -223,6 +223,7 @@ jobs:
                     [.tree[] | select(.type == "blob" and (.path | test("\\.spk$"; "i")))] |
                     sort_by(if (.path | test("noarch"; "i")) then 0 else 1 end) |
                     .[].path' \
+                  | grep -v '\[' \
                   | sed 's| |%20|g; s|^|https://raw.githubusercontent.com/'"${user}"'/'"${repo}"'/HEAD/|')
 
                 if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
@@ -243,6 +244,7 @@ jobs:
 
             local spk_url
             for spk_url in "${all_spk_urls[@]}"; do
+              #version=""  # Reset for each SPK in noreleases repos
               local info
               info=$(fetch_from_spk "${spk_url}" "INFO")
 
@@ -258,7 +260,14 @@ jobs:
               os_min_ver=$( info_get "$info" "os_min_ver")
               os_max_ver=$( info_get "$info" "os_max_ver")
               # For noreleases repos, version comes from INFO rather than a release tag
-              [[ -z "$version" ]] && version=$(info_get "$info" "version")
+              # Skip packages older than DSM 6
+              local min_ver="${os_min_ver:-$(info_get "$info" "firmware")}"
+              if [[ -n "$min_ver" && "${min_ver%%.*}" -lt 6 ]]; then
+                echo "INFO: Skipping $(basename "${spk_url}") (os_min_ver=${min_ver} < 6)" >&2
+                continue
+              fi
+              #[[ -z "$version" ]] && version=$(info_get "$info" "version")
+              [[ -n "$noreleases" ]] && version=$(info_get "$info" "version")
 
               # Deduplicate by firmware range only (os_min_ver + os_max_ver).
               # Because SPKs are sorted noarch-first, the first SPK seen for a
