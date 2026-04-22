@@ -165,34 +165,58 @@ jobs:
           # Thumbnails are updated only when the package version has changed.
           #
           # Usage: make_entries <user> <repo>
+          # Usage: make_entries <user> <repo> noreleases
           # ------------------------------------------------------------------ #
           make_entries() {
             local user="$1"
             local repo="$2"
+            local noreleases="$3"
+            local tag version=""
+            
+            if [[ -z "$noreleases" ]]; then
+                local release
+                release=$(curl -fsSL \
+                  -H "Authorization: Bearer ${GH_TOKEN}" \
+                  -H "Accept: application/vnd.github+json" \
+                  "https://api.github.com/repos/${user}/${repo}/releases/latest")
 
-            local release
-            release=$(curl -fsSL \
-              -H "Authorization: Bearer ${GH_TOKEN}" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/${user}/${repo}/releases/latest")
+                tag=$(echo "$release" | jq -r '.tag_name // empty')
+                version="${tag#v}"
 
-            local tag version
-            tag=$(echo "$release" | jq -r '.tag_name // empty')
-            version="${tag#v}"
+                local download_count
+                download_count=$(get_total_downloads "${user}" "${repo}")
 
-            local download_count
-            download_count=$(get_total_downloads "${user}" "${repo}")
+                # Get all .spk asset URLs from the release, noarch first
+                local all_spk_urls
+                mapfile -t all_spk_urls < <(echo "$release" | jq -r '
+                  [.assets[] | select(.name | test("\\.spk$"; "i"))] |
+                  sort_by(if (.name | test("noarch"; "i")) then 0 else 1 end) |
+                  .[].browser_download_url')
 
-            # Get all .spk asset URLs from the release, noarch first
-            local all_spk_urls
-            mapfile -t all_spk_urls < <(echo "$release" | jq -r '
-              [.assets[] | select(.name | test("\\.spk$"; "i"))] |
-              sort_by(if (.name | test("noarch"; "i")) then 0 else 1 end) |
-              .[].browser_download_url')
+                if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
+                  echo "WARNING: No .spk assets found in ${user}/${repo} ${tag}" >&2
+                  return
+                fi
+            else
+                # No releases — find .spk files directly in the repo file tree.
+                # download_count will be 0 (no releases = no release download stats).
+                local download_count=0
 
-            if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
-              echo "WARNING: No .spk assets found in ${user}/${repo} ${tag}" >&2
-              return
+                local all_spk_urls
+                mapfile -t all_spk_urls < <(curl -fsSL \
+                  -H "Authorization: Bearer ${GH_TOKEN}" \
+                  -H "Accept: application/vnd.github+json" \
+                  "https://api.github.com/repos/${user}/${repo}/git/trees/HEAD?recursive=1" \
+                  | jq -r '
+                    [.tree[] | select(.type == "blob" and (.path | test("\\.spk$"; "i")))] |
+                    sort_by(if (.path | test("noarch"; "i")) then 0 else 1 end) |
+                    .[].path' \
+                  | sed "s|^|https://raw.githubusercontent.com/${user}/${repo}/HEAD/|")
+
+                if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
+                  echo "WARNING: No .spk files found in ${user}/${repo} file tree" >&2
+                  return
+                fi
             fi
 
             # Track which firmware ranges have already been emitted.
@@ -221,6 +245,8 @@ jobs:
               arch=$(       info_get "$info" "arch")
               os_min_ver=$( info_get "$info" "os_min_ver")
               os_max_ver=$( info_get "$info" "os_max_ver")
+              # For noreleases repos, version comes from INFO rather than a release tag
+              [[ -z "$version" ]] && version=$(info_get "$info" "version")
 
               # Deduplicate by firmware range only (os_min_ver + os_max_ver).
               # Because SPKs are sorted noarch-first, the first SPK seen for a
@@ -281,12 +307,14 @@ jobs:
                 max_ver_json="\"${os_max_ver}\""
               fi
 
-              local size
-              size=$(echo "$release" | jq -r \
-                --arg url "${spk_url}" \
-                '.assets[] | select(.browser_download_url == $url) | .size' \
-                | head -1)
-              size="${size:-0}"
+              local size=0
+              if [[ -z "$noreleases" ]]; then
+                size=$(echo "$release" | jq -r \
+                  --arg url "${spk_url}" \
+                  '.assets[] | select(.browser_download_url == $url) | .size' \
+                  | head -1)
+                size="${size:-0}"
+              fi
 
               local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png"
 
@@ -352,6 +380,9 @@ jobs:
           entries+=( "$(make_entries "toafez"      "AutoPilot")" )
           entries+=( "$(make_entries "toafez"      "LogAnalysis")" )
           entries+=( "$(make_entries "schmidhorst" "synology-autorun")" )
+
+          # repos with spk files in repo file tree
+          entries+=( "$(make_entries "BenjV" "SYNO-packages" "noreleases")" )
 
           # ------------------------------------------------------------------ #
           # Combine into final index.json
