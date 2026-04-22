@@ -223,7 +223,6 @@ jobs:
                     [.tree[] | select(.type == "blob" and (.path | test("\\.spk$"; "i")))] |
                     sort_by(if (.path | test("noarch"; "i")) then 0 else 1 end) |
                     .[].path' \
-                  #| sed "s|^|https://raw.githubusercontent.com/${user}/${repo}/HEAD/|")
                   | sed 's| |%20|g; s|^|https://raw.githubusercontent.com/'"${user}"'/'"${repo}"'/HEAD/|')
 
                 if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
