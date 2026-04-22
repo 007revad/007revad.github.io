@@ -328,8 +328,11 @@ jobs:
                 done | paste -sd ',' | sed 's/^/{/;s/$/}/')
               [[ -z "$desc_langs" || "$desc_langs" == "{}" ]] && desc_langs="{}"
 
-              # Firmware: use os_min_ver as-is; fall back to a safe default
+              # Firmware: prefer os_min_ver; fall back to the INFO firmware= key
+              # (DSM6 packages use firmware= instead of os_min_ver=); last
+              # resort is a safe default.
               local firmware="${os_min_ver}"
+              [[ -z "$firmware" ]] && firmware=$(info_get "$info" "firmware")
               [[ -z "$firmware" ]] && firmware="7.0-0000"
 
               # os_max_ver: treat "9.9-99999" or absent as no upper bound
