@@ -272,7 +272,8 @@ jobs:
               # Deduplicate by firmware range only (os_min_ver + os_max_ver).
               # Because SPKs are sorted noarch-first, the first SPK seen for a
               # given firmware range is always the noarch one (if it exists).
-              local dedup_key="${os_min_ver}|${os_max_ver}"
+              #local dedup_key="${os_min_ver}|${os_max_ver}"
+              local dedup_key="${pkg}|${version}|${os_min_ver}|${os_max_ver}"
               if [[ -n "${seen_keys[$dedup_key]+x}" ]]; then
                 echo "INFO: Skipping ${arch} SPK (firmware range ${os_min_ver}..${os_max_ver} already covered by noarch): $(basename "${spk_url}")" >&2
                 continue
