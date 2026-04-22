@@ -21,8 +21,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 156,
-      "recent_download_count": 156
+      "download_count": 158,
+      "recent_download_count": 158
     },
     {
       "package": "OpenSpeedTest",
@@ -45,8 +45,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 154,
-      "recent_download_count": 154
+      "download_count": 156,
+      "recent_download_count": 156
     },
     {
       "package": "LibreSpeedTest",
@@ -69,8 +69,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 73,
-      "recent_download_count": 73
+      "download_count": 75,
+      "recent_download_count": 75
     },
     {
       "package": "TranscodeDrivers",
@@ -93,8 +93,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 69,
-      "recent_download_count": 69
+      "download_count": 71,
+      "recent_download_count": 71
     },
     {
       "package": "TranscodeDrivers",
@@ -117,8 +117,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 69,
-      "recent_download_count": 69
+      "download_count": 71,
+      "recent_download_count": 71
     },
     {
       "package": "Synosmartinfo",
@@ -141,8 +141,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 1951,
-      "recent_download_count": 1951
+      "download_count": 1959,
+      "recent_download_count": 1959
     },
     {
       "package": "AutoPilot",
@@ -165,8 +165,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 738,
-      "recent_download_count": 738,
+      "download_count": 739,
+      "recent_download_count": 739,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -193,8 +193,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1508,
-      "recent_download_count": 1508,
+      "download_count": 1509,
+      "recent_download_count": 1509,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -221,8 +221,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 241,
-      "recent_download_count": 241,
+      "download_count": 242,
+      "recent_download_count": 242,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -259,32 +259,8 @@
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici."
     },
     {
-      "package": "autosub",
-      "version": "1.2.6",
-      "dname": "AutoSub",
-      "desc": "Subtitle downloader for TV-Series. Base-version AutoSub 1.2.22",
-      "maintainer": "BenjV",
-      "maintainer_url": "https://github.com/BenjV/Autosub",
-      "distributor": "BenjV",
-      "distributor_url": "https://github.com/BenjV/Syno-Package-autosub",
-      "support_url": "http://www.synology-forum.nl/auto-sub/",
-      "report_url": "http://www.synology-forum.nl/auto-sub/",
-      "link": "https://raw.githubusercontent.com/BenjV/SYNO-packages/HEAD/AutoSub%20DSM6%20noarch.spk",
-      "arch": "noarch",
-      "firmware": "7.0-0000",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/autosub_120.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 0,
-      "download_count": 0,
-      "recent_download_count": 0
-    },
-    {
       "package": "medusa",
-      "version": "1.2.6",
+      "version": "1.6",
       "dname": "Medusa",
       "desc": "Medusa is a SickBeard clone using Python 3",
       "maintainer": "Medusa development team",
@@ -308,7 +284,7 @@
     },
     {
       "package": "medusa",
-      "version": "1.2.6",
+      "version": "2.4",
       "dname": "Medusa",
       "desc": "Tv show searcher for DSM 7 using Python 3",
       "maintainer": "Medusa development team",
