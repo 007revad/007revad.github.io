@@ -57,7 +57,7 @@ jobs:
               #page_total=$(echo "$page_data" | jq -r \
               #  '[.[].assets[] | select(.name | test("\\.spk$"; "i")) | .download_count] | add // 0')
               page_total=$(jq -r '[.[].assets[] | select(.name | test("\\.spk$"; "i")) |
-                .download_count] | add // 0' <<< "$page_data")                
+                .download_count] | add // 0' <<< "$page_data" 2>/dev/null)                
               #total=$(( total + page_total ))
               total=$(( total + page_total )) || true
               if [[ "$page_count" -lt 100 ]]; then break; fi
