@@ -270,7 +270,7 @@
       "support_url": "",
       "report_url": "",
       "link": "https://github.com/geimist/synOCR/releases/download/v1.5.2/synOCR_DSM6_v1.5.2.spk",
-      "arch": "x86_64 cedarview",
+      "arch": "cedarview",
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-39999",
       "thumbnail": [
@@ -315,7 +315,7 @@
       "support_url": "",
       "report_url": "",
       "link": "https://github.com/geimist/synOCR/releases/download/v1.5.2/synOCR_DSM7_v1.5.2.spk",
-      "arch": "x86_64 geminilake v1000 v1000nk",
+      "arch": "geminilake v1000 v1000nk",
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
