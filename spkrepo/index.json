@@ -270,7 +270,7 @@
       "support_url": "",
       "report_url": "",
       "link": "https://github.com/geimist/synOCR/releases/download/v1.5.2/synOCR_DSM6_v1.5.2.spk",
-      "arch": "x86_64",
+      "arch": "x86_64 x86-64",
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-39999",
       "thumbnail": [
