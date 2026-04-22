@@ -21,8 +21,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 158,
-      "recent_download_count": 158
+      "download_count": 162,
+      "recent_download_count": 162
     },
     {
       "package": "OpenSpeedTest",
@@ -45,8 +45,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 156,
-      "recent_download_count": 156
+      "download_count": 158,
+      "recent_download_count": 158
     },
     {
       "package": "LibreSpeedTest",
@@ -69,8 +69,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 75,
-      "recent_download_count": 75
+      "download_count": 77,
+      "recent_download_count": 77
     },
     {
       "package": "TranscodeDrivers",
@@ -93,8 +93,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 71,
-      "recent_download_count": 71
+      "download_count": 73,
+      "recent_download_count": 73
     },
     {
       "package": "TranscodeDrivers",
@@ -117,8 +117,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 71,
-      "recent_download_count": 71
+      "download_count": 73,
+      "recent_download_count": 73
     },
     {
       "package": "Synosmartinfo",
@@ -141,8 +141,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 1959,
-      "recent_download_count": 1959
+      "download_count": 1965,
+      "recent_download_count": 1965
     },
     {
       "package": "AutoPilot",
@@ -165,8 +165,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 739,
-      "recent_download_count": 739,
+      "download_count": 740,
+      "recent_download_count": 740,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -193,8 +193,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1509,
-      "recent_download_count": 1509,
+      "download_count": 1510,
+      "recent_download_count": 1510,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -221,8 +221,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 242,
-      "recent_download_count": 242,
+      "download_count": 243,
+      "recent_download_count": 243,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -270,6 +270,30 @@
       "support_url": "https://github.com/pymedusa/Medusa/issues",
       "report_url": "https://github.com/pymedusa/Medusa/issues",
       "link": "https://raw.githubusercontent.com/BenjV/SYNO-packages/HEAD/Medusa%201.7%20Python%203%20noarch.spk",
+      "arch": "noarch",
+      "firmware": "6.0",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/medusa_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 0,
+      "download_count": 0,
+      "recent_download_count": 0
+    },
+    {
+      "package": "medusa",
+      "version": "1.9a",
+      "dname": "Medusa",
+      "desc": "Medusa is a SickBeard clone using Python 3",
+      "maintainer": "Medusa development team",
+      "maintainer_url": "https://github.com/pymedusa/Medusa",
+      "distributor": "Benj",
+      "distributor_url": "https://github.com/BenjV/SYNO-packages",
+      "support_url": "https://github.com/pymedusa/Medusa/issues",
+      "report_url": "https://github.com/pymedusa/Medusa/issues",
+      "link": "https://raw.githubusercontent.com/BenjV/SYNO-packages/HEAD/Medusa%201.9b%20Python%203.12%20noarch%20DSM%206.spk",
       "arch": "noarch",
       "firmware": "6.0",
       "os_max_ver": null,
