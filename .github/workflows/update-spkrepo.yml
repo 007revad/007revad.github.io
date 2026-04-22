@@ -69,8 +69,9 @@ jobs:
 
           # ------------------------------------------------------------------ #
           # Helper: extract a named file from a remote SPK via streaming tar.
-          # SPKs are uncompressed tars — INFO and PACKAGE_ICON_256.PNG are both
-          # near the start so a 200 KB range request covers both comfortably.
+          # SPKs are uncompressed tars. INFO is near the start, but icon files
+          # (PACKAGE_ICON_256.PNG etc.) come AFTER package.tgz which can be
+          # 2+ MB, so the range must cover at least 3 MB to reach them.
           #
           # Usage: fetch_from_spk <spk_url> <filename>
           # Output: raw file contents printed to stdout
@@ -78,9 +79,7 @@ jobs:
           fetch_from_spk() {
             local url="$1"
             local filename="$2"
-            #curl -fsSL --range 0-204799 "${url}" | tar -xOf - "${filename}" 2>/dev/null
-            #curl -fsSL --range 0-524287 "${url}" | tar -xOf - "${filename}" 2>/dev/null
-            curl -fsSL --globoff --range 0-524287 "${url}" | tar -xOf - "${filename}" 2>/dev/null
+            curl -fsSL --globoff --range 0-3145727 "${url}" | tar -xOf - "${filename}" 2>/dev/null
           }
 
           # ------------------------------------------------------------------ #
@@ -123,18 +122,19 @@ jobs:
             local spk_url="$1"
             local pkg="$2"
             local new_version="$3"
+            local thumb_key="${4:-$pkg}"
 
-            local dest="spkrepo/thumbnails/${pkg}_120.png"
+            local dest="spkrepo/thumbnails/${thumb_key}_120.png"
             local old_version
             old_version=$(current_version "${pkg}")
 
             # Skip if thumbnail already exists and version has not changed
             if [[ -f "${dest}" && "${old_version}" == "${new_version}" ]]; then
-              echo "INFO: Thumbnail for ${pkg} is current (${new_version}) — skipping." >&2
+              echo "INFO: Thumbnail for ${thumb_key} is current (${new_version}) — skipping." >&2
               return
             fi
 
-            echo "INFO: Updating thumbnail for ${pkg} (${old_version:-new} -> ${new_version})." >&2
+            echo "INFO: Updating thumbnail for ${thumb_key} (${old_version:-new} -> ${new_version})." >&2
 
             local tmp_icon
             tmp_icon=$(mktemp --suffix=.png)
@@ -280,10 +280,19 @@ jobs:
               fi
               seen_keys[$dedup_key]=1
 
-              # Update thumbnail once per package name, only if version changed
-              if [[ -z "${thumbnail_done[$pkg]+x}" ]]; then
-                maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}"
-                thumbnail_done[$pkg]=1
+              # Derive a unique thumbnail key per DSM version.
+              # Packages with an os_max_ver (e.g. DSM6) get a _DSM<major> suffix
+              # so they get their own thumbnail file and URL distinct from DSM7+.
+              local thumb_key="${pkg}"
+              if [[ -n "$os_max_ver" && "$os_max_ver" != "9.9-99999" ]]; then
+                local dsm_major="${os_max_ver%%.*}"
+                thumb_key="${pkg}_DSM${dsm_major}"
+              fi
+
+              # Update thumbnail once per thumb_key, only if version changed
+              if [[ -z "${thumbnail_done[$thumb_key]+x}" ]]; then
+                maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}"
+                thumbnail_done[$thumb_key]=1
               fi
 
               # Read remaining metadata from INFO — all fields verbatim, no substitution
@@ -341,7 +350,7 @@ jobs:
                 size="${size:-0}"
               fi
 
-              local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${pkg}_120.png"
+              local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${thumb_key}_120.png"
 
               jq -n \
                 --arg package              "${pkg}" \
