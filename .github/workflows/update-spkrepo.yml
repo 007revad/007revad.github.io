@@ -170,7 +170,7 @@ jobs:
           make_entries() {
             local user="$1"
             local repo="$2"
-            local noreleases="$3"
+            local noreleases="${3:-}"
             local tag version=""
             
             if [[ -z "$noreleases" ]]; then
