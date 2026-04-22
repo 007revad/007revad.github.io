@@ -56,13 +56,14 @@ jobs:
               local page_total
               #page_total=$(echo "$page_data" | jq -r \
               #  '[.[].assets[] | select(.name | test("\\.spk$"; "i")) | .download_count] | add // 0')
-              page_total=$(jq -r '[.[].assets[] | select(.name | test("\\.spk$"; "i")) |\
+              page_total=$(jq -r '[.[].assets[] | select(.name | test("\\.spk$"; "i")) |
                 .download_count] | add // 0' <<< "$page_data")                
               total=$(( total + page_total ))
               if [[ "$page_count" -lt 100 ]]; then break; fi
               (( page++ ))
             done
-            echo "$total"
+            #echo "$total"
+            printf '%s\n' "$total"
           }
 
           # ------------------------------------------------------------------ #
@@ -76,7 +77,8 @@ jobs:
           fetch_from_spk() {
             local url="$1"
             local filename="$2"
-            curl -fsSL --range 0-204799 "${url}" | tar -xOf - "${filename}" 2>/dev/null
+            #curl -fsSL --range 0-204799 "${url}" | tar -xOf - "${filename}" 2>/dev/null
+            curl -fsSL --range 0-524287 "${url}" | tar -xOf - "${filename}" 2>/dev/null
           }
 
           # ------------------------------------------------------------------ #
