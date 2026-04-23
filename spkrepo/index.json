@@ -2,7 +2,7 @@
   "packages": [
     {
       "package": "OoklaSpeedtest",
-      "version": "1.0.27",
+      "version": "1.0.28",
       "dname": "Ookla Speedtest",
       "desc": "Ookla Speedtest GUI to test Internet speed",
       "maintainer": "007revad",
@@ -11,7 +11,7 @@
       "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
       "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.27/OoklaSpeedtest-noarch-v1.0.27-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.28/OoklaSpeedtest-noarch-v1.0.28-DSM-7.x.spk",
       "arch": "noarch",
       "firmware": "7.0-40337",
       "os_max_ver": null,
@@ -21,8 +21,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 190,
-      "recent_download_count": 190
+      "download_count": 208,
+      "recent_download_count": 208
     },
     {
       "package": "OpenSpeedTest",
@@ -45,8 +45,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 178,
-      "recent_download_count": 178
+      "download_count": 181,
+      "recent_download_count": 181
     },
     {
       "package": "LibreSpeedTest",
@@ -69,8 +69,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 98,
-      "recent_download_count": 98
+      "download_count": 102,
+      "recent_download_count": 102
     },
     {
       "package": "TranscodeDrivers",
@@ -93,8 +93,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 99,
-      "recent_download_count": 99
+      "download_count": 101,
+      "recent_download_count": 101
     },
     {
       "package": "TranscodeDrivers",
@@ -117,8 +117,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 99,
-      "recent_download_count": 99
+      "download_count": 101,
+      "recent_download_count": 101
     },
     {
       "package": "Synosmartinfo",
@@ -141,8 +141,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2024,
-      "recent_download_count": 2024
+      "download_count": 2031,
+      "recent_download_count": 2031
     },
     {
       "package": "AutoPilot",
@@ -165,8 +165,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 750,
-      "recent_download_count": 750,
+      "download_count": 751,
+      "recent_download_count": 751,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -193,8 +193,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1520,
-      "recent_download_count": 1520,
+      "download_count": 1521,
+      "recent_download_count": 1521,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -221,8 +221,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 248,
-      "recent_download_count": 248,
+      "download_count": 249,
+      "recent_download_count": 249,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -279,8 +279,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 203,
-      "recent_download_count": 203,
+      "download_count": 206,
+      "recent_download_count": 206,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -324,8 +324,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 203,
-      "recent_download_count": 203,
+      "download_count": 206,
+      "recent_download_count": 206,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -369,8 +369,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 316559,
-      "recent_download_count": 316559
+      "download_count": 316565,
+      "recent_download_count": 316565
     },
     {
       "package": "homebridge",
@@ -393,8 +393,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 316559,
-      "recent_download_count": 316559
+      "download_count": 316565,
+      "recent_download_count": 316565
     },
     {
       "package": "homebridge",
@@ -417,8 +417,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 316559,
-      "recent_download_count": 316559
+      "download_count": 316565,
+      "recent_download_count": 316565
     },
     {
       "package": "homebridge",
@@ -441,8 +441,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 316559,
-      "recent_download_count": 316559
+      "download_count": 316565,
+      "recent_download_count": 316565
     },
     {
       "package": "homebridge",
@@ -465,8 +465,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 316559,
-      "recent_download_count": 316559
+      "download_count": 316565,
+      "recent_download_count": 316565
     },
     {
       "package": "homebridge",
@@ -489,8 +489,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 316559,
-      "recent_download_count": 316559
+      "download_count": 316565,
+      "recent_download_count": 316565
     },
     {
       "package": "medusa",
