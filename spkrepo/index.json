@@ -21,8 +21,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 180,
-      "recent_download_count": 180
+      "download_count": 188,
+      "recent_download_count": 188
     },
     {
       "package": "OpenSpeedTest",
@@ -45,8 +45,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 167,
-      "recent_download_count": 167
+      "download_count": 176,
+      "recent_download_count": 176
     },
     {
       "package": "LibreSpeedTest",
@@ -69,8 +69,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 91,
-      "recent_download_count": 91
+      "download_count": 96,
+      "recent_download_count": 96
     },
     {
       "package": "TranscodeDrivers",
@@ -93,8 +93,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 87,
-      "recent_download_count": 87
+      "download_count": 96,
+      "recent_download_count": 96
     },
     {
       "package": "TranscodeDrivers",
@@ -117,8 +117,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 87,
-      "recent_download_count": 87
+      "download_count": 96,
+      "recent_download_count": 96
     },
     {
       "package": "Synosmartinfo",
@@ -141,8 +141,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 1994,
-      "recent_download_count": 1994
+      "download_count": 2017,
+      "recent_download_count": 2017
     },
     {
       "package": "AutoPilot",
@@ -165,8 +165,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 747,
-      "recent_download_count": 747,
+      "download_count": 749,
+      "recent_download_count": 749,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -193,8 +193,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1517,
-      "recent_download_count": 1517,
+      "download_count": 1519,
+      "recent_download_count": 1519,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -221,8 +221,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 245,
-      "recent_download_count": 245,
+      "download_count": 247,
+      "recent_download_count": 247,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -279,8 +279,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 190,
-      "recent_download_count": 190,
+      "download_count": 201,
+      "recent_download_count": 201,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -324,8 +324,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 190,
-      "recent_download_count": 190,
+      "download_count": 201,
+      "recent_download_count": 201,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -347,6 +347,30 @@
       "desc_dan": "synOCR er en simpel GUI for Docker-containeren OCRmyPDF. Med den kan du nemt anvende OCR til PDF-dokumenter. synOCR kan derefter søge efter tags og datoer i dokumenterne, omdøbe dem efter et individuelt mønster og sortere dem i undermapper efter kategorier. Ved at bruge hardlinks er der ikke behov for øget lagerplads, hvis et dokument skal sorteres i flere kategorimapper.",
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。"
+    },
+    {
+      "package": "homebridge",
+      "version": "4.1.2",
+      "dname": "Homebridge",
+      "desc": "Homebridge on Synology DSM.",
+      "maintainer": "homebridge",
+      "maintainer_url": "https://github.com/homebridge/homebridge-syno-spk",
+      "distributor": "",
+      "distributor_url": "",
+      "support_url": "",
+      "report_url": "",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-alpine-4.1.2.spk",
+      "arch": "armv7",
+      "firmware": "7.0-40761",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 37877760,
+      "download_count": 316552,
+      "recent_download_count": 316552
     },
     {
       "package": "medusa",
