@@ -21,8 +21,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 188,
-      "recent_download_count": 188
+      "download_count": 190,
+      "recent_download_count": 190
     },
     {
       "package": "OpenSpeedTest",
@@ -45,8 +45,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 176,
-      "recent_download_count": 176
+      "download_count": 178,
+      "recent_download_count": 178
     },
     {
       "package": "LibreSpeedTest",
@@ -69,8 +69,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 96,
-      "recent_download_count": 96
+      "download_count": 98,
+      "recent_download_count": 98
     },
     {
       "package": "TranscodeDrivers",
@@ -93,8 +93,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 96,
-      "recent_download_count": 96
+      "download_count": 99,
+      "recent_download_count": 99
     },
     {
       "package": "TranscodeDrivers",
@@ -117,8 +117,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 96,
-      "recent_download_count": 96
+      "download_count": 99,
+      "recent_download_count": 99
     },
     {
       "package": "Synosmartinfo",
@@ -141,8 +141,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2017,
-      "recent_download_count": 2017
+      "download_count": 2024,
+      "recent_download_count": 2024
     },
     {
       "package": "AutoPilot",
@@ -165,8 +165,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 749,
-      "recent_download_count": 749,
+      "download_count": 750,
+      "recent_download_count": 750,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -193,8 +193,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1519,
-      "recent_download_count": 1519,
+      "download_count": 1520,
+      "recent_download_count": 1520,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -221,8 +221,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 247,
-      "recent_download_count": 247,
+      "download_count": 248,
+      "recent_download_count": 248,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -279,8 +279,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 201,
-      "recent_download_count": 201,
+      "download_count": 203,
+      "recent_download_count": 203,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -324,8 +324,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 201,
-      "recent_download_count": 201,
+      "download_count": 203,
+      "recent_download_count": 203,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -369,8 +369,128 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 316552,
-      "recent_download_count": 316552
+      "download_count": 316559,
+      "recent_download_count": 316559
+    },
+    {
+      "package": "homebridge",
+      "version": "4.1.2",
+      "dname": "Homebridge",
+      "desc": "Homebridge on Synology DSM.",
+      "maintainer": "homebridge",
+      "maintainer_url": "https://github.com/homebridge/homebridge-syno-spk",
+      "distributor": "",
+      "distributor_url": "",
+      "support_url": "",
+      "report_url": "",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-armada37xx-4.1.2.spk",
+      "arch": "armada37xx",
+      "firmware": "7.0-40761",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 41236480,
+      "download_count": 316559,
+      "recent_download_count": 316559
+    },
+    {
+      "package": "homebridge",
+      "version": "4.1.2",
+      "dname": "Homebridge",
+      "desc": "Homebridge on Synology DSM.",
+      "maintainer": "homebridge",
+      "maintainer_url": "https://github.com/homebridge/homebridge-syno-spk",
+      "distributor": "",
+      "distributor_url": "",
+      "support_url": "",
+      "report_url": "",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-armada38x-4.1.2.spk",
+      "arch": "armada38x",
+      "firmware": "7.0-40761",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 37877760,
+      "download_count": 316559,
+      "recent_download_count": 316559
+    },
+    {
+      "package": "homebridge",
+      "version": "4.1.2",
+      "dname": "Homebridge",
+      "desc": "Homebridge on Synology DSM.",
+      "maintainer": "homebridge",
+      "maintainer_url": "https://github.com/homebridge/homebridge-syno-spk",
+      "distributor": "",
+      "distributor_url": "",
+      "support_url": "",
+      "report_url": "",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-braswell-4.1.2.spk",
+      "arch": "x86_64",
+      "firmware": "7.0-40761",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 42332160,
+      "download_count": 316559,
+      "recent_download_count": 316559
+    },
+    {
+      "package": "homebridge",
+      "version": "4.1.2",
+      "dname": "Homebridge",
+      "desc": "Homebridge on Synology DSM.",
+      "maintainer": "homebridge",
+      "maintainer_url": "https://github.com/homebridge/homebridge-syno-spk",
+      "distributor": "",
+      "distributor_url": "",
+      "support_url": "",
+      "report_url": "",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-evansport-4.1.2.spk",
+      "arch": "i686",
+      "firmware": "7.0-40761",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 42332160,
+      "download_count": 316559,
+      "recent_download_count": 316559
+    },
+    {
+      "package": "homebridge",
+      "version": "4.1.2",
+      "dname": "Homebridge",
+      "desc": "Homebridge on Synology DSM.",
+      "maintainer": "homebridge",
+      "maintainer_url": "https://github.com/homebridge/homebridge-syno-spk",
+      "distributor": "",
+      "distributor_url": "",
+      "support_url": "",
+      "report_url": "",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-rtd1296-4.1.2.spk",
+      "arch": "armv8",
+      "firmware": "7.0-40761",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 41236480,
+      "download_count": 316559,
+      "recent_download_count": 316559
     },
     {
       "package": "medusa",
