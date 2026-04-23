@@ -50,36 +50,29 @@ jobs:
                 -H "Accept: application/vnd.github+json" \
                 "https://api.github.com/repos/${user}/${repo}/releases?per_page=100&page=${page}")
               local page_count
-              #page_count=$(echo "$page_data" | jq 'length')
               page_count=$(jq 'length' <<< "$page_data")
               if [[ "$page_count" -eq 0 ]]; then break; fi
               local page_total
-              #page_total=$(echo "$page_data" | jq -r \
-              #  '[.[].assets[] | select(.name | test("\\.spk$"; "i")) | .download_count] | add // 0')
               page_total=$(jq -r '[.[].assets[] | select(.name | test("\\.spk$"; "i")) |
                 .download_count] | add // 0' <<< "$page_data" 2>/dev/null)                
-              #total=$(( total + page_total ))
               total=$(( total + page_total )) || true
               if [[ "$page_count" -lt 100 ]]; then break; fi
               (( page++ ))
             done
-            #echo "$total"
             printf '%s\n' "$total"
           }
 
           # ------------------------------------------------------------------ #
           # Helper: extract a named file from a remote SPK via streaming tar.
-          # SPKs are uncompressed tars. INFO is near the start, but icon files
-          # (PACKAGE_ICON_256.PNG etc.) come AFTER package.tgz which can be
-          # 2+ MB, so the range must cover at least 3 MB to reach them.
+          # SPKs are uncompressed tars. INFO is near the start of the archive
+          # so a 3 MB range is sufficient to reach it.
           #
-          # Usage: fetch_from_spk <spk_url> <filename>
-          # Output: raw file contents printed to stdout
+          # Usage: fetch_info_from_spk <spk_url>
+          # Output: raw INFO file contents printed to stdout
           # ------------------------------------------------------------------ #
-          fetch_from_spk() {
+          fetch_info_from_spk() {
             local url="$1"
-            local filename="$2"
-            curl -fsSL --globoff --range 0-3145727 "${url}" | tar -xOf - "${filename}" 2>/dev/null
+            curl -fsSL --globoff --range 0-3145727 "${url}" | tar -xOf - "INFO" 2>/dev/null
           }
 
           # ------------------------------------------------------------------ #
@@ -110,19 +103,26 @@ jobs:
           }
 
           # ------------------------------------------------------------------ #
-          # Helper: update the thumbnail for a package from a SPK, but only
-          # when the package version has changed since the last run.
+          # Helper: update the thumbnail for a package, but only when the
+          # package version has changed since the last run.
           #
-          # Extracts PACKAGE_ICON_256.PNG from the SPK, resizes to 120x120,
-          # and writes spkrepo/thumbnails/<pkg>_120.png.
+          # Icon source priority (stops at first success):
+          #   1. https://raw.githubusercontent.com/<user>/<repo>/HEAD/PACKAGE_ICON_256.PNG
+          #   2. https://raw.githubusercontent.com/<user>/<repo>/HEAD/synology/PACKAGE_ICON_256.PNG
+          #   3. Full SPK download — tar-extract PACKAGE_ICON_256.PNG
           #
-          # Usage: maybe_update_thumbnail <spk_url> <pkg> <new_version>
+          # Resizes the icon to 120x120 and writes
+          # spkrepo/thumbnails/<thumb_key>_120.png.
+          #
+          # Usage: maybe_update_thumbnail <spk_url> <pkg> <new_version> <thumb_key> <user> <repo>
           # ------------------------------------------------------------------ #
           maybe_update_thumbnail() {
             local spk_url="$1"
             local pkg="$2"
             local new_version="$3"
             local thumb_key="${4:-$pkg}"
+            local user="$5"
+            local repo="$6"
 
             local dest="spkrepo/thumbnails/${thumb_key}_120.png"
             local old_version
@@ -139,12 +139,35 @@ jobs:
             local tmp_icon
             tmp_icon=$(mktemp --suffix=.png)
 
-            # Extract icon from SPK into temp file
-            if ! fetch_from_spk "${spk_url}" "PACKAGE_ICON_256.PNG" > "${tmp_icon}" \
-                || [[ ! -s "${tmp_icon}" ]]; then
-              echo "WARNING: Could not extract PACKAGE_ICON_256.PNG from ${spk_url}" >&2
-              rm -f "${tmp_icon}"
-              return
+            # ------------------------------------------------------------------
+            # Try repo tree locations first (fast, no SPK download needed).
+            # Fall back to full SPK download if neither is found.
+            # ------------------------------------------------------------------
+            local icon_fetched=0
+            local raw_base="https://raw.githubusercontent.com/${user}/${repo}/HEAD"
+
+            for icon_url in \
+                "${raw_base}/PACKAGE_ICON_256.PNG" \
+                "${raw_base}/synology/PACKAGE_ICON_256.PNG"; do
+              local http_status
+              http_status=$(curl -sSL --globoff -o "${tmp_icon}" \
+                -w "%{http_code}" "${icon_url}" 2>/dev/null)
+              if [[ "$http_status" == "200" && -s "${tmp_icon}" ]]; then
+                echo "INFO: Got icon from ${icon_url}" >&2
+                icon_fetched=1
+                break
+              fi
+            done
+
+            if [[ "$icon_fetched" -eq 0 ]]; then
+              echo "INFO: Icon not in repo tree — extracting from SPK (full download): $(basename "${spk_url}")" >&2
+              if ! curl -fsSL --globoff "${spk_url}" \
+                  | tar -xOf - "PACKAGE_ICON_256.PNG" > "${tmp_icon}" 2>/dev/null \
+                  || [[ ! -s "${tmp_icon}" ]]; then
+                echo "WARNING: Could not obtain PACKAGE_ICON_256.PNG for ${thumb_key}" >&2
+                rm -f "${tmp_icon}"
+                return
+              fi
             fi
 
             # Resize to 120x120, fitting within the canvas
@@ -161,18 +184,24 @@ jobs:
 
           # ------------------------------------------------------------------ #
           # Helper: fetch latest release SPKs for a repo and emit one
-          # index.json entry per unique SPK (deduplicated by firmware range).
+          # index.json entry per unique SPK.
           #
-          # If a noarch SPK exists it is preferred over arch-specific SPKs.
-          # Any other arch with the same firmware range is skipped entirely.
+          # Deduplication rules:
+          #   - If a noarch SPK exists for a firmware range, it takes that range
+          #     exclusively and all arch-specific SPKs for the same range are
+          #     skipped (noarch wins).
+          #   - If no noarch exists, each arch gets its own entry (e.g. x86_64,
+          #     armv8, armv7 all with the same firmware range are all emitted).
+          #   - Duplicate SPKs with identical pkg+version+arch+firmware range
+          #     are skipped (safety net for repos that accidentally ship two
+          #     identically-named assets).
           #
           # For repos with legitimate multiple SPKs (e.g. one per DSM version
           # with different os_min_ver/os_max_ver), each produces its own entry.
           #
           # Thumbnails are updated only when the package version has changed.
           #
-          # Usage: make_entries <user> <repo>
-          # Usage: make_entries <user> <repo> noreleases
+          # Usage: make_entries <user> <repo> [noreleases]
           # ------------------------------------------------------------------ #
           make_entries() {
             local user="$1"
@@ -187,7 +216,6 @@ jobs:
                   -H "Accept: application/vnd.github+json" \
                   "https://api.github.com/repos/${user}/${repo}/releases/latest")
 
-                #tag=$(echo "$release" | jq -r '.tag_name // empty')
                 tag=$(jq -r '.tag_name // empty' <<< "$release")
                 version="${tag#v}"
 
@@ -196,10 +224,6 @@ jobs:
 
                 # Get all .spk asset URLs from the release, noarch first
                 local all_spk_urls
-                #mapfile -t all_spk_urls < <(echo "$release" | jq -r '
-                #  [.assets[] | select(.name | test("\\.spk$"; "i"))] |
-                #  sort_by(if (.name | test("noarch"; "i")) then 0 else 1 end) |
-                #  .[].browser_download_url')
                 mapfile -t all_spk_urls < <(jq -r '
                   [.assets[] | select(.name | test("\\.spk$"; "i"))] |
                   sort_by(if (.name | test("noarch"; "i")) then 0 else 1 end) |
@@ -232,21 +256,25 @@ jobs:
                 fi
             fi
 
-            # Track which firmware ranges have already been emitted.
-            # Key is os_min_ver|os_max_ver — once a noarch SPK claims a range,
-            # all arch-specific SPKs for that same range are skipped.
-            declare -A seen_keys
+            # seen_noarch_ranges tracks firmware ranges already claimed by a
+            # noarch SPK.  Key: pkg|version|os_min_ver|os_max_ver
+            # Once set, any arch-specific SPK with the same key is skipped.
+            declare -A seen_noarch_ranges
+
+            # seen_arch_keys prevents duplicate entries for the same
+            # pkg+version+arch+firmware range (safety net).
+            # Key: pkg|version|arch|os_min_ver|os_max_ver
+            declare -A seen_arch_keys
 
             # Track which package names have had their thumbnail processed this
             # run, so multi-SPK repos (e.g. Transcode DSM 7.2 + 7.3) only
-            # attempt the thumbnail once per package name.
+            # attempt the thumbnail once per thumb_key.
             declare -A thumbnail_done
 
             local spk_url
             for spk_url in "${all_spk_urls[@]}"; do
-              #version=""  # Reset for each SPK in noreleases repos
               local info
-              info=$(fetch_from_spk "${spk_url}" "INFO")
+              info=$(fetch_info_from_spk "${spk_url}")
 
               if [[ -z "$info" ]]; then
                 echo "WARNING: Could not extract INFO from ${spk_url}" >&2
@@ -259,26 +287,38 @@ jobs:
               arch=$(       info_get "$info" "arch")
               os_min_ver=$( info_get "$info" "os_min_ver")
               os_max_ver=$( info_get "$info" "os_max_ver")
+
               # For noreleases repos, version comes from INFO rather than a release tag
+              [[ -n "$noreleases" ]] && version=$(info_get "$info" "version")
+
               # Skip packages older than DSM 6
               local min_ver="${os_min_ver:-$(info_get "$info" "firmware")}"
               if [[ -n "$min_ver" && "${min_ver%%.*}" -lt 6 ]]; then
                 echo "INFO: Skipping $(basename "${spk_url}") (os_min_ver=${min_ver} < 6)" >&2
                 continue
               fi
-              #[[ -z "$version" ]] && version=$(info_get "$info" "version")
-              [[ -n "$noreleases" ]] && version=$(info_get "$info" "version")
 
-              # Deduplicate by firmware range only (os_min_ver + os_max_ver).
-              # Because SPKs are sorted noarch-first, the first SPK seen for a
-              # given firmware range is always the noarch one (if it exists).
-              #local dedup_key="${os_min_ver}|${os_max_ver}"
-              local dedup_key="${pkg}|${version}|${os_min_ver}|${os_max_ver}"
-              if [[ -n "${seen_keys[$dedup_key]+x}" ]]; then
-                echo "INFO: Skipping ${arch} SPK (firmware range ${os_min_ver}..${os_max_ver} already covered by noarch): $(basename "${spk_url}")" >&2
+              # Deduplication — see function header comment for rules.
+              local range_key="${pkg}|${version}|${os_min_ver}|${os_max_ver}"
+              local arch_key="${pkg}|${version}|${arch}|${os_min_ver}|${os_max_ver}"
+
+              if [[ "$arch" == "noarch" ]]; then
+                # noarch claims this firmware range; mark it so arch-specifics skip it
+                seen_noarch_ranges[$range_key]=1
+              else
+                # Skip if a noarch SPK already claimed this firmware range
+                if [[ -n "${seen_noarch_ranges[$range_key]+x}" ]]; then
+                  echo "INFO: Skipping ${arch} SPK (noarch covers ${os_min_ver}..${os_max_ver}): $(basename "${spk_url}")" >&2
+                  continue
+                fi
+              fi
+
+              # Skip exact duplicate (same pkg+version+arch+firmware range)
+              if [[ -n "${seen_arch_keys[$arch_key]+x}" ]]; then
+                echo "INFO: Skipping duplicate ${arch} SPK: $(basename "${spk_url}")" >&2
                 continue
               fi
-              seen_keys[$dedup_key]=1
+              seen_arch_keys[$arch_key]=1
 
               # Derive a unique thumbnail key per DSM version.
               # Packages with an os_max_ver (e.g. DSM6) get a _DSM<major> suffix
@@ -291,7 +331,7 @@ jobs:
 
               # Update thumbnail once per thumb_key, only if version changed
               if [[ -z "${thumbnail_done[$thumb_key]+x}" ]]; then
-                maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}"
+                maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}" "${user}" "${repo}"
                 thumbnail_done[$thumb_key]=1
               fi
 
@@ -343,10 +383,6 @@ jobs:
 
               local size=0
               if [[ -z "$noreleases" ]]; then
-                #size=$(echo "$release" | jq -r \
-                #  --arg url "${spk_url}" \
-                #  '.assets[] | select(.browser_download_url == $url) | .size' \
-                #  | head -1)
                 size=$(jq -r --arg url "${spk_url}" \
                   '.assets[] | select(.browser_download_url == $url) | .size' \
                   <<< "$release" | head -1)
