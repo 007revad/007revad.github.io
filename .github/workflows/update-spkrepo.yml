@@ -458,7 +458,7 @@ jobs:
           #entries+=( "$(make_entries "bb-qq"       "aqc111")" )
           #entries+=( "$(make_entries "bb-qq"       "r8152")" )
           #entries+=( "$(make_entries "bb-qq"       "uas")" )
-          #entries+=( "$(make_entries "eizedev"     "AirConnect-Synology")" )
+          entries+=( "$(make_entries "eizedev"     "AirConnect-Synology")" )
 
           # Company's repos
           entries+=( "$(make_entries "homebridge" "homebridge-syno-spk")" )
