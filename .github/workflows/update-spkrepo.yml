@@ -256,6 +256,32 @@ jobs:
                 fi
             fi
 
+            # Drop -static- SPKs when a non-static equivalent exists.
+            # Strategy: for each -static- URL, derive the expected non-static
+            # URL by removing "-static" from the filename, and check if that
+            # URL is present in the list. If yes, skip the static one.
+            local filtered_spk_urls=()
+            for u in "${all_spk_urls[@]}"; do
+              local basename_u
+              basename_u=$(basename "$u")
+              if [[ "$basename_u" == *-static-* ]]; then
+                local non_static_basename="${basename_u/-static-/-}"
+                local found=0
+                for v in "${all_spk_urls[@]}"; do
+                  if [[ "$(basename "$v")" == "$non_static_basename" ]]; then
+                    found=1
+                    break
+                  fi
+                done
+                if [[ "$found" -eq 1 ]]; then
+                  echo "INFO: Dropping -static- SPK (non-static counterpart exists): ${basename_u}" >&2
+                  continue
+                fi
+              fi
+              filtered_spk_urls+=( "$u" )
+            done
+            all_spk_urls=( "${filtered_spk_urls[@]}" )
+
             # seen_noarch_ranges tracks firmware ranges already claimed by a
             # noarch SPK.  Key: pkg|version|os_min_ver|os_max_ver
             # Once set, any arch-specific SPK with the same key is skipped.
