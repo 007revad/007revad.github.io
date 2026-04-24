@@ -21,8 +21,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 151,
-      "recent_download_count": 151
+      "download_count": 166,
+      "recent_download_count": 166
     },
     {
       "package": "OpenSpeedTest",
@@ -45,8 +45,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 185,
-      "recent_download_count": 185
+      "download_count": 192,
+      "recent_download_count": 192
     },
     {
       "package": "LibreSpeedTest",
@@ -69,8 +69,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 106,
-      "recent_download_count": 106
+      "download_count": 113,
+      "recent_download_count": 113
     },
     {
       "package": "TranscodeDrivers",
@@ -93,8 +93,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 105,
-      "recent_download_count": 105
+      "download_count": 116,
+      "recent_download_count": 116
     },
     {
       "package": "TranscodeDrivers",
@@ -117,8 +117,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 105,
-      "recent_download_count": 105
+      "download_count": 116,
+      "recent_download_count": 116
     },
     {
       "package": "Synosmartinfo",
@@ -141,8 +141,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2043,
-      "recent_download_count": 2043
+      "download_count": 2050,
+      "recent_download_count": 2050
     },
     {
       "package": "AutoPilot",
@@ -165,8 +165,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 753,
-      "recent_download_count": 753,
+      "download_count": 754,
+      "recent_download_count": 754,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -193,8 +193,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1523,
-      "recent_download_count": 1523,
+      "download_count": 1524,
+      "recent_download_count": 1524,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -221,8 +221,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 251,
-      "recent_download_count": 251,
+      "download_count": 252,
+      "recent_download_count": 252,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -279,8 +279,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 210,
-      "recent_download_count": 210,
+      "download_count": 212,
+      "recent_download_count": 212,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -324,8 +324,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 210,
-      "recent_download_count": 210,
+      "download_count": 212,
+      "recent_download_count": 212,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -369,32 +369,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24148,
-      "recent_download_count": 24148
-    },
-    {
-      "package": "AirConnect",
-      "version": "1.8.3-20240403",
-      "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices",
-      "maintainer": "philippe44",
-      "maintainer_url": "https://github.com/philippe44/AirConnect",
-      "distributor": "eizedev",
-      "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
-      "support_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-aarch64-static-1.8.3-20240403.spk",
-      "arch": "rtd1296 rtd1619b armada37xx noarch",
-      "firmware": "7.0-40000",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/AirConnect_120.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 3829760,
-      "download_count": 24148,
-      "recent_download_count": 24148
+      "download_count": 24168,
+      "recent_download_count": 24168
     },
     {
       "package": "AirConnect",
@@ -417,32 +393,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24148,
-      "recent_download_count": 24148
-    },
-    {
-      "package": "AirConnect",
-      "version": "1.8.3-20240403",
-      "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices",
-      "maintainer": "philippe44",
-      "maintainer_url": "https://github.com/philippe44/AirConnect",
-      "distributor": "eizedev",
-      "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
-      "support_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-arm-static-1.8.3-20240403.spk",
-      "arch": "ipq806x armada370 armadaxp armada375 armada38x alpine alpine4k monaco comcerto2k hi3535 dakota ipq806x northstarplus noarch",
-      "firmware": "7.0-40000",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/AirConnect_120.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 3584000,
-      "download_count": 24148,
-      "recent_download_count": 24148
+      "download_count": 24168,
+      "recent_download_count": 24168
     },
     {
       "package": "AirConnect",
@@ -465,8 +417,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24148,
-      "recent_download_count": 24148
+      "download_count": 24168,
+      "recent_download_count": 24168
     },
     {
       "package": "AirConnect",
@@ -489,32 +441,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24148,
-      "recent_download_count": 24148
-    },
-    {
-      "package": "AirConnect",
-      "version": "1.8.3-20240403",
-      "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices",
-      "maintainer": "philippe44",
-      "maintainer_url": "https://github.com/philippe44/AirConnect",
-      "distributor": "eizedev",
-      "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
-      "support_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-powerpc-static-1.8.3-20240403.spk",
-      "arch": "qoriq Ppc853x noarch",
-      "firmware": "7.0-40000",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/AirConnect_120.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 3829760,
-      "download_count": 24148,
-      "recent_download_count": 24148
+      "download_count": 24168,
+      "recent_download_count": 24168
     },
     {
       "package": "AirConnect",
@@ -537,8 +465,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24148,
-      "recent_download_count": 24148
+      "download_count": 24168,
+      "recent_download_count": 24168
     },
     {
       "package": "AirConnect",
@@ -561,8 +489,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24148,
-      "recent_download_count": 24148
+      "download_count": 24168,
+      "recent_download_count": 24168
     },
     {
       "package": "homebridge",
@@ -585,8 +513,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 316577,
-      "recent_download_count": 316577
+      "download_count": 316583,
+      "recent_download_count": 316583
     },
     {
       "package": "homebridge",
@@ -609,8 +537,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 316577,
-      "recent_download_count": 316577
+      "download_count": 316583,
+      "recent_download_count": 316583
     },
     {
       "package": "homebridge",
@@ -633,8 +561,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 316577,
-      "recent_download_count": 316577
+      "download_count": 316583,
+      "recent_download_count": 316583
     },
     {
       "package": "homebridge",
@@ -657,8 +585,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 316577,
-      "recent_download_count": 316577
+      "download_count": 316583,
+      "recent_download_count": 316583
     },
     {
       "package": "homebridge",
@@ -681,8 +609,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 316577,
-      "recent_download_count": 316577
+      "download_count": 316583,
+      "recent_download_count": 316583
     },
     {
       "package": "homebridge",
@@ -705,8 +633,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 316577,
-      "recent_download_count": 316577
+      "download_count": 316583,
+      "recent_download_count": 316583
     },
     {
       "package": "medusa",
