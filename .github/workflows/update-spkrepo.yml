@@ -481,7 +481,7 @@ jobs:
           entries+=( "$(make_entries "schmidhorst" "synology-autorun")" )
           entries+=( "$(make_entries "geimist"     "synOCR")" )
 
-          #entries+=( "$(make_entries "bb-qq"       "aqc111")" )
+          entries+=( "$(make_entries "bb-qq"       "aqc111")" )
           #entries+=( "$(make_entries "bb-qq"       "r8152")" )
           #entries+=( "$(make_entries "bb-qq"       "uas")" )
           entries+=( "$(make_entries "eizedev"     "AirConnect-Synology")" )
