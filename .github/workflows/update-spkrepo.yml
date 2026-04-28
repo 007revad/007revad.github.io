@@ -445,7 +445,7 @@ jobs:
               # Normalise any non-standard INFO values (1, yes, True, etc).
               local is_prerelease
               is_prerelease=$(jq -r --arg url "${spk_url}" \
-                '.[] | select(.assets[] | .browser_download_url == $url) | .prerelease' \
+                'map(select(any(.assets[]; .browser_download_url == $url))) | .[0].prerelease // false' \
                 <<< "$releases_to_process" | head -1)
 
               local beta
