@@ -21,21 +21,21 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 193,
-      "recent_download_count": 193
+      "download_count": 195,
+      "recent_download_count": 195
     },
     {
       "package": "OpenSpeedTest",
       "version": "1.0.10",
       "dname": "OpenSpeedTest",
-      "desc": "OpenSpeedTest for Synology NAS",
+      "desc": "OpenSpeedTest to test LAN speed",
       "maintainer": "007revad",
       "maintainer_url": "https://github.com/007revad",
-      "distributor": "https://github.com/007revad/Synology_Open_Speedtest/releases",
-      "distributor_url": "https://github.com/007revad/Synology_Open_Speedtest/releases",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Open_Speedtest",
       "support_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/download/v1.0.7/OpenSpeedtest-noarch-v1.0.7-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/download/v1.0.10/OpenSpeedtest-noarch-v1.0.10-DSM-7.x.spk",
       "arch": "noarch",
       "firmware": "7.0-40337",
       "os_max_ver": null,
@@ -43,10 +43,10 @@
         "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_120.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 583680,
-      "download_count": 217,
-      "recent_download_count": 217
+      "download_count": 221,
+      "recent_download_count": 221
     },
     {
       "package": "LibreSpeedTest",
@@ -69,32 +69,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 135,
-      "recent_download_count": 135
-    },
-    {
-      "package": "Transcode-x25",
-      "version": "3.0.11",
-      "dname": "Transcode Drivers for x25",
-      "desc": "Drivers for Plex or Jellyfin hardware transcoding in DS425+ and DS225+",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "https://github.com/007revad/Transcode_for_x25",
-      "distributor_url": "https://github.com/007revad/Transcode_for_x25/releases",
-      "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
-      "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
-      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.7/Transcode_geminilakenk-v3.0.7-DSM-7.2.spk",
-      "arch": "geminilakenk",
-      "firmware": "7.2.2-72806",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/Transcode-x25_120.png"
-      ],
-      "snapshot": [],
-      "beta": true,
-      "size": 1413120,
-      "download_count": 167,
-      "recent_download_count": 167
+      "download_count": 137,
+      "recent_download_count": 137
     },
     {
       "package": "TranscodeDrivers",
@@ -117,8 +93,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 167,
-      "recent_download_count": 167
+      "download_count": 171,
+      "recent_download_count": 171
     },
     {
       "package": "TranscodeDrivers",
@@ -141,8 +117,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 167,
-      "recent_download_count": 167
+      "download_count": 171,
+      "recent_download_count": 171
     },
     {
       "package": "Synosmartinfo",
@@ -165,8 +141,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2125,
-      "recent_download_count": 2125
+      "download_count": 2131,
+      "recent_download_count": 2131
     },
     {
       "package": "AutoPilot",
@@ -189,8 +165,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 762,
-      "recent_download_count": 762,
+      "download_count": 763,
+      "recent_download_count": 763,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -217,8 +193,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1537,
-      "recent_download_count": 1537,
+      "download_count": 1538,
+      "recent_download_count": 1538,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -228,14 +204,14 @@
       "package": "autorun",
       "version": "V1.10.0.0011",
       "dname": "Autorun",
-      "desc": "Executes a script on external drive (USB / eSATA) when it's connected to the disk station.",
+      "desc": "Runs a script on/for an external drive (USB / eSATA) after it is connected to the Disk Station.",
       "maintainer": "Jan Reidemeister, Horst Schmid",
       "maintainer_url": "https://github.com/schmidhorst/synology-autorun",
       "distributor": "",
       "distributor_url": "",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/schmidhorst/synology-autorun/releases/download/V1.10.0-rc9/autorun-1.10.0-0009.spk",
+      "link": "https://github.com/schmidhorst/synology-autorun/releases/download/V1.10.0.0011/autorun-1.10.0-0011.spk",
       "arch": "noarch",
       "firmware": "7.0-40000",
       "os_max_ver": null,
@@ -243,10 +219,10 @@
         "https://007revad.github.io/spkrepo/thumbnails/autorun_120.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 563200,
-      "download_count": 263,
-      "recent_download_count": 263,
+      "beta": false,
+      "size": 829440,
+      "download_count": 265,
+      "recent_download_count": 265,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -264,23 +240,23 @@
       "dname_hun": "Autorun",
       "dname_trk": "Otomatik Çalıştırma",
       "dname_csy": "Autorun",
-      "desc_enu": "Executes a script on external drive (USB / eSATA) when it's connected to the disk station.",
-      "desc_chs": "当外部驱动器（USB/eSATA）连接到磁盘站时，在其上执行脚本。",
-      "desc_ger": "Führt ein Skript auf einem externen Laufwerk (USB / eSATA) aus, wenn es an die Disk Station angeschlossen ist.",
-      "desc_fre": "Exécute un script sur le disque externe (USB / eSATA) lorsqu'il est connecté à la station de disque.",
-      "desc_ita": "Esegue uno script sull'unità esterna (USB / eSATA) quando è collegata alla stazione disco.",
-      "desc_spn": "Ejecuta una secuencia de comandos en la unidad externa (USB / eSATA) cuando está conectada a la estación de disco.",
-      "desc_jpn": "ディスクステーションに外付けドライブ（USB / eSATA）が接続されている場合に、外付けドライブ上のスクリプトを実行します。",
-      "desc_dan": "Udfører et script på et eksternt drev (USB / eSATA), når det er tilsluttet diskstationen.",
-      "desc_sve": "Exekverar ett skript på en extern enhet (USB / eSATA) när den är ansluten till diskstationen.",
-      "desc_nld": "Voert een script uit op een externe schijf (USB / eSATA) wanneer deze is aangesloten op het schijfstation.",
-      "desc_rus": "Выполняет сценарий на внешнем диске (USB / eSATA), когда он подключен к дисковой станции.",
-      "desc_plk": "Wykonuje skrypt na dysku zewnętrznym (USB / eSATA), gdy jest on podłączony do stacji dysków.",
-      "desc_ptb": "Executa um script no drive externo (USB / eSATA) quando está conectado à estação de disco.",
-      "desc_ptg": "Executa um script na unidade externa (USB / eSATA) quando está ligado à estação de disco.",
-      "desc_hun": "A külső meghajtón (USB / eSATA) végrehajt egy szkriptet, amikor az a lemezállomáshoz csatlakozik.",
-      "desc_trk": "Disk istasyonuna bağlandığında harici sürücüde (USB / eSATA) bir komut dosyası çalıştırır.",
-      "desc_csy": "Spustí skript na externím disku (USB / eSATA), když je připojen k diskové stanici."
+      "desc_enu": "Runs a script on/for an external drive (USB / eSATA) after it is connected to the Disk Station.",
+      "desc_chs": "在外部驱动器（USB/eSATA）连接到磁盘站后，在其上/为其运行一个脚本。",
+      "desc_ger": "Führt ein Skript auf/für ein externes Laufwerk (USB / eSATA) aus, nachdem es an die Disk Station angeschlossen wurde.",
+      "desc_fre": "Exécute un script sur/pour un lecteur externe (USB / eSATA) une fois qu'il est connecté à la Disk Station.",
+      "desc_ita": "Esegue uno script su/per un'unità esterna (USB / eSATA) dopo che è stata collegata alla Disk Station.",
+      "desc_spn": "Ejecuta una secuencia de comandos en/para una unidad externa (USB / eSATA) después de conectarla a la Disk Station.",
+      "desc_jpn": "外付けドライブ（USB / eSATA）をDisk Stationに接続した後、そのドライブに対してスクリプトを実行することができます。",
+      "desc_dan": "Kører et script på/til et eksternt drev (USB / eSATA), efter at det er tilsluttet Disk Station.",
+      "desc_sve": "Kör ett skript på/för en extern enhet (USB / eSATA) när den är ansluten till Disk Station.",
+      "desc_nld": "Voert een script uit op/voor een externe schijf (USB / eSATA) nadat deze is aangesloten op Disk Station.",
+      "desc_rus": "Запускает сценарий на/для внешнего диска (USB / eSATA) после его подключения к Disk Station.",
+      "desc_plk": "Uruchamia skrypt na/dla dysku zewnętrznego (USB / eSATA) po podłączeniu go do Disk Station.",
+      "desc_ptb": "Executa um script em/para um drive externo (USB / eSATA) após ser conectado à Estação de Disco.",
+      "desc_ptg": "Executa um script em/para um disco externo (USB / eSATA) depois de ser ligado à Estação de Disco.",
+      "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
+      "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
+      "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici."
     },
     {
       "package": "synOCR",
@@ -303,8 +279,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 265,
-      "recent_download_count": 265,
+      "download_count": 267,
+      "recent_download_count": 267,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -348,8 +324,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 265,
-      "recent_download_count": 265,
+      "download_count": 267,
+      "recent_download_count": 267,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -383,30 +359,6 @@
       "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
       "support_url": "https://eizedev.github.io/AirConnect-Synology/",
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/0.2.50.5-20210826/AirConnect-x86-64-0.2.50.5-20210826.spk",
-      "arch": "x86_64 x64 cedarview bromolow avoton braswell broadwell apollolake dockerx64 kvmx64 denverton grantley broadwellnk Broadwellntbap v1000 geminilake purley",
-      "firmware": "6.0-7321",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/AirConnect_120.png"
-      ],
-      "snapshot": [],
-      "beta": true,
-      "size": 713728,
-      "download_count": 24241,
-      "recent_download_count": 24241
-    },
-    {
-      "package": "AirConnect",
-      "version": "1.8.3-20240403",
-      "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices",
-      "maintainer": "philippe44",
-      "maintainer_url": "https://github.com/philippe44/AirConnect",
-      "distributor": "eizedev",
-      "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
-      "support_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-aarch64-1.8.3-20240403.spk",
       "arch": "rtd1296 rtd1619b armada37xx",
       "firmware": "7.0-40000",
@@ -417,8 +369,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24241,
-      "recent_download_count": 24241
+      "download_count": 24254,
+      "recent_download_count": 24254
     },
     {
       "package": "AirConnect",
@@ -441,8 +393,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24241,
-      "recent_download_count": 24241
+      "download_count": 24254,
+      "recent_download_count": 24254
     },
     {
       "package": "AirConnect",
@@ -465,8 +417,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24241,
-      "recent_download_count": 24241
+      "download_count": 24254,
+      "recent_download_count": 24254
     },
     {
       "package": "AirConnect",
@@ -489,8 +441,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24241,
-      "recent_download_count": 24241
+      "download_count": 24254,
+      "recent_download_count": 24254
     },
     {
       "package": "AirConnect",
@@ -513,8 +465,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24241,
-      "recent_download_count": 24241
+      "download_count": 24254,
+      "recent_download_count": 24254
     },
     {
       "package": "AirConnect",
@@ -537,8 +489,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24241,
-      "recent_download_count": 24241
+      "download_count": 24254,
+      "recent_download_count": 24254
     },
     {
       "package": "homebridge",
@@ -551,7 +503,7 @@
       "distributor_url": "",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.1/homebridge-alpine-4.1.1.spk",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-alpine-4.1.2.spk",
       "arch": "armv7",
       "firmware": "7.0-40761",
       "os_max_ver": null,
@@ -559,10 +511,10 @@
         "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 37877760,
-      "download_count": 316728,
-      "recent_download_count": 316728
+      "download_count": 316740,
+      "recent_download_count": 316740
     },
     {
       "package": "homebridge",
@@ -575,7 +527,7 @@
       "distributor_url": "",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.1/homebridge-armada37xx-4.1.1.spk",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-armada37xx-4.1.2.spk",
       "arch": "armada37xx",
       "firmware": "7.0-40761",
       "os_max_ver": null,
@@ -583,10 +535,10 @@
         "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 41236480,
-      "download_count": 316728,
-      "recent_download_count": 316728
+      "download_count": 316740,
+      "recent_download_count": 316740
     },
     {
       "package": "homebridge",
@@ -599,7 +551,7 @@
       "distributor_url": "",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.1/homebridge-armada38x-4.1.1.spk",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-armada38x-4.1.2.spk",
       "arch": "armada38x",
       "firmware": "7.0-40761",
       "os_max_ver": null,
@@ -607,10 +559,10 @@
         "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 37877760,
-      "download_count": 316728,
-      "recent_download_count": 316728
+      "download_count": 316740,
+      "recent_download_count": 316740
     },
     {
       "package": "homebridge",
@@ -623,7 +575,7 @@
       "distributor_url": "",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.1/homebridge-braswell-4.1.1.spk",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-braswell-4.1.2.spk",
       "arch": "x86_64",
       "firmware": "7.0-40761",
       "os_max_ver": null,
@@ -631,10 +583,10 @@
         "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 42332160,
-      "download_count": 316728,
-      "recent_download_count": 316728
+      "download_count": 316740,
+      "recent_download_count": 316740
     },
     {
       "package": "homebridge",
@@ -647,7 +599,7 @@
       "distributor_url": "",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.1/homebridge-evansport-4.1.1.spk",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-evansport-4.1.2.spk",
       "arch": "i686",
       "firmware": "7.0-40761",
       "os_max_ver": null,
@@ -655,10 +607,10 @@
         "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 42332160,
-      "download_count": 316728,
-      "recent_download_count": 316728
+      "download_count": 316740,
+      "recent_download_count": 316740
     },
     {
       "package": "homebridge",
@@ -671,7 +623,7 @@
       "distributor_url": "",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.1/homebridge-rtd1296-4.1.1.spk",
+      "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-rtd1296-4.1.2.spk",
       "arch": "armv8",
       "firmware": "7.0-40761",
       "os_max_ver": null,
@@ -679,10 +631,10 @@
         "https://007revad.github.io/spkrepo/thumbnails/homebridge_120.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 41236480,
-      "download_count": 316728,
-      "recent_download_count": 316728
+      "download_count": 316740,
+      "recent_download_count": 316740
     },
     {
       "package": "medusa",
