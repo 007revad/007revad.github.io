@@ -224,7 +224,13 @@ jobs:
 
                 local latest_release latest_prerelease
                 latest_release=$(   jq '[.[] | select(.prerelease == false)] | .[0] // empty' <<< "$recent_releases")
-                latest_prerelease=$( jq '[.[] | select(.prerelease == true)]  | .[0] // empty' <<< "$recent_releases")
+                latest_prerelease=$( jq --argjson r "${latest_release:-null}" '
+                  def parse_ver: ltrimstr("v") | split("[-.]") | map(tonumber? // 0);
+                  [.[] | select(.prerelease == true)] | .[0] |
+                  if . != null and ($r == null or
+                    (.tag_name | parse_ver) > ($r.tag_name | parse_ver)
+                  )
+                  then . else empty end' <<< "$recent_releases")
 
                 # Combine into a deduplicated array of releases to process
                 local releases_to_process
