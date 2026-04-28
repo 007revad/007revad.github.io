@@ -3,7 +3,7 @@ name: Update spkrepo index.json and thumbnails
 # Triggers:
 #   1. Called via repository_dispatch from each package repo (on new release)
 #   2. Manual run from Actions tab
-#   3. Weekly Sunday at 02:00 UTC (safety net catch-up)
+#   3. Weekly daily at 02:00 UTC (safety net catch-up)
 on:
   repository_dispatch:
     types: [spk-release]
@@ -186,6 +186,10 @@ jobs:
           # Helper: fetch latest release SPKs for a repo and emit one
           # index.json entry per unique SPK.
           #
+          # Fetches both the latest full release and the latest pre-release
+          # (if they differ). Pre-release SPKs are always emitted with
+          # beta=true, overriding whatever the INFO file says.
+          #
           # Deduplication rules:
           #   - If a noarch SPK exists for a firmware range, it takes that range
           #     exclusively and all arch-specific SPKs for the same range are
@@ -208,26 +212,51 @@ jobs:
             local repo="$2"
             local noreleases="${3:-}"
             local tag version=""
-            
+
             if [[ -z "$noreleases" ]]; then
-                local release
-                release=$(curl -fsSL \
+                # Fetch recent releases and pick the latest full release and
+                # latest pre-release separately (they may be the same release).
+                local recent_releases
+                recent_releases=$(curl -fsSL \
                   -H "Authorization: Bearer ${GH_TOKEN}" \
                   -H "Accept: application/vnd.github+json" \
-                  "https://api.github.com/repos/${user}/${repo}/releases/latest")
+                  "https://api.github.com/repos/${user}/${repo}/releases?per_page=20")
 
-                tag=$(jq -r '.tag_name // empty' <<< "$release")
+                local latest_release latest_prerelease
+                latest_release=$(   jq '[.[] | select(.prerelease == false)] | .[0] // empty' <<< "$recent_releases")
+                latest_prerelease=$( jq '[.[] | select(.prerelease == true)]  | .[0] // empty' <<< "$recent_releases")
+
+                # Combine into a deduplicated array of releases to process
+                local releases_to_process
+                releases_to_process=$(jq -n \
+                  --argjson r  "${latest_release:-null}" \
+                  --argjson pr "${latest_prerelease:-null}" \
+                  '[$r, $pr] | map(select(. != null)) | unique_by(.id)')
+
+                if [[ $(jq 'length' <<< "$releases_to_process") -eq 0 ]]; then
+                  echo "WARNING: No releases found for ${user}/${repo}" >&2
+                  return
+                fi
+
+                # Use the latest full release tag as the canonical version;
+                # fall back to the pre-release tag if there is no full release.
+                tag=$(jq -r '
+                  (map(select(.prerelease == false)) | .[0].tag_name) //
+                  (.[0].tag_name) //
+                  empty' <<< "$releases_to_process")
                 version="${tag#v}"
 
                 local download_count
                 download_count=$(get_total_downloads "${user}" "${repo}")
 
-                # Get all .spk asset URLs from the release, noarch first
-                local all_spk_urls
-                mapfile -t all_spk_urls < <(jq -r '
-                  [.assets[] | select(.name | test("\\.spk$"; "i"))] |
+                # Collect all .spk asset URLs from both releases, noarch first
+                local all_spk_urls=()
+                while IFS= read -r spk_url; do
+                  all_spk_urls+=( "$spk_url" )
+                done < <(jq -r '
+                  [.[].assets[] | select(.name | test("\\.spk$"; "i"))] |
                   sort_by(if (.name | test("noarch"; "i")) then 0 else 1 end) |
-                  .[].browser_download_url' <<< "$release")
+                  .[].browser_download_url' <<< "$releases_to_process")
 
                 if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
                   echo "WARNING: No .spk assets found in ${user}/${repo} ${tag}" >&2
@@ -237,9 +266,12 @@ jobs:
                 # No releases — find .spk files directly in the repo file tree.
                 # download_count will be 0 (no releases = no release download stats).
                 local download_count=0
+                local releases_to_process="[]"
 
-                local all_spk_urls
-                mapfile -t all_spk_urls < <(curl -fsSL \
+                local all_spk_urls=()
+                while IFS= read -r spk_url; do
+                  all_spk_urls+=( "$spk_url" )
+                done < <(curl -fsSL \
                   -H "Authorization: Bearer ${GH_TOKEN}" \
                   -H "Accept: application/vnd.github+json" \
                   "https://api.github.com/repos/${user}/${repo}/git/trees/HEAD?recursive=1" \
@@ -407,11 +439,32 @@ jobs:
                 max_ver_json="\"${os_max_ver}\""
               fi
 
+              # beta: GitHub pre-release flag is authoritative.
+              # If GitHub marks it as a pre-release, beta=true regardless of INFO.
+              # If it's a full release, fall back to the INFO beta= field.
+              # Normalise any non-standard INFO values (1, yes, True, etc).
+              local is_prerelease
+              is_prerelease=$(jq -r --arg url "${spk_url}" \
+                '.[] | select(.assets[] | .browser_download_url == $url) | .prerelease' \
+                <<< "$releases_to_process" | head -1)
+
+              local beta
+              beta=$(info_get "$info" "beta")
+              if [[ "${is_prerelease}" == "true" ]]; then
+                beta="true"
+              elif [[ -z "$beta" ]]; then
+                beta="false"
+              fi
+              case "${beta,,}" in
+                true|1|yes) beta="true" ;;
+                *)          beta="false" ;;
+              esac
+
               local size=0
               if [[ -z "$noreleases" ]]; then
                 size=$(jq -r --arg url "${spk_url}" \
-                  '.assets[] | select(.browser_download_url == $url) | .size' \
-                  <<< "$release" | head -1)
+                  '.[].assets[] | select(.browser_download_url == $url) | .size' \
+                  <<< "$releases_to_process" | head -1)
                 size="${size:-0}"
               fi
 
@@ -435,6 +488,7 @@ jobs:
                 --arg firmware             "${firmware}" \
                 --argjson os_max_ver       "${max_ver_json}" \
                 --arg thumbnail            "${thumbnail}" \
+                --argjson beta             "${beta}" \
                 --argjson size             "${size}" \
                 --argjson download_count   "${download_count}" \
                 '{
@@ -454,7 +508,7 @@ jobs:
                   os_max_ver:            $os_max_ver,
                   thumbnail:             [$thumbnail],
                   snapshot:              [],
-                  beta:                  false,
+                  beta:                  $beta,
                   size:                  $size,
                   download_count:        $download_count,
                   recent_download_count: $download_count
