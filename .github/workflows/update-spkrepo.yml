@@ -375,8 +375,11 @@ jobs:
               fi
 
               # Deduplication — see function header comment for rules.
-              local range_key="${pkg}|${version}|${os_min_ver}|${os_max_ver}"
-              local arch_key="${pkg}|${version}|${arch}|${os_min_ver}|${os_max_ver}"
+              local spk_version
+              spk_version=$(info_get "$info" "version")
+              [[ -z "$spk_version" ]] && spk_version="${version}"
+              local range_key="${pkg}|${spk_version}|${os_min_ver}|${os_max_ver}"
+              local arch_key="${pkg}|${spk_version}|${arch}|${os_min_ver}|${os_max_ver}"
 
               if [[ "$arch" == "noarch" ]]; then
                 # noarch claims this firmware range; mark it so arch-specifics skip it
@@ -497,7 +500,7 @@ jobs:
 
               jq -n \
                 --arg package              "${pkg}" \
-                --arg version              "${version}" \
+                --arg version              "${spk_version}" \
                 --arg dname                "${dname}" \
                 --argjson dname_langs      "${dname_langs}" \
                 --arg desc                 "${desc}" \
