@@ -380,6 +380,8 @@ jobs:
                 fi
               fi
 
+              echo "DEBUG arch_key='${arch_key}' seen=${seen_arch_keys[$arch_key]+set}" >&2
+
               # Skip exact duplicate (same pkg+version+arch+firmware range)
               if [[ -n "${seen_arch_keys[$arch_key]+x}" ]]; then
                 echo "INFO: Skipping duplicate ${arch} SPK: $(basename "${spk_url}")" >&2
