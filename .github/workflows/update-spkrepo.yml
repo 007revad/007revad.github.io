@@ -232,6 +232,8 @@ jobs:
                   )
                   then . else empty end' <<< "$recent_releases")
 
+                echo "DEBUG latest_prerelease tag=$(jq -r '.tag_name // "empty"' <<< "${latest_prerelease:-null}")" >&2
+
                 # Combine into a deduplicated array of releases to process
                 local releases_to_process
                 releases_to_process=$(jq -n \
