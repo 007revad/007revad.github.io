@@ -233,6 +233,13 @@ jobs:
                   then . else empty end' <<< "$recent_releases")
 
                 echo "DEBUG latest_prerelease tag=$(jq -r '.tag_name // "empty"' <<< "${latest_prerelease:-null}")" >&2
+                echo "DEBUG parse_ver check: $(jq -n '
+                  def parse_ver: ltrimstr("v") | split("[-.]") | map(tonumber? // 0);
+                  {
+                    prerelease: ("v1.5.99.3-beta" | parse_ver),
+                    stable: ("v1.5.2" | parse_ver),
+                    result: (("v1.5.99.3-beta" | parse_ver) > ("v1.5.2" | parse_ver))
+                  }')" >&2
 
                 # Combine into a deduplicated array of releases to process
                 local releases_to_process
