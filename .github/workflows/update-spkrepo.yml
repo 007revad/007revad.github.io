@@ -239,6 +239,9 @@ jobs:
                   --argjson pr "${latest_prerelease:-null}" \
                   '[$r, $pr] | map(select(. != null)) | unique_by(.id)')
 
+               echo "DEBUG ${user}/${repo} releases_to_process:" >&2
+               jq -r '.[] | "\(.tag_name) prerelease=\(.prerelease)"' <<< "$releases_to_process" >&2
+
                 if [[ $(jq 'length' <<< "$releases_to_process") -eq 0 ]]; then
                   echo "WARNING: No releases found for ${user}/${repo}" >&2
                   return
