@@ -460,6 +460,8 @@ jobs:
               local beta
               beta=$(info_get "$info" "beta")
 
+              echo "DEBUG beta from INFO='${beta}' for $(basename "${spk_url}")" >&2
+
               echo "DEBUG is_prerelease='${is_prerelease}' for ${spk_url}" >&2
 
               if [[ "${is_prerelease}" == "true" ]]; then
