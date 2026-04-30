@@ -123,6 +123,7 @@ jobs:
             local thumb_key="${4:-$pkg}"
             local user="$5"
             local repo="$6"
+            local is_beta="${7:-false}"
 
             local dest="spkrepo/thumbnails/${thumb_key}_120.png"
             local old_version
@@ -171,12 +172,27 @@ jobs:
             fi
 
             # Resize to 120x120, fitting within the canvas
-            /usr/bin/convert "${tmp_icon}" \
-              -resize 120x120 \
-              -gravity center \
-              -background none \
-              -extent 120x120 \
-              "${dest}"
+            if [[ "${is_beta}" == "true" ]]; then
+              /usr/bin/convert "${tmp_icon}" \
+               -resize 120x120 \
+               -gravity center \
+               -background none \
+               -extent 120x120 \
+               -gravity SouthEast \
+               -fill white \
+               -stroke red \
+               -strokewidth 1 \
+               -pointsize 16 \
+               -annotate +2+2 "BETA" \
+               "${dest}"
+            else
+              /usr/bin/convert "${tmp_icon}" \
+               -resize 120x120 \
+               -gravity center \
+               -background none \
+               -extent 120x120 \
+               "${dest}"
+            fi
 
             rm -f "${tmp_icon}"
             echo "INFO: Wrote ${dest}" >&2
@@ -410,9 +426,15 @@ jobs:
                 thumb_key="${pkg}_DSM${dsm_major}"
               fi
 
+              # Append -beta suffix for pre-release packages so they get a distinct
+              # thumbnail with a BETA overlay rather than sharing the stable thumbnail.
+              if [[ "${is_prerelease}" == "true" ]]; then
+                thumb_key="${thumb_key}-beta"
+              fi
+
               # Update thumbnail once per thumb_key, only if version changed
               if [[ -z "${thumbnail_done[$thumb_key]+x}" ]]; then
-                maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}" "${user}" "${repo}"
+                maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}" "${user}" "${repo}" "${is_prerelease}"
                 thumbnail_done[$thumb_key]=1
               fi
 
