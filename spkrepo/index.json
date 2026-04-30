@@ -351,7 +351,7 @@
     {
       "package": "synOCR",
       "version": "1.5.99.3",
-      "dname": "synOCR Beta",
+      "dname": "synOCR DSM7 Beta",
       "desc": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
       "maintainer": "geimist",
       "maintainer_url": "https://github.com/geimist/synOCR",
