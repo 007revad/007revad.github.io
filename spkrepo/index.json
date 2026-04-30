@@ -349,7 +349,7 @@
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。"
     },
     {
-      "package": "synOCR",
+      "package": "synOCR-beta",
       "version": "1.5.99.3",
       "dname": "synOCR DSM7 Beta",
       "desc": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
