@@ -417,6 +417,32 @@ jobs:
               fi
               seen_arch_keys[$arch_key]=1
 
+              # beta: GitHub pre-release flag is authoritative.
+              # If GitHub marks it as a pre-release, beta=true regardless of INFO.
+              # If it's a full release, fall back to the INFO beta= field.
+              # Normalise any non-standard INFO values (1, yes, True, etc).
+              local is_prerelease
+              is_prerelease=$(jq -r --arg url "${spk_url}" \
+                'map(select(any(.assets[]; .browser_download_url == $url))) | .[0].prerelease // false' \
+                <<< "$releases_to_process" | head -1)
+
+              local beta
+              beta=$(info_get "$info" "beta")
+
+              echo "DEBUG beta from INFO='${beta}' for $(basename "${spk_url}")" >&2
+
+              echo "DEBUG is_prerelease='${is_prerelease}' for ${spk_url}" >&2
+
+              if [[ "${is_prerelease}" == "true" ]]; then
+                beta="true"
+              elif [[ -z "$beta" ]]; then
+                beta="false"
+              fi
+              case "${beta,,}" in
+                true|1|yes) beta="true" ;;
+                *)          beta="false" ;;
+              esac
+
               # Derive a unique thumbnail key per DSM version.
               # Packages with an os_max_ver (e.g. DSM6) get a _DSM<major> suffix
               # so they get their own thumbnail file and URL distinct from DSM7+.
@@ -483,32 +509,6 @@ jobs:
               if [[ -n "$os_max_ver" && "$os_max_ver" != "9.9-99999" ]]; then
                 max_ver_json="\"${os_max_ver}\""
               fi
-
-              # beta: GitHub pre-release flag is authoritative.
-              # If GitHub marks it as a pre-release, beta=true regardless of INFO.
-              # If it's a full release, fall back to the INFO beta= field.
-              # Normalise any non-standard INFO values (1, yes, True, etc).
-              local is_prerelease
-              is_prerelease=$(jq -r --arg url "${spk_url}" \
-                'map(select(any(.assets[]; .browser_download_url == $url))) | .[0].prerelease // false' \
-                <<< "$releases_to_process" | head -1)
-
-              local beta
-              beta=$(info_get "$info" "beta")
-
-              echo "DEBUG beta from INFO='${beta}' for $(basename "${spk_url}")" >&2
-
-              echo "DEBUG is_prerelease='${is_prerelease}' for ${spk_url}" >&2
-
-              if [[ "${is_prerelease}" == "true" ]]; then
-                beta="true"
-              elif [[ -z "$beta" ]]; then
-                beta="false"
-              fi
-              case "${beta,,}" in
-                true|1|yes) beta="true" ;;
-                *)          beta="false" ;;
-              esac
 
               local size=0
               if [[ -z "$noreleases" ]]; then
