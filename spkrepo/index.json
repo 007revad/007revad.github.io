@@ -1,6 +1,56 @@
 {
   "packages": [
     {
+      "package": "OoklaSpeedtest",
+      "version": "1.0.28",
+      "dname": "Ookla Speedtest",
+      "desc": "Ookla Speedtest GUI to test Internet speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.28/OoklaSpeedtest-noarch-v1.0.28-DSM-7.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 3768320,
+      "download_count": 314,
+      "recent_download_count": 314
+    },
+    {
+      "package": "OpenSpeedTest",
+      "version": "1.0.10",
+      "dname": "OpenSpeedTest",
+      "desc": "OpenSpeedTest to test LAN speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Open_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/download/v1.0.10/OpenSpeedtest-noarch-v1.0.10-DSM-7.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 583680,
+      "download_count": 331,
+      "recent_download_count": 331
+    },
+    {
       "package": "LibreSpeedTest",
       "version": "5.5.0-3",
       "dname": "LibreSpeed Speedtest",
@@ -13,6 +63,7 @@
       "report_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
       "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-3/LibreSpeedtest-noarch-v5.5.0-3-DSM-7.x.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
@@ -21,8 +72,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 123,
-      "recent_download_count": 123
+      "download_count": 125,
+      "recent_download_count": 125
     },
     {
       "package": "TranscodeDrivers",
@@ -37,6 +88,7 @@
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.11/Transcode_v3.0.11-DSM-7.2-geminilakenk.spk",
       "arch": "geminilakenk",
+      "exclude_arch": null,
       "firmware": "7.2-72806",
       "os_max_ver": "7.2-99999",
       "thumbnail": [
@@ -45,8 +97,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 378,
-      "recent_download_count": 378
+      "download_count": 384,
+      "recent_download_count": 384
     },
     {
       "package": "TranscodeDrivers",
@@ -61,6 +113,7 @@
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.11/Transcode_v3.0.11-DSM-7.3-geminilakenk.spk",
       "arch": "geminilakenk",
+      "exclude_arch": null,
       "firmware": "7.3-81180",
       "os_max_ver": null,
       "thumbnail": [
@@ -69,8 +122,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 378,
-      "recent_download_count": 378
+      "download_count": 384,
+      "recent_download_count": 384
     },
     {
       "package": "Synosmartinfo",
@@ -85,6 +138,7 @@
       "report_url": "https://github.com/PeterSuh-Q3/SynoSmartInfo/issues",
       "link": "https://github.com/PeterSuh-Q3/SynoSmartInfo/releases/download/v1.4.2/Synosmartinfo-noarch-1.4.2-7.1.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
@@ -93,8 +147,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2424,
-      "recent_download_count": 2424
+      "download_count": 2435,
+      "recent_download_count": 2435
     },
     {
       "package": "AutoPilot",
@@ -109,6 +163,7 @@
       "report_url": "",
       "link": "https://github.com/toafez/AutoPilot/releases/download/1.1-900/AutoPilot-1.1-900.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -117,8 +172,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 813,
-      "recent_download_count": 813,
+      "download_count": 823,
+      "recent_download_count": 823,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -137,6 +192,7 @@
       "report_url": "",
       "link": "https://github.com/toafez/LogAnalysis/releases/download/1.1-500/LogAnalysis-1.1-500.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -145,8 +201,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1601,
-      "recent_download_count": 1601,
+      "download_count": 1602,
+      "recent_download_count": 1602,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -165,6 +221,7 @@
       "report_url": "",
       "link": "https://github.com/schmidhorst/synology-autorun/releases/download/V1.10.0.0011/autorun-1.10.0-0011.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -173,8 +230,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 299,
-      "recent_download_count": 299,
+      "download_count": 300,
+      "recent_download_count": 300,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -223,6 +280,7 @@
       "report_url": "",
       "link": "https://github.com/geimist/synOCR/releases/download/v1.5.2/synOCR_DSM6_v1.5.2.spk",
       "arch": "x86_64",
+      "exclude_arch": null,
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-39999",
       "thumbnail": [
@@ -231,8 +289,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 534,
-      "recent_download_count": 534,
+      "download_count": 547,
+      "recent_download_count": 547,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -268,6 +326,7 @@
       "report_url": "",
       "link": "https://github.com/geimist/synOCR/releases/download/v1.5.2/synOCR_DSM7_v1.5.2.spk",
       "arch": "x86_64",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -276,8 +335,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 534,
-      "recent_download_count": 534,
+      "download_count": 547,
+      "recent_download_count": 547,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -312,7 +371,8 @@
       "support_url": "",
       "report_url": "",
       "link": "https://github.com/geimist/synOCR/releases/download/v1.5.99.6-beta/synOCR_DSM7_v1.5.99.6.spk",
-      "arch": "noarch",
+      "arch": "x86_64 aarch64",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -321,8 +381,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2578432,
-      "download_count": 534,
-      "recent_download_count": 534,
+      "download_count": 547,
+      "recent_download_count": 547,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -358,6 +418,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-aarch64-1.8.3-20240403.spk",
       "arch": "rtd1296 rtd1619b armada37xx",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -366,8 +427,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24546,
-      "recent_download_count": 24546
+      "download_count": 24553,
+      "recent_download_count": 24553
     },
     {
       "package": "AirConnect",
@@ -382,6 +443,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-arm-1.8.3-20240403.spk",
       "arch": "ipq806x armada370 armadaxp armada375 armada38x alpine alpine4k monaco comcerto2k hi3535 dakota ipq806x northstarplus",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -390,8 +452,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24546,
-      "recent_download_count": 24546
+      "download_count": 24553,
+      "recent_download_count": 24553
     },
     {
       "package": "AirConnect",
@@ -406,6 +468,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-armv5-1.8.3-20240403.spk",
       "arch": "88f6282 88f6281 88f628x",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -414,8 +477,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24546,
-      "recent_download_count": 24546
+      "download_count": 24553,
+      "recent_download_count": 24553
     },
     {
       "package": "AirConnect",
@@ -430,6 +493,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-powerpc-1.8.3-20240403.spk",
       "arch": "qoriq Ppc853x",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -438,8 +502,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24546,
-      "recent_download_count": 24546
+      "download_count": 24553,
+      "recent_download_count": 24553
     },
     {
       "package": "AirConnect",
@@ -454,6 +518,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-x86-1.8.3-20240403.spk",
       "arch": "x86 cedarview bromolow evansport braswell broadwell dockerx64 kvmx64 denverton grantley broadwellnk Broadwellntbap",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -462,8 +527,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24546,
-      "recent_download_count": 24546
+      "download_count": 24553,
+      "recent_download_count": 24553
     },
     {
       "package": "AirConnect",
@@ -478,6 +543,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-x86_64-1.8.3-20240403.spk",
       "arch": "x86_64 x64 cedarview bromolow avoton braswell broadwell apollolake dockerx64 epyc7002 r1000 kvmx64 denverton grantley broadwellnk broadwellnkv2 Broadwellntbap v1000 geminilake purley",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -486,8 +552,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24546,
-      "recent_download_count": 24546
+      "download_count": 24553,
+      "recent_download_count": 24553
     },
     {
       "package": "homebridge",
@@ -502,6 +568,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-alpine-4.1.2.spk",
       "arch": "armv7",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -510,8 +577,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317359,
-      "recent_download_count": 317359
+      "download_count": 317393,
+      "recent_download_count": 317393
     },
     {
       "package": "homebridge",
@@ -526,6 +593,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-armada37xx-4.1.2.spk",
       "arch": "armada37xx",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -534,8 +602,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317359,
-      "recent_download_count": 317359
+      "download_count": 317393,
+      "recent_download_count": 317393
     },
     {
       "package": "homebridge",
@@ -550,6 +618,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-armada38x-4.1.2.spk",
       "arch": "armada38x",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -558,8 +627,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317359,
-      "recent_download_count": 317359
+      "download_count": 317393,
+      "recent_download_count": 317393
     },
     {
       "package": "homebridge",
@@ -574,6 +643,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-braswell-4.1.2.spk",
       "arch": "x86_64",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -582,8 +652,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317359,
-      "recent_download_count": 317359
+      "download_count": 317393,
+      "recent_download_count": 317393
     },
     {
       "package": "homebridge",
@@ -598,6 +668,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-evansport-4.1.2.spk",
       "arch": "i686",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -606,8 +677,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317359,
-      "recent_download_count": 317359
+      "download_count": 317393,
+      "recent_download_count": 317393
     },
     {
       "package": "homebridge",
@@ -622,6 +693,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-rtd1296-4.1.2.spk",
       "arch": "armv8",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -630,8 +702,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317359,
-      "recent_download_count": 317359
+      "download_count": 317393,
+      "recent_download_count": 317393
     },
     {
       "package": "medusa",
@@ -646,6 +718,7 @@
       "report_url": "https://github.com/pymedusa/Medusa/issues",
       "link": "https://raw.githubusercontent.com/BenjV/SYNO-packages/HEAD/Medusa%201.7%20Python%203%20noarch.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "6.0",
       "os_max_ver": null,
       "thumbnail": [
@@ -670,6 +743,7 @@
       "report_url": "https://github.com/pymedusa/Medusa/issues",
       "link": "https://raw.githubusercontent.com/BenjV/SYNO-packages/HEAD/Medusa%201.9b%20Python%203.12%20noarch%20DSM%206.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "6.0",
       "os_max_ver": null,
       "thumbnail": [
@@ -694,6 +768,7 @@
       "report_url": "https://github.com/pymedusa/Medusa/issues",
       "link": "https://raw.githubusercontent.com/BenjV/SYNO-packages/HEAD/Medusa%20DSM%207%20V2.4.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
