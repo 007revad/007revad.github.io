@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 314,
-      "recent_download_count": 314
+      "download_count": 316,
+      "recent_download_count": 316
     },
     {
       "package": "OpenSpeedTest",
@@ -47,8 +47,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 331,
-      "recent_download_count": 331
+      "download_count": 333,
+      "recent_download_count": 333
     },
     {
       "package": "LibreSpeedTest",
@@ -72,8 +72,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 125,
-      "recent_download_count": 125
+      "download_count": 127,
+      "recent_download_count": 127
     },
     {
       "package": "TranscodeDrivers",
@@ -97,8 +97,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 384,
-      "recent_download_count": 384
+      "download_count": 393,
+      "recent_download_count": 393
     },
     {
       "package": "TranscodeDrivers",
@@ -122,8 +122,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 384,
-      "recent_download_count": 384
+      "download_count": 393,
+      "recent_download_count": 393
     },
     {
       "package": "Synosmartinfo",
@@ -147,8 +147,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2435,
-      "recent_download_count": 2435
+      "download_count": 2441,
+      "recent_download_count": 2441
     },
     {
       "package": "AutoPilot",
@@ -172,8 +172,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 823,
-      "recent_download_count": 823,
+      "download_count": 824,
+      "recent_download_count": 824,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -201,8 +201,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1602,
-      "recent_download_count": 1602,
+      "download_count": 1603,
+      "recent_download_count": 1603,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -230,8 +230,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 300,
-      "recent_download_count": 300,
+      "download_count": 301,
+      "recent_download_count": 301,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -289,8 +289,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 547,
-      "recent_download_count": 547,
+      "download_count": 553,
+      "recent_download_count": 553,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -335,8 +335,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 547,
-      "recent_download_count": 547,
+      "download_count": 553,
+      "recent_download_count": 553,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -381,8 +381,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2578432,
-      "download_count": 547,
-      "recent_download_count": 547,
+      "download_count": 553,
+      "recent_download_count": 553,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -427,8 +427,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24553,
-      "recent_download_count": 24553
+      "download_count": 24560,
+      "recent_download_count": 24560
     },
     {
       "package": "AirConnect",
@@ -452,8 +452,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24553,
-      "recent_download_count": 24553
+      "download_count": 24560,
+      "recent_download_count": 24560
     },
     {
       "package": "AirConnect",
@@ -477,8 +477,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24553,
-      "recent_download_count": 24553
+      "download_count": 24560,
+      "recent_download_count": 24560
     },
     {
       "package": "AirConnect",
@@ -502,8 +502,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24553,
-      "recent_download_count": 24553
+      "download_count": 24560,
+      "recent_download_count": 24560
     },
     {
       "package": "AirConnect",
@@ -527,8 +527,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24553,
-      "recent_download_count": 24553
+      "download_count": 24560,
+      "recent_download_count": 24560
     },
     {
       "package": "AirConnect",
@@ -552,8 +552,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24553,
-      "recent_download_count": 24553
+      "download_count": 24560,
+      "recent_download_count": 24560
     },
     {
       "package": "homebridge",
@@ -577,8 +577,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317393,
-      "recent_download_count": 317393
+      "download_count": 317409,
+      "recent_download_count": 317409
     },
     {
       "package": "homebridge",
@@ -602,8 +602,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317393,
-      "recent_download_count": 317393
+      "download_count": 317409,
+      "recent_download_count": 317409
     },
     {
       "package": "homebridge",
@@ -627,8 +627,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317393,
-      "recent_download_count": 317393
+      "download_count": 317409,
+      "recent_download_count": 317409
     },
     {
       "package": "homebridge",
@@ -652,8 +652,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317393,
-      "recent_download_count": 317393
+      "download_count": 317409,
+      "recent_download_count": 317409
     },
     {
       "package": "homebridge",
@@ -677,8 +677,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317393,
-      "recent_download_count": 317393
+      "download_count": 317409,
+      "recent_download_count": 317409
     },
     {
       "package": "homebridge",
@@ -702,8 +702,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317393,
-      "recent_download_count": 317393
+      "download_count": 317409,
+      "recent_download_count": 317409
     },
     {
       "package": "medusa",
