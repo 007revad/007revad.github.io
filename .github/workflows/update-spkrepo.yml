@@ -580,6 +580,7 @@ jobs:
           entries+=( "$(make_entries "007revad" "Synology_Open_Speedtest")" )
           entries+=( "$(make_entries "007revad" "Synology_Libre_Speedtest")" )
           entries+=( "$(make_entries "007revad" "Transcode_for_x25")" )
+          entries+=( "$(make_entries "007revad" "DSM_Notify")" )
 
           # Friends' repos
           entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo")" )
