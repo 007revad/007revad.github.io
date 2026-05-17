@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 320,
-      "recent_download_count": 320
+      "download_count": 325,
+      "recent_download_count": 325
     },
     {
       "package": "OpenSpeedTest",
@@ -47,8 +47,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 337,
-      "recent_download_count": 337
+      "download_count": 339,
+      "recent_download_count": 339
     },
     {
       "package": "LibreSpeedTest",
@@ -72,8 +72,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 131,
-      "recent_download_count": 131
+      "download_count": 133,
+      "recent_download_count": 133
     },
     {
       "package": "TranscodeDrivers",
@@ -97,8 +97,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 397,
-      "recent_download_count": 397
+      "download_count": 413,
+      "recent_download_count": 413
     },
     {
       "package": "TranscodeDrivers",
@@ -122,12 +122,12 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 397,
-      "recent_download_count": 397
+      "download_count": 413,
+      "recent_download_count": 413
     },
     {
       "package": "dsm_notify",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "dname": "DSM Notify",
       "desc": "Allows scheduled 007revad scripts to send DSM notifications",
       "maintainer": "007revad",
@@ -136,7 +136,7 @@
       "distributor_url": "https://github.com/007revad/DSM_Notify",
       "support_url": "https://github.com/007revad/DSM_Notify/issues",
       "report_url": "https://github.com/007revad/DSM_Notify/issues",
-      "link": "https://github.com/007revad/DSM_Notify/releases/download/v1.0.2/DSM_Notify-noarch-v1.0.2-DSM-7.x.spk",
+      "link": "https://github.com/007revad/DSM_Notify/releases/download/v1.0.3/DSM_Notify-noarch-v1.0.3-DSM-7.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "7.0-40000",
@@ -147,8 +147,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 4,
-      "recent_download_count": 4
+      "download_count": 9,
+      "recent_download_count": 9
     },
     {
       "package": "Synosmartinfo",
@@ -172,8 +172,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2454,
-      "recent_download_count": 2454
+      "download_count": 2462,
+      "recent_download_count": 2462
     },
     {
       "package": "AutoPilot",
@@ -197,8 +197,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 826,
-      "recent_download_count": 826,
+      "download_count": 827,
+      "recent_download_count": 827,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -226,8 +226,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1605,
-      "recent_download_count": 1605,
+      "download_count": 1607,
+      "recent_download_count": 1607,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -255,8 +255,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 305,
-      "recent_download_count": 305,
+      "download_count": 306,
+      "recent_download_count": 306,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -314,8 +314,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 560,
-      "recent_download_count": 560,
+      "download_count": 571,
+      "recent_download_count": 571,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -360,8 +360,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 560,
-      "recent_download_count": 560,
+      "download_count": 571,
+      "recent_download_count": 571,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -406,8 +406,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2578432,
-      "download_count": 560,
-      "recent_download_count": 560,
+      "download_count": 571,
+      "recent_download_count": 571,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -452,8 +452,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24574,
-      "recent_download_count": 24574
+      "download_count": 24584,
+      "recent_download_count": 24584
     },
     {
       "package": "AirConnect",
@@ -477,8 +477,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24574,
-      "recent_download_count": 24574
+      "download_count": 24584,
+      "recent_download_count": 24584
     },
     {
       "package": "AirConnect",
@@ -502,8 +502,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24574,
-      "recent_download_count": 24574
+      "download_count": 24584,
+      "recent_download_count": 24584
     },
     {
       "package": "AirConnect",
@@ -527,8 +527,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24574,
-      "recent_download_count": 24574
+      "download_count": 24584,
+      "recent_download_count": 24584
     },
     {
       "package": "AirConnect",
@@ -552,8 +552,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24574,
-      "recent_download_count": 24574
+      "download_count": 24584,
+      "recent_download_count": 24584
     },
     {
       "package": "AirConnect",
@@ -577,8 +577,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24574,
-      "recent_download_count": 24574
+      "download_count": 24584,
+      "recent_download_count": 24584
     },
     {
       "package": "homebridge",
@@ -602,8 +602,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317428,
-      "recent_download_count": 317428
+      "download_count": 317458,
+      "recent_download_count": 317458
     },
     {
       "package": "homebridge",
@@ -627,8 +627,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317428,
-      "recent_download_count": 317428
+      "download_count": 317458,
+      "recent_download_count": 317458
     },
     {
       "package": "homebridge",
@@ -652,8 +652,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317428,
-      "recent_download_count": 317428
+      "download_count": 317458,
+      "recent_download_count": 317458
     },
     {
       "package": "homebridge",
@@ -677,8 +677,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317428,
-      "recent_download_count": 317428
+      "download_count": 317458,
+      "recent_download_count": 317458
     },
     {
       "package": "homebridge",
@@ -702,8 +702,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317428,
-      "recent_download_count": 317428
+      "download_count": 317458,
+      "recent_download_count": 317458
     },
     {
       "package": "homebridge",
@@ -727,8 +727,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317428,
-      "recent_download_count": 317428
+      "download_count": 317458,
+      "recent_download_count": 317458
     },
     {
       "package": "medusa",
