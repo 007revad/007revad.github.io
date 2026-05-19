@@ -1,6 +1,32 @@
 {
   "packages": [
     {
+      "package": "dsm_notify",
+      "version": "1.0.4",
+      "dname": "DSM Notify",
+      "desc": "Allows scheduled 007revad scripts to send DSM notifications",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/DSM_Notify",
+      "support_url": "https://github.com/007revad/DSM_Notify/issues",
+      "report_url": "https://github.com/007revad/DSM_Notify/issues",
+      "link": "https://github.com/007revad/DSM_Notify/releases/download/v1.0.4/DSM_Notify-noarch-v1.0.4-DSM-7.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "changelog": "1. Bug fix for notifications not working in v1.0.4."
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/dsm_notify_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 102400,
+      "download_count": 27,
+      "recent_download_count": 27
+    },
+    {
       "package": "OoklaSpeedtest",
       "version": "1.0.28",
       "dname": "Ookla Speedtest",
