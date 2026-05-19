@@ -1,4 +1,4 @@
-name: Update spkrepo index.json and thumbnails
+name: Update spkrepo-test index.json and thumbnails
 
 # Triggers:
 #   1. Called via repository_dispatch from each package repo (on new release)
