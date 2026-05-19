@@ -1,4 +1,4 @@
-name: Update TEST spkrepo index.json and thumbnails
+name: Update spkrepo index.json and thumbnails
 
 # Triggers:
 #   1. Called via repository_dispatch from each package repo (on new release)
@@ -8,8 +8,8 @@ on:
   repository_dispatch:
     types: [spk-release]
   workflow_dispatch:
-  #schedule:
-  #  - cron: '0 2 * * *'
+  schedule:
+    - cron: '0 2 * * *'
 
 jobs:
   update-index:
@@ -32,7 +32,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          mkdir -p spkrepo_test/thumbnails
+          mkdir -p spkrepo/thumbnails
 
           # ------------------------------------------------------------------ #
           # Helper: sum download counts for all .spk assets across all releases.
@@ -95,10 +95,10 @@ jobs:
           # ------------------------------------------------------------------ #
           current_version() {
             local pkg="$1"
-            if [[ -f spkrepo_test/index.json ]]; then
+            if [[ -f spkrepo/index.json ]]; then
               jq -r --arg p "$pkg" \
                 '.packages[] | select(.package == $p) | .version' \
-                spkrepo_test/index.json | head -1
+                spkrepo/index.json | head -1
             fi
           }
 
@@ -112,7 +112,7 @@ jobs:
           #   3. Full SPK download — tar-extract PACKAGE_ICON_256.PNG
           #
           # Resizes the icon to 120x120 and writes
-          # spkrepo_test/thumbnails/<thumb_key>_120.png.
+          # spkrepo/thumbnails/<thumb_key>_120.png.
           #
           # Usage: maybe_update_thumbnail <spk_url> <pkg> <new_version> <thumb_key> <user> <repo>
           # ------------------------------------------------------------------ #
@@ -125,7 +125,7 @@ jobs:
             local repo="$6"
             local is_beta="${7:-false}"
 
-            local dest="spkrepo_test/thumbnails/${thumb_key}_120.png"
+            local dest="spkrepo/thumbnails/${thumb_key}_120.png"
             local old_version
             old_version=$(current_version "${pkg}")
 
@@ -374,9 +374,10 @@ jobs:
               fi
 
               # Read core fields from INFO
-              local pkg arch os_min_ver os_max_ver
+              local pkg arch exclude_arch os_min_ver os_max_ver
               pkg=$(        info_get "$info" "package")
               arch=$(       info_get "$info" "arch")
+              exclude_arch=$(info_get "$info" "exclude_arch")
               os_min_ver=$( info_get "$info" "os_min_ver")
               os_max_ver=$( info_get "$info" "os_max_ver")
 
@@ -518,7 +519,7 @@ jobs:
                 size="${size:-0}"
               fi
 
-              local thumbnail="https://007revad.github.io/spkrepo_test/thumbnails/${thumb_key}_120.png"
+              local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${thumb_key}_120.png"
 
               jq -n \
                 --arg package              "${pkg}" \
@@ -535,6 +536,7 @@ jobs:
                 --arg report_url           "${support_url}" \
                 --arg link                 "${spk_url}" \
                 --arg arch                 "${arch}" \
+                --arg exclude_arch         "${exclude_arch}" \
                 --arg firmware             "${firmware}" \
                 --argjson os_max_ver       "${max_ver_json}" \
                 --arg thumbnail            "${thumbnail}" \
@@ -554,6 +556,7 @@ jobs:
                   report_url:            $report_url,
                   link:                  $link,
                   arch:                  $arch,
+                  exclude_arch:          (if $exclude_arch == "" then null else $exclude_arch end),
                   firmware:              $firmware,
                   os_max_ver:            $os_max_ver,
                   thumbnail:             [$thumbnail],
@@ -577,6 +580,7 @@ jobs:
           entries+=( "$(make_entries "007revad" "Synology_Open_Speedtest")" )
           entries+=( "$(make_entries "007revad" "Synology_Libre_Speedtest")" )
           entries+=( "$(make_entries "007revad" "Transcode_for_x25")" )
+          entries+=( "$(make_entries "007revad" "DSM_Notify")" )
 
           # Friends' repos
           entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo")" )
@@ -585,10 +589,11 @@ jobs:
           entries+=( "$(make_entries "schmidhorst" "synology-autorun")" )
           entries+=( "$(make_entries "geimist"     "synOCR")" )
 
-          #entries+=( "$(make_entries "bb-qq"       "aqc111")" )
-          #entries+=( "$(make_entries "bb-qq"       "r8152")" )
-          #entries+=( "$(make_entries "bb-qq"       "uas")" )
-          entries+=( "$(make_entries "eizedev"     "AirConnect-Synology")" )
+          #entries+=( "$(make_entries "bb-qq"          "aqc111")" )
+          #entries+=( "$(make_entries "bb-qq"          "r8152")" )
+          #entries+=( "$(make_entries "bb-qq"          "uas")" )
+          entries+=( "$(make_entries "eizedev"        "AirConnect-Synology")" )
+          #entries+=( "$(make_entries "efren-builder"  "synology-uptime-kuma")" )  # Newer version on synocommunity
 
           # Company's repos
           entries+=( "$(make_entries "homebridge" "homebridge-syno-spk")" )
@@ -599,19 +604,19 @@ jobs:
           # ------------------------------------------------------------------ #
           # Combine into final index.json
           # ------------------------------------------------------------------ #
-          printf '%s\n' "${entries[@]}" | jq -s '{"packages": .}' > spkrepo_test/index.json
+          printf '%s\n' "${entries[@]}" | jq -s '{"packages": .}' > spkrepo/index.json
 
-          echo "Generated spkrepo_test/index.json:"
-          cat spkrepo_test/index.json
+          echo "Generated spkrepo/index.json:"
+          cat spkrepo/index.json
 
       - name: Commit and push index.json and any updated thumbnails
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add spkrepo_test/index.json spkrepo_test/thumbnails/
+          git add spkrepo/index.json spkrepo/thumbnails/
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else
-            git commit -m "chore: update test spkrepo index.json and thumbnails [skip ci]"
+            git commit -m "chore: update spkrepo index.json and thumbnails [skip ci]"
             git push
           fi
