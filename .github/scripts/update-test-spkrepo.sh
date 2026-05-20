@@ -728,7 +728,7 @@
           #entries+=( "$(make_entries "efren-builder"  "synology-uptime-kuma   "CHANGELOG.md")" )  # Newer version on synocommunity
 
           # Company's repos
-          entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"       "CHANGELOG.md")" )
+          entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"       "")" )
 
           # repos with spk files in repo file tree
           entries+=( "$(make_entries "BenjV" "SYNO-packages" ""                "noreleases")" )
