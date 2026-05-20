@@ -412,6 +412,80 @@ jobs:
                 continue
               fi
 
+              # Deduplication — see function header comment for rules.
+              local spk_version
+              spk_version=$(info_get "$info" "version")
+              [[ -z "$spk_version" ]] && spk_version="${version}"
+              local range_key="${pkg}|${spk_version}|${os_min_ver}|${os_max_ver}"
+              local arch_key="${pkg}|${spk_version}|${arch}|${os_min_ver}|${os_max_ver}"
+
+              if [[ "$arch" == "noarch" ]]; then
+                # noarch claims this firmware range; mark it so arch-specifics skip it
+                seen_noarch_ranges[$range_key]=1
+              else
+                # Skip if a noarch SPK already claimed this firmware range
+                if [[ -n "${seen_noarch_ranges[$range_key]+x}" ]]; then
+                  echo "INFO: Skipping ${arch} SPK (noarch covers ${os_min_ver}..${os_max_ver}): $(basename "${spk_url}")" >&2
+                  continue
+                fi
+              fi
+
+              echo "DEBUG arch_key='${arch_key}' seen=${seen_arch_keys[$arch_key]+set}" >&2
+
+              # Skip exact duplicate (same pkg+version+arch+firmware range)
+              if [[ -n "${seen_arch_keys[$arch_key]+x}" ]]; then
+                echo "INFO: Skipping duplicate ${arch} SPK: $(basename "${spk_url}")" >&2
+                continue
+              fi
+              seen_arch_keys[$arch_key]=1
+
+              # beta: GitHub pre-release flag is authoritative.
+              # If GitHub marks it as a pre-release, beta=true regardless of INFO.
+              # If it's a full release, fall back to the INFO beta= field.
+              # Normalise any non-standard INFO values (1, yes, True, etc).
+              local is_prerelease
+              is_prerelease=$(jq -r --arg url "${spk_url}" \
+                'map(select(any(.assets[]; .browser_download_url == $url))) | .[0].prerelease // false' \
+                <<< "$releases_to_process" | head -1)
+
+              local beta
+              beta=$(info_get "$info" "beta")
+
+              echo "DEBUG beta from INFO='${beta}' for $(basename "${spk_url}")" >&2
+
+              echo "DEBUG is_prerelease='${is_prerelease}' for ${spk_url}" >&2
+
+              if [[ "${is_prerelease}" == "true" ]]; then
+                beta="true"
+              elif [[ -z "$beta" ]]; then
+                beta="false"
+              fi
+              case "${beta,,}" in
+                true|1|yes) beta="true" ;;
+                *)          beta="false" ;;
+              esac
+
+              # Derive a unique thumbnail key per DSM version.
+              # Packages with an os_max_ver (e.g. DSM6) get a _DSM<major> suffix
+              # so they get their own thumbnail file and URL distinct from DSM7+.
+              local thumb_key="${pkg}"
+              if [[ -n "$os_max_ver" && "$os_max_ver" != "9.9-99999" ]]; then
+                local dsm_major="${os_max_ver%%.*}"
+                thumb_key="${pkg}_DSM${dsm_major}"
+              fi
+
+              # Append -beta suffix for pre-release packages so they get a distinct
+              # thumbnail with a BETA overlay rather than sharing the stable thumbnail.
+              if [[ "${is_prerelease}" == "true" ]]; then
+                thumb_key="${thumb_key}-beta"
+              fi
+
+              # Update thumbnail once per thumb_key, only if version changed
+              if [[ -z "${thumbnail_done[$thumb_key]+x}" ]]; then
+                maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}" "${user}" "${repo}" "${is_prerelease}"
+                thumbnail_done[$thumb_key]=1
+              fi
+
               # ---- Changelog extraction ------------------------------------------------
               local changelog_json='""'
               if [[ -n "$changelog_spec" ]]; then
@@ -498,80 +572,6 @@ jobs:
                 fi
               fi
               # ---- End changelog extraction --------------------------------------------
-
-              # Deduplication — see function header comment for rules.
-              local spk_version
-              spk_version=$(info_get "$info" "version")
-              [[ -z "$spk_version" ]] && spk_version="${version}"
-              local range_key="${pkg}|${spk_version}|${os_min_ver}|${os_max_ver}"
-              local arch_key="${pkg}|${spk_version}|${arch}|${os_min_ver}|${os_max_ver}"
-
-              if [[ "$arch" == "noarch" ]]; then
-                # noarch claims this firmware range; mark it so arch-specifics skip it
-                seen_noarch_ranges[$range_key]=1
-              else
-                # Skip if a noarch SPK already claimed this firmware range
-                if [[ -n "${seen_noarch_ranges[$range_key]+x}" ]]; then
-                  echo "INFO: Skipping ${arch} SPK (noarch covers ${os_min_ver}..${os_max_ver}): $(basename "${spk_url}")" >&2
-                  continue
-                fi
-              fi
-
-              echo "DEBUG arch_key='${arch_key}' seen=${seen_arch_keys[$arch_key]+set}" >&2
-
-              # Skip exact duplicate (same pkg+version+arch+firmware range)
-              if [[ -n "${seen_arch_keys[$arch_key]+x}" ]]; then
-                echo "INFO: Skipping duplicate ${arch} SPK: $(basename "${spk_url}")" >&2
-                continue
-              fi
-              seen_arch_keys[$arch_key]=1
-
-              # beta: GitHub pre-release flag is authoritative.
-              # If GitHub marks it as a pre-release, beta=true regardless of INFO.
-              # If it's a full release, fall back to the INFO beta= field.
-              # Normalise any non-standard INFO values (1, yes, True, etc).
-              local is_prerelease
-              is_prerelease=$(jq -r --arg url "${spk_url}" \
-                'map(select(any(.assets[]; .browser_download_url == $url))) | .[0].prerelease // false' \
-                <<< "$releases_to_process" | head -1)
-
-              local beta
-              beta=$(info_get "$info" "beta")
-
-              echo "DEBUG beta from INFO='${beta}' for $(basename "${spk_url}")" >&2
-
-              echo "DEBUG is_prerelease='${is_prerelease}' for ${spk_url}" >&2
-
-              if [[ "${is_prerelease}" == "true" ]]; then
-                beta="true"
-              elif [[ -z "$beta" ]]; then
-                beta="false"
-              fi
-              case "${beta,,}" in
-                true|1|yes) beta="true" ;;
-                *)          beta="false" ;;
-              esac
-
-              # Derive a unique thumbnail key per DSM version.
-              # Packages with an os_max_ver (e.g. DSM6) get a _DSM<major> suffix
-              # so they get their own thumbnail file and URL distinct from DSM7+.
-              local thumb_key="${pkg}"
-              if [[ -n "$os_max_ver" && "$os_max_ver" != "9.9-99999" ]]; then
-                local dsm_major="${os_max_ver%%.*}"
-                thumb_key="${pkg}_DSM${dsm_major}"
-              fi
-
-              # Append -beta suffix for pre-release packages so they get a distinct
-              # thumbnail with a BETA overlay rather than sharing the stable thumbnail.
-              if [[ "${is_prerelease}" == "true" ]]; then
-                thumb_key="${thumb_key}-beta"
-              fi
-
-              # Update thumbnail once per thumb_key, only if version changed
-              if [[ -z "${thumbnail_done[$thumb_key]+x}" ]]; then
-                maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}" "${user}" "${repo}" "${is_prerelease}"
-                thumbnail_done[$thumb_key]=1
-              fi
 
               # Read remaining metadata from INFO — all fields verbatim, no substitution
               local dname desc maintainer maintainer_url distributor distributor_url support_url
