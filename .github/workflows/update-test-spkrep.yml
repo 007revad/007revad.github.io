@@ -638,7 +638,7 @@ jobs:
 
               echo "DEBUG changelog_json='${changelog_json}'" >&2
 
-              local tmp_cl
+              local tmp_cl=""
               tmp_cl=$(mktemp)
               printf '%s' "${changelog_json:-{}}" > "${tmp_cl}"
 
@@ -690,7 +690,7 @@ jobs:
                 } + $dname_langs + $desc_langs + $changelog_langs[0]'
             done
           }
-          rm -f "${tmp_cl}"
+          [[ -n "${tmp_cl:-}" ]] && rm -f "${tmp_cl}"
 
           # ------------------------------------------------------------------ #
           # Build each package entry.
