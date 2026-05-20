@@ -512,16 +512,24 @@
               Changelog:
               ${spk_change_raw}"
 
-                  local api_response
-                  api_response=$(curl -s https://api.anthropic.com/v1/messages \
-                    -H "x-api-key: ${ANTHROPIC_API_KEY}" \
-                    -H "anthropic-version: 2023-06-01" \
-                    -H "content-type: application/json" \
-                    -d "$(jq -n --arg prompt "$prompt" '{
-                      model: "claude-haiku-4-5-20251001",
-                      max_tokens: 512,
-                      messages: [{ role: "user", content: $prompt }]
-                    }')" 2>/dev/null || true)
+                  local api_response=""
+                  for _retry in 1 2 3; do
+                    api_response=$(curl -s https://api.anthropic.com/v1/messages \
+                      -H "x-api-key: ${ANTHROPIC_API_KEY}" \
+                      -H "anthropic-version: 2023-06-01" \
+                      -H "content-type: application/json" \
+                      -d "$(jq -n --arg prompt "$prompt" '{
+                        model: "claude-haiku-4-5-20251001",
+                        max_tokens: 512,
+                        messages: [{ role: "user", content: $prompt }]
+                      }')" 2>/dev/null || true)
+                    # Break if not an overload error
+                    if ! echo "$api_response" | jq -e '.error.type == "overloaded_error"' >/dev/null 2>&1; then
+                      break
+                    fi
+                    echo "WARNING: API overloaded, retrying in 5s (attempt ${_retry}/3)..." >&2
+                    sleep 5
+                  done
 
                   echo "DEBUG api_response=${api_response}" >&2
 
@@ -609,9 +617,9 @@
 
               local changelog_enu=""
               local changelog_extra="{}"
-              if echo "${changelog_json:-{}}" | jq -e 'type == "object"' >/dev/null 2>&1; then
-                changelog_enu=$(echo "${changelog_json}" | jq -r '.changelog // ""')
-                changelog_extra=$(echo "${changelog_json}" | jq -c 'del(.changelog)')
+              if printf '%s' "${changelog_json}" | jq -e 'type == "object"' >/dev/null 2>&1; then
+                changelog_enu=$(printf '%s' "${changelog_json}" | jq -r '.changelog // ""')
+                changelog_extra=$(printf '%s' "${changelog_json}" | jq -c 'del(.changelog)')
               fi
 
               jq -n \
