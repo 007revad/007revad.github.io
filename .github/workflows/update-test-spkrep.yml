@@ -533,7 +533,8 @@ jobs:
                 if [[ -n "$spk_change_raw" ]]; then
                   local prompt
                   prompt="Extract the changelog entries for version ${spk_version} from this changelog file.
-              Return ONLY a JSON object mapping DSM language codes to numbered lists, using these codes: enu, ger, fre, ita, spn, jpn, cht, chs, krn, dan, nor, sve, nld, rus, plk, ptb, hun, trk, csy.
+              Return ONLY a raw JSON object with no markdown formatting, no code fences, no backticks.
+              Map DSM language codes to numbered lists, using these codes: enu, ger, fre, ita, spn, jpn, cht, chs, krn, dan, nor, sve, nld, rus, plk, ptb, hun, trk, csy.
               Only include languages actually present in the changelog. Always include enu (use English entries, or translate from the only language present if English is absent).
               Format each value as a plain numbered list: \"1. First item.\n2. Second item.\"
               No markdown, no preamble, no version header, no language label. If the version is not found return {}.
@@ -555,8 +556,24 @@ jobs:
 
                   echo "DEBUG api_response=${api_response}" >&2
 
-                  local lang_map
-                  lang_map=$(echo "$api_response" | jq -r '.content[0].text // ""' 2>/dev/null || true)
+                  # Strip markdown code fences if present
+                  lang_map=$(echo "$api_response" \
+                    | jq -r '.content[0].text // ""' 2>/dev/null \
+                    | sed 's/^```json[[:space:]]*//;s/^```[[:space:]]*//;s/[[:space:]]*```$//' \
+                    || true)
+
+                  if echo "$lang_map" | jq -e 'type == "object"' >/dev/null 2>&1; then
+                    changelog_json=$(echo "$lang_map" | jq '
+                      to_entries |
+                      map(if .key == "enu"
+                        then { key: "changelog", value: .value }
+                        else { key: ("changelog_" + .key), value: .value }
+                        end) |
+                      from_entries')
+                  else
+                    echo "WARNING: Unexpected changelog API response for ${user}/${repo} ${spk_version}" >&2
+                    changelog_json='{}'
+                  fi
 
                   # Validate it's a JSON object before using it
                   if echo "$lang_map" | jq -e 'type == "object"' >/dev/null 2>&1; then
