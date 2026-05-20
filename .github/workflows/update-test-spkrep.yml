@@ -638,6 +638,10 @@ jobs:
 
               echo "DEBUG changelog_json='${changelog_json}'" >&2
 
+              local tmp_cl
+              tmp_cl=$(mktemp)
+              printf '%s' "${changelog_json:-{}}" > "${tmp_cl}"
+
               jq -n \
                 --arg package              "${pkg}" \
                 --arg version              "${spk_version}" \
@@ -660,7 +664,7 @@ jobs:
                 --argjson beta             "${beta}" \
                 --argjson size             "${size}" \
                 --argjson download_count   "${download_count}" \
-                --argjson changelog_langs  "${changelog_json:-{}}" \
+                --slurpfile changelog_langs "${tmp_cl}" \
                 '{
                   package:               $package,
                   version:               $version,
@@ -683,9 +687,10 @@ jobs:
                   size:                  $size,
                   download_count:        $download_count,
                   recent_download_count: $download_count
-                } + $dname_langs + $desc_langs + $changelog_langs'
+                } + $dname_langs + $desc_langs + $changelog_langs[0]'
             done
           }
+          rm -f "${tmp_cl}"
 
           # ------------------------------------------------------------------ #
           # Build each package entry.
