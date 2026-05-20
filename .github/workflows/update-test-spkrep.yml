@@ -29,6 +29,7 @@ jobs:
       - name: Fetch latest release info, regenerate index.json and update thumbnails
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           set -euo pipefail
 
@@ -411,6 +412,93 @@ jobs:
                 continue
               fi
 
+              # ---- Changelog extraction ------------------------------------------------
+              local changelog_json='""'
+              if [[ -n "$changelog_spec" ]]; then
+                local spk_change_raw="$change_raw"
+
+                # For DSM-split specs ("6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG"),
+                # pick the path matching this SPK's DSM major version.
+                if [[ "$changelog_spec" == *:* ]]; then
+                  local dsm_major="${os_min_ver%%.*}"
+                  local matched_path=""
+                  for entry in $changelog_spec; do
+                    local prefix="${entry%%:*}"
+                    local path="${entry##*:}"
+                    if [[ "$prefix" == "$dsm_major" ]]; then
+                      matched_path="$path"
+                      break
+                    fi
+                  done
+
+                  # For beta SPKs try CHANGELOG_CURRENT_BETA first, fall back to CHANGELOG
+                  local paths_to_try=()
+                  if [[ "${is_prerelease}" == "true" && -n "$matched_path" ]]; then
+                    paths_to_try+=( "${matched_path}_CURRENT_BETA" "$matched_path" )
+                  elif [[ -n "$matched_path" ]]; then
+                    paths_to_try+=( "$matched_path" )
+                  fi
+
+                  spk_change_raw=""
+                  for path in "${paths_to_try[@]}"; do
+                    for branch in main master; do
+                      local try_url="https://raw.githubusercontent.com/${user}/${repo}/${branch}/${path}"
+                      local raw
+                      raw=$(curl -sSL --max-time 10 -w "\n%{http_code}" "$try_url" 2>/dev/null || true)
+                      local http_code="${raw##*$'\n'}"
+                      raw="${raw%$'\n'*}"
+                      if [[ "$http_code" == "200" && -n "$raw" ]]; then
+                        spk_change_raw="$raw"
+                        break 2
+                      fi
+                    done
+                  done
+                fi
+
+                # Call the Anthropic API to extract changelog for this version + all languages
+                if [[ -n "$spk_change_raw" ]]; then
+                  local prompt
+                  prompt="Extract the changelog entries for version ${spk_version} from this changelog file.
+              Return ONLY a JSON object mapping DSM language codes to numbered lists, using these codes: enu, ger, fre, ita, spn, jpn, cht, chs, krn, dan, nor, sve, nld, rus, plk, ptb, hun, trk, csy.
+              Only include languages actually present in the changelog. Always include enu (use English entries, or translate from the only language present if English is absent).
+              Format each value as a plain numbered list: \"1. First item.\n2. Second item.\"
+              No markdown, no preamble, no version header, no language label. If the version is not found return {}.
+              Example output: {\"enu\":\"1. Fixed login bug.\n2. Improved performance.\",\"ger\":\"1. Login-Fehler behoben.\n2. Leistung verbessert.\"}
+
+              Changelog:
+              ${spk_change_raw}"
+
+                  local api_response
+                  api_response=$(curl -s https://api.anthropic.com/v1/messages \
+                    -H "x-api-key: ${ANTHROPIC_API_KEY}" \
+                    -H "anthropic-version: 2023-06-01" \
+                    -H "content-type: application/json" \
+                    -d "$(jq -n --arg prompt "$prompt" '{
+                      model: "claude-haiku-4-5-20251001",
+                      max_tokens: 512,
+                      messages: [{ role: "user", content: $prompt }]
+                    }')" 2>/dev/null || true)
+
+                  local lang_map
+                  lang_map=$(echo "$api_response" | jq -r '.content[0].text // ""' 2>/dev/null || true)
+
+                  # Validate it's a JSON object before using it
+                  if echo "$lang_map" | jq -e 'type == "object"' >/dev/null 2>&1; then
+                    # enu becomes the base "changelog" field; other languages become "changelog_<lang>"
+                    changelog_json=$(echo "$lang_map" | jq '
+                      to_entries |
+                      map(if .key == "enu"
+                        then { key: "changelog", value: .value }
+                        else { key: ("changelog_" + .key), value: .value }
+                        end) |
+                      from_entries')
+                  else
+                    echo "WARNING: Unexpected changelog API response for ${user}/${repo} ${spk_version}" >&2
+                  fi
+                fi
+              fi
+              # ---- End changelog extraction --------------------------------------------
+
               # Deduplication — see function header comment for rules.
               local spk_version
               spk_version=$(info_get "$info" "version")
@@ -563,6 +651,7 @@ jobs:
                 --argjson beta             "${beta}" \
                 --argjson size             "${size}" \
                 --argjson download_count   "${download_count}" \
+                --argjson changelog_langs  "${changelog_json:-{\}}" \
                 '{
                   package:               $package,
                   version:               $version,
@@ -585,7 +674,7 @@ jobs:
                   size:                  $size,
                   download_count:        $download_count,
                   recent_download_count: $download_count
-                } + $dname_langs + $desc_langs'
+                } + $dname_langs + $desc_langs + $changelog_langs'
             done
           }
 
