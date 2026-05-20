@@ -1,5 +1,8 @@
 name: Update spkrepo-test index.json and thumbnails
 
+env:
+  REPO_DIR: spkrepo_test
+
 # Triggers:
 #   1. Called via repository_dispatch from each package repo (on new release)
 #   2. Manual run from Actions tab
