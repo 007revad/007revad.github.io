@@ -1,32 +1,6 @@
 {
   "packages": [
     {
-      "package": "dsm_notify",
-      "version": "1.0.5",
-      "dname": "DSM Notify",
-      "desc": "Allows scheduled 007revad scripts to send DSM notifications",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/DSM_Notify",
-      "support_url": "https://github.com/007revad/DSM_Notify/issues",
-      "report_url": "https://github.com/007revad/DSM_Notify/issues",
-      "link": "https://github.com/007revad/DSM_Notify/releases/download/v1.0.4/DSM_Notify-noarch-v1.0.4-DSM-7.x.spk",
-      "arch": "noarch",
-      "exclude_arch": null,
-      "firmware": "7.0-40000",
-      "os_max_ver": null,
-      "changelog": "1. Bug fix for notifications not working in v1.0.4.",
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/dsm_notify_120.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 102400,
-      "download_count": 27,
-      "recent_download_count": 27
-    },
-    {
       "package": "OoklaSpeedtest",
       "version": "1.0.28",
       "dname": "Ookla Speedtest",
@@ -39,6 +13,7 @@
       "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
       "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.28/OoklaSpeedtest-noarch-v1.0.28-DSM-7.x.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
@@ -47,8 +22,9 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 348,
-      "recent_download_count": 348
+      "download_count": 373,
+      "recent_download_count": 373,
+      "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
       "package": "OpenSpeedTest",
@@ -63,6 +39,7 @@
       "report_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
       "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/download/v1.0.10/OpenSpeedtest-noarch-v1.0.10-DSM-7.x.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
@@ -71,8 +48,9 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 356,
-      "recent_download_count": 356
+      "download_count": 380,
+      "recent_download_count": 380,
+      "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
       "package": "LibreSpeedTest",
@@ -87,6 +65,7 @@
       "report_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
       "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-3/LibreSpeedtest-noarch-v5.5.0-3-DSM-7.x.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
@@ -95,8 +74,9 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 152,
-      "recent_download_count": 152
+      "download_count": 176,
+      "recent_download_count": 176,
+      "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
       "package": "TranscodeDrivers",
@@ -111,6 +91,7 @@
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.11/Transcode_v3.0.11-DSM-7.2-geminilakenk.spk",
       "arch": "geminilakenk",
+      "exclude_arch": null,
       "firmware": "7.2-72806",
       "os_max_ver": "7.2-99999",
       "thumbnail": [
@@ -119,8 +100,9 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 453,
-      "recent_download_count": 453
+      "download_count": 480,
+      "recent_download_count": 480,
+      "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
       "package": "TranscodeDrivers",
@@ -135,6 +117,7 @@
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v3.0.11/Transcode_v3.0.11-DSM-7.3-geminilakenk.spk",
       "arch": "geminilakenk",
+      "exclude_arch": null,
       "firmware": "7.3-81180",
       "os_max_ver": null,
       "thumbnail": [
@@ -143,8 +126,35 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 453,
-      "recent_download_count": 453
+      "download_count": 480,
+      "recent_download_count": 480,
+      "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
+    },
+    {
+      "package": "dsm_notify",
+      "version": "1.0.4",
+      "dname": "DSM Notify",
+      "desc": "Allows scheduled 007revad scripts to send DSM notifications",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/DSM_Notify",
+      "support_url": "https://github.com/007revad/DSM_Notify/issues",
+      "report_url": "https://github.com/007revad/DSM_Notify/issues",
+      "link": "https://github.com/007revad/DSM_Notify/releases/download/v1.0.4/DSM_Notify-noarch-v1.0.4-DSM-7.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/dsm_notify_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 102400,
+      "download_count": 30,
+      "recent_download_count": 30,
+      "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
       "package": "Synosmartinfo",
@@ -159,6 +169,7 @@
       "report_url": "https://github.com/PeterSuh-Q3/SynoSmartInfo/issues",
       "link": "https://github.com/PeterSuh-Q3/SynoSmartInfo/releases/download/v1.4.2/Synosmartinfo-noarch-1.4.2-7.1.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
@@ -167,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2560,
-      "recent_download_count": 2560
+      "download_count": 2584,
+      "recent_download_count": 2584
     },
     {
       "package": "AutoPilot",
@@ -183,6 +194,7 @@
       "report_url": "",
       "link": "https://github.com/toafez/AutoPilot/releases/download/1.1-900/AutoPilot-1.1-900.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -191,12 +203,14 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 838,
-      "recent_download_count": 838,
+      "download_count": 842,
+      "recent_download_count": 842,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
-      "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden."
+      "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected.",
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt."
     },
     {
       "package": "LogAnalysis",
@@ -211,6 +225,7 @@
       "report_url": "",
       "link": "https://github.com/toafez/LogAnalysis/releases/download/1.1-500/LogAnalysis-1.1-500.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -219,12 +234,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1621,
-      "recent_download_count": 1621,
+      "download_count": 1625,
+      "recent_download_count": 1625,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
-      "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden."
+      "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected.",
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt."
     },
     {
       "package": "autorun",
@@ -239,6 +256,7 @@
       "report_url": "",
       "link": "https://github.com/schmidhorst/synology-autorun/releases/download/V1.10.0.0011/autorun-1.10.0-0011.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -247,8 +265,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 316,
-      "recent_download_count": 316,
+      "download_count": 320,
+      "recent_download_count": 320,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -282,7 +300,8 @@
       "desc_ptg": "Executa um script em/para um disco externo (USB / eSATA) depois de ser ligado à Estação de Disco.",
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
-      "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici."
+      "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
     },
     {
       "package": "synOCR",
@@ -297,6 +316,7 @@
       "report_url": "",
       "link": "https://github.com/geimist/synOCR/releases/download/v1.5.2/synOCR_DSM6_v1.5.2.spk",
       "arch": "x86_64",
+      "exclude_arch": null,
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-39999",
       "thumbnail": [
@@ -305,8 +325,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 621,
-      "recent_download_count": 621,
+      "download_count": 634,
+      "recent_download_count": 634,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -342,6 +362,7 @@
       "report_url": "",
       "link": "https://github.com/geimist/synOCR/releases/download/v1.5.2/synOCR_DSM7_v1.5.2.spk",
       "arch": "x86_64",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -350,8 +371,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 621,
-      "recent_download_count": 621,
+      "download_count": 634,
+      "recent_download_count": 634,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -387,6 +408,7 @@
       "report_url": "",
       "link": "https://github.com/geimist/synOCR/releases/download/v1.5.99.6-beta/synOCR_DSM7_v1.5.99.6.spk",
       "arch": "x86_64 aarch64",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -395,8 +417,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2578432,
-      "download_count": 621,
-      "recent_download_count": 621,
+      "download_count": 634,
+      "recent_download_count": 634,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -417,7 +439,8 @@
       "desc_dan": "synOCR er en simpel GUI for Docker-containeren OCRmyPDF. Med den kan du nemt anvende OCR til PDF-dokumenter. synOCR kan derefter søge efter tags og datoer i dokumenterne, omdøbe dem efter et individuelt mønster og sortere dem i undermapper efter kategorier. Ved at bruge hardlinks er der ikke behov for øget lagerplads, hvis et dokument skal sorteres i flere kategorimapper.",
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
-      "desc_nld": "synOCR is een eenvoudige GUI voor de Docker container OCRmyPDF. Hiermee kunt u eenvoudig OCR toepassen op PDF-documenten. synOCR kan vervolgens zoeken naar tags en data in de documenten, ze hernoemen volgens een individueel patroon en ze sorteren in submappen volgens categorieën. Door het gebruik van harde koppelingen is er geen grotere opslagruimte nodig als een document in verschillende categoriemappen moet worden gesorteerd."
+      "desc_nld": "synOCR is een eenvoudige GUI voor de Docker container OCRmyPDF. Hiermee kunt u eenvoudig OCR toepassen op PDF-documenten. synOCR kan vervolgens zoeken naar tags en data in de documenten, ze hernoemen volgens een individueel patroon en ze sorteren in submappen volgens categorieën. Door het gebruik van harde koppelingen is er geen grotere opslagruimte nodig als een document in verschillende categoriemappen moet worden gesorteerd.",
+      "changelog_ger": "1. NameSyntax-Editor verbessert: Platzhalter können jetzt als Chips komfortabel per Drag&Drop eingefügt werden.\n2. Paketserver kann nur über einen Button automatisch hinzugefügt werden\n3. OCR-optimierte schwarzweiß-Konvertierung\n4. delay-Optimierung für den Fall, dass die Uhr des Scanners vor geht (#82 thanks to @tacarrie)\n5. preinst/preupgrade: Frühe Prüfung auf Python ≥ 3.9 für aarch64\n6. Kompatibilität zu aarch64 wiederhergestellt\n7. build_spk: scripts/lang-Zeilen mit printf %q erzeugen, damit Meldungen nach . …/lang/* zuverlässig gesetzt werden und im Paketzentrum erscheinen"
     },
     {
       "package": "AirConnect",
@@ -432,6 +455,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-aarch64-1.8.3-20240403.spk",
       "arch": "rtd1296 rtd1619b armada37xx",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -440,8 +464,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24639,
-      "recent_download_count": 24639
+      "download_count": 24668,
+      "recent_download_count": 24668
     },
     {
       "package": "AirConnect",
@@ -456,6 +480,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-arm-1.8.3-20240403.spk",
       "arch": "ipq806x armada370 armadaxp armada375 armada38x alpine alpine4k monaco comcerto2k hi3535 dakota ipq806x northstarplus",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -464,8 +489,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24639,
-      "recent_download_count": 24639
+      "download_count": 24668,
+      "recent_download_count": 24668
     },
     {
       "package": "AirConnect",
@@ -480,6 +505,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-armv5-1.8.3-20240403.spk",
       "arch": "88f6282 88f6281 88f628x",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -488,8 +514,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24639,
-      "recent_download_count": 24639
+      "download_count": 24668,
+      "recent_download_count": 24668
     },
     {
       "package": "AirConnect",
@@ -504,6 +530,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-powerpc-1.8.3-20240403.spk",
       "arch": "qoriq Ppc853x",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -512,8 +539,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24639,
-      "recent_download_count": 24639
+      "download_count": 24668,
+      "recent_download_count": 24668
     },
     {
       "package": "AirConnect",
@@ -528,6 +555,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-x86-1.8.3-20240403.spk",
       "arch": "x86 cedarview bromolow evansport braswell broadwell dockerx64 kvmx64 denverton grantley broadwellnk Broadwellntbap",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -536,8 +564,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24639,
-      "recent_download_count": 24639
+      "download_count": 24668,
+      "recent_download_count": 24668
     },
     {
       "package": "AirConnect",
@@ -552,6 +580,7 @@
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
       "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.8.3-20240403/AirConnect-dsm7-x86_64-1.8.3-20240403.spk",
       "arch": "x86_64 x64 cedarview bromolow avoton braswell broadwell apollolake dockerx64 epyc7002 r1000 kvmx64 denverton grantley broadwellnk broadwellnkv2 Broadwellntbap v1000 geminilake purley",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
@@ -560,8 +589,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24639,
-      "recent_download_count": 24639
+      "download_count": 24668,
+      "recent_download_count": 24668
     },
     {
       "package": "homebridge",
@@ -576,6 +605,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-alpine-4.1.2.spk",
       "arch": "armv7",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -584,8 +614,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317585,
-      "recent_download_count": 317585
+      "download_count": 317618,
+      "recent_download_count": 317618
     },
     {
       "package": "homebridge",
@@ -600,6 +630,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-armada37xx-4.1.2.spk",
       "arch": "armada37xx",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -608,8 +639,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317585,
-      "recent_download_count": 317585
+      "download_count": 317618,
+      "recent_download_count": 317618
     },
     {
       "package": "homebridge",
@@ -624,6 +655,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-armada38x-4.1.2.spk",
       "arch": "armada38x",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -632,8 +664,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317585,
-      "recent_download_count": 317585
+      "download_count": 317618,
+      "recent_download_count": 317618
     },
     {
       "package": "homebridge",
@@ -648,6 +680,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-braswell-4.1.2.spk",
       "arch": "x86_64",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -656,8 +689,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317585,
-      "recent_download_count": 317585
+      "download_count": 317618,
+      "recent_download_count": 317618
     },
     {
       "package": "homebridge",
@@ -672,6 +705,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-evansport-4.1.2.spk",
       "arch": "i686",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -680,8 +714,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317585,
-      "recent_download_count": 317585
+      "download_count": 317618,
+      "recent_download_count": 317618
     },
     {
       "package": "homebridge",
@@ -696,6 +730,7 @@
       "report_url": "",
       "link": "https://github.com/homebridge/homebridge-syno-spk/releases/download/4.1.2/homebridge-rtd1296-4.1.2.spk",
       "arch": "armv8",
+      "exclude_arch": null,
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
@@ -704,8 +739,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317585,
-      "recent_download_count": 317585
+      "download_count": 317618,
+      "recent_download_count": 317618
     },
     {
       "package": "medusa",
@@ -720,6 +755,7 @@
       "report_url": "https://github.com/pymedusa/Medusa/issues",
       "link": "https://raw.githubusercontent.com/BenjV/SYNO-packages/HEAD/Medusa%201.7%20Python%203%20noarch.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "6.0",
       "os_max_ver": null,
       "thumbnail": [
@@ -744,6 +780,7 @@
       "report_url": "https://github.com/pymedusa/Medusa/issues",
       "link": "https://raw.githubusercontent.com/BenjV/SYNO-packages/HEAD/Medusa%201.9b%20Python%203.12%20noarch%20DSM%206.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "6.0",
       "os_max_ver": null,
       "thumbnail": [
@@ -768,6 +805,7 @@
       "report_url": "https://github.com/pymedusa/Medusa/issues",
       "link": "https://raw.githubusercontent.com/BenjV/SYNO-packages/HEAD/Medusa%20DSM%207%20V2.4.spk",
       "arch": "noarch",
+      "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
