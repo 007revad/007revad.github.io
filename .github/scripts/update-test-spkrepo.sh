@@ -460,6 +460,8 @@
               if [[ -n "$changelog_spec" ]]; then
                 local spk_change_raw="$change_raw"
 
+                echo "DEBUG spk_change_raw assigned length=${#spk_change_raw} changelog_spec='${changelog_spec}'" >&2
+
                 # For DSM-split specs ("6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG"),
                 # pick the path matching this SPK's DSM major version.
                 if [[ "$changelog_spec" == *:* ]]; then
