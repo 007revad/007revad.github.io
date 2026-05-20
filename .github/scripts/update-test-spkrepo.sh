@@ -310,6 +310,7 @@
                   change_raw=""
                 fi
               done
+              echo "DEBUG change_raw length=${#change_raw} for ${user}/${repo}" >&2
             fi
 
             # Drop -static- SPKs when a non-static equivalent exists.
@@ -459,7 +460,7 @@
               local changelog_json='{}'
               if [[ -n "$changelog_spec" ]]; then
                 local spk_change_raw="$change_raw"
-
+                echo "DEBUG spk_change_raw assigned length=${#spk_change_raw} changelog_spec='${changelog_spec}'" >&2
                 echo "DEBUG spk_change_raw assigned length=${#spk_change_raw} changelog_spec='${changelog_spec}'" >&2
 
                 # For DSM-split specs ("6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG"),
