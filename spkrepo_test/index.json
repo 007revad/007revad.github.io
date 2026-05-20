@@ -2,7 +2,7 @@
   "packages": [
     {
       "package": "dsm_notify",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "dname": "DSM Notify",
       "desc": "Allows scheduled 007revad scripts to send DSM notifications",
       "maintainer": "007revad",
