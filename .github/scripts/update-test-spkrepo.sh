@@ -636,6 +636,7 @@
                 --argjson beta             "${beta}" \
                 --argjson size             "${size}" \
                 --argjson download_count   "${download_count}" \
+                --arg changelog            "${changelog_enu}" \
                 --argjson changelog_extra  "${changelog_extra}" \
                 '{
                   package:               $package,
