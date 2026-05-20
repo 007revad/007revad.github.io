@@ -487,7 +487,7 @@ jobs:
               fi
 
               # ---- Changelog extraction ------------------------------------------------
-              local changelog_json='""'
+              local changelog_json='{}'
               if [[ -n "$changelog_spec" ]]; then
                 local spk_change_raw="$change_raw"
 
@@ -552,6 +552,8 @@ jobs:
                       max_tokens: 512,
                       messages: [{ role: "user", content: $prompt }]
                     }')" 2>/dev/null || true)
+
+                  echo "DEBUG api_response=${api_response}" >&2
 
                   local lang_map
                   lang_map=$(echo "$api_response" | jq -r '.content[0].text // ""' 2>/dev/null || true)
@@ -651,7 +653,8 @@ jobs:
                 --argjson beta             "${beta}" \
                 --argjson size             "${size}" \
                 --argjson download_count   "${download_count}" \
-                --argjson changelog_langs  "${changelog_json:-{\}}" \
+                --argjson changelog_langs  "${changelog_json:-{}}" \
+
                 '{
                   package:               $package,
                   version:               $version,
