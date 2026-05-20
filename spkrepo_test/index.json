@@ -16,7 +16,7 @@
       "exclude_arch": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
-      "changelog": "1. Bug fix for notifications not working in v1.0.4."
+      "changelog": "1. Bug fix for notifications not working in v1.0.4.",
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/dsm_notify_120.png"
       ],
