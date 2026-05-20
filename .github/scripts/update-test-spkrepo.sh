@@ -708,30 +708,30 @@
           entries=()
 
           # 007revad repos
-          entries+=( "$(make_entries "007revad" "Synology_Ookla_Speedtest" "CHANGES.txt")" )
-          entries+=( "$(make_entries "007revad" "Synology_Open_Speedtest"  "CHANGES.txt")" )
-          entries+=( "$(make_entries "007revad" "Synology_Libre_Speedtest" "CHANGES.txt")" )
-          entries+=( "$(make_entries "007revad" "Transcode_for_x25"        "CHANGES.txt")" )
-          entries+=( "$(make_entries "007revad" "DSM_Notify"               "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "Synology_Ookla_Speedtest"     "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "Synology_Open_Speedtest"      "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "Synology_Libre_Speedtest"     "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "Transcode_for_x25"            "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "DSM_Notify"                   "CHANGES.txt")" )
 
           # Friends' repos
-          entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo"         "")" )
-          entries+=( "$(make_entries "toafez"      "AutoPilot"             "CHANGELOG")" )
-          entries+=( "$(make_entries "toafez"      "LogAnalysis"           "CHANGELOG")" )
-          entries+=( "$(make_entries "schmidhorst" "synology-autorun"      "CHANGELOG")" )
-          entries+=( "$(make_entries "geimist"     "synOCR"                "6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG")" )
+          entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo"             "")" )
+          entries+=( "$(make_entries "toafez"      "AutoPilot"                 "CHANGELOG")" )
+          entries+=( "$(make_entries "toafez"      "LogAnalysis"               "CHANGELOG")" )
+          entries+=( "$(make_entries "schmidhorst" "synology-autorun"          "CHANGELOG")" )
+          entries+=( "$(make_entries "geimist"     "synOCR"                    "6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG")" )
 
-          #entries+=( "$(make_entries "bb-qq"          "aqc111"                ")" )
-          #entries+=( "$(make_entries "bb-qq"          "r8152"                 ")" )
-          #entries+=( "$(make_entries "bb-qq"          "uas"                   ")" )
-          entries+=( "$(make_entries "eizedev"         "AirConnect-Synology"   "CHANGELOG")" )
+          #entries+=( "$(make_entries "bb-qq"          "aqc111"                "")" )
+          #entries+=( "$(make_entries "bb-qq"          "r8152"                 "")" )
+          #entries+=( "$(make_entries "bb-qq"          "uas"                   "")" )
+          entries+=( "$(make_entries "eizedev"         "AirConnect-Synology"   "")" )
           #entries+=( "$(make_entries "efren-builder"  "synology-uptime-kuma   "CHANGELOG.md")" )  # Newer version on synocommunity
 
           # Company's repos
-          entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"   "changelog.md")" )
+          entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"       "changelog.md")" )
 
           # repos with spk files in repo file tree
-          entries+=( "$(make_entries "BenjV" "SYNO-packages" "" "noreleases")" )
+          entries+=( "$(make_entries "BenjV" "SYNO-packages" ""                "noreleases")" )
 
           # ------------------------------------------------------------------ #
           # Combine into final index.json
