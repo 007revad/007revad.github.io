@@ -498,10 +498,18 @@
                   done
                 fi
 
+                # For version matching, also prepare a date-stripped fallback version
+                local match_version="${spk_version}"
+                local match_version_short=""
+                if [[ "$match_version" =~ ^([0-9]+\.[0-9]+\.[0-9]+)-[0-9]{8}$ ]]; then
+                  match_version_short="${BASH_REMATCH[1]}"
+                fi
+
                 # Call the Anthropic API to extract changelog for this version + all languages
                 if [[ -n "$spk_change_raw" ]]; then
                   local prompt
-                  prompt="Extract the changelog entries for version ${spk_version} from this changelog file.
+                  prompt="Extract the changelog entries for version ${match_version} from this changelog file.
+              If version ${match_version} is not found, try matching ${match_version_short:-${match_version}} instead (ignoring any date suffix).
               Return ONLY a raw JSON object with no markdown formatting, no code fences, no backticks.
               Map DSM language codes to numbered lists, using these codes: enu, ger, fre, ita, spn, jpn, cht, chs, krn, dan, nor, sve, nld, rus, plk, ptb, hun, trk, csy.
               Only include languages actually present in the changelog. Always include enu (use English entries, or translate from the only language present if English is absent).
