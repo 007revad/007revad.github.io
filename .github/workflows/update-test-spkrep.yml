@@ -642,9 +642,12 @@ jobs:
 
               echo "DEBUG changelog_json='${changelog_json}'" >&2
 
-              local tmp_cl=""
-              tmp_cl=$(mktemp)
-              printf '%s' "${changelog_json:-{}}" | jq -c '.' > "${tmp_cl}"
+              local changelog_enu=""
+              local changelog_extra="{}"
+              if echo "${changelog_json:-{}}" | jq -e 'type == "object"' >/dev/null 2>&1; then
+                changelog_enu=$(echo "${changelog_json}" | jq -r '.changelog // ""')
+                changelog_extra=$(echo "${changelog_json}" | jq -c 'del(.changelog)')
+              fi
 
               jq -n \
                 --arg package              "${pkg}" \
@@ -668,7 +671,7 @@ jobs:
                 --argjson beta             "${beta}" \
                 --argjson size             "${size}" \
                 --argjson download_count   "${download_count}" \
-                --slurpfile changelog_langs "${tmp_cl}" \
+                --argjson changelog_extra  "${changelog_extra}" \
                 '{
                   package:               $package,
                   version:               $version,
@@ -691,10 +694,9 @@ jobs:
                   size:                  $size,
                   download_count:        $download_count,
                   recent_download_count: $download_count
-                } + $dname_langs + $desc_langs + $changelog_langs[0]'
+                } + $dname_langs + $desc_langs + $changelog_extra + {changelog: $changelog}'
             done
           }
-          [[ -n "${tmp_cl:-}" ]] && rm -f "${tmp_cl}"
 
           # ------------------------------------------------------------------ #
           # Build each package entry.
