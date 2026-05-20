@@ -565,7 +565,7 @@ jobs:
                   echo "DEBUG lang_map='${lang_map}'" >&2
 
                   if echo "$lang_map" | jq -e 'type == "object"' >/dev/null 2>&1; then
-                    changelog_json=$(echo "$lang_map" | jq '
+                    changelog_json=$(echo "$lang_map" | jq -c '
                       to_entries |
                       map(if .key == "enu"
                         then { key: "changelog", value: .value }
@@ -575,20 +575,6 @@ jobs:
                   else
                     echo "WARNING: Unexpected changelog API response for ${user}/${repo} ${spk_version}" >&2
                     changelog_json='{}'
-                  fi
-
-                  # Validate it's a JSON object before using it
-                  if echo "$lang_map" | jq -e 'type == "object"' >/dev/null 2>&1; then
-                    # enu becomes the base "changelog" field; other languages become "changelog_<lang>"
-                    changelog_json=$(echo "$lang_map" | jq '
-                      to_entries |
-                      map(if .key == "enu"
-                        then { key: "changelog", value: .value }
-                        else { key: ("changelog_" + .key), value: .value }
-                        end) |
-                      from_entries')
-                  else
-                    echo "WARNING: Unexpected changelog API response for ${user}/${repo} ${spk_version}" >&2
                   fi
                 fi
               fi
