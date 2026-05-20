@@ -511,8 +511,10 @@
 
               Changelog:
               ${spk_change_raw}"
+              # ^^^ closing quote of prompt string is above
 
                   local api_response=""
+                  local _delay=15
                   for _retry in 1 2 3; do
                     api_response=$(curl -s https://api.anthropic.com/v1/messages \
                       -H "x-api-key: ${ANTHROPIC_API_KEY}" \
@@ -527,8 +529,9 @@
                     if ! echo "$api_response" | jq -e '.error.type == "overloaded_error"' >/dev/null 2>&1; then
                       break
                     fi
-                    echo "WARNING: API overloaded, retrying in 5s (attempt ${_retry}/3)..." >&2
-                    sleep 5
+                    echo "WARNING: API overloaded, retrying in ${_delay}s (attempt ${_retry}/3)..." >&2
+                    sleep "${_delay}"
+                    _delay=$(( _delay * 2 ))
                   done
 
                   echo "DEBUG api_response=${api_response}" >&2
@@ -556,6 +559,17 @@
                 fi
               fi
               # ---- End changelog extraction --------------------------------------------
+
+              # Fall back to existing changelog from previous index.json if API failed
+              if [[ "$changelog_json" == '{}' && -f "${REPO_DIR}/index.json" ]]; then
+                local existing_cl
+                existing_cl=$(jq -c --arg pkg "$pkg" '
+                  .packages[] | select(.package == $pkg) |
+                  { changelog: (.changelog // "") } +
+                  (to_entries | map(select(.key | startswith("changelog_"))) | from_entries)
+                ' "${REPO_DIR}/index.json" 2>/dev/null || echo '{}')
+                [[ -n "$existing_cl" && "$existing_cl" != '{}' ]] && changelog_json="$existing_cl"
+              fi
 
               # Read remaining metadata from INFO — all fields verbatim, no substitution
               local dname desc maintainer maintainer_url distributor distributor_url support_url
