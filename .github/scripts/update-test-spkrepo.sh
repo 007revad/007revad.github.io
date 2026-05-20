@@ -1,6 +1,8 @@
 #!/bin/bash
+          REPO_DIR=spkrepo_test
+
           set -euo pipefail
-          mkdir -p "$REPO_DIR/thumbnails"
+          mkdir -p "${REPO_DIR}/thumbnails"
 
           # ------------------------------------------------------------------ #
           # Helper: sum download counts for all .spk assets across all releases.
@@ -63,10 +65,10 @@
           # ------------------------------------------------------------------ #
           current_version() {
             local pkg="$1"
-            if [[ -f ${{ env.REPO_DIR }}/index.json ]]; then
+            if [[ -f ${REPO_DIR}/index.json ]]; then
               jq -r --arg p "$pkg" \
                 '.packages[] | select(.package == $p) | .version' \
-                ${{ env.REPO_DIR }}/index.json | head -1
+                ${REPO_DIR}/index.json | head -1
             fi
           }
 
@@ -93,7 +95,7 @@
             local repo="$6"
             local is_beta="${7:-false}"
 
-            local dest="${{ env.REPO_DIR }}/thumbnails/${thumb_key}_120.png"
+            local dest="${REPO_DIR}/thumbnails/${thumb_key}_120.png"
             local old_version
             old_version=$(current_version "${pkg}")
 
@@ -601,7 +603,7 @@
                 size="${size:-0}"
               fi
 
-              local thumbnail="https://007revad.github.io/${{ env.REPO_DIR }}/thumbnails/${thumb_key}_120.png"
+              local thumbnail="https://007revad.github.io/${REPO_DIR}/thumbnails/${thumb_key}_120.png"
 
               echo "DEBUG changelog_json='${changelog_json}'" >&2
 
@@ -696,7 +698,7 @@
           # ------------------------------------------------------------------ #
           # Combine into final index.json
           # ------------------------------------------------------------------ #
-          printf '%s\n' "${entries[@]}" | jq -s '{"packages": .}' > ${{ env.REPO_DIR }}/index.json
+          printf '%s\n' "${entries[@]}" | jq -s '{"packages": .}' > ${REPO_DIR}/index.json
 
-          echo "Generated ${{ env.REPO_DIR }}/index.json:"
-          cat ${{ env.REPO_DIR }}/index.json
+          echo "Generated ${REPO_DIR}/index.json:"
+          cat ${REPO_DIR}/index.json
