@@ -641,7 +641,7 @@ jobs:
 
               local tmp_cl=""
               tmp_cl=$(mktemp)
-              echo "${changelog_json:-{}}" | jq -c '.' > "${tmp_cl}"
+              printf '%s' "${changelog_json:-{}}" | jq -c '.' > "${tmp_cl}"
 
               jq -n \
                 --arg package              "${pkg}" \
