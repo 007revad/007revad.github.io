@@ -1,9 +1,5 @@
 name: Update spkrepo-test index.json and thumbnails
 
-# Change spkrepo to spkrepo_test or vice versa 
-env:
-  REPO_DIR: spkrepo_test
-
 # Triggers:
 #   1. Called via repository_dispatch from each package repo (on new release)
 #   2. Manual run from Actions tab
@@ -34,7 +30,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: bash .github/scripts/update_ ${{ env.REPO_DIR }}.sh
+        run: bash .github/scripts/update-test-spkrepo.sh
 
       - name: Commit and push index.json and any updated thumbnails
         run: |
@@ -44,6 +40,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else
-            git commit -m "chore: update ${{ env.REPO_DIR }} index.json and thumbnails [skip ci]"
+            git commit -m "chore: update spkrepo_test index.json and thumbnails [skip ci]"
             git push
           fi
