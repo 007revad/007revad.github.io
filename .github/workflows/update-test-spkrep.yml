@@ -559,8 +559,10 @@ jobs:
                   # Strip markdown code fences if present
                   lang_map=$(echo "$api_response" \
                     | jq -r '.content[0].text // ""' 2>/dev/null \
-                    | sed 's/^```json[[:space:]]*//;s/^```[[:space:]]*//;s/[[:space:]]*```$//' \
+                    | sed '/^```/d' \
                     || true)
+
+                  echo "DEBUG lang_map='${lang_map}'" >&2
 
                   if echo "$lang_map" | jq -e 'type == "object"' >/dev/null 2>&1; then
                     changelog_json=$(echo "$lang_map" | jq '
@@ -647,6 +649,8 @@ jobs:
               fi
 
               local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${thumb_key}_120.png"
+
+              echo "DEBUG changelog_json='${changelog_json}'" >&2
 
               jq -n \
                 --arg package              "${pkg}" \
