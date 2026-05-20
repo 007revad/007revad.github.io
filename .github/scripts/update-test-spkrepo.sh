@@ -505,6 +505,8 @@
                   match_version_short="${BASH_REMATCH[1]}"
                 fi
 
+                echo "DEBUG spk_change_raw length=${#spk_change_raw} for ${user}/${repo}" >&2
+
                 # Call the Anthropic API to extract changelog for this version + all languages
                 if [[ -n "$spk_change_raw" ]]; then
                   local prompt
@@ -571,12 +573,14 @@
               # Fall back to existing changelog from previous index.json if API failed
               if [[ "$changelog_json" == '{}' && -f "${REPO_DIR}/index.json" ]]; then
                 local existing_cl
-                existing_cl=$(jq -c --arg pkg "$pkg" '
-                  .packages[] | select(.package == $pkg) |
-                  { changelog: (.changelog // "") } +
-                  (to_entries | map(select(.key | startswith("changelog_"))) | from_entries)
+                existing_cl=$(jq -rc --arg pkg "$pkg" '
+                  first(
+                    .packages[] | select(.package == $pkg and (.changelog // "") != "") |
+                    { changelog: .changelog } +
+                    (to_entries | map(select(.key | startswith("changelog_"))) | from_entries)
+                  ) // {}
                 ' "${REPO_DIR}/index.json" 2>/dev/null || echo '{}')
-                [[ -n "$existing_cl" && "$existing_cl" != '{}' ]] && changelog_json="$existing_cl"
+                [[ "$existing_cl" != '{}' ]] && changelog_json="$existing_cl"
               fi
 
               # Read remaining metadata from INFO — all fields verbatim, no substitution
