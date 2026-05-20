@@ -24,7 +24,7 @@
       "size": 3768320,
       "download_count": 380,
       "recent_download_count": 380,
-      "changelog": ""
+      "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
       "package": "OpenSpeedTest",
@@ -76,7 +76,7 @@
       "size": 196608,
       "download_count": 183,
       "recent_download_count": 183,
-      "changelog": ""
+      "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
       "package": "TranscodeDrivers",
@@ -102,7 +102,7 @@
       "size": 1413120,
       "download_count": 486,
       "recent_download_count": 486,
-      "changelog": ""
+      "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
       "package": "TranscodeDrivers",
@@ -128,7 +128,7 @@
       "size": 1413120,
       "download_count": 486,
       "recent_download_count": 486,
-      "changelog": ""
+      "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
       "package": "dsm_notify",
@@ -154,7 +154,7 @@
       "size": 102400,
       "download_count": 32,
       "recent_download_count": 32,
-      "changelog": ""
+      "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
       "package": "Synosmartinfo",
@@ -210,7 +210,8 @@
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog": ""
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected.",
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt."
     },
     {
       "package": "LogAnalysis",
@@ -301,7 +302,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": ""
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
     },
     {
       "package": "synOCR",

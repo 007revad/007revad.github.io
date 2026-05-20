@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 371,
-      "recent_download_count": 371,
+      "download_count": 380,
+      "recent_download_count": 380,
       "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 378,
-      "recent_download_count": 378,
+      "download_count": 386,
+      "recent_download_count": 386,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 174,
-      "recent_download_count": 174,
+      "download_count": 183,
+      "recent_download_count": 183,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 478,
-      "recent_download_count": 478,
+      "download_count": 486,
+      "recent_download_count": 486,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 478,
-      "recent_download_count": 478,
+      "download_count": 486,
+      "recent_download_count": 486,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 29,
-      "recent_download_count": 29,
+      "download_count": 32,
+      "recent_download_count": 32,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -178,8 +178,9 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2578,
-      "recent_download_count": 2578
+      "download_count": 2597,
+      "recent_download_count": 2597,
+      "changelog": ""
     },
     {
       "package": "AutoPilot",
@@ -203,8 +204,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 841,
-      "recent_download_count": 841,
+      "download_count": 844,
+      "recent_download_count": 844,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -234,14 +235,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1624,
-      "recent_download_count": 1624,
+      "download_count": 1627,
+      "recent_download_count": 1627,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -265,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 319,
-      "recent_download_count": 319,
+      "download_count": 322,
+      "recent_download_count": 322,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -325,8 +326,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 631,
-      "recent_download_count": 631,
+      "download_count": 640,
+      "recent_download_count": 640,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -347,7 +348,8 @@
       "desc_enu": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
       "desc_dan": "synOCR er en simpel GUI for Docker-containeren OCRmyPDF. Med den kan du nemt anvende OCR til PDF-dokumenter. synOCR kan derefter søge efter tags og datoer i dokumenterne, omdøbe dem efter et individuelt mønster og sortere dem i undermapper efter kategorier. Ved at bruge hardlinks er der ikke behov for øget lagerplads, hvis et dokument skal sorteres i flere kategorimapper.",
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
-      "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。"
+      "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
+      "changelog": ""
     },
     {
       "package": "synOCR",
@@ -371,8 +373,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 631,
-      "recent_download_count": 631,
+      "download_count": 640,
+      "recent_download_count": 640,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -393,7 +395,8 @@
       "desc_enu": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
       "desc_dan": "synOCR er en simpel GUI for Docker-containeren OCRmyPDF. Med den kan du nemt anvende OCR til PDF-dokumenter. synOCR kan derefter søge efter tags og datoer i dokumenterne, omdøbe dem efter et individuelt mønster og sortere dem i undermapper efter kategorier. Ved at bruge hardlinks er der ikke behov for øget lagerplads, hvis et dokument skal sorteres i flere kategorimapper.",
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
-      "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。"
+      "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
+      "changelog": ""
     },
     {
       "package": "synOCR",
@@ -417,8 +420,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2578432,
-      "download_count": 631,
-      "recent_download_count": 631,
+      "download_count": 640,
+      "recent_download_count": 640,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -465,8 +468,9 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24661,
-      "recent_download_count": 24661
+      "download_count": 24682,
+      "recent_download_count": 24682,
+      "changelog": ""
     },
     {
       "package": "AirConnect",
@@ -490,8 +494,9 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24661,
-      "recent_download_count": 24661
+      "download_count": 24682,
+      "recent_download_count": 24682,
+      "changelog": ""
     },
     {
       "package": "AirConnect",
@@ -515,8 +520,9 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24661,
-      "recent_download_count": 24661
+      "download_count": 24682,
+      "recent_download_count": 24682,
+      "changelog": ""
     },
     {
       "package": "AirConnect",
@@ -540,8 +546,9 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24661,
-      "recent_download_count": 24661
+      "download_count": 24682,
+      "recent_download_count": 24682,
+      "changelog": ""
     },
     {
       "package": "AirConnect",
@@ -565,8 +572,9 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24661,
-      "recent_download_count": 24661
+      "download_count": 24682,
+      "recent_download_count": 24682,
+      "changelog": ""
     },
     {
       "package": "AirConnect",
@@ -590,8 +598,9 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24661,
-      "recent_download_count": 24661
+      "download_count": 24682,
+      "recent_download_count": 24682,
+      "changelog": ""
     },
     {
       "package": "homebridge",
@@ -615,8 +624,9 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317612,
-      "recent_download_count": 317612
+      "download_count": 317630,
+      "recent_download_count": 317630,
+      "changelog": ""
     },
     {
       "package": "homebridge",
@@ -640,8 +650,9 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317612,
-      "recent_download_count": 317612
+      "download_count": 317630,
+      "recent_download_count": 317630,
+      "changelog": ""
     },
     {
       "package": "homebridge",
@@ -665,8 +676,9 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317612,
-      "recent_download_count": 317612
+      "download_count": 317630,
+      "recent_download_count": 317630,
+      "changelog": ""
     },
     {
       "package": "homebridge",
@@ -690,8 +702,9 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317612,
-      "recent_download_count": 317612
+      "download_count": 317630,
+      "recent_download_count": 317630,
+      "changelog": ""
     },
     {
       "package": "homebridge",
@@ -715,8 +728,9 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317612,
-      "recent_download_count": 317612
+      "download_count": 317630,
+      "recent_download_count": 317630,
+      "changelog": ""
     },
     {
       "package": "homebridge",
@@ -740,8 +754,9 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317612,
-      "recent_download_count": 317612
+      "download_count": 317630,
+      "recent_download_count": 317630,
+      "changelog": ""
     },
     {
       "package": "medusa",
@@ -766,7 +781,8 @@
       "beta": false,
       "size": 0,
       "download_count": 0,
-      "recent_download_count": 0
+      "recent_download_count": 0,
+      "changelog": ""
     },
     {
       "package": "medusa",
@@ -791,7 +807,8 @@
       "beta": false,
       "size": 0,
       "download_count": 0,
-      "recent_download_count": 0
+      "recent_download_count": 0,
+      "changelog": ""
     },
     {
       "package": "medusa",
@@ -816,7 +833,8 @@
       "beta": false,
       "size": 0,
       "download_count": 0,
-      "recent_download_count": 0
+      "recent_download_count": 0,
+      "changelog": ""
     }
   ]
 }
