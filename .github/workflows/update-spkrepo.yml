@@ -1,5 +1,9 @@
 name: Update spkrepo index.json and thumbnails
 
+# Change spkrepo to spkrepo_test or vice versa 
+env:
+  REPO_DIR: spkrepo
+
 # Triggers:
 #   1. Called via repository_dispatch from each package repo (on new release)
 #   2. Manual run from Actions tab
@@ -95,10 +99,10 @@ jobs:
           # ------------------------------------------------------------------ #
           current_version() {
             local pkg="$1"
-            if [[ -f spkrepo/index.json ]]; then
+            if [[ -f ${{ env.REPO_DIR }}/index.json ]]; then
               jq -r --arg p "$pkg" \
                 '.packages[] | select(.package == $p) | .version' \
-                spkrepo/index.json | head -1
+                ${{ env.REPO_DIR }}/index.json | head -1
             fi
           }
 
@@ -112,7 +116,7 @@ jobs:
           #   3. Full SPK download — tar-extract PACKAGE_ICON_256.PNG
           #
           # Resizes the icon to 120x120 and writes
-          # spkrepo/thumbnails/<thumb_key>_120.png.
+          # <spkrepo_dir>/thumbnails/<thumb_key>_120.png.
           #
           # Usage: maybe_update_thumbnail <spk_url> <pkg> <new_version> <thumb_key> <user> <repo>
           # ------------------------------------------------------------------ #
@@ -125,7 +129,7 @@ jobs:
             local repo="$6"
             local is_beta="${7:-false}"
 
-            local dest="spkrepo/thumbnails/${thumb_key}_120.png"
+            local dest="${{ env.REPO_DIR }}/thumbnails/${thumb_key}_120.png"
             local old_version
             old_version=$(current_version "${pkg}")
 
@@ -519,7 +523,7 @@ jobs:
                 size="${size:-0}"
               fi
 
-              local thumbnail="https://007revad.github.io/spkrepo/thumbnails/${thumb_key}_120.png"
+              local thumbnail="https://007revad.github.io/${{ env.REPO_DIR }}/thumbnails/${thumb_key}_120.png"
 
               jq -n \
                 --arg package              "${pkg}" \
@@ -604,19 +608,19 @@ jobs:
           # ------------------------------------------------------------------ #
           # Combine into final index.json
           # ------------------------------------------------------------------ #
-          printf '%s\n' "${entries[@]}" | jq -s '{"packages": .}' > spkrepo/index.json
+          printf '%s\n' "${entries[@]}" | jq -s '{"packages": .}' > ${{ env.REPO_DIR }}/index.json
 
-          echo "Generated spkrepo/index.json:"
-          cat spkrepo/index.json
+          echo "Generated ${{ env.REPO_DIR }}/index.json:"
+          cat ${{ env.REPO_DIR }}/index.json
 
       - name: Commit and push index.json and any updated thumbnails
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add spkrepo/index.json spkrepo/thumbnails/
+          git add ${{ env.REPO_DIR }}/index.json ${{ env.REPO_DIR }}/thumbnails/
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
           else
-            git commit -m "chore: update spkrepo index.json and thumbnails [skip ci]"
+            git commit -m "chore: update ${{ env.REPO_DIR }} index.json and thumbnails [skip ci]"
             git push
           fi
