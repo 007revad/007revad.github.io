@@ -11,8 +11,8 @@ on:
   repository_dispatch:
     types: [spk-release]
   workflow_dispatch:
-  schedule:
-    - cron: '0 2 * * *'
+  #schedule:
+  #  - cron: '0 2 * * *'
 
 jobs:
   update-index:
