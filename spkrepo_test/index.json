@@ -154,7 +154,7 @@
       "size": 102400,
       "download_count": 40,
       "recent_download_count": 40,
-      "changelog": "1. Bug fix for notifications not working in v1.0.3.<br/>2. Added the Open button back to show the small DSM information popup."
+      "changelog": "1. Bug fix for notifications not working in v1.0.3. 2. Added the Open button back to show the small DSM information popup."
     },
     {
       "package": "Synosmartinfo",
