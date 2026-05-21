@@ -310,6 +310,7 @@
                   change_raw=""
                 fi
               done
+              echo "DEBUG change_raw length=${#change_raw} for ${user}/${repo}" >&2
             fi
 
             # Drop -static- SPKs when a non-static equivalent exists.
@@ -459,6 +460,8 @@
               local changelog_json='{}'
               if [[ -n "$changelog_spec" ]]; then
                 local spk_change_raw="$change_raw"
+                echo "DEBUG spk_change_raw assigned length=${#spk_change_raw} changelog_spec='${changelog_spec}'" >&2
+                echo "DEBUG spk_change_raw assigned length=${#spk_change_raw} changelog_spec='${changelog_spec}'" >&2
 
                 # For DSM-split specs ("6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG"),
                 # pick the path matching this SPK's DSM major version.
@@ -498,10 +501,20 @@
                   done
                 fi
 
+                # For version matching, also prepare a date-stripped fallback version
+                local match_version="${spk_version}"
+                local match_version_short=""
+                if [[ "$match_version" =~ ^([0-9]+\.[0-9]+\.[0-9]+)-[0-9]{8}$ ]]; then
+                  match_version_short="${BASH_REMATCH[1]}"
+                fi
+
+                echo "DEBUG spk_change_raw length=${#spk_change_raw} for ${user}/${repo}" >&2
+
                 # Call the Anthropic API to extract changelog for this version + all languages
                 if [[ -n "$spk_change_raw" ]]; then
                   local prompt
-                  prompt="Extract the changelog entries for version ${spk_version} from this changelog file.
+                  prompt="Extract the changelog entries for version ${match_version} from this changelog file.
+              If version ${match_version} is not found, try matching ${match_version_short:-${match_version}} instead (ignoring any date suffix).
               Return ONLY a raw JSON object with no markdown formatting, no code fences, no backticks.
               Map DSM language codes to numbered lists, using these codes: enu, ger, fre, ita, spn, jpn, cht, chs, krn, dan, nor, sve, nld, rus, plk, ptb, hun, trk, csy.
               Only include languages actually present in the changelog. Always include enu (use English entries, or translate from the only language present if English is absent).
@@ -563,12 +576,14 @@
               # Fall back to existing changelog from previous index.json if API failed
               if [[ "$changelog_json" == '{}' && -f "${REPO_DIR}/index.json" ]]; then
                 local existing_cl
-                existing_cl=$(jq -c --arg pkg "$pkg" '
-                  .packages[] | select(.package == $pkg) |
-                  { changelog: (.changelog // "") } +
-                  (to_entries | map(select(.key | startswith("changelog_"))) | from_entries)
+                existing_cl=$(jq -rc --arg pkg "$pkg" '
+                  first(
+                    .packages[] | select(.package == $pkg and (.changelog // "") != "") |
+                    { changelog: .changelog } +
+                    (to_entries | map(select(.key | startswith("changelog_"))) | from_entries)
+                  ) // {}
                 ' "${REPO_DIR}/index.json" 2>/dev/null || echo '{}')
-                [[ -n "$existing_cl" && "$existing_cl" != '{}' ]] && changelog_json="$existing_cl"
+                [[ "$existing_cl" != '{}' ]] && changelog_json="$existing_cl"
               fi
 
               # Read remaining metadata from INFO — all fields verbatim, no substitution
@@ -693,30 +708,30 @@
           entries=()
 
           # 007revad repos
-          entries+=( "$(make_entries "007revad" "Synology_Ookla_Speedtest" "CHANGES.txt")" )
-          entries+=( "$(make_entries "007revad" "Synology_Open_Speedtest"  "CHANGES.txt")" )
-          entries+=( "$(make_entries "007revad" "Synology_Libre_Speedtest" "CHANGES.txt")" )
-          entries+=( "$(make_entries "007revad" "Transcode_for_x25"        "CHANGES.txt")" )
-          entries+=( "$(make_entries "007revad" "DSM_Notify"               "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "Synology_Ookla_Speedtest"     "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "Synology_Open_Speedtest"      "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "Synology_Libre_Speedtest"     "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "Transcode_for_x25"            "CHANGES.txt")" )
+          entries+=( "$(make_entries "007revad" "DSM_Notify"                   "CHANGES.txt")" )
 
           # Friends' repos
-          entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo"         "")" )
-          entries+=( "$(make_entries "toafez"      "AutoPilot"             "CHANGELOG")" )
-          entries+=( "$(make_entries "toafez"      "LogAnalysis"           "CHANGELOG")" )
-          entries+=( "$(make_entries "schmidhorst" "synology-autorun"      "CHANGELOG")" )
-          entries+=( "$(make_entries "geimist"     "synOCR"                "6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG")" )
+          entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo"             "")" )
+          entries+=( "$(make_entries "toafez"      "AutoPilot"                 "CHANGELOG")" )
+          entries+=( "$(make_entries "toafez"      "LogAnalysis"               "CHANGELOG")" )
+          entries+=( "$(make_entries "schmidhorst" "synology-autorun"          "CHANGELOG")" )
+          entries+=( "$(make_entries "geimist"     "synOCR"                    "6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG")" )
 
-          #entries+=( "$(make_entries "bb-qq"          "aqc111"                ")" )
-          #entries+=( "$(make_entries "bb-qq"          "r8152"                 ")" )
-          #entries+=( "$(make_entries "bb-qq"          "uas"                   ")" )
-          entries+=( "$(make_entries "eizedev"         "AirConnect-Synology"   "CHANGELOG")" )
+          #entries+=( "$(make_entries "bb-qq"          "aqc111"                "")" )
+          #entries+=( "$(make_entries "bb-qq"          "r8152"                 "")" )
+          #entries+=( "$(make_entries "bb-qq"          "uas"                   "")" )
+          entries+=( "$(make_entries "eizedev"         "AirConnect-Synology"   "")" )
           #entries+=( "$(make_entries "efren-builder"  "synology-uptime-kuma   "CHANGELOG.md")" )  # Newer version on synocommunity
 
           # Company's repos
-          entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"   "changelog.md")" )
+          entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"       "")" )
 
           # repos with spk files in repo file tree
-          entries+=( "$(make_entries "BenjV" "SYNO-packages" "" "noreleases")" )
+          entries+=( "$(make_entries "BenjV" "SYNO-packages" ""                "noreleases")" )
 
           # ------------------------------------------------------------------ #
           # Combine into final index.json
