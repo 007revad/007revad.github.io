@@ -22,9 +22,9 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 398,
-      "recent_download_count": 398,
-      "changelog": "1. Bug fix for being unable to upgrade/install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
+      "download_count": 406,
+      "recent_download_count": 406,
+      "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
       "package": "OpenSpeedTest",
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 406,
-      "recent_download_count": 406,
+      "download_count": 411,
+      "recent_download_count": 411,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 198,
-      "recent_download_count": 198,
+      "download_count": 203,
+      "recent_download_count": 203,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 505,
-      "recent_download_count": 505,
+      "download_count": 511,
+      "recent_download_count": 511,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 505,
-      "recent_download_count": 505,
+      "download_count": 511,
+      "recent_download_count": 511,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 41,
-      "recent_download_count": 41,
+      "download_count": 45,
+      "recent_download_count": 45,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2646,
-      "recent_download_count": 2646,
+      "download_count": 2665,
+      "recent_download_count": 2665,
       "changelog": ""
     },
     {
@@ -204,14 +204,14 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 850,
-      "recent_download_count": 850,
+      "download_count": 851,
+      "recent_download_count": 851,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -235,14 +235,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1635,
-      "recent_download_count": 1635,
+      "download_count": 1640,
+      "recent_download_count": 1640,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 328,
-      "recent_download_count": 328,
+      "download_count": 329,
+      "recent_download_count": 329,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -326,8 +326,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 664,
-      "recent_download_count": 664,
+      "download_count": 684,
+      "recent_download_count": 684,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -374,8 +374,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 664,
-      "recent_download_count": 664,
+      "download_count": 684,
+      "recent_download_count": 684,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -422,8 +422,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2578432,
-      "download_count": 664,
-      "recent_download_count": 664,
+      "download_count": 684,
+      "recent_download_count": 684,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -445,8 +445,8 @@
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
       "desc_nld": "synOCR is een eenvoudige GUI voor de Docker container OCRmyPDF. Hiermee kunt u eenvoudig OCR toepassen op PDF-documenten. synOCR kan vervolgens zoeken naar tags en data in de documenten, ze hernoemen volgens een individueel patroon en ze sorteren in submappen volgens categorieën. Door het gebruik van harde koppelingen is er geen grotere opslagruimte nodig als een document in verschillende categoriemappen moet worden gesorteerd.",
-      "changelog_ger": "1. Verbesserte NameSyntax-Editor: Platzhalter können jetzt als Chips komfortabel per Drag&Drop eingefügt werden.\n2. Paketserver kann nur über einen Button automatisch hinzugefügt werden.\n3. OCR-optimierte schwarzweiß-Konvertierung.\n4. delay-Optimierung für den Fall, dass die Uhr des Scanners vor geht (#82 thanks to @tacarrie).\n5. preinst/preupgrade: Frühe Prüfung auf Python ≥ 3.9 für aarch64.\n6. Kompatibilität zu aarch64 wiederhergestellt.\n7. build_spk: scripts/lang-Zeilen mit printf %q erzeugen, damit Meldungen nach . …/lang/* zuverlässig gesetzt werden und im Paketzentrum erscheinen.",
-      "changelog": "1. Improved NameSyntax-Editor: Placeholders can now be conveniently inserted as chips via Drag&Drop.\n2. Package server can only be added automatically via a button.\n3. OCR-optimized black and white conversion.\n4. Delay optimization for the case where the scanner clock is ahead (#82 thanks to @tacarrie).\n5. Early check for Python ≥ 3.9 for aarch64 in preinst/preupgrade.\n6. Restored aarch64 compatibility.\n7. build_spk: Generate scripts/lang lines with printf %q so that messages are reliably set after . …/lang/* and appear in the package center."
+      "changelog_ger": "1. NameSyntax-Editor verbessert: Platzhalter können jetzt als Chips komfortabel per Drag&Drop eingefügt werden.\n2. Paketserver kann nur über einen Button automatisch hinzugefügt werden\n3. OCR-optimierte schwarzweiß-Konvertierung\n4. delay-Optimierung für den Fall, dass die Uhr des Scanners vor geht (#82 thanks to @tacarrie)\n5. preinst/preupgrade: Frühe Prüfung auf Python ≥ 3.9 für aarch64\n6. Kompatibilität zu aarch64 wiederhergestellt\n7. build_spk: scripts/lang-Zeilen mit printf %q erzeugen, damit Meldungen nach . …/lang/* zuverlässig gesetzt werden und im Paketzentrum erscheinen",
+      "changelog": "1. NameSyntax-Editor improved: placeholders can now be conveniently inserted as chips via drag and drop.\n2. Package server can only be added automatically via a button\n3. OCR-optimized black and white conversion\n4. delay optimization for the case that the scanner clock is ahead (#82 thanks to @tacarrie)\n5. preinst/preupgrade: early check for Python ≥ 3.9 for aarch64\n6. Restored compatibility with aarch64\n7. build_spk: generate scripts/lang lines with printf %q so that messages are reliably set after . …/lang/* and appear in the package center"
     },
     {
       "package": "AirConnect",
@@ -470,8 +470,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24725,
-      "recent_download_count": 24725,
+      "download_count": 24737,
+      "recent_download_count": 24737,
       "changelog": ""
     },
     {
@@ -496,8 +496,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24725,
-      "recent_download_count": 24725,
+      "download_count": 24737,
+      "recent_download_count": 24737,
       "changelog": ""
     },
     {
@@ -522,8 +522,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24725,
-      "recent_download_count": 24725,
+      "download_count": 24737,
+      "recent_download_count": 24737,
       "changelog": ""
     },
     {
@@ -548,8 +548,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24725,
-      "recent_download_count": 24725,
+      "download_count": 24737,
+      "recent_download_count": 24737,
       "changelog": ""
     },
     {
@@ -574,8 +574,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24725,
-      "recent_download_count": 24725,
+      "download_count": 24737,
+      "recent_download_count": 24737,
       "changelog": ""
     },
     {
@@ -600,8 +600,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24725,
-      "recent_download_count": 24725,
+      "download_count": 24737,
+      "recent_download_count": 24737,
       "changelog": ""
     },
     {
@@ -626,8 +626,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317687,
-      "recent_download_count": 317687,
+      "download_count": 317720,
+      "recent_download_count": 317720,
       "changelog": ""
     },
     {
@@ -652,8 +652,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317687,
-      "recent_download_count": 317687,
+      "download_count": 317720,
+      "recent_download_count": 317720,
       "changelog": ""
     },
     {
@@ -678,8 +678,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 317687,
-      "recent_download_count": 317687,
+      "download_count": 317720,
+      "recent_download_count": 317720,
       "changelog": ""
     },
     {
@@ -704,8 +704,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317687,
-      "recent_download_count": 317687,
+      "download_count": 317720,
+      "recent_download_count": 317720,
       "changelog": ""
     },
     {
@@ -730,8 +730,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 317687,
-      "recent_download_count": 317687,
+      "download_count": 317720,
+      "recent_download_count": 317720,
       "changelog": ""
     },
     {
@@ -756,8 +756,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 317687,
-      "recent_download_count": 317687,
+      "download_count": 317720,
+      "recent_download_count": 317720,
       "changelog": ""
     },
     {
