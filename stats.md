@@ -1,57 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Github Release Download Stats</title>
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      font-size: 16px;
-      line-height: 1.5;
-      color: #24292e;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    h1 {
-      font-size: 2em;
-      font-weight: 600;
-      color: #0969da;
-      border-bottom: 1px solid #d0d7de;
-      padding-bottom: 10px;
-      margin-bottom: 16px;
-    }
-    p {
-      margin-bottom: 16px;
-    }
-    a {
-      color: #0969da;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin-top: 16px;
-    }
-    th, td {
-      border: 1px solid #d0d7de;
-      padding: 8px 13px;
-      text-align: left;
-    }
-    th {
-      background-color: #f6f8fa;
-      font-weight: 600;
-    }
-    tr:nth-child(even) {
-      background-color: #f6f8fa;
-    }
-  </style>
-</head>
 <body>
   <h1>My Github Release Download Stats</h1>
   <p>Stats at <a href="https://hanadigital.github.io/grev/">https://hanadigital.github.io/grev/</a></p>
@@ -119,7 +65,6 @@
         <td><a href="https://github.com/007revad/Asustor_Libre_Speedtest/releases"><img src="https://img.shields.io/github/downloads/007revad/Asustor_Libre_Speedtest/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/Asustor_Libre_Speedtest">Download stats</a></td>
       </tr>
-
       <tr>
         <td>DSM Notify</td>
         <td><a href="https://github.com/007revad/DSM_Notify/releases"><img src="https://img.shields.io/github/downloads/007revad/DSM_Notify/total.svg" alt="Github Releases"></a></td>
@@ -143,4 +88,3 @@
     </tbody>
   </table>
 </body>
-</html>
