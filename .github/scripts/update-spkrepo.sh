@@ -82,8 +82,8 @@ current_version() {
 #   2. https://raw.githubusercontent.com/<user>/<repo>/HEAD/synology/PACKAGE_ICON_256.PNG
 #   3. Full SPK download — tar-extract PACKAGE_ICON_256.PNG
 #
-# Resizes the icon to 120x120 and writes
-# <repo_dir>/thumbnails/<thumb_key>_120.png.
+# Resizes the icon to 72x72 and writes
+# <repo_dir>/thumbnails/<thumb_key>_72.png.
 #
 # Usage: maybe_update_thumbnail <spk_url> <pkg> <new_version> <thumb_key> <user> <repo>
 #--------------------------------------------------------------------
@@ -96,7 +96,7 @@ maybe_update_thumbnail() {
     local repo="$6"
     local is_beta="${7:-false}"
 
-    local dest="${REPO_DIR}/thumbnails/${thumb_key}_120.png"
+    local dest="${REPO_DIR}/thumbnails/${thumb_key}_72.png"
     local old_version
     old_version=$(current_version "${pkg}")
 
@@ -142,13 +142,13 @@ maybe_update_thumbnail() {
       fi
     fi
 
-    # Resize to 120x120, fitting within the canvas
+    # Resize to 72x72, fitting within the canvas
     if [[ "${is_beta}" == "true" ]]; then
         /usr/bin/convert "${tmp_icon}" \
-        -resize 120x120 \
+        -resize 72x72 \
         -gravity center \
         -background none \
-        -extent 120x120 \
+        -extent 72x72 \
         -gravity SouthEast \
         -fill white \
         -stroke red \
@@ -158,10 +158,10 @@ maybe_update_thumbnail() {
         "${dest}"
     else
         /usr/bin/convert "${tmp_icon}" \
-        -resize 120x120 \
+        -resize 72x72 \
         -gravity center \
         -background none \
-        -extent 120x120 \
+        -extent 72x72 \
         "${dest}"
     fi
 
@@ -641,7 +641,7 @@ make_entries() {
         size="${size:-0}"
     fi
 
-    local thumbnail="https://007revad.github.io/${REPO_DIR}/thumbnails/${thumb_key}_120.png"
+    local thumbnail="https://007revad.github.io/${REPO_DIR}/thumbnails/${thumb_key}_72.png"
 
     echo "DEBUG changelog_json='${changelog_json}'" >&2
 
