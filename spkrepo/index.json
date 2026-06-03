@@ -22,9 +22,9 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 491,
-      "recent_download_count": 491,
-      "changelog": "1. Bug fix for being unable to upgrade/install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
+      "download_count": 494,
+      "recent_download_count": 494,
+      "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
       "package": "OpenSpeedTest",
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 469,
-      "recent_download_count": 469,
+      "download_count": 472,
+      "recent_download_count": 472,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 258,
-      "recent_download_count": 258,
+      "download_count": 261,
+      "recent_download_count": 261,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 626,
-      "recent_download_count": 626,
+      "download_count": 640,
+      "recent_download_count": 640,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 626,
-      "recent_download_count": 626,
+      "download_count": 640,
+      "recent_download_count": 640,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 67,
-      "recent_download_count": 67,
+      "download_count": 68,
+      "recent_download_count": 68,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 2855,
-      "recent_download_count": 2855,
+      "download_count": 2869,
+      "recent_download_count": 2869,
       "changelog": ""
     },
     {
@@ -204,8 +204,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 872,
-      "recent_download_count": 872,
+      "download_count": 873,
+      "recent_download_count": 873,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -235,8 +235,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1670,
-      "recent_download_count": 1670,
+      "download_count": 1672,
+      "recent_download_count": 1672,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 358,
-      "recent_download_count": 358,
+      "download_count": 359,
+      "recent_download_count": 359,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -326,8 +326,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 813,
-      "recent_download_count": 813,
+      "download_count": 832,
+      "recent_download_count": 832,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -374,8 +374,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 813,
-      "recent_download_count": 813,
+      "download_count": 832,
+      "recent_download_count": 832,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -421,8 +421,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2639872,
-      "download_count": 813,
-      "recent_download_count": 813,
+      "download_count": 832,
+      "recent_download_count": 832,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -445,7 +445,7 @@
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
       "desc_nld": "synOCR is een eenvoudige GUI voor de Docker container OCRmyPDF. Hiermee kunt u eenvoudig OCR toepassen op PDF-documenten. synOCR kan vervolgens zoeken naar tags en data in de documenten, ze hernoemen volgens een individueel patroon en ze sorteren in submappen volgens categorieën. Door het gebruik van harde koppelingen is er geen grotere opslagruimte nodig als een document in verschillende categoriemappen moet worden gesorteerd.",
       "changelog_ger": "1. Detailverbesserungen der Progressbardarstellung.\n2. Überarbeitung des Loggings und Logfilelayouts.",
-      "changelog": "1. Detailed improvements to progress bar display.\n2. Revised logging and log file layout."
+      "changelog": "1. GUI detail improvements for progress bar display.\n2. Logging and log file layout overhaul."
     },
     {
       "package": "AirConnect",
@@ -469,8 +469,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24849,
-      "recent_download_count": 24849,
+      "download_count": 24856,
+      "recent_download_count": 24856,
       "changelog": ""
     },
     {
@@ -495,8 +495,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24849,
-      "recent_download_count": 24849,
+      "download_count": 24856,
+      "recent_download_count": 24856,
       "changelog": ""
     },
     {
@@ -521,8 +521,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24849,
-      "recent_download_count": 24849,
+      "download_count": 24856,
+      "recent_download_count": 24856,
       "changelog": ""
     },
     {
@@ -547,8 +547,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24849,
-      "recent_download_count": 24849,
+      "download_count": 24856,
+      "recent_download_count": 24856,
       "changelog": ""
     },
     {
@@ -573,8 +573,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24849,
-      "recent_download_count": 24849,
+      "download_count": 24856,
+      "recent_download_count": 24856,
       "changelog": ""
     },
     {
@@ -599,8 +599,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24849,
-      "recent_download_count": 24849,
+      "download_count": 24856,
+      "recent_download_count": 24856,
       "changelog": ""
     },
     {
@@ -625,8 +625,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318100,
-      "recent_download_count": 318100,
+      "download_count": 318132,
+      "recent_download_count": 318132,
       "changelog": ""
     },
     {
@@ -651,8 +651,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318100,
-      "recent_download_count": 318100,
+      "download_count": 318132,
+      "recent_download_count": 318132,
       "changelog": ""
     },
     {
@@ -677,8 +677,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318100,
-      "recent_download_count": 318100,
+      "download_count": 318132,
+      "recent_download_count": 318132,
       "changelog": ""
     },
     {
@@ -703,8 +703,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318100,
-      "recent_download_count": 318100,
+      "download_count": 318132,
+      "recent_download_count": 318132,
       "changelog": ""
     },
     {
@@ -729,8 +729,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318100,
-      "recent_download_count": 318100,
+      "download_count": 318132,
+      "recent_download_count": 318132,
       "changelog": ""
     },
     {
@@ -755,8 +755,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318100,
-      "recent_download_count": 318100,
+      "download_count": 318132,
+      "recent_download_count": 318132,
       "changelog": ""
     },
     {
