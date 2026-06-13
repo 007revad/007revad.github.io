@@ -81,6 +81,11 @@
         <td><a href="https://hanadigital.github.io/grev/007revad/Check_UPS_Connected" target="_blank">Download stats</a></td>
       </tr>
       <tr>
+        <td>Synology fix size units</td>
+        <td><a href="https://github.com/007revad/Synology_fix_size_units/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_fix_size_units/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/Synology_fix_size_units" target="_blank">Download stats</a></td>
+      </tr>
+      <tr>
         <td>Synoloy toolkit cache</td>
         <td><a href="https://github.com/007revad/synology-toolkit-cache/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/synology-toolkit-cache/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/synology-toolkit-cache" target="_blank">Download stats</a></td>
