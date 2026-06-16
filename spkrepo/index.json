@@ -22,9 +22,9 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 584,
-      "recent_download_count": 584,
-      "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
+      "download_count": 615,
+      "recent_download_count": 615,
+      "changelog": "1. Bug fix for being unable to upgrade/install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
       "package": "OpenSpeedTest",
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 532,
-      "recent_download_count": 532,
+      "download_count": 561,
+      "recent_download_count": 561,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 305,
-      "recent_download_count": 305,
+      "download_count": 331,
+      "recent_download_count": 331,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 753,
-      "recent_download_count": 753,
+      "download_count": 784,
+      "recent_download_count": 784,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 753,
-      "recent_download_count": 753,
+      "download_count": 784,
+      "recent_download_count": 784,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 83,
-      "recent_download_count": 83,
+      "download_count": 99,
+      "recent_download_count": 99,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3040,
-      "recent_download_count": 3040,
+      "download_count": 3135,
+      "recent_download_count": 3135,
       "changelog": ""
     },
     {
@@ -204,13 +204,13 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 894,
-      "recent_download_count": 894,
+      "download_count": 908,
+      "recent_download_count": 908,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
       "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
@@ -235,8 +235,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1701,
-      "recent_download_count": 1701,
+      "download_count": 1716,
+      "recent_download_count": 1716,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 376,
-      "recent_download_count": 376,
+      "download_count": 390,
+      "recent_download_count": 390,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -326,8 +326,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2418176,
-      "download_count": 1011,
-      "recent_download_count": 1011,
+      "download_count": 1056,
+      "recent_download_count": 1056,
       "dname_enu": "synOCR DSM6",
       "dname_ger": "synOCR DSM6",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -374,8 +374,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2312704,
-      "download_count": 1011,
-      "recent_download_count": 1011,
+      "download_count": 1056,
+      "recent_download_count": 1056,
       "dname_enu": "synOCR DSM7",
       "dname_ger": "synOCR DSM7",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -397,7 +397,7 @@
       "desc_dan": "synOCR er en simpel GUI for Docker-containeren OCRmyPDF. Med den kan du nemt anvende OCR til PDF-dokumenter. synOCR kan derefter søge efter tags og datoer i dokumenterne, omdøbe dem efter et individuelt mønster og sortere dem i undermapper efter kategorier. Ved at bruge hardlinks er der ikke behov for øget lagerplads, hvis et dokument skal sorteres i flere kategorimapper.",
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
-      "changelog": "1. Fixed incompatibility of inotify >= v4"
+      "changelog": "1. Fixed incompatibility of inotify >= v4."
     },
     {
       "package": "synOCR",
@@ -421,8 +421,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2596864,
-      "download_count": 1011,
-      "recent_download_count": 1011,
+      "download_count": 1056,
+      "recent_download_count": 1056,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -444,7 +444,7 @@
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
       "desc_nld": "synOCR is een eenvoudige GUI voor de Docker container OCRmyPDF. Hiermee kunt u eenvoudig OCR toepassen op PDF-documenten. synOCR kan vervolgens zoeken naar tags en data in de documenten, ze hernoemen volgens een individueel patroon en ze sorteren in submappen volgens categorieën. Door het gebruik van harde koppelingen is er geen grotere opslagruimte nodig als een document in verschillende categoriemappen moet worden gesorteerd.",
-      "changelog_ger": "1. Detailverbesserungen der Progressbardarstellung\n2. Überarbeitung / Härtung der DB-Zugriffe\n3. Überarbeitetes Errorlogging",
+      "changelog_ger": "1. Detailverbesserungen der Progressbardarstellung\n2. Überarbeitung / Härtung der DB-Zugriffe\n3. überarbeitetes Errorlogging",
       "changelog": ""
     },
     {
@@ -469,8 +469,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 24971,
-      "recent_download_count": 24971,
+      "download_count": 25065,
+      "recent_download_count": 25065,
       "changelog": ""
     },
     {
@@ -495,8 +495,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 24971,
-      "recent_download_count": 24971,
+      "download_count": 25065,
+      "recent_download_count": 25065,
       "changelog": ""
     },
     {
@@ -521,8 +521,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 24971,
-      "recent_download_count": 24971,
+      "download_count": 25065,
+      "recent_download_count": 25065,
       "changelog": ""
     },
     {
@@ -547,8 +547,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24971,
-      "recent_download_count": 24971,
+      "download_count": 25065,
+      "recent_download_count": 25065,
       "changelog": ""
     },
     {
@@ -573,8 +573,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 24971,
-      "recent_download_count": 24971,
+      "download_count": 25065,
+      "recent_download_count": 25065,
       "changelog": ""
     },
     {
@@ -599,8 +599,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 24971,
-      "recent_download_count": 24971,
+      "download_count": 25065,
+      "recent_download_count": 25065,
       "changelog": ""
     },
     {
@@ -625,8 +625,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318551,
-      "recent_download_count": 318551,
+      "download_count": 318663,
+      "recent_download_count": 318663,
       "changelog": ""
     },
     {
@@ -651,8 +651,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318551,
-      "recent_download_count": 318551,
+      "download_count": 318663,
+      "recent_download_count": 318663,
       "changelog": ""
     },
     {
@@ -677,8 +677,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318551,
-      "recent_download_count": 318551,
+      "download_count": 318663,
+      "recent_download_count": 318663,
       "changelog": ""
     },
     {
@@ -703,8 +703,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318551,
-      "recent_download_count": 318551,
+      "download_count": 318663,
+      "recent_download_count": 318663,
       "changelog": ""
     },
     {
@@ -729,8 +729,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318551,
-      "recent_download_count": 318551,
+      "download_count": 318663,
+      "recent_download_count": 318663,
       "changelog": ""
     },
     {
@@ -755,8 +755,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318551,
-      "recent_download_count": 318551,
+      "download_count": 318663,
+      "recent_download_count": 318663,
       "changelog": ""
     },
     {
