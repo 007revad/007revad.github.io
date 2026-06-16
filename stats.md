@@ -71,6 +71,11 @@
         <td><a href="https://hanadigital.github.io/grev/007revad/DSM_Notify" target="_blank">Download stats</a></td>
       </tr>
       <tr>
+        <td>Synology Drive Info</td>
+        <td><a href="https://github.com/007revad/Synology_drive_info/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_drive_info/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/Synology_drive_info" target="_blank">Download stats</a></td>
+      </tr>
+      <tr>
         <td>DSM Update</td>
         <td><a href="https://github.com/007revad/DSM_Update/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/DSM_Update/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/DSM_Update" target="_blank">Download stats</a></td>
