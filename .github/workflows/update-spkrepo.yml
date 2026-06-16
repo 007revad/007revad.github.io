@@ -34,6 +34,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.SYNC_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DISPATCH_REPO: ${{ github.event.client_payload.repo }}
         run: bash .github/scripts/update-spkrepo.sh
 
       - name: Commit and push index.json and any updated thumbnails
@@ -43,7 +44,14 @@ jobs:
           git add ${{ env.REPO_DIR }}/index.json ${{ env.REPO_DIR }}/thumbnails/
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
-          else
-            git commit -m "chore: update spkrepo index.json and thumbnails [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore: update spkrepo index.json and thumbnails [skip ci]"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "Push rejected, pulling and retrying (${i})..."
+            git pull --rebase origin main
+            sleep $(( RANDOM % 5 + 1 ))
+          done
+          echo "::error::Failed to push after 5 attempts"
+          exit 1
