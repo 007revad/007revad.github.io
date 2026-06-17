@@ -158,32 +158,6 @@
     },
     {
       "package": "drive_info",
-      "version": "1.0.8",
-      "dname": "Drive Info",
-      "desc": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/Synology_drive_info",
-      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v1.0.8/Drive_Info-noarch-v1.0.8-DSM-7.x.spk",
-      "arch": "noarch",
-      "exclude_arch": null,
-      "firmware": "7.0-40000",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 112640,
-      "download_count": 65,
-      "recent_download_count": 65,
-      "changelog": "1. Added PCIe M.2 card model to M.2 drives that are in a PCIe card.\n2. Adjusted column widths and added nowrap."
-    },
-    {
-      "package": "drive_info",
       "version": "1.0.11",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
@@ -199,10 +173,10 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info-beta_72.png"
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 849920,
       "download_count": 65,
       "recent_download_count": 65,
@@ -302,8 +276,8 @@
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
