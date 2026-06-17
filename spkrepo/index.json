@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 636,
-      "recent_download_count": 636,
+      "download_count": 638,
+      "recent_download_count": 638,
       "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 579,
-      "recent_download_count": 579,
+      "download_count": 582,
+      "recent_download_count": 582,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 350,
-      "recent_download_count": 350,
+      "download_count": 352,
+      "recent_download_count": 352,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 813,
-      "recent_download_count": 813,
+      "download_count": 815,
+      "recent_download_count": 815,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 813,
-      "recent_download_count": 813,
+      "download_count": 815,
+      "recent_download_count": 815,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 107,
-      "recent_download_count": 107,
+      "download_count": 108,
+      "recent_download_count": 108,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -178,13 +178,13 @@
       "snapshot": [],
       "beta": false,
       "size": 112640,
-      "download_count": 35,
-      "recent_download_count": 35,
+      "download_count": 40,
+      "recent_download_count": 40,
       "changelog": "1. Added PCIe M.2 card model to M.2 drives that are in a PCIe card.\n2. Adjusted column widths and added nowrap."
     },
     {
       "package": "drive_info",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -193,7 +193,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v1.0.9/Drive_Info-noarch-v1.0.9-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v1.0.10/Drive_Info-noarch-v1.0.10-DSM-7.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "7.0-40000",
@@ -204,8 +204,8 @@
       "snapshot": [],
       "beta": true,
       "size": 798720,
-      "download_count": 35,
-      "recent_download_count": 35,
+      "download_count": 40,
+      "recent_download_count": 40,
       "dname_enu": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
       "dname_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、型號和序號。",
       "dname_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、型号和序列号。",
@@ -270,8 +270,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3192,
-      "recent_download_count": 3192,
+      "download_count": 3199,
+      "recent_download_count": 3199,
       "changelog": ""
     },
     {
@@ -296,8 +296,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 915,
-      "recent_download_count": 915,
+      "download_count": 916,
+      "recent_download_count": 916,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -327,8 +327,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1726,
-      "recent_download_count": 1726,
+      "download_count": 1727,
+      "recent_download_count": 1727,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -358,8 +358,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 397,
-      "recent_download_count": 397,
+      "download_count": 398,
+      "recent_download_count": 398,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -394,7 +394,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, etc.).\n4. Several bugs fixed (LED control, quoting in strings, etc.)."
     },
     {
       "package": "synOCR",
@@ -418,8 +418,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2587648,
-      "download_count": 1120,
-      "recent_download_count": 1120,
+      "download_count": 1122,
+      "recent_download_count": 1122,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -465,8 +465,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25124,
-      "recent_download_count": 25124,
+      "download_count": 25131,
+      "recent_download_count": 25131,
       "changelog": ""
     },
     {
@@ -491,8 +491,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25124,
-      "recent_download_count": 25124,
+      "download_count": 25131,
+      "recent_download_count": 25131,
       "changelog": ""
     },
     {
@@ -517,8 +517,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25124,
-      "recent_download_count": 25124,
+      "download_count": 25131,
+      "recent_download_count": 25131,
       "changelog": ""
     },
     {
@@ -543,8 +543,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25124,
-      "recent_download_count": 25124,
+      "download_count": 25131,
+      "recent_download_count": 25131,
       "changelog": ""
     },
     {
@@ -569,8 +569,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25124,
-      "recent_download_count": 25124,
+      "download_count": 25131,
+      "recent_download_count": 25131,
       "changelog": ""
     },
     {
@@ -595,8 +595,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25124,
-      "recent_download_count": 25124,
+      "download_count": 25131,
+      "recent_download_count": 25131,
       "changelog": ""
     },
     {
@@ -621,8 +621,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318735,
-      "recent_download_count": 318735,
+      "download_count": 318741,
+      "recent_download_count": 318741,
       "changelog": ""
     },
     {
@@ -647,8 +647,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318735,
-      "recent_download_count": 318735,
+      "download_count": 318741,
+      "recent_download_count": 318741,
       "changelog": ""
     },
     {
@@ -673,8 +673,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318735,
-      "recent_download_count": 318735,
+      "download_count": 318741,
+      "recent_download_count": 318741,
       "changelog": ""
     },
     {
@@ -699,8 +699,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318735,
-      "recent_download_count": 318735,
+      "download_count": 318741,
+      "recent_download_count": 318741,
       "changelog": ""
     },
     {
@@ -725,8 +725,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318735,
-      "recent_download_count": 318735,
+      "download_count": 318741,
+      "recent_download_count": 318741,
       "changelog": ""
     },
     {
@@ -751,8 +751,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318735,
-      "recent_download_count": 318735,
+      "download_count": 318741,
+      "recent_download_count": 318741,
       "changelog": ""
     },
     {
