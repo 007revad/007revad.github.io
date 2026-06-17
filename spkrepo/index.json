@@ -22,9 +22,9 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 625,
-      "recent_download_count": 625,
-      "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
+      "download_count": 631,
+      "recent_download_count": 631,
+      "changelog": "1. Bug fix for being unable to upgrade/install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
       "package": "OpenSpeedTest",
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 570,
-      "recent_download_count": 570,
+      "download_count": 575,
+      "recent_download_count": 575,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 340,
-      "recent_download_count": 340,
+      "download_count": 345,
+      "recent_download_count": 345,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 793,
-      "recent_download_count": 793,
+      "download_count": 804,
+      "recent_download_count": 804,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 793,
-      "recent_download_count": 793,
+      "download_count": 804,
+      "recent_download_count": 804,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 103,
-      "recent_download_count": 103,
+      "download_count": 105,
+      "recent_download_count": 105,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 112640,
-      "download_count": 15,
-      "recent_download_count": 15,
+      "download_count": 27,
+      "recent_download_count": 27,
       "changelog": "1. Added PCIe M.2 card model to M.2 drives that are in a PCIe card.\n2. Adjusted column widths and added nowrap."
     },
     {
@@ -204,8 +204,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3161,
-      "recent_download_count": 3161,
+      "download_count": 3175,
+      "recent_download_count": 3175,
       "changelog": ""
     },
     {
@@ -230,8 +230,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 912,
-      "recent_download_count": 912,
+      "download_count": 913,
+      "recent_download_count": 913,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -261,8 +261,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1720,
-      "recent_download_count": 1720,
+      "download_count": 1724,
+      "recent_download_count": 1724,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -292,8 +292,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 394,
-      "recent_download_count": 394,
+      "download_count": 395,
+      "recent_download_count": 395,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -328,34 +328,34 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, etc.).\n4. Several bugs fixed (LED control, quoting in strings, etc.)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
     },
     {
       "package": "synOCR",
-      "version": "1.5.2",
-      "dname": "synOCR DSM6",
+      "version": "1.6.0",
+      "dname": "synOCR",
       "desc": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
       "maintainer": "geimist",
       "maintainer_url": "https://github.com/geimist/synOCR",
       "distributor": "geimist",
-      "distributor_url": "https://www.synology-forum.de/showthread.html?99647-synOCR-GUI-f%C3%BCr-OCRmyPDF",
+      "distributor_url": "https://github.com/geimist/synOCR/releases",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/geimist/synOCR/releases/download/v1.5.2/synOCR_DSM6_v1.5.2.spk",
-      "arch": "x86_64",
+      "link": "https://github.com/geimist/synOCR/releases/download/v1.6.0/synOCR_v1.6.0.spk",
+      "arch": "x86_64 armv8",
       "exclude_arch": null,
-      "firmware": "6.0-7321",
-      "os_max_ver": "6.9-39999",
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/synOCR_DSM6_72.png"
+        "https://007revad.github.io/spkrepo/thumbnails/synOCR_72.png"
       ],
       "snapshot": [],
       "beta": false,
-      "size": 2418176,
-      "download_count": 1071,
-      "recent_download_count": 1071,
-      "dname_enu": "synOCR DSM6",
-      "dname_ger": "synOCR DSM6",
+      "size": 2587648,
+      "download_count": 1104,
+      "recent_download_count": 1104,
+      "dname_enu": "synOCR",
+      "dname_ger": "synOCR",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
       "desc_sve": "synOCR är ett enkelt gränssnitt för Docker-behållaren OCRmyPDF. Med den kan du enkelt tillämpa OCR på PDF-dokument. synOCR kan sedan söka efter taggar och datum i dokumenten, byta namn på dem enligt ett individuellt mönster och sortera dem i undermappar enligt kategorier. Genom att använda hårda länkar ökar inte behovet av lagringsutrymme om ett dokument måste sorteras i flera kategorimappar.",
       "desc_spn": "synOCR es una sencilla interfaz gráfica de usuario para el contenedor Docker OCRmyPDF. Con él, puede aplicar fácilmente el OCR a los documentos PDF. synOCR puede entonces buscar etiquetas y fechas en los documentos, renombrarlos según un patrón individual y ordenarlos en subcarpetas según las categorías. Al utilizar enlaces duros, no se necesita más espacio de almacenamiento si un documento tiene que ser clasificado en varias carpetas de categorías.",
@@ -379,101 +379,6 @@
       "changelog": "1. NameSyntax-Editor improved: Placeholders can now be conveniently inserted as chips via Drag&Drop.\n2. Package server can only be automatically added via a button\n3. OCR-optimized black and white conversion\n4. delay optimization for the case that the scanner's clock is ahead (#82 thanks to @tacarrie)\n5. preinst/preupgrade: Early check for Python ≥ 3.9 for aarch64\n6. Compatibility with aarch64 restored\n7. build_spk: generate scripts/lang lines with printf %q so that messages after . …/lang/* are reliably set and appear in the package center"
     },
     {
-      "package": "synOCR",
-      "version": "1.5.2",
-      "dname": "synOCR DSM7",
-      "desc": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
-      "maintainer": "geimist",
-      "maintainer_url": "https://github.com/geimist/synOCR",
-      "distributor": "geimist",
-      "distributor_url": "https://www.synology-forum.de/showthread.html?99647-synOCR-GUI-f%C3%BCr-OCRmyPDF",
-      "support_url": "",
-      "report_url": "",
-      "link": "https://github.com/geimist/synOCR/releases/download/v1.5.2/synOCR_DSM7_v1.5.2.spk",
-      "arch": "x86_64",
-      "exclude_arch": null,
-      "firmware": "7.0-40000",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/synOCR_72.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 2312704,
-      "download_count": 1071,
-      "recent_download_count": 1071,
-      "dname_enu": "synOCR DSM7",
-      "dname_ger": "synOCR DSM7",
-      "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
-      "desc_sve": "synOCR är ett enkelt gränssnitt för Docker-behållaren OCRmyPDF. Med den kan du enkelt tillämpa OCR på PDF-dokument. synOCR kan sedan söka efter taggar och datum i dokumenten, byta namn på dem enligt ett individuellt mönster och sortera dem i undermappar enligt kategorier. Genom att använda hårda länkar ökar inte behovet av lagringsutrymme om ett dokument måste sorteras i flera kategorimappar.",
-      "desc_spn": "synOCR es una sencilla interfaz gráfica de usuario para el contenedor Docker OCRmyPDF. Con él, puede aplicar fácilmente el OCR a los documentos PDF. synOCR puede entonces buscar etiquetas y fechas en los documentos, renombrarlos según un patrón individual y ordenarlos en subcarpetas según las categorías. Al utilizar enlaces duros, no se necesita más espacio de almacenamiento si un documento tiene que ser clasificado en varias carpetas de categorías.",
-      "desc_rus": "synOCR - это простой графический интерфейс для Docker-контейнера OCRmyPDF. С его помощью вы можете легко применять OCR к PDF-документам. synOCR может искать в документах теги и даты, переименовывать их по индивидуальному шаблону и сортировать по категориям в подпапках. Использование жестких ссылок позволяет не увеличивать объем памяти, если документ необходимо рассортировать по нескольким папкам категорий.",
-      "desc_ptg": "synOCR é um simples GUI para o contentor Docker OCRmyPDF. Com ele, pode facilmente aplicar OCR a documentos PDF. synOCR pode então procurar etiquetas e datas nos documentos, renomeá-los de acordo com um padrão individual e classificá-los em subpastas de acordo com as categorias. Ao utilizar ligações rígidas, não há aumento da necessidade de espaço de armazenamento se um documento tiver de ser classificado em várias pastas de categoria.",
-      "desc_ptb": "synOCR é um simples GUI para o container Docker OCRmyPDF. Com ele, você pode facilmente aplicar OCR a documentos PDF. synOCR pode então procurar por etiquetas e datas nos documentos, renomeá-los de acordo com um padrão individual e classificá-los em subpastas de acordo com as categorias. Ao utilizar links rígidos, não há aumento da necessidade de espaço de armazenamento se um documento tiver que ser classificado em várias pastas de categoria.",
-      "desc_plk": "synOCR to proste GUI dla kontenera Docker OCRmyPDF. Program synOCR może wyszukiwać znaczniki i daty w dokumentach, zmieniać ich nazwy według indywidualnego wzorca oraz sortować je w podfolderach według kategorii. Dzięki zastosowaniu twardych łączy nie zwiększa się zapotrzebowanie na miejsce w pamięci, jeśli dokument musi być posortowany w kilku folderach kategorii.",
-      "desc_nor": "synOCR er et enkelt grensesnitt for Docker-containeren OCRmyPDF. Med den kan du enkelt bruke OCR på PDF-dokumenter. synOCR kan deretter søke etter tagger og datoer i dokumentene, gi dem nytt navn etter et individuelt mønster og sortere dem i undermapper etter kategorier. Ved å bruke harde lenker er det ikke behov for økt lagringsplass hvis et dokument må sorteres i flere kategorimapper.",
-      "desc_nld": "synOCR is een eenvoudige GUI voor de Docker container OCRmyPDF. Hiermee kunt u eenvoudig OCR toepassen op PDF-documenten. synOCR kan vervolgens zoeken naar tags en data in de documenten, ze hernoemen volgens een individueel patroon en ze sorteren in submappen volgens categorieën. Door het gebruik van harde koppelingen is er geen grotere opslagruimte nodig als een document in verschillende categoriemappen moet worden gesorteerd.",
-      "desc_krn": "synOCR은 Docker 컨테이너 OCRmyPDF를 위한 간단한 GUI입니다. synOCR은 문서에서 태그와 날짜를 검색하고, 개별 패턴에 따라 이름을 바꾸고, 카테고리에 따라 하위 폴더로 정렬할 수 있습니다. 하드 링크를 사용하면 문서를 여러 카테고리 폴더로 분류해야 하는 경우 저장 공간 요구량이 증가하지 않습니다.",
-      "desc_jpn": "synOCRは、DockerコンテナOCRmyPDFのためのシンプルなGUIです。それを使って、簡単にPDF文書にOCRを適用することができます。そして、synOCRは、文書内のタグや日付を検索し、個々のパターンに従ってそれらをリネームし、カテゴリに従ってサブフォルダにそれらを並べ替えることができます。ハードリンクを使用することで、1つの文書を複数のカテゴリーフォルダーに分類する場合でも、ストレージの容量を増やす必要はありません。",
-      "desc_ita": "synOCR è una semplice interfaccia grafica per il contenitore Docker OCRmyPDF. Con esso è possibile applicare facilmente l'OCR ai documenti PDF. synOCR può quindi cercare tag e date nei documenti, rinominarli secondo uno schema individuale e ordinarli in sottocartelle in base alle categorie. Grazie all'utilizzo di collegamenti rigidi, non è necessario aumentare lo spazio di archiviazione se un documento deve essere ordinato in diverse cartelle di categoria.",
-      "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
-      "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
-      "desc_fre": "synOCR est une interface graphique simple pour le conteneur Docker OCRmyPDF. Il te permet d'appliquer facilement l'OCR aux documents PDF. synOCR peut ensuite rechercher les balises et les dates dans les documents, les renommer selon un modèle individuel et les classer par catégories dans des sous-dossiers. En utilisant des liens en dur, il n'y a pas d'augmentation de l'espace de stockage lorsqu'un document doit être classé dans plusieurs dossiers de catégories",
-      "desc_enu": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
-      "desc_dan": "synOCR er en simpel GUI for Docker-containeren OCRmyPDF. Med den kan du nemt anvende OCR til PDF-dokumenter. synOCR kan derefter søge efter tags og datoer i dokumenterne, omdøbe dem efter et individuelt mønster og sortere dem i undermapper efter kategorier. Ved at bruge hardlinks er der ikke behov for øget lagerplads, hvis et dokument skal sorteres i flere kategorimapper.",
-      "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
-      "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
-      "changelog": "1. Fixed incompatibility of inotify >= v4."
-    },
-    {
-      "package": "synOCR",
-      "version": "1.5.99.9",
-      "dname": "synOCR beta",
-      "desc": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
-      "maintainer": "geimist",
-      "maintainer_url": "https://github.com/geimist/synOCR",
-      "distributor": "geimist",
-      "distributor_url": "https://github.com/geimist/synOCR/releases",
-      "support_url": "",
-      "report_url": "",
-      "link": "https://github.com/geimist/synOCR/releases/download/v1.5.99.9-beta/synOCR_DSM7_v1.5.99.9.spk",
-      "arch": "x86_64 armv8",
-      "exclude_arch": null,
-      "firmware": "7.0-40000",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/synOCR-beta_72.png"
-      ],
-      "snapshot": [],
-      "beta": true,
-      "size": 2596864,
-      "download_count": 1071,
-      "recent_download_count": 1071,
-      "dname_enu": "synOCR beta",
-      "dname_ger": "synOCR beta",
-      "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
-      "desc_nor": "synOCR er et enkelt grensesnitt for Docker-containeren OCRmyPDF. Med den kan du enkelt bruke OCR på PDF-dokumenter. synOCR kan deretter søke etter tagger og datoer i dokumentene, gi dem nytt navn etter et individuelt mønster og sortere dem i undermapper etter kategorier. Ved å bruke harde lenker er det ikke behov for økt lagringsplass hvis et dokument må sorteres i flere kategorimapper.",
-      "desc_krn": "synOCR은 Docker 컨테이너 OCRmyPDF를 위한 간단한 GUI입니다. synOCR은 문서에서 태그와 날짜를 검색하고, 개별 패턴에 따라 이름을 바꾸고, 카테고리에 따라 하위 폴더로 정렬할 수 있습니다. 하드 링크를 사용하면 문서를 여러 카테고리 폴더로 분류해야 하는 경우 저장 공간 요구량이 증가하지 않습니다.",
-      "desc_sve": "synOCR är ett enkelt gränssnitt för Docker-behållaren OCRmyPDF. Med den kan du enkelt tillämpa OCR på PDF-dokument. synOCR kan sedan söka efter taggar och datum i dokumenten, byta namn på dem enligt ett individuellt mönster och sortera dem i undermappar enligt kategorier. Genom att använda hårda länkar ökar inte behovet av lagringsutrymme om ett dokument måste sorteras i flera kategorimappar.",
-      "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
-      "desc_fre": "synOCR est une interface graphique simple pour le conteneur Docker OCRmyPDF. Il te permet d'appliquer facilement l'OCR aux documents PDF. synOCR peut ensuite rechercher les balises et les dates dans les documents, les renommer selon un modèle individuel et les classer par catégories dans des sous-dossiers. En utilisant des liens en dur, il n'y a pas d'augmentation de l'espace de stockage lorsqu'un document doit être classé dans plusieurs dossiers de catégories",
-      "desc_plk": "synOCR to proste GUI dla kontenera Docker OCRmyPDF. Program synOCR może wyszukiwać znaczniki i daty w dokumentach, zmieniać ich nazwy według indywidualnego wzorca oraz sortować je w podfolderach według kategorii. Dzięki zastosowaniu twardych łączy nie zwiększa się zapotrzebowanie na miejsce w pamięci, jeśli dokument musi być posortowany w kilku folderach kategorii.",
-      "desc_ptb": "synOCR é um simples GUI para o container Docker OCRmyPDF. Com ele, você pode facilmente aplicar OCR a documentos PDF. synOCR pode então procurar por etiquetas e datas nos documentos, renomeá-los de acordo com um padrão individual e classificá-los em subpastas de acordo com as categorias. Ao utilizar links rígidos, não há aumento da necessidade de espaço de armazenamento se um documento tiver que ser classificado em várias pastas de categoria.",
-      "desc_rus": "synOCR - это простой графический интерфейс для Docker-контейнера OCRmyPDF. С его помощью вы можете легко применять OCR к PDF-документам. synOCR может искать в документах теги и даты, переименовывать их по индивидуальному шаблону и сортировать по категориям в подпапках. Использование жестких ссылок позволяет не увеличивать объем памяти, если документ необходимо рассортировать по нескольким папкам категорий.",
-      "desc_ita": "synOCR è una semplice interfaccia grafica per il contenitore Docker OCRmyPDF. Con esso è possibile applicare facilmente l'OCR ai documenti PDF. synOCR può quindi cercare tag e date nei documenti, rinominarli secondo uno schema individuale e ordinarli in sottocartelle in base alle categorie. Grazie all'utilizzo di collegamenti rigidi, non è necessario aumentare lo spazio di archiviazione se un documento deve essere ordinato in diverse cartelle di categoria.",
-      "desc_enu": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
-      "desc_spn": "synOCR es una sencilla interfaz gráfica de usuario para el contenedor Docker OCRmyPDF. Con él, puede aplicar fácilmente el OCR a los documentos PDF. synOCR puede entonces buscar etiquetas y fechas en los documentos, renombrarlos según un patrón individual y ordenarlos en subcarpetas según las categorías. Al utilizar enlaces duros, no se necesita más espacio de almacenamiento si un documento tiene que ser clasificado en varias carpetas de categorías.",
-      "desc_ptg": "synOCR é um simples GUI para o contentor Docker OCRmyPDF. Com ele, pode facilmente aplicar OCR a documentos PDF. synOCR pode então procurar etiquetas e datas nos documentos, renomeá-los de acordo com um padrão individual e classificá-los em subpastas de acordo com as categorias. Ao utilizar ligações rígidas, não há aumento da necessidade de espaço de armazenamento se um documento tiver de ser classificado em várias pastas de categoria.",
-      "desc_jpn": "synOCRは、DockerコンテナOCRmyPDFのためのシンプルなGUIです。それを使って、簡単にPDF文書にOCRを適用することができます。そして、synOCRは、文書内のタグや日付を検索し、個々のパターンに従ってそれらをリネームし、カテゴリに従ってサブフォルダにそれらを並べ替えることができます。ハードリンクを使用することで、1つの文書を複数のカテゴリーフォルダーに分類する場合でも、ストレージの容量を増やす必要はありません。",
-      "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
-      "desc_dan": "synOCR er en simpel GUI for Docker-containeren OCRmyPDF. Med den kan du nemt anvende OCR til PDF-dokumenter. synOCR kan derefter søge efter tags og datoer i dokumenterne, omdøbe dem efter et individuelt mønster og sortere dem i undermapper efter kategorier. Ved at bruge hardlinks er der ikke behov for øget lagerplads, hvis et dokument skal sorteres i flere kategorimapper.",
-      "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
-      "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
-      "desc_nld": "synOCR is een eenvoudige GUI voor de Docker container OCRmyPDF. Hiermee kunt u eenvoudig OCR toepassen op PDF-documenten. synOCR kan vervolgens zoeken naar tags en data in de documenten, ze hernoemen volgens een individueel patroon en ze sorteren in submappen volgens categorieën. Door het gebruik van harde koppelingen is er geen grotere opslagruimte nodig als een document in verschillende categoriemappen moet worden gesorteerd.",
-      "changelog_ger": "1. Detailverbesserungen der Progressbardarstellung\n2. Überarbeitung / Härtung der DB-Zugriffe\n3. überarbeitetes Errorlogging",
-      "changelog": ""
-    },
-    {
       "package": "AirConnect",
       "version": "1.8.3-20240403",
       "dname": "AirConnect",
@@ -495,8 +400,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25099,
-      "recent_download_count": 25099,
+      "download_count": 25110,
+      "recent_download_count": 25110,
       "changelog": ""
     },
     {
@@ -521,8 +426,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25099,
-      "recent_download_count": 25099,
+      "download_count": 25110,
+      "recent_download_count": 25110,
       "changelog": ""
     },
     {
@@ -547,8 +452,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25099,
-      "recent_download_count": 25099,
+      "download_count": 25110,
+      "recent_download_count": 25110,
       "changelog": ""
     },
     {
@@ -573,8 +478,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25099,
-      "recent_download_count": 25099,
+      "download_count": 25110,
+      "recent_download_count": 25110,
       "changelog": ""
     },
     {
@@ -599,8 +504,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25099,
-      "recent_download_count": 25099,
+      "download_count": 25110,
+      "recent_download_count": 25110,
       "changelog": ""
     },
     {
@@ -625,8 +530,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25099,
-      "recent_download_count": 25099,
+      "download_count": 25110,
+      "recent_download_count": 25110,
       "changelog": ""
     },
     {
@@ -651,8 +556,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318692,
-      "recent_download_count": 318692,
+      "download_count": 318709,
+      "recent_download_count": 318709,
       "changelog": ""
     },
     {
@@ -677,8 +582,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318692,
-      "recent_download_count": 318692,
+      "download_count": 318709,
+      "recent_download_count": 318709,
       "changelog": ""
     },
     {
@@ -703,8 +608,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318692,
-      "recent_download_count": 318692,
+      "download_count": 318709,
+      "recent_download_count": 318709,
       "changelog": ""
     },
     {
@@ -729,8 +634,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318692,
-      "recent_download_count": 318692,
+      "download_count": 318709,
+      "recent_download_count": 318709,
       "changelog": ""
     },
     {
@@ -755,8 +660,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318692,
-      "recent_download_count": 318692,
+      "download_count": 318709,
+      "recent_download_count": 318709,
       "changelog": ""
     },
     {
@@ -781,8 +686,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318692,
-      "recent_download_count": 318692,
+      "download_count": 318709,
+      "recent_download_count": 318709,
       "changelog": ""
     },
     {
