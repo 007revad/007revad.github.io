@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 638,
-      "recent_download_count": 638,
+      "download_count": 640,
+      "recent_download_count": 640,
       "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 582,
-      "recent_download_count": 582,
+      "download_count": 584,
+      "recent_download_count": 584,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 352,
-      "recent_download_count": 352,
+      "download_count": 354,
+      "recent_download_count": 354,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 815,
-      "recent_download_count": 815,
+      "download_count": 817,
+      "recent_download_count": 817,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 815,
-      "recent_download_count": 815,
+      "download_count": 817,
+      "recent_download_count": 817,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 108,
-      "recent_download_count": 108,
+      "download_count": 109,
+      "recent_download_count": 109,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 112640,
-      "download_count": 40,
-      "recent_download_count": 40,
+      "download_count": 42,
+      "recent_download_count": 42,
       "changelog": "1. Added PCIe M.2 card model to M.2 drives that are in a PCIe card.\n2. Adjusted column widths and added nowrap."
     },
     {
@@ -204,28 +204,28 @@
       "snapshot": [],
       "beta": true,
       "size": 798720,
-      "download_count": 40,
-      "recent_download_count": 40,
-      "dname_enu": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
-      "dname_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、型號和序號。",
-      "dname_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、型号和序列号。",
-      "dname_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 모델 및 일련 번호를 표시합니다.",
-      "dname_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Modell und Seriennummer aller Laufwerke in Ihrem Synology NAS an.",
-      "dname_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, le modèle et le numéro de série de tous les disques de votre NAS Synology.",
-      "dname_ita": "Mostra l'ID del dispositivo, il numero unità DSM, il modello e il numero di serie di tutte le unità nel tuo NAS Synology.",
-      "dname_spn": "Muestra el ID del dispositivo, el número de unidad de DSM, el modelo y el número de serie de todas las unidades de su NAS Synology.",
-      "dname_jpn": "Synology NAS内のすべてのドライブのデバイスID、DSMドライブ番号、モデル、シリアル番号を表示します。",
-      "dname_dan": "Viser enheds-id, DSM-disknummer, model og serienummer for alle diske i din Synology NAS.",
-      "dname_nor": "Viser enhets-ID, DSM-disknummer, modell og serienummer for alle diskene i din Synology NAS.",
-      "dname_sve": "Visar enhets-ID, DSM-disknummer, modell och serienummer för alla diskar i din Synology NAS.",
-      "dname_nld": "Toont het apparaat-ID, het DSM-schijfnummer, het model en het serienummer van alle schijven in uw Synology NAS.",
-      "dname_rus": "Отображает идентификатор устройства, номер диска DSM, модель и серийный номер всех дисков в вашем Synology NAS.",
-      "dname_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, model i numer seryjny wszystkich dysków w Twoim Synology NAS.",
-      "dname_ptb": "Mostra o ID do dispositivo, o número do drive DSM, o modelo e o número de série de todos os drives no seu Synology NAS.",
-      "dname_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, o modelo e o número de série de todas as unidades no seu Synology NAS.",
-      "dname_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, modelljét és sorozatszámát.",
-      "dname_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, modeli ve seri numarasını gösterir",
-      "dname_csy": "Zobrazuje ID zařízení, číslo disku DSM, model a sériové číslo všech disků ve vašem Synology NAS.",
+      "download_count": 42,
+      "recent_download_count": 42,
+      "dname_enu": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_chs": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_trk": "Drive Info",
+      "dname_csy": "Drive Info",
       "desc_enu": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
       "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、型號和序號。",
       "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、型号和序列号。",
@@ -246,7 +246,7 @@
       "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, modelljét és sorozatszámát.",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, modeli ve seri numarasını gösterir",
       "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, model a sériové číslo všech disků ve vašem Synology NAS.",
-      "changelog": "1. Added support for the languages supported by DSM."
+      "changelog": "1. Added support for the languages supported by DSM.\n2. Bug fix for description being shown as the name."
     },
     {
       "package": "Synosmartinfo",
@@ -270,8 +270,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3199,
-      "recent_download_count": 3199,
+      "download_count": 3205,
+      "recent_download_count": 3205,
       "changelog": ""
     },
     {
@@ -296,14 +296,14 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 916,
-      "recent_download_count": 916,
+      "download_count": 917,
+      "recent_download_count": 917,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -327,14 +327,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1727,
-      "recent_download_count": 1727,
+      "download_count": 1728,
+      "recent_download_count": 1728,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -358,8 +358,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 398,
-      "recent_download_count": 398,
+      "download_count": 399,
+      "recent_download_count": 399,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -394,7 +394,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, etc.).\n4. Several bugs fixed (LED control, quoting in strings, etc.)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
     },
     {
       "package": "synOCR",
@@ -418,8 +418,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2587648,
-      "download_count": 1122,
-      "recent_download_count": 1122,
+      "download_count": 1124,
+      "recent_download_count": 1124,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -465,8 +465,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25131,
-      "recent_download_count": 25131,
+      "download_count": 25138,
+      "recent_download_count": 25138,
       "changelog": ""
     },
     {
@@ -491,8 +491,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25131,
-      "recent_download_count": 25131,
+      "download_count": 25138,
+      "recent_download_count": 25138,
       "changelog": ""
     },
     {
@@ -517,8 +517,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25131,
-      "recent_download_count": 25131,
+      "download_count": 25138,
+      "recent_download_count": 25138,
       "changelog": ""
     },
     {
@@ -543,8 +543,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25131,
-      "recent_download_count": 25131,
+      "download_count": 25138,
+      "recent_download_count": 25138,
       "changelog": ""
     },
     {
@@ -569,8 +569,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25131,
-      "recent_download_count": 25131,
+      "download_count": 25138,
+      "recent_download_count": 25138,
       "changelog": ""
     },
     {
@@ -595,8 +595,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25131,
-      "recent_download_count": 25131,
+      "download_count": 25138,
+      "recent_download_count": 25138,
       "changelog": ""
     },
     {
@@ -621,8 +621,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318741,
-      "recent_download_count": 318741,
+      "download_count": 318747,
+      "recent_download_count": 318747,
       "changelog": ""
     },
     {
@@ -647,8 +647,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318741,
-      "recent_download_count": 318741,
+      "download_count": 318747,
+      "recent_download_count": 318747,
       "changelog": ""
     },
     {
@@ -673,8 +673,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318741,
-      "recent_download_count": 318741,
+      "download_count": 318747,
+      "recent_download_count": 318747,
       "changelog": ""
     },
     {
@@ -699,8 +699,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318741,
-      "recent_download_count": 318741,
+      "download_count": 318747,
+      "recent_download_count": 318747,
       "changelog": ""
     },
     {
@@ -725,8 +725,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318741,
-      "recent_download_count": 318741,
+      "download_count": 318747,
+      "recent_download_count": 318747,
       "changelog": ""
     },
     {
@@ -751,8 +751,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318741,
-      "recent_download_count": 318741,
+      "download_count": 318747,
+      "recent_download_count": 318747,
       "changelog": ""
     },
     {
