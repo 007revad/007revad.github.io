@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 668,
-      "recent_download_count": 668,
+      "download_count": 671,
+      "recent_download_count": 671,
       "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 612,
-      "recent_download_count": 612,
+      "download_count": 614,
+      "recent_download_count": 614,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 375,
-      "recent_download_count": 375,
+      "download_count": 377,
+      "recent_download_count": 377,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 834,
-      "recent_download_count": 834,
+      "download_count": 836,
+      "recent_download_count": 836,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 834,
-      "recent_download_count": 834,
+      "download_count": 836,
+      "recent_download_count": 836,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 114,
-      "recent_download_count": 114,
+      "download_count": 115,
+      "recent_download_count": 115,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 849920,
-      "download_count": 80,
-      "recent_download_count": 80,
+      "download_count": 86,
+      "recent_download_count": 86,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -224,7 +224,7 @@
     },
     {
       "package": "drive_info",
-      "version": "1.0.12",
+      "version": "1.0.13",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -233,7 +233,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v1.0.12/Drive_Info-noarch-v1.0.12-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v1.0.13/Drive_Info-noarch-v1.0.13-DSM-7.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "7.0-40000",
@@ -244,8 +244,8 @@
       "snapshot": [],
       "beta": true,
       "size": 174080,
-      "download_count": 80,
-      "recent_download_count": 80,
+      "download_count": 86,
+      "recent_download_count": 86,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -286,7 +286,7 @@
       "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, modelljét és sorozatszámát.",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, modeli ve seri numarasını gösterir",
       "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, model a sériové číslo všech disků ve vašem Synology NAS.",
-      "changelog": "1. Moved expansion unit and M.2 PCIe cards to their own column.\n2. Improved language translations."
+      "changelog": "1. Moved expansion unit and M.2 PCIe cards to their own column.\n2. Improved language translations.\n3. Improved column spacing.\n4. Bug fix for drive model and serial in wrong columns for drives with no location (i.e. Drives not in an expansion unit or M.2 PCIe card)."
     },
     {
       "package": "Synosmartinfo",
@@ -310,8 +310,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3259,
-      "recent_download_count": 3259,
+      "download_count": 3268,
+      "recent_download_count": 3268,
       "changelog": ""
     },
     {
@@ -336,8 +336,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 921,
-      "recent_download_count": 921,
+      "download_count": 922,
+      "recent_download_count": 922,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -367,14 +367,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1734,
-      "recent_download_count": 1734,
+      "download_count": 1735,
+      "recent_download_count": 1735,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -398,8 +398,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 403,
-      "recent_download_count": 403,
+      "download_count": 404,
+      "recent_download_count": 404,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -458,8 +458,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2587648,
-      "download_count": 1168,
-      "recent_download_count": 1168,
+      "download_count": 1169,
+      "recent_download_count": 1169,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -505,8 +505,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25170,
-      "recent_download_count": 25170,
+      "download_count": 25177,
+      "recent_download_count": 25177,
       "changelog": ""
     },
     {
@@ -531,8 +531,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25170,
-      "recent_download_count": 25170,
+      "download_count": 25177,
+      "recent_download_count": 25177,
       "changelog": ""
     },
     {
@@ -557,8 +557,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25170,
-      "recent_download_count": 25170,
+      "download_count": 25177,
+      "recent_download_count": 25177,
       "changelog": ""
     },
     {
@@ -583,8 +583,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25170,
-      "recent_download_count": 25170,
+      "download_count": 25177,
+      "recent_download_count": 25177,
       "changelog": ""
     },
     {
@@ -609,8 +609,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25170,
-      "recent_download_count": 25170,
+      "download_count": 25177,
+      "recent_download_count": 25177,
       "changelog": ""
     },
     {
@@ -635,8 +635,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25170,
-      "recent_download_count": 25170,
+      "download_count": 25177,
+      "recent_download_count": 25177,
       "changelog": ""
     },
     {
@@ -661,8 +661,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318788,
-      "recent_download_count": 318788,
+      "download_count": 318794,
+      "recent_download_count": 318794,
       "changelog": ""
     },
     {
@@ -687,8 +687,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318788,
-      "recent_download_count": 318788,
+      "download_count": 318794,
+      "recent_download_count": 318794,
       "changelog": ""
     },
     {
@@ -713,8 +713,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318788,
-      "recent_download_count": 318788,
+      "download_count": 318794,
+      "recent_download_count": 318794,
       "changelog": ""
     },
     {
@@ -739,8 +739,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318788,
-      "recent_download_count": 318788,
+      "download_count": 318794,
+      "recent_download_count": 318794,
       "changelog": ""
     },
     {
@@ -765,8 +765,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318788,
-      "recent_download_count": 318788,
+      "download_count": 318794,
+      "recent_download_count": 318794,
       "changelog": ""
     },
     {
@@ -791,8 +791,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318788,
-      "recent_download_count": 318788,
+      "download_count": 318794,
+      "recent_download_count": 318794,
       "changelog": ""
     },
     {
