@@ -22,9 +22,9 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 671,
-      "recent_download_count": 671,
-      "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
+      "download_count": 674,
+      "recent_download_count": 674,
+      "changelog": "1. Bug fix for being unable to upgrade/install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
       "package": "OpenSpeedTest",
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 614,
-      "recent_download_count": 614,
+      "download_count": 616,
+      "recent_download_count": 616,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 377,
-      "recent_download_count": 377,
+      "download_count": 379,
+      "recent_download_count": 379,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 836,
-      "recent_download_count": 836,
+      "download_count": 840,
+      "recent_download_count": 840,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 836,
-      "recent_download_count": 836,
+      "download_count": 840,
+      "recent_download_count": 840,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,75 +152,9 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 115,
-      "recent_download_count": 115,
+      "download_count": 116,
+      "recent_download_count": 116,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
-    },
-    {
-      "package": "drive_info",
-      "version": "1.0.11",
-      "dname": "Drive Info",
-      "desc": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/Synology_drive_info",
-      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v1.0.11/Drive_Info-noarch-v1.0.11-DSM-7.x.spk",
-      "arch": "noarch",
-      "exclude_arch": null,
-      "firmware": "7.0-40000",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 849920,
-      "download_count": 86,
-      "recent_download_count": 86,
-      "dname_enu": "Drive Info",
-      "dname_cht": "Drive Info",
-      "dname_chs": "Drive Info",
-      "dname_krn": "Drive Info",
-      "dname_ger": "Drive Info",
-      "dname_fre": "Drive Info",
-      "dname_ita": "Drive Info",
-      "dname_spn": "Drive Info",
-      "dname_jpn": "Drive Info",
-      "dname_dan": "Drive Info",
-      "dname_nor": "Drive Info",
-      "dname_sve": "Drive Info",
-      "dname_nld": "Drive Info",
-      "dname_rus": "Drive Info",
-      "dname_plk": "Drive Info",
-      "dname_ptb": "Drive Info",
-      "dname_ptg": "Drive Info",
-      "dname_hun": "Drive Info",
-      "dname_trk": "Drive Info",
-      "dname_csy": "Drive Info",
-      "desc_enu": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
-      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、型號和序號。",
-      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、型号和序列号。",
-      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 모델 및 일련 번호를 표시합니다.",
-      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Modell und Seriennummer aller Laufwerke in Ihrem Synology NAS an.",
-      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, le modèle et le numéro de série de tous les disques de votre NAS Synology.",
-      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, il modello e il numero di serie di tutte le unità nel tuo NAS Synology.",
-      "desc_spn": "Muestra el ID del dispositivo, el número de unidad de DSM, el modelo y el número de serie de todas las unidades de su NAS Synology.",
-      "desc_jpn": "Synology NAS内のすべてのドライブのデバイスID、DSMドライブ番号、モデル、シリアル番号を表示します。",
-      "desc_dan": "Viser enheds-id, DSM-disknummer, model og serienummer for alle diske i din Synology NAS.",
-      "desc_nor": "Viser enhets-ID, DSM-disknummer, modell og serienummer for alle diskene i din Synology NAS.",
-      "desc_sve": "Visar enhets-ID, DSM-disknummer, modell och serienummer för alla diskar i din Synology NAS.",
-      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, het model en het serienummer van alle schijven in uw Synology NAS.",
-      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, модель и серийный номер всех дисков в вашем Synology NAS.",
-      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, model i numer seryjny wszystkich dysków w Twoim Synology NAS.",
-      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, o modelo e o número de série de todos os drives no seu Synology NAS.",
-      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, o modelo e o número de série de todas as unidades no seu Synology NAS.",
-      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, modelljét és sorozatszámát.",
-      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, modeli ve seri numarasını gösterir",
-      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, model a sériové číslo všech disků ve vašem Synology NAS.",
-      "changelog": "1. Added language support for the install/upgrade ui permissions steps pages.\n2. Added language support for error messages."
     },
     {
       "package": "drive_info",
@@ -239,13 +173,13 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info-beta_72.png"
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 174080,
-      "download_count": 86,
-      "recent_download_count": 86,
+      "download_count": 93,
+      "recent_download_count": 93,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -286,7 +220,7 @@
       "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, modelljét és sorozatszámát.",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, modeli ve seri numarasını gösterir",
       "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, model a sériové číslo všech disků ve vašem Synology NAS.",
-      "changelog": "1. Moved expansion unit and M.2 PCIe cards to their own column.\n2. Improved language translations.\n3. Improved column spacing.\n4. Bug fix for drive model and serial in wrong columns for drives with no location (i.e. Drives not in an expansion unit or M.2 PCIe card)."
+      "changelog": "1. Moved expansion unit and M.2 PCIe cards to their own column.\n2. Improved language translations.\n3. Improved column spacing.\n4. Bug fix for drive model and serial in wrong columns for drives with no location.\n5. Drives not in an expansion unit or M.2 PCIe card."
     },
     {
       "package": "Synosmartinfo",
@@ -310,8 +244,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3268,
-      "recent_download_count": 3268,
+      "download_count": 3275,
+      "recent_download_count": 3275,
       "changelog": ""
     },
     {
@@ -336,8 +270,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 922,
-      "recent_download_count": 922,
+      "download_count": 923,
+      "recent_download_count": 923,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -367,8 +301,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1735,
-      "recent_download_count": 1735,
+      "download_count": 1737,
+      "recent_download_count": 1737,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -398,8 +332,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 404,
-      "recent_download_count": 404,
+      "download_count": 405,
+      "recent_download_count": 405,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -458,8 +392,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2587648,
-      "download_count": 1169,
-      "recent_download_count": 1169,
+      "download_count": 1173,
+      "recent_download_count": 1173,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -481,7 +415,7 @@
       "desc_dan": "synOCR er en simpel GUI for Docker-containeren OCRmyPDF. Med den kan du nemt anvende OCR til PDF-dokumenter. synOCR kan derefter søge efter tags og datoer i dokumenterne, omdøbe dem efter et individuelt mønster og sortere dem i undermapper efter kategorier. Ved at bruge hardlinks er der ikke behov for øget lagerplads, hvis et dokument skal sorteres i flere kategorimapper.",
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
-      "changelog": "1. A graphical folder picker has been implemented so that folder paths can be selected directly, and target folders can be created automatically in the folder picker.\n2. \"title\" can now be set in metadata (GUI ➜ OCR options: --title my title), and all rename parameters can also be set as variables.\n3. Option to manually restore the configuration database.\n4. NameSyntax editor improved: placeholders can now be conveniently inserted as chips via drag & drop.\n5. The overview page now features a real-time progress indicator.\n6. Package server for convenient updates can now be added automatically to Package Center via a button.\n7. Backup files are now tracked in the database to ensure clean rotation even for older files or when the scanner's system time is incorrect.\n8. Hints and instructions for setting up the package server if it has not already been configured in DSM.\n9. Immediate display of path validation.\n10. Warning about unsaved changes.\n11. OCR-optimized black and white conversion.\n12. Delay optimization for the case when the scanner clock is ahead.\n13. Revision of logging, log file layouts and error logging.\n14. Revision / hardening of database access.\n15. Early check for Python ≥ 3.9 on aarch64 in preinst/preupgrade.\n16. Compatibility with aarch64 restored.\n17. Minor bug fixes.\n18. Tag names containing the character \"&\" led to incorrect naming."
+      "changelog": "1. A graphical folder picker has been implemented so that folder paths can be selected directly. Target folders can be created automatically in the folder picker.\n2. \"title\" can now be set in metadata (GUI ➜ OCR options: --title my title). All rename parameters can also be set as variables.\n3. Option to manually restore the configuration database.\n4. NameSyntax editor improved: placeholders can now be conveniently inserted as chips via drag & drop.\n5. The overview page now features a real-time progress indicator.\n6. Package server for convenient updates can now be added automatically to Package Center via a button.\n7. Backup files are now tracked in the database. This ensures clean rotation even for older files or when the scanner's system time is incorrect. (issue #79) In the GUI, the user can define how to handle orphaned entries. Existing backup files will fall out of rotation with this update and may need to be deleted manually.\n8. Hints and instructions for setting up the package server if it has not already been configured in DSM.\n9. Immediate display of path validation.\n10. Warning about unsaved changes.\n11. OCR-optimized black and white conversion.\n12. Delay optimization for the case when the scanner clock is ahead (#82 thanks to @tacarrie).\n13. Revision of logging, log file layouts and error logging.\n14. Revision / hardening of database access.\n15. preinst/preupgrade: Early check for Python ≥ 3.9 on aarch64.\n16. Compatibility with aarch64 restored.\n17. Minor bug fixes.\n18. Tag names containing the character \"&\" led to incorrect naming."
     },
     {
       "package": "AirConnect",
@@ -505,8 +439,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25177,
-      "recent_download_count": 25177,
+      "download_count": 25184,
+      "recent_download_count": 25184,
       "changelog": ""
     },
     {
@@ -531,8 +465,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25177,
-      "recent_download_count": 25177,
+      "download_count": 25184,
+      "recent_download_count": 25184,
       "changelog": ""
     },
     {
@@ -557,8 +491,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25177,
-      "recent_download_count": 25177,
+      "download_count": 25184,
+      "recent_download_count": 25184,
       "changelog": ""
     },
     {
@@ -583,8 +517,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25177,
-      "recent_download_count": 25177,
+      "download_count": 25184,
+      "recent_download_count": 25184,
       "changelog": ""
     },
     {
@@ -609,8 +543,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25177,
-      "recent_download_count": 25177,
+      "download_count": 25184,
+      "recent_download_count": 25184,
       "changelog": ""
     },
     {
@@ -635,8 +569,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25177,
-      "recent_download_count": 25177,
+      "download_count": 25184,
+      "recent_download_count": 25184,
       "changelog": ""
     },
     {
@@ -661,8 +595,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318794,
-      "recent_download_count": 318794,
+      "download_count": 318800,
+      "recent_download_count": 318800,
       "changelog": ""
     },
     {
@@ -687,8 +621,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318794,
-      "recent_download_count": 318794,
+      "download_count": 318800,
+      "recent_download_count": 318800,
       "changelog": ""
     },
     {
@@ -713,8 +647,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318794,
-      "recent_download_count": 318794,
+      "download_count": 318800,
+      "recent_download_count": 318800,
       "changelog": ""
     },
     {
@@ -739,8 +673,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318794,
-      "recent_download_count": 318794,
+      "download_count": 318800,
+      "recent_download_count": 318800,
       "changelog": ""
     },
     {
@@ -765,8 +699,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318794,
-      "recent_download_count": 318794,
+      "download_count": 318800,
+      "recent_download_count": 318800,
       "changelog": ""
     },
     {
@@ -791,8 +725,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318794,
-      "recent_download_count": 318794,
+      "download_count": 318800,
+      "recent_download_count": 318800,
       "changelog": ""
     },
     {
