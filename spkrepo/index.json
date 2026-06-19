@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 674,
-      "recent_download_count": 674,
+      "download_count": 690,
+      "recent_download_count": 690,
       "changelog": "1. Bug fix for being unable to upgrade/install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 616,
-      "recent_download_count": 616,
+      "download_count": 629,
+      "recent_download_count": 629,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 196608,
-      "download_count": 379,
-      "recent_download_count": 379,
+      "download_count": 387,
+      "recent_download_count": 387,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 840,
-      "recent_download_count": 840,
+      "download_count": 849,
+      "recent_download_count": 849,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 840,
-      "recent_download_count": 840,
+      "download_count": 849,
+      "recent_download_count": 849,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 116,
-      "recent_download_count": 116,
+      "download_count": 119,
+      "recent_download_count": 119,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 174080,
-      "download_count": 93,
-      "recent_download_count": 93,
+      "download_count": 111,
+      "recent_download_count": 111,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -244,8 +244,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3275,
-      "recent_download_count": 3275,
+      "download_count": 3294,
+      "recent_download_count": 3294,
       "changelog": ""
     },
     {
@@ -270,14 +270,14 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 923,
-      "recent_download_count": 923,
+      "download_count": 924,
+      "recent_download_count": 924,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -301,8 +301,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1737,
-      "recent_download_count": 1737,
+      "download_count": 1741,
+      "recent_download_count": 1741,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -332,8 +332,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 405,
-      "recent_download_count": 405,
+      "download_count": 406,
+      "recent_download_count": 406,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -392,8 +392,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2587648,
-      "download_count": 1173,
-      "recent_download_count": 1173,
+      "download_count": 1219,
+      "recent_download_count": 1219,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -439,8 +439,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25184,
-      "recent_download_count": 25184,
+      "download_count": 25194,
+      "recent_download_count": 25194,
       "changelog": ""
     },
     {
@@ -465,8 +465,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25184,
-      "recent_download_count": 25184,
+      "download_count": 25194,
+      "recent_download_count": 25194,
       "changelog": ""
     },
     {
@@ -491,8 +491,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25184,
-      "recent_download_count": 25184,
+      "download_count": 25194,
+      "recent_download_count": 25194,
       "changelog": ""
     },
     {
@@ -517,8 +517,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25184,
-      "recent_download_count": 25184,
+      "download_count": 25194,
+      "recent_download_count": 25194,
       "changelog": ""
     },
     {
@@ -543,8 +543,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25184,
-      "recent_download_count": 25184,
+      "download_count": 25194,
+      "recent_download_count": 25194,
       "changelog": ""
     },
     {
@@ -569,8 +569,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25184,
-      "recent_download_count": 25184,
+      "download_count": 25194,
+      "recent_download_count": 25194,
       "changelog": ""
     },
     {
@@ -595,8 +595,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318800,
-      "recent_download_count": 318800,
+      "download_count": 318827,
+      "recent_download_count": 318827,
       "changelog": ""
     },
     {
@@ -621,8 +621,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318800,
-      "recent_download_count": 318800,
+      "download_count": 318827,
+      "recent_download_count": 318827,
       "changelog": ""
     },
     {
@@ -647,8 +647,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 318800,
-      "recent_download_count": 318800,
+      "download_count": 318827,
+      "recent_download_count": 318827,
       "changelog": ""
     },
     {
@@ -673,8 +673,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318800,
-      "recent_download_count": 318800,
+      "download_count": 318827,
+      "recent_download_count": 318827,
       "changelog": ""
     },
     {
@@ -699,8 +699,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 318800,
-      "recent_download_count": 318800,
+      "download_count": 318827,
+      "recent_download_count": 318827,
       "changelog": ""
     },
     {
@@ -725,8 +725,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 318800,
-      "recent_download_count": 318800,
+      "download_count": 318827,
+      "recent_download_count": 318827,
       "changelog": ""
     },
     {
