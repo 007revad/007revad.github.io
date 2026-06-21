@@ -46,7 +46,7 @@
         <td><a href="https://hanadigital.github.io/grev/007revad/Synology_Download_Station_Chrome_Extension" target="_blank">Download stats</a></td>
       </tr>
       <tr>
-        <td>Synoloy toolkit cache</td>
+        <td>Synology toolkit cache</td>
         <td><a href="https://github.com/007revad/synology-toolkit-cache/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/synology-toolkit-cache/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/synology-toolkit-cache" target="_blank">Download stats</a></td>
       </tr>
