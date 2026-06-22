@@ -24,7 +24,7 @@
       "size": 3768320,
       "download_count": 801,
       "recent_download_count": 801,
-      "changelog": "1. Bug fix for being unable to upgrade/install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
+      "changelog": "1. Bug fix for being unable to upgrade or install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
     },
     {
       "package": "OoklaSpeedtest",
