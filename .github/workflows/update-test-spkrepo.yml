@@ -15,6 +15,10 @@ on:
   #schedule:
   #  - cron: '0 2 * * *'
 
+concurrency:
+  group: spkrepo-rebuild
+  cancel-in-progress: false   # queue, don't cancel
+
 jobs:
   update-index:
     runs-on: ubuntu-latest
