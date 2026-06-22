@@ -24,7 +24,59 @@
       "size": 3768320,
       "download_count": 780,
       "recent_download_count": 780,
-      "changelog": "1. Bug fix for being unable to upgrade/install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
+      "changelog": "1. But fix for being to upgrade not able to install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
+    },
+    {
+      "package": "OoklaSpeedtest",
+      "version": "1.0.30",
+      "dname": "Ookla Speedtest",
+      "desc": "Ookla Speedtest GUI to test Internet speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.31/OoklaSpeedtest-noarch-v1.0.31-DSM-6.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "6.0-7321",
+      "os_max_ver": "6.9-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_DSM6-beta_72.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 3747840,
+      "download_count": 780,
+      "recent_download_count": 780,
+      "changelog": "1. Bug fix for v1.0.29 DSM 6 package having minimum DSM version 7.0."
+    },
+    {
+      "package": "OoklaSpeedtest",
+      "version": "1.0.30",
+      "dname": "Ookla Speedtest",
+      "desc": "Ookla Speedtest GUI to test Internet speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.31/OoklaSpeedtest-noarch-v1.0.31-DSM-7.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest-beta_72.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 3758080,
+      "download_count": 780,
+      "recent_download_count": 780,
+      "changelog": "1. Bug fix for v1.0.29 DSM 6 package having minimum DSM version 7.0."
     },
     {
       "package": "OpenSpeedTest",
@@ -51,6 +103,58 @@
       "download_count": 744,
       "recent_download_count": 744,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
+    },
+    {
+      "package": "OpenSpeedTest",
+      "version": "1.0.12",
+      "dname": "OpenSpeedTest",
+      "desc": "OpenSpeedTest to test LAN speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Open_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/download/v1.0.13/OpenSpeedtest-noarch-v1.0.13-DSM-6.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "6.0-7321",
+      "os_max_ver": "6.9-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_DSM6-beta_72.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 583680,
+      "download_count": 744,
+      "recent_download_count": 744,
+      "changelog": "1. Bug fix for v1.0.11 DSM 6 package having minimum DSM version 7.0."
+    },
+    {
+      "package": "OpenSpeedTest",
+      "version": "1.0.12",
+      "dname": "OpenSpeedTest",
+      "desc": "OpenSpeedTest to test LAN speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Open_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Open_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Open_Speedtest/releases/download/v1.0.13/OpenSpeedtest-noarch-v1.0.13-DSM-7.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest-beta_72.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 583680,
+      "download_count": 744,
+      "recent_download_count": 744,
+      "changelog": "1. Bug fix for v1.0.11 DSM 6 package having minimum DSM version 7.0."
     },
     {
       "package": "LibreSpeedTest",
@@ -152,8 +256,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 926,
-      "recent_download_count": 926,
+      "download_count": 927,
+      "recent_download_count": 927,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -178,8 +282,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 926,
-      "recent_download_count": 926,
+      "download_count": 927,
+      "recent_download_count": 927,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -230,8 +334,8 @@
       "snapshot": [],
       "beta": false,
       "size": 158208,
-      "download_count": 234,
-      "recent_download_count": 234,
+      "download_count": 235,
+      "recent_download_count": 235,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -296,8 +400,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 234,
-      "recent_download_count": 234,
+      "download_count": 235,
+      "recent_download_count": 235,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -486,7 +590,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100\n2. Help added, integrated to the Synology Help\n3. Several improvements (Installation Wizard, Logging, ...)\n4. Several bugs fixed (LED control, quoting in strings, ...)"
     },
     {
       "package": "synOCR",
