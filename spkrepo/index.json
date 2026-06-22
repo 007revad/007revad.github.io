@@ -2,7 +2,7 @@
   "packages": [
     {
       "package": "OoklaSpeedtest",
-      "version": "1.0.28",
+      "version": "1.0.34",
       "dname": "Ookla Speedtest",
       "desc": "Ookla Speedtest GUI to test Internet speed",
       "maintainer": "007revad",
@@ -11,7 +11,33 @@
       "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
       "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.28/OoklaSpeedtest-noarch-v1.0.28-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.34/OoklaSpeedtest-noarch-v1.0.34-DSM-6.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "6.0-7321",
+      "os_max_ver": "6.9-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_DSM6_72.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 3747840,
+      "download_count": 846,
+      "recent_download_count": 846,
+      "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
+    },
+    {
+      "package": "OoklaSpeedtest",
+      "version": "1.0.34",
+      "dname": "Ookla Speedtest",
+      "desc": "Ookla Speedtest GUI to test Internet speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.34/OoklaSpeedtest-noarch-v1.0.34-DSM-7.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "7.0-40337",
@@ -21,62 +47,10 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 3768320,
-      "download_count": 838,
-      "recent_download_count": 838,
-      "changelog": "1. But fix for being to upgrade not able to install.\n2. Added instructions on how to schedule Ookla Speedtests and receive an email of the results."
-    },
-    {
-      "package": "OoklaSpeedtest",
-      "version": "1.0.33",
-      "dname": "Ookla Speedtest",
-      "desc": "Ookla Speedtest GUI to test Internet speed",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
-      "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
-      "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.33/OoklaSpeedtest-noarch-v1.0.33-DSM-6.x.spk",
-      "arch": "noarch",
-      "exclude_arch": null,
-      "firmware": "6.0-7321",
-      "os_max_ver": "6.9-99999",
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_DSM6-beta_72.png"
-      ],
-      "snapshot": [],
-      "beta": true,
-      "size": 3747840,
-      "download_count": 838,
-      "recent_download_count": 838,
-      "changelog": "1. DSM 7 bug fix for the Open button not showing until up to an hour after installing.\n2. DSM 6 bug fix for the Open button not showing and the webui not working."
-    },
-    {
-      "package": "OoklaSpeedtest",
-      "version": "1.0.33",
-      "dname": "Ookla Speedtest",
-      "desc": "Ookla Speedtest GUI to test Internet speed",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
-      "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
-      "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.0.33/OoklaSpeedtest-noarch-v1.0.33-DSM-7.x.spk",
-      "arch": "noarch",
-      "exclude_arch": null,
-      "firmware": "7.0-40337",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest-beta_72.png"
-      ],
-      "snapshot": [],
-      "beta": true,
       "size": 3758080,
-      "download_count": 838,
-      "recent_download_count": 838,
-      "changelog": "1. DSM 7 bug fix for the Open button not showing until up to an hour after installing.\n2. DSM 6 bug fix for the Open button not showing and the webui not working."
+      "download_count": 846,
+      "recent_download_count": 846,
+      "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
       "package": "OpenSpeedTest",
@@ -100,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 796,
-      "recent_download_count": 796,
+      "download_count": 799,
+      "recent_download_count": 799,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
@@ -126,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 796,
-      "recent_download_count": 796,
+      "download_count": 799,
+      "recent_download_count": 799,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
@@ -152,8 +126,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 523,
-      "recent_download_count": 523,
+      "download_count": 526,
+      "recent_download_count": 526,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -178,8 +152,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 523,
-      "recent_download_count": 523,
+      "download_count": 526,
+      "recent_download_count": 526,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -204,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 943,
-      "recent_download_count": 943,
+      "download_count": 946,
+      "recent_download_count": 946,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -230,8 +204,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 943,
-      "recent_download_count": 943,
+      "download_count": 946,
+      "recent_download_count": 946,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -256,8 +230,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 147,
-      "recent_download_count": 147,
+      "download_count": 148,
+      "recent_download_count": 148,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -282,8 +256,8 @@
       "snapshot": [],
       "beta": false,
       "size": 158208,
-      "download_count": 265,
-      "recent_download_count": 265,
+      "download_count": 269,
+      "recent_download_count": 269,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -348,8 +322,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 265,
-      "recent_download_count": 265,
+      "download_count": 269,
+      "recent_download_count": 269,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -414,8 +388,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3494,
-      "recent_download_count": 3494,
+      "download_count": 3500,
+      "recent_download_count": 3500,
       "changelog": ""
     },
     {
@@ -440,8 +414,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 952,
-      "recent_download_count": 952,
+      "download_count": 953,
+      "recent_download_count": 953,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -471,8 +445,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1771,
-      "recent_download_count": 1771,
+      "download_count": 1772,
+      "recent_download_count": 1772,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -502,8 +476,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 433,
-      "recent_download_count": 433,
+      "download_count": 434,
+      "recent_download_count": 434,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -538,7 +512,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100\n2. Help added, integrated to the Synology Help\n3. Several improvements (Installation Wizzard, Logging, ...)\n4. Several Bugs fixed (LED control, quoting in strings, ...)"
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
     },
     {
       "package": "synOCR",
@@ -562,8 +536,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2592768,
-      "download_count": 1404,
-      "recent_download_count": 1404,
+      "download_count": 1408,
+      "recent_download_count": 1408,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -609,8 +583,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25380,
-      "recent_download_count": 25380,
+      "download_count": 25388,
+      "recent_download_count": 25388,
       "changelog": ""
     },
     {
@@ -635,8 +609,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25380,
-      "recent_download_count": 25380,
+      "download_count": 25388,
+      "recent_download_count": 25388,
       "changelog": ""
     },
     {
@@ -661,8 +635,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25380,
-      "recent_download_count": 25380,
+      "download_count": 25388,
+      "recent_download_count": 25388,
       "changelog": ""
     },
     {
@@ -687,8 +661,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25380,
-      "recent_download_count": 25380,
+      "download_count": 25388,
+      "recent_download_count": 25388,
       "changelog": ""
     },
     {
@@ -713,8 +687,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25380,
-      "recent_download_count": 25380,
+      "download_count": 25388,
+      "recent_download_count": 25388,
       "changelog": ""
     },
     {
@@ -739,8 +713,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25380,
-      "recent_download_count": 25380,
+      "download_count": 25388,
+      "recent_download_count": 25388,
       "changelog": ""
     },
     {
@@ -765,8 +739,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 319031,
-      "recent_download_count": 319031,
+      "download_count": 319037,
+      "recent_download_count": 319037,
       "changelog": ""
     },
     {
@@ -791,8 +765,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 319031,
-      "recent_download_count": 319031,
+      "download_count": 319037,
+      "recent_download_count": 319037,
       "changelog": ""
     },
     {
@@ -817,8 +791,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 319031,
-      "recent_download_count": 319031,
+      "download_count": 319037,
+      "recent_download_count": 319037,
       "changelog": ""
     },
     {
@@ -843,8 +817,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 319031,
-      "recent_download_count": 319031,
+      "download_count": 319037,
+      "recent_download_count": 319037,
       "changelog": ""
     },
     {
@@ -869,8 +843,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 319031,
-      "recent_download_count": 319031,
+      "download_count": 319037,
+      "recent_download_count": 319037,
       "changelog": ""
     },
     {
@@ -895,8 +869,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 319031,
-      "recent_download_count": 319031,
+      "download_count": 319037,
+      "recent_download_count": 319037,
       "changelog": ""
     },
     {
