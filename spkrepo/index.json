@@ -430,7 +430,7 @@
       "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, modelljét és sorozatszámát.",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, modeli ve seri numarasını gösterir",
       "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, model a sériové číslo všech disků ve vašem Synology NAS.",
-      "changelog": "1. Can now show you the drive information for all local Synology NAS.\n2. It can find all local Synology NAS itself.\n3. Requires all local Synology NAS to have Drive Info v2 or later installed.\n4. Added a Settings menu where you can:\n5. Enable or Disable showing drive info for all local Synology NAS.\n6. Manually add local Synology NAS by hostname, IP and port (in case you only want to drive information for certain NAS and not all local Synology NAS)."
+      "changelog": "1. Can now show you the drive information for all local Synology NAS.\n2. It can find all local Synology NAS itself.\n3. Requires all local Synology NAS to have Drive Info v2 or later installed.\n4. Added a Settings menu where you can:\n5. Enable or Disable showing drive info for all local Synology NAS.\n6. Manually add local Synology NAS by hostname, IP and port (in case you only want to see drive information for certain NAS and not all local Synology NAS)."
     },
     {
       "package": "drive_info",
@@ -496,7 +496,7 @@
       "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, modelljét és sorozatszámát.",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, modeli ve seri numarasını gösterir",
       "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, model a sériové číslo všech disků ve vašem Synology NAS.",
-      "changelog": "1. Can now show you the drive information for all local Synology NAS.\n2. It can find all local Synology NAS itself.\n3. Requires all local Synology NAS to have Drive Info v2 or later installed.\n4. Added a Settings menu where you can enable or disable showing drive info for all local Synology NAS.\n5. Manually add local Synology NAS by hostname, IP and port (in case you only want to drive information for certain NAS and not all local Synology NAS)."
+      "changelog": "1. Can now show you the drive information for all local Synology NAS.\n2. It can find all local Synology NAS itself.\n3. Requires all local Synology NAS to have Drive Info v2 or later installed.\n4. Added a Settings menu where you can enable or disable showing drive info for all local Synology NAS.\n5. Manually add local Synology NAS by hostname, IP and port (in case you only want to see drive information for certain NAS and not all local Synology NAS)."
     },
     {
       "package": "Synosmartinfo",
