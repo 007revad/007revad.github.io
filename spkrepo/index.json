@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 979,
-      "recent_download_count": 979,
+      "download_count": 982,
+      "recent_download_count": 982,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 979,
-      "recent_download_count": 979,
+      "download_count": 982,
+      "recent_download_count": 982,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 917,
-      "recent_download_count": 917,
+      "download_count": 920,
+      "recent_download_count": 920,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 917,
-      "recent_download_count": 917,
+      "download_count": 920,
+      "recent_download_count": 920,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 594,
-      "recent_download_count": 594,
+      "download_count": 597,
+      "recent_download_count": 597,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 594,
-      "recent_download_count": 594,
+      "download_count": 597,
+      "recent_download_count": 597,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1022,
-      "recent_download_count": 1022,
+      "download_count": 1024,
+      "recent_download_count": 1024,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -204,8 +204,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1022,
-      "recent_download_count": 1022,
+      "download_count": 1024,
+      "recent_download_count": 1024,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -230,8 +230,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 167,
-      "recent_download_count": 167,
+      "download_count": 168,
+      "recent_download_count": 168,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -256,8 +256,8 @@
       "snapshot": [],
       "beta": false,
       "size": 163840,
-      "download_count": 560,
-      "recent_download_count": 560,
+      "download_count": 566,
+      "recent_download_count": 566,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -322,8 +322,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 560,
-      "recent_download_count": 560,
+      "download_count": 566,
+      "recent_download_count": 566,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -368,7 +368,7 @@
     },
     {
       "package": "drive_info",
-      "version": "2.0.22",
+      "version": "2.0.23",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number and health for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -377,7 +377,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.0.22/Drive_Info-noarch-v2.0.22-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.0.23/Drive_Info-noarch-v2.0.23-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "6.0-7321",
@@ -387,9 +387,9 @@
       ],
       "snapshot": [],
       "beta": true,
-      "size": 143360,
-      "download_count": 560,
-      "recent_download_count": 560,
+      "size": 153600,
+      "download_count": 566,
+      "recent_download_count": 566,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -430,11 +430,11 @@
       "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, modelljét és sorozatszámát.",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, modeli ve seri numarasını gösterir",
       "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, model a sériové číslo všech disků ve vašem Synology NAS.",
-      "changelog": "1. Added Volume information and status.\n2. Defaults to enabled but can be disabled in the settings."
+      "changelog": "1. Now shows other local Synology NAS' info in the DSM language of the NAS running Drive Info."
     },
     {
       "package": "drive_info",
-      "version": "2.0.22",
+      "version": "2.0.23",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number and health for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -443,7 +443,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.0.22/Drive_Info-noarch-v2.0.22-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.0.23/Drive_Info-noarch-v2.0.23-DSM-7.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "7.0-40000",
@@ -454,8 +454,8 @@
       "snapshot": [],
       "beta": true,
       "size": 184320,
-      "download_count": 560,
-      "recent_download_count": 560,
+      "download_count": 566,
+      "recent_download_count": 566,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -496,7 +496,7 @@
       "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, modelljét és sorozatszámát.",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, modeli ve seri numarasını gösterir",
       "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, model a sériové číslo všech disků ve vašem Synology NAS.",
-      "changelog": "1. Added Volume information and status.\n2. Defaults to enabled but can be disabled in the settings."
+      "changelog": "1. Now shows other local Synology NAS' info in the DSM language of the NAS running Drive Info."
     },
     {
       "package": "Synosmartinfo",
@@ -520,8 +520,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3610,
-      "recent_download_count": 3610,
+      "download_count": 3616,
+      "recent_download_count": 3616,
       "changelog": ""
     },
     {
@@ -546,8 +546,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 969,
-      "recent_download_count": 969,
+      "download_count": 970,
+      "recent_download_count": 970,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -577,8 +577,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1794,
-      "recent_download_count": 1794,
+      "download_count": 1795,
+      "recent_download_count": 1795,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -608,8 +608,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 450,
-      "recent_download_count": 450,
+      "download_count": 451,
+      "recent_download_count": 451,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -668,8 +668,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2592768,
-      "download_count": 1611,
-      "recent_download_count": 1611,
+      "download_count": 1612,
+      "recent_download_count": 1612,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -715,8 +715,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25476,
-      "recent_download_count": 25476,
+      "download_count": 25483,
+      "recent_download_count": 25483,
       "changelog": ""
     },
     {
@@ -741,8 +741,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25476,
-      "recent_download_count": 25476,
+      "download_count": 25483,
+      "recent_download_count": 25483,
       "changelog": ""
     },
     {
@@ -767,8 +767,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25476,
-      "recent_download_count": 25476,
+      "download_count": 25483,
+      "recent_download_count": 25483,
       "changelog": ""
     },
     {
@@ -793,8 +793,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25476,
-      "recent_download_count": 25476,
+      "download_count": 25483,
+      "recent_download_count": 25483,
       "changelog": ""
     },
     {
@@ -819,8 +819,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25476,
-      "recent_download_count": 25476,
+      "download_count": 25483,
+      "recent_download_count": 25483,
       "changelog": ""
     },
     {
@@ -845,8 +845,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25476,
-      "recent_download_count": 25476,
+      "download_count": 25483,
+      "recent_download_count": 25483,
       "changelog": ""
     },
     {
@@ -871,8 +871,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 319309,
-      "recent_download_count": 319309,
+      "download_count": 319315,
+      "recent_download_count": 319315,
       "changelog": ""
     },
     {
@@ -897,8 +897,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 319309,
-      "recent_download_count": 319309,
+      "download_count": 319315,
+      "recent_download_count": 319315,
       "changelog": ""
     },
     {
@@ -923,8 +923,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 319309,
-      "recent_download_count": 319309,
+      "download_count": 319315,
+      "recent_download_count": 319315,
       "changelog": ""
     },
     {
@@ -949,8 +949,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 319309,
-      "recent_download_count": 319309,
+      "download_count": 319315,
+      "recent_download_count": 319315,
       "changelog": ""
     },
     {
@@ -975,8 +975,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 319309,
-      "recent_download_count": 319309,
+      "download_count": 319315,
+      "recent_download_count": 319315,
       "changelog": ""
     },
     {
@@ -1001,8 +1001,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 319309,
-      "recent_download_count": 319309,
+      "download_count": 319315,
+      "recent_download_count": 319315,
       "changelog": ""
     },
     {
