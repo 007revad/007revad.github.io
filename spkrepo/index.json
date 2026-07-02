@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 1035,
-      "recent_download_count": 1035,
+      "download_count": 1039,
+      "recent_download_count": 1039,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 1035,
-      "recent_download_count": 1035,
+      "download_count": 1039,
+      "recent_download_count": 1039,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -74,9 +74,9 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 964,
-      "recent_download_count": 964,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
+      "download_count": 969,
+      "recent_download_count": 969,
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
     },
     {
       "package": "OpenSpeedTest",
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 964,
-      "recent_download_count": 964,
+      "download_count": 969,
+      "recent_download_count": 969,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 629,
-      "recent_download_count": 629,
+      "download_count": 634,
+      "recent_download_count": 634,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 629,
-      "recent_download_count": 629,
+      "download_count": 634,
+      "recent_download_count": 634,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1063,
-      "recent_download_count": 1063,
+      "download_count": 1069,
+      "recent_download_count": 1069,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -204,8 +204,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1063,
-      "recent_download_count": 1063,
+      "download_count": 1069,
+      "recent_download_count": 1069,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -230,8 +230,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 178,
-      "recent_download_count": 178,
+      "download_count": 179,
+      "recent_download_count": 179,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -256,8 +256,8 @@
       "snapshot": [],
       "beta": false,
       "size": 163840,
-      "download_count": 801,
-      "recent_download_count": 801,
+      "download_count": 819,
+      "recent_download_count": 819,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -322,8 +322,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 801,
-      "recent_download_count": 801,
+      "download_count": 819,
+      "recent_download_count": 819,
       "dname_enu": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_chs": "Drive Info",
@@ -368,16 +368,16 @@
     },
     {
       "package": "drive_info",
-      "version": "2.0.27",
+      "version": "2.0.28",
       "dname": "Drive Info",
-      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and SMART values for all drives in your Synology NAS",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
       "maintainer_url": "https://github.com/007revad",
       "distributor": "007revad",
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.0.27/Drive_Info-noarch-v2.0.27-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.0.28/Drive_Info-noarch-v2.0.28-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "6.0-7321",
@@ -388,8 +388,8 @@
       "snapshot": [],
       "beta": true,
       "size": 163840,
-      "download_count": 801,
-      "recent_download_count": 801,
+      "download_count": 819,
+      "recent_download_count": 819,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -414,7 +414,7 @@
       "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
       "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
       "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
-      "desc_enu": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
       "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
       "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
@@ -431,20 +431,20 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Updated package's description for all languages.\n2. Added missing Thai package description.\n3. Bug fix for SAS drives showing a lot of \"debug: command no found\" errors."
+      "changelog": "1. Added drive temperature.\n2. Added language translations to the SMART info for \"Drive\", \"M.2 Drive\", \"System Drive\" and \"USB Drive\".\n3. Bug fix for \"USB Drive\" not correctly translated.\n4. Bug fix for USB drives SMART info.\n5. Bug fix for English showing the old package description in Package Center."
     },
     {
       "package": "drive_info",
-      "version": "2.0.27",
+      "version": "2.0.28",
       "dname": "Drive Info",
-      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and SMART values for all drives in your Synology NAS",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
       "maintainer_url": "https://github.com/007revad",
       "distributor": "007revad",
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.0.27/Drive_Info-noarch-v2.0.27-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.0.28/Drive_Info-noarch-v2.0.28-DSM-7.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "7.0-40000",
@@ -454,9 +454,9 @@
       ],
       "snapshot": [],
       "beta": true,
-      "size": 194560,
-      "download_count": 801,
-      "recent_download_count": 801,
+      "size": 204800,
+      "download_count": 819,
+      "recent_download_count": 819,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -481,7 +481,7 @@
       "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
       "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
       "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
-      "desc_enu": "Show drive device id, DSM number, model and serial number for all drives in your Synology NAS",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
       "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
       "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
@@ -498,7 +498,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Updated package's description for all languages.\n2. Added missing Thai package description.\n3. Bug fix for SAS drives showing a lot of \"debug: command no found\" errors."
+      "changelog": "1. Added drive temperature.\n2. Added language translations to the SMART info for \"Drive\", \"M.2 Drive\", \"System Drive\" and \"USB Drive\".\n3. Bug fix for \"USB Drive\" not correctly translated.\n4. Bug fix for USB drives SMART info.\n5. Bug fix for English showing the old package description in Package Center."
     },
     {
       "package": "Synosmartinfo",
@@ -522,8 +522,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 3684,
-      "recent_download_count": 3684,
+      "download_count": 3694,
+      "recent_download_count": 3694,
       "changelog": ""
     },
     {
@@ -548,8 +548,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 983,
-      "recent_download_count": 983,
+      "download_count": 984,
+      "recent_download_count": 984,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -579,8 +579,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1808,
-      "recent_download_count": 1808,
+      "download_count": 1811,
+      "recent_download_count": 1811,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -610,8 +610,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 461,
-      "recent_download_count": 461,
+      "download_count": 462,
+      "recent_download_count": 462,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -646,7 +646,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, etc.).\n4. Several bugs fixed (LED control, quoting in strings, etc.)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
     },
     {
       "package": "synOCR",
@@ -670,8 +670,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2592768,
-      "download_count": 1749,
-      "recent_download_count": 1749,
+      "download_count": 1778,
+      "recent_download_count": 1778,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -717,8 +717,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25562,
-      "recent_download_count": 25562,
+      "download_count": 25569,
+      "recent_download_count": 25569,
       "changelog": ""
     },
     {
@@ -743,8 +743,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25562,
-      "recent_download_count": 25562,
+      "download_count": 25569,
+      "recent_download_count": 25569,
       "changelog": ""
     },
     {
@@ -769,8 +769,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25562,
-      "recent_download_count": 25562,
+      "download_count": 25569,
+      "recent_download_count": 25569,
       "changelog": ""
     },
     {
@@ -795,8 +795,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25562,
-      "recent_download_count": 25562,
+      "download_count": 25569,
+      "recent_download_count": 25569,
       "changelog": ""
     },
     {
@@ -821,8 +821,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25562,
-      "recent_download_count": 25562,
+      "download_count": 25569,
+      "recent_download_count": 25569,
       "changelog": ""
     },
     {
@@ -847,8 +847,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25562,
-      "recent_download_count": 25562,
+      "download_count": 25569,
+      "recent_download_count": 25569,
       "changelog": ""
     },
     {
@@ -873,8 +873,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 319473,
-      "recent_download_count": 319473,
+      "download_count": 319501,
+      "recent_download_count": 319501,
       "changelog": ""
     },
     {
@@ -899,8 +899,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 319473,
-      "recent_download_count": 319473,
+      "download_count": 319501,
+      "recent_download_count": 319501,
       "changelog": ""
     },
     {
@@ -925,8 +925,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 319473,
-      "recent_download_count": 319473,
+      "download_count": 319501,
+      "recent_download_count": 319501,
       "changelog": ""
     },
     {
@@ -951,8 +951,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 319473,
-      "recent_download_count": 319473,
+      "download_count": 319501,
+      "recent_download_count": 319501,
       "changelog": ""
     },
     {
@@ -977,8 +977,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 319473,
-      "recent_download_count": 319473,
+      "download_count": 319501,
+      "recent_download_count": 319501,
       "changelog": ""
     },
     {
@@ -1003,8 +1003,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 319473,
-      "recent_download_count": 319473,
+      "download_count": 319501,
+      "recent_download_count": 319501,
       "changelog": ""
     },
     {
