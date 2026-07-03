@@ -26,6 +26,11 @@
         <td><a href="https://hanadigital.github.io/grev/007revad/Syno_DSM_Extractor_GUI" target="_blank">Download stats</a></td>
       </tr>
       <tr>
+        <td>Synology Drive Info</td>
+        <td><a href="https://github.com/007revad/Synology_drive_info/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_drive_info/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/Synology_drive_info" target="_blank">Download stats</a></td>
+      </tr>
+      <tr>
         <td>Synology Ookla Speedtest</td>
         <td><a href="https://github.com/007revad/Synology_Ookla_Speedtest/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_Ookla_Speedtest/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/Synology_Ookla_Speedtest" target="_blank">Download stats</a></td>
@@ -39,11 +44,6 @@
         <td>Synology Libre Speedtest</td>
         <td><a href="https://github.com/007revad/Synology_Libre_Speedtest/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_Libre_Speedtest/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/Synology_Libre_Speedtest" target="_blank">Download stats</a></td>
-      </tr>
-      <tr>
-        <td>Synology Drive Info</td>
-        <td><a href="https://github.com/007revad/Synology_drive_info/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_drive_info/total.svg" alt="Github Releases"></a></td>
-        <td><a href="https://hanadigital.github.io/grev/007revad/Synology_drive_info" target="_blank">Download stats</a></td>
       </tr>
       <tr>
         <td>Download Station Chrome Extension</td>
