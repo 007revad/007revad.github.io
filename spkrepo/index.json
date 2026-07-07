@@ -76,7 +76,7 @@
       "size": 583680,
       "download_count": 1018,
       "recent_download_count": 1018,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
     },
     {
       "package": "OpenSpeedTest",
@@ -299,7 +299,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Added Volume information and status.\n2. Defaults to enabled but can be disabled in the settings.\n3. Shows Storage Pool status, including if data scrubbing is running.\n4. Can now show you the drive information for all local Synology NAS.\n5. It can find all local Synology NAS itself.\n6. Requires all local Synology NAS to have the same Drive Info version installed.\n7. Added a Settings menu where you can:\n8. Enable or Disable showing drive info for all local Synology NAS.\n9. Manually add local Synology NAS by hostname, IP and port (in case you only want to see drive information for certain NAS and not all local Synology NAS).\n10. Added a Reload button.\n11. Added drive temperature.\n12. Added SMART information. The text in the Status column for each drive is a link to the SMART info.\n13. Added an option in the settings to only show important SMART info.\n14. Added percentage to data scrubbing, RAID rebuilding/repairing status.\n15. Changed to show the hostname, IP address and model of the Synology that Drive Info is running on instead of \"Drive Information\".\n16. Changed to not show the Permissions ui page during upgrades.\n17. Added missing Thai package description.\n18. Added translations for all the error messages.\n19. Bug for Dutch showing \"Show volume information\" in English."
+      "changelog": "1. Added Volume information and status.\n2. Defaults to enabled but can be disabled in the settings.\n3. Shows Storage Pool status, including if data scrubbing is running.\n4. Can now show you the drive information for all local Synology NAS.\n5. It can find all local Synology NAS itself.\n6. Requires all local Synology NAS to have the same Drive Info version installed.\n7. Added a Settings menu where you can enable or disable showing drive info for all local Synology NAS.\n8. Added a Settings menu where you can manually add local Synology NAS by hostname, IP and port (in case you only want to see drive information for certain NAS and not all local Synology NAS).\n9. Added a Reload button.\n10. Added drive temperature.\n11. Added SMART information. The text in the Status column for each drive is a link to the SMART info.\n12. Added an option in the settings to only show important SMART info.\n13. Added percentage to data scrubbing, RAID rebuilding/repairing status.\n14. Changed to show the hostname, IP address and model of the Synology that Drive Info is running on instead of \"Drive Information\".\n15. Changed to not show the Permissions ui page during upgrades.\n16. Added missing Thai package description.\n17. Added translations for all the error messages.\n18. Bug for Dutch showing \"Show volume information\" in English."
     },
     {
       "package": "drive_info",
@@ -422,8 +422,8 @@
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -514,7 +514,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100\n2. Help added, integrated to the Synology Help\n3. Several improvements (Installation Wizard, Logging, ...)\n4. Several bugs fixed (LED control, quoting in strings, ...)"
     },
     {
       "package": "synOCR",
