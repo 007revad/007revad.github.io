@@ -715,6 +715,7 @@ entries+=( "$(make_entries "007revad" "Synology_Libre_Speedtest"     "CHANGES.tx
 entries+=( "$(make_entries "007revad" "Transcode_for_x25"            "CHANGES.txt")" )
 entries+=( "$(make_entries "007revad" "DSM_Notify"                   "CHANGES.txt")" )
 entries+=( "$(make_entries "007revad" "Synology_drive_info"          "CHANGES.txt")" )
+entries+=( "$(make_entries "007revad" "Synology_AQC_Unlock"          "CHANGES.txt")" )
 
 # Friends' repos
 entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo"             "")" )
