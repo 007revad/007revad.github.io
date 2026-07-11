@@ -370,32 +370,6 @@
     },
     {
       "package": "AQC_Unlock",
-      "version": "1.0.3",
-      "dname": "AQC Unlock",
-      "desc": "DSM 7 package that allows you to use non-Synology 10GbE, 5GbE and 2.5GbE PCIe network cards that have a Marvell (Aquantia) AQC100, AQC107, AQC108, AQC111, AQC112, AQC113/AQC113C/AQC113CS and AQC115 chip, and set your preferred LAN port order for DSM to connect to other devices.",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/Synology_AQC_Unlock",
-      "support_url": "https://github.com/007revad/Synology_AQC_Unlock/issues",
-      "report_url": "https://github.com/007revad/Synology_AQC_Unlock/issues",
-      "link": "https://github.com/007revad/Synology_AQC_Unlock/releases/download/v1.0.3/AQC_Unlock-x86_64-v1.0.3-DSM-7.x.spk",
-      "arch": "avoton broadwell broadwellnk broadwellnkv2 broadwellntbap bromolow denverton epyc7002 epyc7003 grantley icelaked purley r1000 r1000nk v1000 v1000nk",
-      "exclude_arch": null,
-      "firmware": "7.0-40000",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/AQC_Unlock_120.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 235520,
-      "download_count": 57,
-      "recent_download_count": 57,
-      "changelog": "1. Bug fix for the installer not setting the required files as executable for the popup window (caused 502 error)."
-    },
-    {
-      "package": "AQC_Unlock",
       "version": "1.0.6",
       "dname": "AQC Unlock",
       "desc": "DSM 7 package that allows you to use non-Synology 10GbE, 5GbE and 2.5GbE PCIe network cards that have a Marvell (Aquantia) AQC100, AQC107, AQC108, AQC111, AQC112, AQC113/AQC113C/AQC113CS and AQC115 chip, and set your preferred LAN port order for DSM to connect to other devices.",
@@ -414,7 +388,7 @@
         "https://007revad.github.io/spkrepo/thumbnails/AQC_Unlock-beta_120.png"
       ],
       "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 245760,
       "download_count": 57,
       "recent_download_count": 57,
