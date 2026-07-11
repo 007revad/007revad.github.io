@@ -21,14 +21,14 @@
         <td><a href="https://hanadigital.github.io/grev/007revad/DTC_GUI_for_Windows" target="_blank">Download stats</a></td>
       </tr>
       <tr>
-        <td>Syno DSM Extractor GUI</td>
-        <td><a href="https://github.com/007revad/Syno_DSM_Extractor_GUI/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Syno_DSM_Extractor_GUI/total.svg" alt="Github Releases"></a></td>
-        <td><a href="https://hanadigital.github.io/grev/007revad/Syno_DSM_Extractor_GUI" target="_blank">Download stats</a></td>
-      </tr>
-      <tr>
         <td>Synology Drive Info</td>
         <td><a href="https://github.com/007revad/Synology_drive_info/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_drive_info/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/Synology_drive_info" target="_blank">Download stats</a></td>
+      </tr>
+      <tr>
+        <td>Syno DSM Extractor GUI</td>
+        <td><a href="https://github.com/007revad/Syno_DSM_Extractor_GUI/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Syno_DSM_Extractor_GUI/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/Syno_DSM_Extractor_GUI" target="_blank">Download stats</a></td>
       </tr>
       <tr>
         <td>Synology Ookla Speedtest</td>
@@ -64,6 +64,11 @@
         <td>DSM Notify</td>
         <td><a href="https://github.com/007revad/DSM_Notify/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/DSM_Notify/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/DSM_Notify" target="_blank">Download stats</a></td>
+      </tr>
+      <tr>
+        <td>Synology AQC Unlock</td>
+        <td><a href="https://github.com/007revad/Synology_AQC_Unlock/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_AQC_Unlock/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/Synology_AQC_Unlock" target="_blank">Download stats</a></td>
       </tr>
       <tr>
         <td>Asustor Ookla Speedtest</td>
