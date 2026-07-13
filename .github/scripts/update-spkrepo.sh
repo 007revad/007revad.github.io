@@ -59,6 +59,56 @@ info_get() {
 }
 
 #--------------------------------------------------------------------
+# Helper: extract the English changelog entries for one specific
+# version directly from raw changelog text, with no API call.
+#
+# Used as a fallback when the Anthropic API is unavailable (billing,
+# rate limit, network) so a release still gets its OWN correct
+# English release notes instead of silently reusing a stale/wrong
+# version's changelog. Only produces the "enu" text — translations
+# still require the API and are simply omitted when this path is used.
+#
+# Expects version headers on their own line, optionally prefixed
+# with "v" (e.g. "v2.1.32" or "2.1.32"), one version per section,
+# with bullet lines (optionally "- " prefixed, optionally indented)
+# until the next version header or EOF. This matches the CHANGES.txt
+# / CHANGELOG format used across these repos.
+#
+# Usage: extract_changelog_section <raw_changelog_text> <version>
+# Output: numbered-list English changelog text, or empty if the
+#         version header wasn't found.
+#--------------------------------------------------------------------
+extract_changelog_section() {
+    local raw="$1"
+    local version="$2"
+    [[ -z "$raw" || -z "$version" ]] && return
+    awk -v ver="$version" '
+        BEGIN { in_section = 0; n = 0 }
+        {
+            line = $0
+            gsub(/\r$/, "", line)
+            # A version header line: optional "v", the exact version, nothing else
+            if (line ~ ("^[[:space:]]*v?" ver "[[:space:]]*$")) {
+                if (in_section) exit   # safety: second match of same version, stop
+                in_section = 1
+                next
+            }
+            # Any other version-looking header line ends the section
+            if (in_section && line ~ /^[[:space:]]*v?[0-9]+\.[0-9]+\.[0-9]+[[:space:]]*$/) {
+                exit
+            }
+            if (in_section) {
+                sub(/^[[:space:]]*-[[:space:]]*/, "", line)
+                if (line ~ /[^[:space:]]/) {
+                    n++
+                    printf "%d. %s\n", n, line
+                }
+            }
+        }
+    ' <<< "$raw"
+}
+
+#--------------------------------------------------------------------
 # Helper: return the version currently recorded in index.json for a
 # given package name. Returns empty string if not found.
 #
@@ -574,17 +624,42 @@ make_entries() {
     fi
     #---- End changelog extraction --------------------------------------------
 
-    # Fall back to existing changelog from previous index.json if API failed
+    # Fall back 1: if the API extraction failed (billing, rate limit, network,
+    # unexpected response), parse the raw changelog file directly in bash to
+    # get THIS version's own English release notes. No translations, but
+    # correct and specific to the version being processed — never a stale
+    # or unrelated version's text.
+    if [[ "$changelog_json" == '{}' && -n "${spk_change_raw:-}" ]]; then
+        local extracted_enu
+        extracted_enu=$(extract_changelog_section "${spk_change_raw}" "${match_version}")
+        if [[ -z "$extracted_enu" && -n "$match_version_short" ]]; then
+            extracted_enu=$(extract_changelog_section "${spk_change_raw}" "${match_version_short}")
+        fi
+        if [[ -n "$extracted_enu" ]]; then
+            echo "INFO: API changelog extraction failed for ${pkg} ${spk_version} — using bash-parsed English changelog instead." >&2
+            changelog_json=$(jq -n --arg cl "$extracted_enu" '{changelog: $cl}')
+        else
+            echo "WARNING: Could not locate version ${match_version} header in changelog for ${pkg} — bash fallback found nothing." >&2
+        fi
+    fi
+
+    # Fall back 2: only reached if the bash parse above also came up empty
+    # (e.g. non-standard changelog format). Reuse a previous changelog from
+    # index.json, but ONLY if it was recorded for this exact version — never
+    # substitute a different version's text.
     if [[ "$changelog_json" == '{}' && -f "${REPO_DIR}/index.json" ]]; then
         local existing_cl
-        existing_cl=$(jq -rc --arg pkg "$pkg" '
+        existing_cl=$(jq -rc --arg pkg "$pkg" --arg ver "$spk_version" '
             first(
-                .packages[] | select(.package == $pkg and (.changelog // "") != "") |
+                .packages[] | select(.package == $pkg and .version == $ver and (.changelog // "") != "") |
                 { changelog: .changelog } +
                 (to_entries | map(select(.key | startswith("changelog_"))) | from_entries)
             ) // {}
         ' "${REPO_DIR}/index.json" 2>/dev/null || echo '{}')
-        [[ "$existing_cl" != '{}' ]] && changelog_json="$existing_cl"
+        if [[ "$existing_cl" != '{}' ]]; then
+            echo "INFO: Reusing previously-recorded changelog for ${pkg} ${spk_version} (same version already in index.json)." >&2
+            changelog_json="$existing_cl"
+        fi
     fi
 
     # Read remaining metadata from INFO — all fields verbatim, no substitution
