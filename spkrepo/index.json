@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 1230,
-      "recent_download_count": 1230,
+      "download_count": 1233,
+      "recent_download_count": 1233,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 1230,
-      "recent_download_count": 1230,
+      "download_count": 1233,
+      "recent_download_count": 1233,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1129,
-      "recent_download_count": 1129,
+      "download_count": 1132,
+      "recent_download_count": 1132,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
     },
     {
@@ -100,9 +100,9 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1129,
-      "recent_download_count": 1129,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
+      "download_count": 1132,
+      "recent_download_count": 1132,
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
       "package": "LibreSpeedTest",
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 767,
-      "recent_download_count": 767,
+      "download_count": 770,
+      "recent_download_count": 770,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 767,
-      "recent_download_count": 767,
+      "download_count": 770,
+      "recent_download_count": 770,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1230,
-      "recent_download_count": 1230,
+      "download_count": 1233,
+      "recent_download_count": 1233,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -204,9 +204,61 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1230,
-      "recent_download_count": 1230,
+      "download_count": 1233,
+      "recent_download_count": 1233,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
+    },
+    {
+      "package": "TranscodeDrivers",
+      "version": "4.0.12",
+      "dname": "Transcode Drivers for x25",
+      "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Transcode_for_x25",
+      "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.0.12/Transcode_v4.0.12-DSM-7.2-geminilakenk.spk",
+      "arch": "geminilakenk",
+      "exclude_arch": null,
+      "firmware": "7.2-72806",
+      "os_max_ver": "7.2-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7-beta_120.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 1423360,
+      "download_count": 1233,
+      "recent_download_count": 1233,
+      "changelog": "1. Added drivers for DSM 7.4."
+    },
+    {
+      "package": "TranscodeDrivers",
+      "version": "4.0.12",
+      "dname": "Transcode Drivers for x25",
+      "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Transcode_for_x25",
+      "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.0.12/Transcode_v4.0.12-DSM-7.3-geminilakenk.spk",
+      "arch": "geminilakenk",
+      "exclude_arch": null,
+      "firmware": "7.3-81180",
+      "os_max_ver": "7.3-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7-beta_120.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 1413120,
+      "download_count": 1233,
+      "recent_download_count": 1233,
+      "changelog": "1. Added drivers for DSM 7.4."
     },
     {
       "package": "dsm_notify",
@@ -230,8 +282,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 226,
-      "recent_download_count": 226,
+      "download_count": 227,
+      "recent_download_count": 227,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -256,8 +308,8 @@
       "snapshot": [],
       "beta": false,
       "size": 174080,
-      "download_count": 1399,
-      "recent_download_count": 1399,
+      "download_count": 1421,
+      "recent_download_count": 1421,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -323,8 +375,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1399,
-      "recent_download_count": 1399,
+      "download_count": 1421,
+      "recent_download_count": 1421,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -390,8 +442,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 1399,
-      "recent_download_count": 1399,
+      "download_count": 1421,
+      "recent_download_count": 1421,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -433,7 +485,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Bug fix for SMART email scheduling.\n2. Enabling \"Only send email when important attributes have changed\" was changing the user's \"Email only important S.M.A.R.T. values\" setting."
+      "changelog": "1. Fixed bug where enabling \"Only send email when important attributes have changed\" was changing the user's \"Email only important S.M.A.R.T. values\" setting."
     },
     {
       "package": "drive_info",
@@ -457,8 +509,8 @@
       "snapshot": [],
       "beta": true,
       "size": 225280,
-      "download_count": 1399,
-      "recent_download_count": 1399,
+      "download_count": 1421,
+      "recent_download_count": 1421,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -524,8 +576,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 95,
-      "recent_download_count": 95,
+      "download_count": 96,
+      "recent_download_count": 96,
       "changelog": "1. Now shows warning after starting if permissions aren't set.\n2. Open button now shows steps to set permissions if they aren't set.\n3. Added start, stop logging when permissions aren't set.\n4. Bug fix for not being able to start, repair or upgrade package if permissions aren't set."
     },
     {
@@ -550,8 +602,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 4007,
-      "recent_download_count": 4007,
+      "download_count": 4014,
+      "recent_download_count": 4014,
       "changelog": ""
     },
     {
@@ -576,8 +628,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1026,
-      "recent_download_count": 1026,
+      "download_count": 1027,
+      "recent_download_count": 1027,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -607,8 +659,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1871,
-      "recent_download_count": 1871,
+      "download_count": 1873,
+      "recent_download_count": 1873,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -638,8 +690,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 503,
-      "recent_download_count": 503,
+      "download_count": 504,
+      "recent_download_count": 504,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -698,8 +750,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 2257,
-      "recent_download_count": 2257,
+      "download_count": 2258,
+      "recent_download_count": 2258,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -745,8 +797,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25857,
-      "recent_download_count": 25857,
+      "download_count": 25864,
+      "recent_download_count": 25864,
       "changelog": ""
     },
     {
@@ -771,8 +823,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25857,
-      "recent_download_count": 25857,
+      "download_count": 25864,
+      "recent_download_count": 25864,
       "changelog": ""
     },
     {
@@ -797,8 +849,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25857,
-      "recent_download_count": 25857,
+      "download_count": 25864,
+      "recent_download_count": 25864,
       "changelog": ""
     },
     {
@@ -823,8 +875,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25857,
-      "recent_download_count": 25857,
+      "download_count": 25864,
+      "recent_download_count": 25864,
       "changelog": ""
     },
     {
@@ -849,8 +901,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25857,
-      "recent_download_count": 25857,
+      "download_count": 25864,
+      "recent_download_count": 25864,
       "changelog": ""
     },
     {
@@ -875,8 +927,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25857,
-      "recent_download_count": 25857,
+      "download_count": 25864,
+      "recent_download_count": 25864,
       "changelog": ""
     },
     {
@@ -901,8 +953,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320016,
-      "recent_download_count": 320016,
+      "download_count": 320023,
+      "recent_download_count": 320023,
       "changelog": ""
     },
     {
@@ -927,8 +979,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320016,
-      "recent_download_count": 320016,
+      "download_count": 320023,
+      "recent_download_count": 320023,
       "changelog": ""
     },
     {
@@ -953,8 +1005,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320016,
-      "recent_download_count": 320016,
+      "download_count": 320023,
+      "recent_download_count": 320023,
       "changelog": ""
     },
     {
@@ -979,8 +1031,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320016,
-      "recent_download_count": 320016,
+      "download_count": 320023,
+      "recent_download_count": 320023,
       "changelog": ""
     },
     {
@@ -1005,8 +1057,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320016,
-      "recent_download_count": 320016,
+      "download_count": 320023,
+      "recent_download_count": 320023,
       "changelog": ""
     },
     {
@@ -1031,8 +1083,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320016,
-      "recent_download_count": 320016,
+      "download_count": 320023,
+      "recent_download_count": 320023,
       "changelog": ""
     },
     {
