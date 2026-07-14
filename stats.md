@@ -11,6 +11,11 @@
     </thead>
     <tbody>
       <tr>
+        <td>Synology Drive Info</td>
+        <td><a href="https://github.com/007revad/Synology_drive_info/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_drive_info/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/Synology_drive_info" target="_blank">Download stats</a></td>
+      </tr>
+      <tr>
         <td>Synology Transcode for x25</td>
         <td><a href="https://github.com/007revad/Transcode_for_x25/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Transcode_for_x25/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/Transcode_for_x25" target="_blank">Download stats</a></td>
@@ -19,11 +24,6 @@
         <td>DTC GUI for Windows</td>
         <td><a href="https://github.com/007revad/DTC_GUI_for_Windows/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/DTC_GUI_for_Windows/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/DTC_GUI_for_Windows" target="_blank">Download stats</a></td>
-      </tr>
-      <tr>
-        <td>Synology Drive Info</td>
-        <td><a href="https://github.com/007revad/Synology_drive_info/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_drive_info/total.svg" alt="Github Releases"></a></td>
-        <td><a href="https://hanadigital.github.io/grev/007revad/Synology_drive_info" target="_blank">Download stats</a></td>
       </tr>
       <tr>
         <td>Syno DSM Extractor GUI</td>
