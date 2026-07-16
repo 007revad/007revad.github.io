@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 1254,
-      "recent_download_count": 1254,
+      "download_count": 1257,
+      "recent_download_count": 1257,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 1254,
-      "recent_download_count": 1254,
+      "download_count": 1257,
+      "recent_download_count": 1257,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1149,
-      "recent_download_count": 1149,
+      "download_count": 1152,
+      "recent_download_count": 1152,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
@@ -100,9 +100,9 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1149,
-      "recent_download_count": 1149,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
+      "download_count": 1152,
+      "recent_download_count": 1152,
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
       "package": "LibreSpeedTest",
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 782,
-      "recent_download_count": 782,
+      "download_count": 785,
+      "recent_download_count": 785,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 782,
-      "recent_download_count": 782,
+      "download_count": 785,
+      "recent_download_count": 785,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1306,
-      "recent_download_count": 1306,
+      "download_count": 1313,
+      "recent_download_count": 1313,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
@@ -204,13 +204,13 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1306,
-      "recent_download_count": 1306,
+      "download_count": 1313,
+      "recent_download_count": 1313,
       "changelog": "1. Bug fix for GitHub repo URL showing as Publisher in Package Center."
     },
     {
       "package": "TranscodeDrivers",
-      "version": "4.0.12",
+      "version": "4.0.13",
       "dname": "Transcode Drivers for x25",
       "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
       "maintainer": "007revad",
@@ -219,7 +219,7 @@
       "distributor_url": "https://github.com/007revad/Transcode_for_x25",
       "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
-      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.0.12/Transcode_v4.0.12-DSM-7.2-geminilakenk.spk",
+      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.0.13/Transcode_v4.0.13-DSM-7.2-geminilakenk.spk",
       "arch": "geminilakenk",
       "exclude_arch": null,
       "firmware": "7.2-72806",
@@ -229,14 +229,14 @@
       ],
       "snapshot": [],
       "beta": true,
-      "size": 1423360,
-      "download_count": 1306,
-      "recent_download_count": 1306,
-      "changelog": "1. Added drivers for DSM 7.4."
+      "size": 1413120,
+      "download_count": 1313,
+      "recent_download_count": 1313,
+      "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
       "package": "TranscodeDrivers",
-      "version": "4.0.12",
+      "version": "4.0.13",
       "dname": "Transcode Drivers for x25",
       "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
       "maintainer": "007revad",
@@ -245,7 +245,7 @@
       "distributor_url": "https://github.com/007revad/Transcode_for_x25",
       "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
-      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.0.12/Transcode_v4.0.12-DSM-7.3-geminilakenk.spk",
+      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.0.13/Transcode_v4.0.13-DSM-7.3-geminilakenk.spk",
       "arch": "geminilakenk",
       "exclude_arch": null,
       "firmware": "7.3-81180",
@@ -255,14 +255,14 @@
       ],
       "snapshot": [],
       "beta": true,
-      "size": 1413120,
-      "download_count": 1306,
-      "recent_download_count": 1306,
-      "changelog": "1. Added drivers for DSM 7.4."
+      "size": 1423360,
+      "download_count": 1313,
+      "recent_download_count": 1313,
+      "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
       "package": "TranscodeDrivers",
-      "version": "4.0.12",
+      "version": "4.0.13",
       "dname": "Transcode Drivers for x25",
       "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
       "maintainer": "007revad",
@@ -271,7 +271,7 @@
       "distributor_url": "https://github.com/007revad/Transcode_for_x25",
       "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
       "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
-      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.0.12/Transcode_v4.0.12-DSM-7.4-geminilakenk.spk",
+      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.0.13/Transcode_v4.0.13-DSM-7.4-geminilakenk.spk",
       "arch": "geminilakenk",
       "exclude_arch": null,
       "firmware": "7.4-90075",
@@ -282,9 +282,9 @@
       "snapshot": [],
       "beta": true,
       "size": 1413120,
-      "download_count": 1306,
-      "recent_download_count": 1306,
-      "changelog": "1. Added drivers for DSM 7.4."
+      "download_count": 1313,
+      "recent_download_count": 1313,
+      "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
       "package": "dsm_notify",
@@ -308,8 +308,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 232,
-      "recent_download_count": 232,
+      "download_count": 233,
+      "recent_download_count": 233,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -334,8 +334,8 @@
       "snapshot": [],
       "beta": false,
       "size": 174080,
-      "download_count": 1510,
-      "recent_download_count": 1510,
+      "download_count": 1525,
+      "recent_download_count": 1525,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -401,8 +401,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1510,
-      "recent_download_count": 1510,
+      "download_count": 1525,
+      "recent_download_count": 1525,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -444,7 +444,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Added Volume information and status.\n   - Defaults to enabled but can be disabled in the settings.\n   - Shows Storage Pool status, including if data scrubbing is running.\n2. Can now show you the drive information for all local Synology NAS.\n   - It can find all local Synology NAS itself.\n   - Requires all local Synology NAS to have the same Drive Info version installed.\n3. Added a Settings menu where you can:\n   - Enable or Disable showing drive info for all local Synology NAS.\n   - Manually add local Synology NAS by hostname, IP and port (in case you only want to see drive information for certain NAS and not all local Synology NAS).\n4. Added a Reload button.\n5. Added drive temperature.\n6. Added SMART information. The text in the Status column for each drive is a link to the SMART info.\n7. Added an option in the settings to only show important SMART info.\n8. Added percentage to data scrubbing, RAID rebuilding/repairing status.\n9. Changed to show the hostname, IP address and model of the Synology that Drive Info is running on instead of \"Drive Information\".\n10. Changed to not show the Permissions ui page during upgrades.\n11. Added missing Thai package description.\n12. Added translations for all the error messages.\n13. Bug for Dutch showing \"Show volume information\" in English."
+      "changelog": "1. Added Volume information and status.\n2. Defaults to enabled but can be disabled in the settings.\n3. Shows Storage Pool status, including if data scrubbing is running.\n4. Can now show you the drive information for all local Synology NAS.\n5. It can find all local Synology NAS itself.\n6. Requires all local Synology NAS to have the same Drive Info version installed.\n7. Added a Settings menu where you can:\n8. Enable or Disable showing drive info for all local Synology NAS.\n9. Manually add local Synology NAS by hostname, IP and port (in case you only want to see drive information for certain NAS and not all local Synology NAS).\n10. Added a Reload button.\n11. Added drive temperature.\n12. Added SMART information. The text in the Status column for each drive is a link to the SMART info.\n13. Added an option in the settings to only show important SMART info.\n14. Added percentage to data scrubbing, RAID rebuilding/repairing status.\n15. Changed to show the hostname, IP address and model of the Synology that Drive Info is running on instead of \"Drive Information\".\n16. Changed to not show the Permissions ui page during upgrades.\n17. Added missing Thai package description.\n18. Added translations for all the error messages.\n19. Bug for Dutch showing \"Show volume information\" in English."
     },
     {
       "package": "drive_info",
@@ -468,8 +468,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 1510,
-      "recent_download_count": 1510,
+      "download_count": 1525,
+      "recent_download_count": 1525,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -535,8 +535,8 @@
       "snapshot": [],
       "beta": true,
       "size": 225280,
-      "download_count": 1510,
-      "recent_download_count": 1510,
+      "download_count": 1525,
+      "recent_download_count": 1525,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -602,8 +602,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 113,
-      "recent_download_count": 113,
+      "download_count": 114,
+      "recent_download_count": 114,
       "changelog": "1. Now shows warning after starting if permissions aren't set.\n2. Open button now shows steps to set permissions if they aren't set.\n3. Added start, stop logging when permissions aren't set.\n4. Bug fix for not being able to start, repair or upgrade package if permissions aren't set."
     },
     {
@@ -628,8 +628,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 4041,
-      "recent_download_count": 4041,
+      "download_count": 4047,
+      "recent_download_count": 4047,
       "changelog": ""
     },
     {
@@ -654,8 +654,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1032,
-      "recent_download_count": 1032,
+      "download_count": 1033,
+      "recent_download_count": 1033,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -685,8 +685,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1877,
-      "recent_download_count": 1877,
+      "download_count": 1878,
+      "recent_download_count": 1878,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -716,8 +716,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 509,
-      "recent_download_count": 509,
+      "download_count": 510,
+      "recent_download_count": 510,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -776,8 +776,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 2313,
-      "recent_download_count": 2313,
+      "download_count": 2315,
+      "recent_download_count": 2315,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -823,8 +823,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 25898,
-      "recent_download_count": 25898,
+      "download_count": 25910,
+      "recent_download_count": 25910,
       "changelog": ""
     },
     {
@@ -849,8 +849,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 25898,
-      "recent_download_count": 25898,
+      "download_count": 25910,
+      "recent_download_count": 25910,
       "changelog": ""
     },
     {
@@ -875,8 +875,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 25898,
-      "recent_download_count": 25898,
+      "download_count": 25910,
+      "recent_download_count": 25910,
       "changelog": ""
     },
     {
@@ -901,8 +901,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25898,
-      "recent_download_count": 25898,
+      "download_count": 25910,
+      "recent_download_count": 25910,
       "changelog": ""
     },
     {
@@ -927,8 +927,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 25898,
-      "recent_download_count": 25898,
+      "download_count": 25910,
+      "recent_download_count": 25910,
       "changelog": ""
     },
     {
@@ -953,8 +953,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 25898,
-      "recent_download_count": 25898,
+      "download_count": 25910,
+      "recent_download_count": 25910,
       "changelog": ""
     },
     {
@@ -979,8 +979,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320071,
-      "recent_download_count": 320071,
+      "download_count": 320077,
+      "recent_download_count": 320077,
       "changelog": ""
     },
     {
@@ -1005,8 +1005,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320071,
-      "recent_download_count": 320071,
+      "download_count": 320077,
+      "recent_download_count": 320077,
       "changelog": ""
     },
     {
@@ -1031,8 +1031,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320071,
-      "recent_download_count": 320071,
+      "download_count": 320077,
+      "recent_download_count": 320077,
       "changelog": ""
     },
     {
@@ -1057,8 +1057,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320071,
-      "recent_download_count": 320071,
+      "download_count": 320077,
+      "recent_download_count": 320077,
       "changelog": ""
     },
     {
@@ -1083,8 +1083,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320071,
-      "recent_download_count": 320071,
+      "download_count": 320077,
+      "recent_download_count": 320077,
       "changelog": ""
     },
     {
@@ -1109,8 +1109,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320071,
-      "recent_download_count": 320071,
+      "download_count": 320077,
+      "recent_download_count": 320077,
       "changelog": ""
     },
     {
