@@ -59,6 +59,23 @@ info_get() {
 }
 
 #--------------------------------------------------------------------
+# Helper: sanitize a changelog value taken straight from an SPK's INFO
+# file. INFO changelog= values commonly use "<br/>" (or "<br>"/"<br />")
+# instead of real newlines between numbered entries; convert those to
+# newlines and trim, so the stored value matches the plain
+# "1. First item.\n2. Second item." format used everywhere else in
+# index.json. Does not touch or re-derive the numbering itself.
+#
+# Usage: sanitize_changelog_html <raw_value>
+#--------------------------------------------------------------------
+sanitize_changelog_html() {
+    local val="$1"
+    val=$(sed -E 's#<br[[:space:]]*/?>#\n#gI' <<< "$val")
+    val=$(sed -E 's/[[:space:]]+$//; s/^[[:space:]]+//' <<< "$val")
+    printf '%s' "$val"
+}
+
+#--------------------------------------------------------------------
 # Helper: extract the English changelog entries for one specific
 # version directly from raw changelog text, with no API call.
 #
@@ -509,7 +526,38 @@ make_entries() {
 
         #---- Changelog extraction ------------------------------------------------
         local changelog_json='{}'
-        if [[ -n "$changelog_spec" ]]; then
+
+        # Prefer the changelog embedded directly in the SPK's own INFO file.
+        # Many 3rd-party packages ship a changelog= key (and sometimes
+        # localised changelog_<lang>= keys, same convention as
+        # displayname_<lang>= / description_<lang>=). It's always correct
+        # for this exact version/SPK, so when present it wins over
+        # changelog_spec, needs no external file fetch, and no API call —
+        # this is what keeps the workflow from breaking every time a repo
+        # renames or restructures its changelog file.
+        local info_changelog
+        info_changelog=$(info_get "$info" "changelog")
+
+        if [[ -n "$info_changelog" ]]; then
+            echo "INFO: Using changelog from ${pkg}'s INFO file (skipping changelog_spec)." >&2
+
+            local info_changelog_langs
+            info_changelog_langs=$(echo "$info" | grep -E '^changelog_[a-z]+=' | \
+                sed 's/^changelog_\([a-z]*\)=\(.*\)$/\1 \2/' | \
+                while IFS=' ' read -r lang val; do
+                    val="${val#\"}" ; val="${val%\"}"
+                    val="${val#\'}" ; val="${val%\'}"
+                    val=$(sanitize_changelog_html "$val")
+                    jq -n --arg k "changelog_${lang}" --arg v "$val" '{($k): $v}'
+                done | jq -s 'add // {}')
+            [[ -z "$info_changelog_langs" ]] && info_changelog_langs='{}'
+
+            changelog_json=$(jq -n \
+                --arg cl "$(sanitize_changelog_html "$info_changelog")" \
+                --argjson extra "${info_changelog_langs}" \
+                '{changelog: $cl} + $extra')
+
+        elif [[ -n "$changelog_spec" ]]; then
             local spk_change_raw="$change_raw"
             echo "DEBUG spk_change_raw assigned length=${#spk_change_raw} changelog_spec='${changelog_spec}'" >&2
             echo "DEBUG spk_change_raw assigned length=${#spk_change_raw} changelog_spec='${changelog_spec}'" >&2
