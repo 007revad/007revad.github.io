@@ -48,14 +48,31 @@ fetch_info_from_spk() {
 
 #--------------------------------------------------------------------
 # Helper: extract a single key from INFO content.
-# Strips surrounding single or double quotes.
+# INFO values can legitimately span multiple physical lines (e.g. a
+# multi-paragraph changelog with embedded raw newlines inside the
+# quotes). A new top-level key always starts at the beginning of a
+# line as `identifier=`, so that's used as the block boundary instead
+# of matching only the first line. Strips one leading/trailing quote
+# (matching the original single-line behaviour) from the whole block.
 #
 # Usage: info_get <info_content> <key>
 #--------------------------------------------------------------------
 info_get() {
     local info="$1"
     local key="$2"
-    grep -m1 "^${key}=" <<< "$info" | sed 's/^[^=]*=//;s/^["\x27]//;s/["\x27]$//'
+    awk -v key="$key" '
+    {
+        if ($0 ~ /^[A-Za-z_][A-Za-z0-9_]*=/) {
+            if (capturing) exit
+            if ($0 ~ "^" key "=") {
+                capturing = 1
+                sub("^" key "=", "")
+                print
+            }
+            next
+        }
+        if (capturing) print
+    }' <<< "$info" | sed '1s/^["'"'"']//; $ s/["'"'"']$//'
 }
 
 #--------------------------------------------------------------------
