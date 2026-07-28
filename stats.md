@@ -71,6 +71,11 @@
         <td><a href="https://hanadigital.github.io/grev/007revad/Synology_AQC_Unlock" target="_blank">Download stats</a></td>
       </tr>
       <tr>
+        <td>Synology Package Source Manager</td>
+        <td><a href="https://github.com/007revad/Syno_Package_Source_Manager/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Syno_Package_Source_Manager/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/Syno_Package_Source_Manager" target="_blank">Download stats</a></td>
+      </tr>
+      <tr>
         <td>Asustor Ookla Speedtest</td>
         <td><a href="https://github.com/007revad/Asustor_Ookla_Speedtest/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Asustor_Ookla_Speedtest/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/Asustor_Ookla_Speedtest" target="_blank">Download stats</a></td>
