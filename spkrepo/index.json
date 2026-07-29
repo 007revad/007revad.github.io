@@ -22,8 +22,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 1552,
-      "recent_download_count": 1552,
+      "download_count": 1563,
+      "recent_download_count": 1563,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -48,8 +48,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 1552,
-      "recent_download_count": 1552,
+      "download_count": 1563,
+      "recent_download_count": 1563,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -74,8 +74,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1408,
-      "recent_download_count": 1408,
+      "download_count": 1417,
+      "recent_download_count": 1417,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
@@ -100,8 +100,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1408,
-      "recent_download_count": 1408,
+      "download_count": 1417,
+      "recent_download_count": 1417,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
@@ -126,8 +126,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 943,
-      "recent_download_count": 943,
+      "download_count": 949,
+      "recent_download_count": 949,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -152,8 +152,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 943,
-      "recent_download_count": 943,
+      "download_count": 949,
+      "recent_download_count": 949,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1662,
-      "recent_download_count": 1662,
+      "download_count": 1667,
+      "recent_download_count": 1667,
       "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
@@ -204,8 +204,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1423360,
-      "download_count": 1662,
-      "recent_download_count": 1662,
+      "download_count": 1667,
+      "recent_download_count": 1667,
       "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
@@ -230,8 +230,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1662,
-      "recent_download_count": 1662,
+      "download_count": 1667,
+      "recent_download_count": 1667,
       "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
@@ -256,13 +256,13 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 282,
-      "recent_download_count": 282,
+      "download_count": 284,
+      "recent_download_count": 284,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
       "package": "drive_info",
-      "version": "2.1.43",
+      "version": "2.1.44",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -271,7 +271,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.1.43/Drive_Info-noarch-v2.1.43-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.1.44/Drive_Info-noarch-v2.1.44-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "6.0-7321",
@@ -282,8 +282,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2307,
-      "recent_download_count": 2307,
+      "download_count": 2364,
+      "recent_download_count": 2364,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -325,11 +325,11 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Updated to check if scheduled task still exists (in case user deleted it) instead of assuming it still exists.\n2. Bug fix for \"Email only important S.M.A.R.T. values\" being ignored if \"Only send email when important attributes have changed\" was disabled.\n3. Bug fix for DSM 6 creating extra schedules instead of editing or deleting the original schedule."
+      "changelog": "1. Fixed \"Only send email when important attributes have changed\" that was broken in v2.1.43."
     },
     {
       "package": "drive_info",
-      "version": "2.1.43",
+      "version": "2.1.44",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -338,7 +338,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.1.43/Drive_Info-noarch-v2.1.43-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.1.44/Drive_Info-noarch-v2.1.44-DSM-7.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "firmware": "7.0-40000",
@@ -349,8 +349,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 2307,
-      "recent_download_count": 2307,
+      "download_count": 2364,
+      "recent_download_count": 2364,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -392,7 +392,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Updated to check if scheduled task still exists (in case user deleted it) instead of assuming it still exists.\n2. Bug fix for \"Email only important S.M.A.R.T. values\" being ignored if \"Only send email when important attributes have changed\" was disabled.\n3. Bug fix for DSM 6 creating extra schedules instead of editing or deleting the original schedule."
+      "changelog": "1. Fixed \"Only send email when important attributes have changed\" that was broken in v2.1.43."
     },
     {
       "package": "AQC_Unlock",
@@ -416,8 +416,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 167,
-      "recent_download_count": 167,
+      "download_count": 174,
+      "recent_download_count": 174,
       "changelog": "1. Now shows warning after starting if permissions aren't set.\n2. Open button now shows steps to set permissions if they aren't set.\n3. Added start, stop logging when permissions aren't set.\n4. Bug fix for not being able to start, repair or upgrade package if permissions aren't set."
     },
     {
@@ -442,8 +442,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 76,
-      "recent_download_count": 76,
+      "download_count": 106,
+      "recent_download_count": 106,
       "changelog": "1. Added https://digitalbox.go.zd.fr/ as an addable package source."
     },
     {
@@ -468,8 +468,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 76,
-      "recent_download_count": 76,
+      "download_count": 106,
+      "recent_download_count": 106,
       "changelog": "1. Added https://digitalbox.go.zd.fr/ as an addable package source."
     },
     {
@@ -494,8 +494,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 4394,
-      "recent_download_count": 4394,
+      "download_count": 4403,
+      "recent_download_count": 4403,
       "changelog": ""
     },
     {
@@ -520,14 +520,14 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1074,
-      "recent_download_count": 1074,
+      "download_count": 1075,
+      "recent_download_count": 1075,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -551,8 +551,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1951,
-      "recent_download_count": 1951,
+      "download_count": 1955,
+      "recent_download_count": 1955,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -582,8 +582,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 551,
-      "recent_download_count": 551,
+      "download_count": 553,
+      "recent_download_count": 553,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -618,7 +618,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100\n2. Help added, integrated to the Synology Help\n3. Several improvements (Installation Wizzard, Logging, ...)\n4. Several Bugs fixed (LED control, quoting in strings, ...)"
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
     },
     {
       "package": "synOCR",
@@ -642,8 +642,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 2722,
-      "recent_download_count": 2722,
+      "download_count": 2736,
+      "recent_download_count": 2736,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -689,8 +689,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2642432,
-      "download_count": 2722,
-      "recent_download_count": 2722,
+      "download_count": 2736,
+      "recent_download_count": 2736,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ptb": "synOCR é um simples GUI para o container Docker OCRmyPDF. Com ele, você pode facilmente aplicar OCR a documentos PDF. synOCR pode então procurar por etiquetas e datas nos documentos, renomeá-los de acordo com um padrão individual e classificá-los em subpastas de acordo com as categorias. Ao utilizar links rígidos, não há aumento da necessidade de espaço de armazenamento se um documento tiver que ser classificado em várias pastas de categoria.",
@@ -736,8 +736,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 26196,
-      "recent_download_count": 26196,
+      "download_count": 26204,
+      "recent_download_count": 26204,
       "changelog": ""
     },
     {
@@ -762,8 +762,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 26196,
-      "recent_download_count": 26196,
+      "download_count": 26204,
+      "recent_download_count": 26204,
       "changelog": ""
     },
     {
@@ -788,8 +788,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 26196,
-      "recent_download_count": 26196,
+      "download_count": 26204,
+      "recent_download_count": 26204,
       "changelog": ""
     },
     {
@@ -814,8 +814,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26196,
-      "recent_download_count": 26196,
+      "download_count": 26204,
+      "recent_download_count": 26204,
       "changelog": ""
     },
     {
@@ -840,8 +840,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26196,
-      "recent_download_count": 26196,
+      "download_count": 26204,
+      "recent_download_count": 26204,
       "changelog": ""
     },
     {
@@ -866,8 +866,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 26196,
-      "recent_download_count": 26196,
+      "download_count": 26204,
+      "recent_download_count": 26204,
       "changelog": ""
     },
     {
@@ -892,8 +892,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320555,
-      "recent_download_count": 320555,
+      "download_count": 320569,
+      "recent_download_count": 320569,
       "changelog": ""
     },
     {
@@ -918,8 +918,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320555,
-      "recent_download_count": 320555,
+      "download_count": 320569,
+      "recent_download_count": 320569,
       "changelog": ""
     },
     {
@@ -944,8 +944,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320555,
-      "recent_download_count": 320555,
+      "download_count": 320569,
+      "recent_download_count": 320569,
       "changelog": ""
     },
     {
@@ -970,8 +970,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320555,
-      "recent_download_count": 320555,
+      "download_count": 320569,
+      "recent_download_count": 320569,
       "changelog": ""
     },
     {
@@ -996,8 +996,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320555,
-      "recent_download_count": 320555,
+      "download_count": 320569,
+      "recent_download_count": 320569,
       "changelog": ""
     },
     {
@@ -1022,8 +1022,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320555,
-      "recent_download_count": 320555,
+      "download_count": 320569,
+      "recent_download_count": 320569,
       "changelog": ""
     },
     {
