@@ -76,7 +76,7 @@
       "size": 583680,
       "download_count": 1422,
       "recent_download_count": 1422,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
       "package": "OpenSpeedTest",
@@ -102,7 +102,7 @@
       "size": 583680,
       "download_count": 1422,
       "recent_download_count": 1422,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
     },
     {
       "package": "LibreSpeedTest",
@@ -178,8 +178,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1670,
-      "recent_download_count": 1670,
+      "download_count": 1672,
+      "recent_download_count": 1672,
       "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
@@ -204,8 +204,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1423360,
-      "download_count": 1670,
-      "recent_download_count": 1670,
+      "download_count": 1672,
+      "recent_download_count": 1672,
       "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
@@ -230,8 +230,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1670,
-      "recent_download_count": 1670,
+      "download_count": 1672,
+      "recent_download_count": 1672,
       "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
@@ -282,8 +282,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2383,
-      "recent_download_count": 2383,
+      "download_count": 2386,
+      "recent_download_count": 2386,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -349,8 +349,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 2383,
-      "recent_download_count": 2383,
+      "download_count": 2386,
+      "recent_download_count": 2386,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -526,8 +526,8 @@
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
