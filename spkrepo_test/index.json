@@ -1,6 +1,32 @@
 {
   "packages": [
     {
+      "package": "CPUTemp",
+      "version": "1.0.7",
+      "dname": "CPU Temperature",
+      "desc": "Synology package that allows you disable and enable community package sources you have added to Package Center, and add known working package sources",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Syno_CPU_Temperature",
+      "support_url": "https://github.com/007revad/Syno_CPU_Temperature/issues",
+      "report_url": "https://github.com/007revad/Syno_CPU_Temperature/issues",
+      "link": "https://github.com/007revad/Syno_CPU_Temperature/releases/download/v1.0.7/CPU_Temperature-noarch-v1.0.7-DSM-7.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 194560,
+      "download_count": 179,
+      "recent_download_count": 179,
+      "changelog": "1. First release."
+    },
+    {
       "package": "OoklaSpeedtest",
       "version": "1.0.34",
       "dname": "Ookla Speedtest",
