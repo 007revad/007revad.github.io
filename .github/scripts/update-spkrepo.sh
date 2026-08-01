@@ -809,6 +809,7 @@ make_entries() {
         --arg link                 "${spk_url}" \
         --arg arch                 "${arch}" \
         --arg exclude_arch         "${exclude_arch}" \
+        --arg exclude_model        "${exclude_model}" \
         --arg firmware             "${firmware}" \
         --argjson os_max_ver       "${max_ver_json}" \
         --arg thumbnail            "${thumbnail}" \
@@ -831,6 +832,7 @@ make_entries() {
             link:                  $link,
             arch:                  $arch,
             exclude_arch:          (if $exclude_arch == "" then null else $exclude_arch end),
+            exclude_model:         (if $exclude_model == "" then null else $exclude_model end),
             firmware:              $firmware,
             os_max_ver:            $os_max_ver,
             thumbnail:             [$thumbnail],
