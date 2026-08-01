@@ -450,10 +450,11 @@ make_entries() {
         fi
 
         # Read core fields from INFO
-        local pkg arch exclude_arch os_min_ver os_max_ver
+        local pkg arch exclude_arch exclude_model os_min_ver os_max_ver
         pkg=$(        info_get "$info" "package")
         arch=$(       info_get "$info" "arch")
         exclude_arch=$(info_get "$info" "exclude_arch")
+        exclude_model=$(info_get "$info" "exclude_model")
         os_min_ver=$( info_get "$info" "os_min_ver")
         os_max_ver=$( info_get "$info" "os_max_ver")
 
