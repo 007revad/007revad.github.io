@@ -450,10 +450,11 @@ make_entries() {
         fi
 
         # Read core fields from INFO
-        local pkg arch exclude_arch os_min_ver os_max_ver
+        local pkg arch exclude_arch exclude_model os_min_ver os_max_ver
         pkg=$(        info_get "$info" "package")
         arch=$(       info_get "$info" "arch")
         exclude_arch=$(info_get "$info" "exclude_arch")
+        exclude_model=$(info_get "$info" "exclude_model")
         os_min_ver=$( info_get "$info" "os_min_ver")
         os_max_ver=$( info_get "$info" "os_max_ver")
 
@@ -808,6 +809,7 @@ make_entries() {
         --arg link                 "${spk_url}" \
         --arg arch                 "${arch}" \
         --arg exclude_arch         "${exclude_arch}" \
+        --arg exclude_model        "${exclude_model}" \
         --arg firmware             "${firmware}" \
         --argjson os_max_ver       "${max_ver_json}" \
         --arg thumbnail            "${thumbnail}" \
@@ -830,6 +832,7 @@ make_entries() {
             link:                  $link,
             arch:                  $arch,
             exclude_arch:          (if $exclude_arch == "" then null else $exclude_arch end),
+            exclude_model:         (if $exclude_model == "" then null else $exclude_model end),
             firmware:              $firmware,
             os_max_ver:            $os_max_ver,
             thumbnail:             [$thumbnail],
