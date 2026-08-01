@@ -102,7 +102,7 @@
       "size": 583680,
       "download_count": 1497,
       "recent_download_count": 1497,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
       "package": "LibreSpeedTest",
@@ -395,6 +395,32 @@
       "changelog": "1. Fixed \"Only send email when important attributes have changed\" that was broken in v2.1.43."
     },
     {
+      "package": "AQC_Unlock",
+      "version": "1.0.8",
+      "dname": "AQC Unlock",
+      "desc": "DSM 7 package that allows you to use non-Synology 10GbE, 5GbE and 2.5GbE PCIe network cards that have a Marvell (Aquantia) AQC100, AQC107, AQC108, AQC111, AQC112, AQC113/AQC113C/AQC113CS and AQC115 chip, and set your preferred LAN port order for DSM to connect to other devices.",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_AQC_Unlock",
+      "support_url": "https://github.com/007revad/Synology_AQC_Unlock/issues",
+      "report_url": "https://github.com/007revad/Synology_AQC_Unlock/issues",
+      "link": "https://github.com/007revad/Synology_AQC_Unlock/releases/download/v1.0.8/AQC_Unlock-x86_64-v1.0.8-DSM-7.x.spk",
+      "arch": "avoton broadwell broadwellnk broadwellnkv2 broadwellntbap bromolow denverton epyc7002 epyc7003 grantley icelaked purley r1000 r1000nk v1000 v1000nk",
+      "exclude_arch": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/AQC_Unlock_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 245760,
+      "download_count": 198,
+      "recent_download_count": 198,
+      "changelog": "1. Bug fix for v1.0.7 not excluding DS925+ (because it does not have a PCIe slot).\n2. Bug fix for v1.0.7 being set as beta."
+    },
+    {
       "package": "SourceManager",
       "version": "1.0.7",
       "dname": "Package Source Manager",
@@ -592,7 +618,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100\n2. Help added, integrated to the Synology Help\n3. Several improvements (Installation Wizzard, Logging, ...)\n4. Several Bugs fixed (LED control, quoting in strings, ...)"
     },
     {
       "package": "synOCR",
