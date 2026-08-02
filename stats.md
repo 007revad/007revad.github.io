@@ -77,7 +77,7 @@
       </tr>
       <tr>
         <td>Syno CPU Temperature</td>
-        <td><a href="https://github.com/007revad/Syno_CPU_Temperature/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Syno_CPU_Temperaturere/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://github.com/007revad/Syno_CPU_Temperature/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Syno_CPU_Temperature/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://hanadigital.github.io/grev/007revad/Syno_CPU_Temperature" target="_blank">Download stats</a></td>
       </tr>
       <tr>
