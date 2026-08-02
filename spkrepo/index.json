@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 1674,
-      "recent_download_count": 1674,
+      "download_count": 1679,
+      "recent_download_count": 1679,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 1674,
-      "recent_download_count": 1674,
+      "download_count": 1679,
+      "recent_download_count": 1679,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -77,9 +77,9 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1521,
-      "recent_download_count": 1521,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
+      "download_count": 1527,
+      "recent_download_count": 1527,
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
       "package": "OpenSpeedTest",
@@ -104,9 +104,9 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1521,
-      "recent_download_count": 1521,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
+      "download_count": 1527,
+      "recent_download_count": 1527,
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
       "package": "LibreSpeedTest",
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 1010,
-      "recent_download_count": 1010,
+      "download_count": 1013,
+      "recent_download_count": 1013,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 1010,
-      "recent_download_count": 1010,
+      "download_count": 1013,
+      "recent_download_count": 1013,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1742,
-      "recent_download_count": 1742,
+      "download_count": 1745,
+      "recent_download_count": 1745,
       "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1423360,
-      "download_count": 1742,
-      "recent_download_count": 1742,
+      "download_count": 1745,
+      "recent_download_count": 1745,
       "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1742,
-      "recent_download_count": 1742,
+      "download_count": 1745,
+      "recent_download_count": 1745,
       "changelog": "1. Bug fix for script's DSM 7.4 driver download URL.\n2. Bug fix for package failing to install or start."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 301,
-      "recent_download_count": 301,
+      "download_count": 302,
+      "recent_download_count": 302,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2805,
-      "recent_download_count": 2805,
+      "download_count": 2808,
+      "recent_download_count": 2808,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -361,8 +361,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 2805,
-      "recent_download_count": 2805,
+      "download_count": 2808,
+      "recent_download_count": 2808,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -429,8 +429,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 206,
-      "recent_download_count": 206,
+      "download_count": 207,
+      "recent_download_count": 207,
       "changelog": "1. Bug fix for v1.0.7 not excluding DS925+ (because it does not have a PCIe slot).\n2. Bug fix for v1.0.7 being set as beta."
     },
     {
@@ -456,8 +456,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 217,
-      "recent_download_count": 217,
+      "download_count": 220,
+      "recent_download_count": 220,
       "changelog": "1. Added https://digitalbox.go.zd.fr/ as an addable package source."
     },
     {
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 217,
-      "recent_download_count": 217,
+      "download_count": 220,
+      "recent_download_count": 220,
       "changelog": "1. Added https://digitalbox.go.zd.fr/ as an addable package source."
     },
     {
@@ -510,8 +510,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 7,
-      "recent_download_count": 7,
+      "download_count": 15,
+      "recent_download_count": 15,
       "changelog": "1. Bug fix for setting log schedule's first run at midnight."
     },
     {
@@ -537,8 +537,8 @@
       "snapshot": [],
       "beta": false,
       "size": 112640,
-      "download_count": 7,
-      "recent_download_count": 7,
+      "download_count": 15,
+      "recent_download_count": 15,
       "changelog": "1. Bug fix for setting log schedule's first run at midnight."
     },
     {
@@ -564,8 +564,8 @@
       "snapshot": [],
       "beta": false,
       "size": 286720,
-      "download_count": 4529,
-      "recent_download_count": 4529,
+      "download_count": 4535,
+      "recent_download_count": 4535,
       "changelog": ""
     },
     {
@@ -591,8 +591,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1092,
-      "recent_download_count": 1092,
+      "download_count": 1093,
+      "recent_download_count": 1093,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -623,8 +623,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 1982,
-      "recent_download_count": 1982,
+      "download_count": 1983,
+      "recent_download_count": 1983,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -655,8 +655,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 567,
-      "recent_download_count": 567,
+      "download_count": 568,
+      "recent_download_count": 568,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -716,8 +716,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 2920,
-      "recent_download_count": 2920,
+      "download_count": 2926,
+      "recent_download_count": 2926,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -764,8 +764,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2644480,
-      "download_count": 2920,
-      "recent_download_count": 2920,
+      "download_count": 2926,
+      "recent_download_count": 2926,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -812,8 +812,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 26311,
-      "recent_download_count": 26311,
+      "download_count": 26318,
+      "recent_download_count": 26318,
       "changelog": ""
     },
     {
@@ -839,8 +839,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 26311,
-      "recent_download_count": 26311,
+      "download_count": 26318,
+      "recent_download_count": 26318,
       "changelog": ""
     },
     {
@@ -866,8 +866,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 26311,
-      "recent_download_count": 26311,
+      "download_count": 26318,
+      "recent_download_count": 26318,
       "changelog": ""
     },
     {
@@ -893,8 +893,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26311,
-      "recent_download_count": 26311,
+      "download_count": 26318,
+      "recent_download_count": 26318,
       "changelog": ""
     },
     {
@@ -920,8 +920,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26311,
-      "recent_download_count": 26311,
+      "download_count": 26318,
+      "recent_download_count": 26318,
       "changelog": ""
     },
     {
@@ -947,8 +947,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 26311,
-      "recent_download_count": 26311,
+      "download_count": 26318,
+      "recent_download_count": 26318,
       "changelog": ""
     },
     {
@@ -974,8 +974,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320721,
-      "recent_download_count": 320721,
+      "download_count": 320729,
+      "recent_download_count": 320729,
       "changelog": ""
     },
     {
@@ -1001,8 +1001,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320721,
-      "recent_download_count": 320721,
+      "download_count": 320729,
+      "recent_download_count": 320729,
       "changelog": ""
     },
     {
@@ -1028,8 +1028,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320721,
-      "recent_download_count": 320721,
+      "download_count": 320729,
+      "recent_download_count": 320729,
       "changelog": ""
     },
     {
@@ -1055,8 +1055,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320721,
-      "recent_download_count": 320721,
+      "download_count": 320729,
+      "recent_download_count": 320729,
       "changelog": ""
     },
     {
@@ -1082,8 +1082,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320721,
-      "recent_download_count": 320721,
+      "download_count": 320729,
+      "recent_download_count": 320729,
       "changelog": ""
     },
     {
@@ -1109,8 +1109,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320721,
-      "recent_download_count": 320721,
+      "download_count": 320729,
+      "recent_download_count": 320729,
       "changelog": ""
     },
     {
