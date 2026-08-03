@@ -1,6 +1,6 @@
 <body>
   <h1>My Github Release Download Stats</h1>
-  <p>Stats at <a href="https://grev.shehryar.ae/">https://grev.shehryar.ae/</a> - - - - - Old stats at <a href="https://hanadigital.github.io/grev/">https://hanadigital.github.io/grev/</a></p>
+  <p><a href="https://007revad.github.io/stats.html">007revad.github.io/stats.html</a> - Stats at <a href="https://grev.shehryar.ae/">grev.shehryar.ae/</a> - Old stats at <a href="https://hanadigital.github.io/grev/">hanadigital.github.io/grev/</a></p>
   <table>
     <thead>
       <tr>
