@@ -1,12 +1,13 @@
 <body>
   <h1>My Github Release Download Stats</h1>
-  <p>Stats at <a href="https://grev.shehryar.ae/">https://grev.shehryar.ae/</a>   ---   Old stats at <a href="https://hanadigital.github.io/grev/">https://hanadigital.github.io/grev/</a></p>
+  <p>Stats at <a href="https://grev.shehryar.ae/">https://grev.shehryar.ae/</a> - - - - - Old stats at <a href="https://hanadigital.github.io/grev/">https://hanadigital.github.io/grev/</a></p>
   <table>
     <thead>
       <tr>
         <th>Repo</th>
         <th>Downloads</th>
         <th>Stats</th>
+        <th>Old stats site</th>
       </tr>
     </thead>
     <tbody>
