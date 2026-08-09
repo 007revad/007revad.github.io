@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 1793,
-      "recent_download_count": 1793,
+      "download_count": 1796,
+      "recent_download_count": 1796,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 1793,
-      "recent_download_count": 1793,
+      "download_count": 1796,
+      "recent_download_count": 1796,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -77,9 +77,9 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1615,
-      "recent_download_count": 1615,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
+      "download_count": 1618,
+      "recent_download_count": 1618,
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
       "package": "OpenSpeedTest",
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1615,
-      "recent_download_count": 1615,
+      "download_count": 1618,
+      "recent_download_count": 1618,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 1072,
-      "recent_download_count": 1072,
+      "download_count": 1076,
+      "recent_download_count": 1076,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 1072,
-      "recent_download_count": 1072,
+      "download_count": 1076,
+      "recent_download_count": 1076,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1875,
-      "recent_download_count": 1875,
+      "download_count": 1886,
+      "recent_download_count": 1886,
       "changelog": "1. Bug fix for the v4.0.14 standalone script containing v4.0.13."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1423360,
-      "download_count": 1875,
-      "recent_download_count": 1875,
+      "download_count": 1886,
+      "recent_download_count": 1886,
       "changelog": "1. Bug fix for the v4.0.14 standalone script containing v4.0.13."
     },
     {
@@ -239,9 +239,90 @@
       "snapshot": [],
       "beta": false,
       "size": 1413120,
-      "download_count": 1875,
-      "recent_download_count": 1875,
+      "download_count": 1886,
+      "recent_download_count": 1886,
       "changelog": "1. Bug fix for the v4.0.14 standalone script containing v4.0.13."
+    },
+    {
+      "package": "TranscodeDrivers",
+      "version": "4.1.16",
+      "dname": "Transcode Drivers for x25",
+      "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Transcode_for_x25",
+      "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.1.16/Transcode_v4.1.16-DSM-7.2-geminilakenk.spk",
+      "arch": "geminilakenk",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.2-72806",
+      "os_max_ver": "7.2-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7-beta_120.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 2478080,
+      "download_count": 1886,
+      "recent_download_count": 1886,
+      "changelog": "1. The package does not need permissions set manually for this version or later."
+    },
+    {
+      "package": "TranscodeDrivers",
+      "version": "4.1.16",
+      "dname": "Transcode Drivers for x25",
+      "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Transcode_for_x25",
+      "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.1.16/Transcode_v4.1.16-DSM-7.3-geminilakenk.spk",
+      "arch": "geminilakenk",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.3-81180",
+      "os_max_ver": "7.3-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7-beta_120.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 2488320,
+      "download_count": 1886,
+      "recent_download_count": 1886,
+      "changelog": "1. The package does not need permissions set manually for this version or later."
+    },
+    {
+      "package": "TranscodeDrivers",
+      "version": "4.1.16",
+      "dname": "Transcode Drivers for x25",
+      "desc": "Drivers for Plex and Jellyfin hardware transcoding in DS425+ and DS225+",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Transcode_for_x25",
+      "support_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "report_url": "https://github.com/007revad/Transcode_for_x25/issues",
+      "link": "https://github.com/007revad/Transcode_for_x25/releases/download/v4.1.16/Transcode_v4.1.16-DSM-7.4-geminilakenk.spk",
+      "arch": "geminilakenk",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.4-90075",
+      "os_max_ver": "7.4-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7-beta_120.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 2478080,
+      "download_count": 1886,
+      "recent_download_count": 1886,
+      "changelog": "1. The package does not need permissions set manually for this version or later."
     },
     {
       "package": "dsm_notify",
@@ -266,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 330,
-      "recent_download_count": 330,
+      "download_count": 331,
+      "recent_download_count": 331,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -293,8 +374,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 3288,
-      "recent_download_count": 3288,
+      "download_count": 3296,
+      "recent_download_count": 3296,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -361,8 +442,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 3288,
-      "recent_download_count": 3288,
+      "download_count": 3296,
+      "recent_download_count": 3296,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -429,8 +510,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 228,
-      "recent_download_count": 228,
+      "download_count": 229,
+      "recent_download_count": 229,
       "changelog": "1. Bug fix for v1.0.7 not excluding DS925+ (because it does not have a PCIe slot).\n2. Bug fix for v1.0.7 being set as beta."
     },
     {
@@ -456,8 +537,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 360,
-      "recent_download_count": 360,
+      "download_count": 372,
+      "recent_download_count": 372,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -483,8 +564,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 360,
-      "recent_download_count": 360,
+      "download_count": 372,
+      "recent_download_count": 372,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -510,8 +591,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 125,
+      "recent_download_count": 125,
       "changelog": "1. Bug fix for setting log schedule's first run at midnight."
     },
     {
@@ -537,8 +618,8 @@
       "snapshot": [],
       "beta": false,
       "size": 112640,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 125,
+      "recent_download_count": 125,
       "changelog": "1. Bug fix for setting log schedule's first run at midnight."
     },
     {
@@ -564,8 +645,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 4878,
-      "recent_download_count": 4878,
+      "download_count": 4885,
+      "recent_download_count": 4885,
       "changelog": ""
     },
     {
@@ -591,14 +672,14 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1108,
-      "recent_download_count": 1108,
+      "download_count": 1109,
+      "recent_download_count": 1109,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -623,14 +704,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2015,
-      "recent_download_count": 2015,
+      "download_count": 2016,
+      "recent_download_count": 2016,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -655,8 +736,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 585,
-      "recent_download_count": 585,
+      "download_count": 586,
+      "recent_download_count": 586,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -716,8 +797,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 3168,
-      "recent_download_count": 3168,
+      "download_count": 3174,
+      "recent_download_count": 3174,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -764,8 +845,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2644480,
-      "download_count": 3168,
-      "recent_download_count": 3168,
+      "download_count": 3174,
+      "recent_download_count": 3174,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -812,8 +893,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 26442,
-      "recent_download_count": 26442,
+      "download_count": 26449,
+      "recent_download_count": 26449,
       "changelog": ""
     },
     {
@@ -839,8 +920,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 26442,
-      "recent_download_count": 26442,
+      "download_count": 26449,
+      "recent_download_count": 26449,
       "changelog": ""
     },
     {
@@ -866,8 +947,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 26442,
-      "recent_download_count": 26442,
+      "download_count": 26449,
+      "recent_download_count": 26449,
       "changelog": ""
     },
     {
@@ -893,8 +974,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26442,
-      "recent_download_count": 26442,
+      "download_count": 26449,
+      "recent_download_count": 26449,
       "changelog": ""
     },
     {
@@ -920,8 +1001,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26442,
-      "recent_download_count": 26442,
+      "download_count": 26449,
+      "recent_download_count": 26449,
       "changelog": ""
     },
     {
@@ -947,8 +1028,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 26442,
-      "recent_download_count": 26442,
+      "download_count": 26449,
+      "recent_download_count": 26449,
       "changelog": ""
     },
     {
@@ -974,8 +1055,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320958,
-      "recent_download_count": 320958,
+      "download_count": 320972,
+      "recent_download_count": 320972,
       "changelog": ""
     },
     {
@@ -1001,8 +1082,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320958,
-      "recent_download_count": 320958,
+      "download_count": 320972,
+      "recent_download_count": 320972,
       "changelog": ""
     },
     {
@@ -1028,8 +1109,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 320958,
-      "recent_download_count": 320958,
+      "download_count": 320972,
+      "recent_download_count": 320972,
       "changelog": ""
     },
     {
@@ -1055,8 +1136,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320958,
-      "recent_download_count": 320958,
+      "download_count": 320972,
+      "recent_download_count": 320972,
       "changelog": ""
     },
     {
@@ -1082,8 +1163,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 320958,
-      "recent_download_count": 320958,
+      "download_count": 320972,
+      "recent_download_count": 320972,
       "changelog": ""
     },
     {
@@ -1109,8 +1190,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 320958,
-      "recent_download_count": 320958,
+      "download_count": 320972,
+      "recent_download_count": 320972,
       "changelog": ""
     },
     {
