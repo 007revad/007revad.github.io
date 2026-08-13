@@ -106,7 +106,7 @@
       "size": 583680,
       "download_count": 1696,
       "recent_download_count": 1696,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
     },
     {
       "package": "LibreSpeedTest",
