@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 1882,
-      "recent_download_count": 1882,
+      "download_count": 1899,
+      "recent_download_count": 1899,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 1882,
-      "recent_download_count": 1882,
+      "download_count": 1899,
+      "recent_download_count": 1899,
       "changelog": "1. DSM 7 bug fix for the `Failed: Speed Test failed` due to `sudo` requiring a password."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1687,
-      "recent_download_count": 1687,
+      "download_count": 1696,
+      "recent_download_count": 1696,
       "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
@@ -104,9 +104,9 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 1687,
-      "recent_download_count": 1687,
-      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in it's INFO file."
+      "download_count": 1696,
+      "recent_download_count": 1696,
+      "changelog": "1. Bug fix for v1.0.13 having v1.0.12 in its INFO file."
     },
     {
       "package": "LibreSpeedTest",
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": true,
       "size": 194560,
-      "download_count": 1124,
-      "recent_download_count": 1124,
+      "download_count": 1128,
+      "recent_download_count": 1128,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": true,
       "size": 204800,
-      "download_count": 1124,
-      "recent_download_count": 1124,
+      "download_count": 1128,
+      "recent_download_count": 1128,
       "changelog": "1. Bug fix for v5.5.0-6 having v5.5.0-5 in it's INFO file."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2200,
-      "recent_download_count": 2200,
+      "download_count": 2241,
+      "recent_download_count": 2241,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2200,
-      "recent_download_count": 2200,
+      "download_count": 2241,
+      "recent_download_count": 2241,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 2200,
-      "recent_download_count": 2200,
+      "download_count": 2241,
+      "recent_download_count": 2241,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 347,
-      "recent_download_count": 347,
+      "download_count": 352,
+      "recent_download_count": 352,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 3456,
-      "recent_download_count": 3456,
+      "download_count": 3490,
+      "recent_download_count": 3490,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -361,8 +361,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 3456,
-      "recent_download_count": 3456,
+      "download_count": 3490,
+      "recent_download_count": 3490,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -429,8 +429,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 242,
-      "recent_download_count": 242,
+      "download_count": 244,
+      "recent_download_count": 244,
       "changelog": "1. Bug fix for v1.0.7 not excluding DS925+ (because it does not have a PCIe slot).\n2. Bug fix for v1.0.7 being set as beta."
     },
     {
@@ -456,8 +456,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 487,
-      "recent_download_count": 487,
+      "download_count": 506,
+      "recent_download_count": 506,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 487,
-      "recent_download_count": 487,
+      "download_count": 506,
+      "recent_download_count": 506,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -510,8 +510,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 188,
-      "recent_download_count": 188,
+      "download_count": 204,
+      "recent_download_count": 204,
       "changelog": "1. Bug fix for setting log schedule's first run at midnight."
     },
     {
@@ -537,8 +537,8 @@
       "snapshot": [],
       "beta": false,
       "size": 112640,
-      "download_count": 188,
-      "recent_download_count": 188,
+      "download_count": 204,
+      "recent_download_count": 204,
       "changelog": "1. Bug fix for setting log schedule's first run at midnight."
     },
     {
@@ -564,8 +564,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 5044,
-      "recent_download_count": 5044,
+      "download_count": 5073,
+      "recent_download_count": 5073,
       "changelog": ""
     },
     {
@@ -591,14 +591,14 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1124,
-      "recent_download_count": 1124,
+      "download_count": 1125,
+      "recent_download_count": 1125,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -623,14 +623,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2041,
-      "recent_download_count": 2041,
+      "download_count": 2047,
+      "recent_download_count": 2047,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -655,8 +655,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 599,
-      "recent_download_count": 599,
+      "download_count": 601,
+      "recent_download_count": 601,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -716,8 +716,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 3290,
-      "recent_download_count": 3290,
+      "download_count": 3305,
+      "recent_download_count": 3305,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -764,8 +764,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2644480,
-      "download_count": 3290,
-      "recent_download_count": 3290,
+      "download_count": 3305,
+      "recent_download_count": 3305,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -812,8 +812,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 26534,
-      "recent_download_count": 26534,
+      "download_count": 26541,
+      "recent_download_count": 26541,
       "changelog": ""
     },
     {
@@ -839,8 +839,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 26534,
-      "recent_download_count": 26534,
+      "download_count": 26541,
+      "recent_download_count": 26541,
       "changelog": ""
     },
     {
@@ -866,8 +866,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 26534,
-      "recent_download_count": 26534,
+      "download_count": 26541,
+      "recent_download_count": 26541,
       "changelog": ""
     },
     {
@@ -893,8 +893,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26534,
-      "recent_download_count": 26534,
+      "download_count": 26541,
+      "recent_download_count": 26541,
       "changelog": ""
     },
     {
@@ -920,8 +920,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26534,
-      "recent_download_count": 26534,
+      "download_count": 26541,
+      "recent_download_count": 26541,
       "changelog": ""
     },
     {
@@ -947,8 +947,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 26534,
-      "recent_download_count": 26534,
+      "download_count": 26541,
+      "recent_download_count": 26541,
       "changelog": ""
     },
     {
@@ -974,8 +974,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 321139,
-      "recent_download_count": 321139,
+      "download_count": 321157,
+      "recent_download_count": 321157,
       "changelog": ""
     },
     {
@@ -1001,8 +1001,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 321139,
-      "recent_download_count": 321139,
+      "download_count": 321157,
+      "recent_download_count": 321157,
       "changelog": ""
     },
     {
@@ -1028,8 +1028,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 321139,
-      "recent_download_count": 321139,
+      "download_count": 321157,
+      "recent_download_count": 321157,
       "changelog": ""
     },
     {
@@ -1055,8 +1055,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 321139,
-      "recent_download_count": 321139,
+      "download_count": 321157,
+      "recent_download_count": 321157,
       "changelog": ""
     },
     {
@@ -1082,8 +1082,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 321139,
-      "recent_download_count": 321139,
+      "download_count": 321157,
+      "recent_download_count": 321157,
       "changelog": ""
     },
     {
@@ -1109,8 +1109,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 321139,
-      "recent_download_count": 321139,
+      "download_count": 321157,
+      "recent_download_count": 321157,
       "changelog": ""
     },
     {
