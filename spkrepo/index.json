@@ -23,9 +23,9 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 2148,
-      "recent_download_count": 2148,
-      "changelog": "1. Changed from a webpage to a DSM app window.\n2. Removed the need to set elevated permissions.\n3. Now logs last download and upload speeds and will show alert if the download or upload speed drops by 10% of the previous result.\n4. Now logs last download and upload speeds and will show alert if the download speed drops to a lower Ethernet speed (25G to 10G to 5G to 2.5G to 1G to 100M to 10M).\n5. If you schedule it with \"Send run details only when script terminates abnormally\" ticked you'll get an email for the above alerts.\n6. Bug fix for DSM 6 saving logs in /var/packages/OoklaSpeedtest/var instead of /var/packages/OoklaSpeedtest/etc."
+      "download_count": 2192,
+      "recent_download_count": 2192,
+      "changelog": "1. Changed from a webpage to a DSM app window.\n2. Removed the need to set elevated permissions.\n3. Now logs last download and upload speeds and will show alert if the download or upload speed drops by 10% of the previous result.\n4. Now logs last download and upload speeds and will show alert if the download speed drops to a lower Ethernet speed (25G to 10G to 5G to 2.5G to 1G to 100M to 10M).\n5. If you schedule it with \"Send run details only when script terminates abnormally\" ticked you'll get an email for alert conditions.\n6. Bug fix for DSM 6 saving logs in /var/packages/OoklaSpeedtest/var instead of /var/packages/OoklaSpeedtest/etc."
     },
     {
       "package": "OoklaSpeedtest",
@@ -50,9 +50,9 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 2148,
-      "recent_download_count": 2148,
-      "changelog": "1. Changed from a webpage to a DSM app window.\n2. Removed the need to set elevated permissions.\n3. Now logs last download and upload speeds and will show alert if:\n   - The download or upload speed drops by 10% of the previous result.\n   - The download speed drops to a lower Ethernet speed (25G to 10G to 5G to 2.5G to 1G to 100M to 10M).\n4. If you schedule it with \"Send run details only when script terminates abnormally\" ticked you'll get an email for alerts.\n5. Bug fix for DSM 6 saving logs in /var/packages/OoklaSpeedtest/var instead of /var/packages/OoklaSpeedtest/etc."
+      "download_count": 2192,
+      "recent_download_count": 2192,
+      "changelog": "1. Changed from a webpage to a DSM app window.\n2. Removed the need to set elevated permissions.\n3. Now logs last download and upload speeds and will show alert if the download or upload speed drops by 10% of the previous result.\n4. Now logs last download and upload speeds and will show alert if the download speed drops to a lower Ethernet speed (25G to 10G to 5G to 2.5G to 1G to 100M to 10M).\n5. If you schedule it with \"Send run details only when script terminates abnormally\" ticked you'll get an email for speed drops or Ethernet speed downgrades.\n6. Bug fix for DSM 6 saving logs in /var/packages/OoklaSpeedtest/var instead of /var/packages/OoklaSpeedtest/etc."
     },
     {
       "package": "OpenSpeedTest",
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 3423,
-      "recent_download_count": 3423,
+      "download_count": 3443,
+      "recent_download_count": 3443,
       "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 3423,
-      "recent_download_count": 3423,
+      "download_count": 3443,
+      "recent_download_count": 3443,
       "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 3423,
-      "recent_download_count": 3423,
+      "download_count": 3443,
+      "recent_download_count": 3443,
       "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 1336,
-      "recent_download_count": 1336,
+      "download_count": 1346,
+      "recent_download_count": 1346,
       "changelog": "1. Changed from a webpage to a DSM app window.\n2. Changed the default Privacy Policy popup window's text because the package doesn't collect any data.\n3. Changed to show the Synology's hostname.\n4. Updated to load the UI faster.\n5. Updated to use multi-threading to be more reliable.\n6. DSM 6 now requires python 3.8 or later.\n7. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n8. DSM 7.2 package works for 7.2, 7.3 and 7.4.\n9. Bug fix for returning \"200 OK\" if there was an error.\n10. Bug fix for v5.5.0-7 showing as beta in package center."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1336,
-      "recent_download_count": 1336,
+      "download_count": 1346,
+      "recent_download_count": 1346,
       "changelog": "1. Changed from a webpage to a DSM app window.\n2. Changed the default Privacy Policy popup window's text because the package doesn't collect any data.\n3. Changed to show the Synology's hostname.\n4. Updated to load the UI faster.\n5. Updated to use multi-threading to be more reliable.\n6. DSM 6 now requires python 3.8 or later.\n7. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n8. DSM 7.2 package works for 7.2, 7.3 and 7.4.\n9. Bug fix for returning \"200 OK\" if there was an error.\n10. Bug fix for v5.5.0-7 showing as beta in package center."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1336,
-      "recent_download_count": 1336,
+      "download_count": 1346,
+      "recent_download_count": 1346,
       "changelog": "1. Changed from a webpage to a DSM app window.\n2. Changed the default Privacy Policy popup window's text because the package doesn't collect any data.\n3. Changed to show the Synology's hostname.\n4. Updated to load the UI faster.\n5. Updated to use multi-threading to be more reliable.\n6. DSM 6 now requires python 3.8 or later.\n7. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n8. DSM 7.2 package works for 7.2, 7.3 and 7.4.\n9. Bug fix for returning \"200 OK\" if there was an error.\n10. Bug fix for v5.5.0-7 showing as beta in package center."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2425,
-      "recent_download_count": 2425,
+      "download_count": 2440,
+      "recent_download_count": 2440,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2425,
-      "recent_download_count": 2425,
+      "download_count": 2440,
+      "recent_download_count": 2440,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 2425,
-      "recent_download_count": 2425,
+      "download_count": 2440,
+      "recent_download_count": 2440,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 102400,
-      "download_count": 380,
-      "recent_download_count": 380,
+      "download_count": 383,
+      "recent_download_count": 383,
       "changelog": "1. Bug fix for notifications not working in v1.0.3.\n2. Added the Open button back to show the small DSM information popup."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 4594,
-      "recent_download_count": 4594,
+      "download_count": 4614,
+      "recent_download_count": 4614,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -415,8 +415,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 4594,
-      "recent_download_count": 4594,
+      "download_count": 4614,
+      "recent_download_count": 4614,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 282,
-      "recent_download_count": 282,
+      "download_count": 284,
+      "recent_download_count": 284,
       "changelog": "1. Bug fix for v1.0.7 not excluding DS925+ (because it does not have a PCIe slot).\n2. Bug fix for v1.0.7 being set as beta."
     },
     {
@@ -510,8 +510,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 634,
-      "recent_download_count": 634,
+      "download_count": 643,
+      "recent_download_count": 643,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -537,13 +537,13 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 634,
-      "recent_download_count": 634,
+      "download_count": 643,
+      "recent_download_count": 643,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
       "package": "CPUTemp",
-      "version": "1.0.5",
+      "version": "2.0.8",
       "dname": "CPU Temperature",
       "desc": "Package to log CPU temperature to help troubleshooting Synology randomly shutting down due to overheating",
       "maintainer": "007revad",
@@ -552,7 +552,7 @@
       "distributor_url": "https://github.com/007revad/Syno_CPU_temperature",
       "support_url": "https://github.com/007revad/Syno_CPU_temperature/issues",
       "report_url": "https://github.com/007revad/Syno_CPU_temperature/issues",
-      "link": "https://github.com/007revad/Syno_CPU_Temperature/releases/download/v1.0.5/CPU_Temperature-noarch-v1.0.5-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_CPU_Temperature/releases/download/v2.0.8/CPU_Temperature-noarch-v2.0.8-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
@@ -563,14 +563,14 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 102400,
-      "download_count": 304,
-      "recent_download_count": 304,
-      "changelog": "1. Bug fix for setting log schedule's first run at midnight."
+      "size": 1136640,
+      "download_count": 313,
+      "recent_download_count": 313,
+      "changelog": "1. Changed to no longer need the user to set elevated permissions.\n2. Installation deletes the old sudoers file if it exists.\n3. Settings window now shows the schedule as disabled if the user deleted the schedule from Task Scheduler instead of assuming the schedule was still enabled.\n4. Changed to be secure against possible exploits."
     },
     {
       "package": "CPUTemp",
-      "version": "1.0.5",
+      "version": "2.0.8",
       "dname": "CPU Temperature",
       "desc": "Package to log CPU temperature to help troubleshooting Synology randomly shutting down due to overheating",
       "maintainer": "007revad",
@@ -579,7 +579,7 @@
       "distributor_url": "https://github.com/007revad/Syno_CPU_temperature",
       "support_url": "https://github.com/007revad/Syno_CPU_temperature/issues",
       "report_url": "https://github.com/007revad/Syno_CPU_temperature/issues",
-      "link": "https://github.com/007revad/Syno_CPU_Temperature/releases/download/v1.0.5/CPU_Temperature-noarch-v1.0.5-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_CPU_Temperature/releases/download/v2.0.8/CPU_Temperature-armv7-v2.0.8-DSM-7.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
@@ -590,10 +590,10 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 112640,
-      "download_count": 304,
-      "recent_download_count": 304,
-      "changelog": "1. Bug fix for setting log schedule's first run at midnight."
+      "size": 1024000,
+      "download_count": 313,
+      "recent_download_count": 313,
+      "changelog": "1. Changed to no longer need the user to set elevated permissions.\n2. Installation deletes the old sudoers file if it exists.\n3. Settings window now shows the schedule as disabled if the user deleted the schedule from Task Scheduler instead of assuming the schedule was still enabled.\n4. Changed to be secure against possible exploits."
     },
     {
       "package": "Synosmartinfo",
@@ -618,8 +618,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 5208,
-      "recent_download_count": 5208,
+      "download_count": 5223,
+      "recent_download_count": 5223,
       "changelog": ""
     },
     {
@@ -645,8 +645,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1147,
-      "recent_download_count": 1147,
+      "download_count": 1149,
+      "recent_download_count": 1149,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -677,8 +677,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2083,
-      "recent_download_count": 2083,
+      "download_count": 2087,
+      "recent_download_count": 2087,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -709,8 +709,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 622,
-      "recent_download_count": 622,
+      "download_count": 623,
+      "recent_download_count": 623,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -770,8 +770,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 3483,
-      "recent_download_count": 3483,
+      "download_count": 3505,
+      "recent_download_count": 3505,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -818,8 +818,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2644480,
-      "download_count": 3483,
-      "recent_download_count": 3483,
+      "download_count": 3505,
+      "recent_download_count": 3505,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -866,8 +866,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 26688,
-      "recent_download_count": 26688,
+      "download_count": 26696,
+      "recent_download_count": 26696,
       "changelog": ""
     },
     {
@@ -893,8 +893,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 26688,
-      "recent_download_count": 26688,
+      "download_count": 26696,
+      "recent_download_count": 26696,
       "changelog": ""
     },
     {
@@ -920,8 +920,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 26688,
-      "recent_download_count": 26688,
+      "download_count": 26696,
+      "recent_download_count": 26696,
       "changelog": ""
     },
     {
@@ -947,8 +947,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26688,
-      "recent_download_count": 26688,
+      "download_count": 26696,
+      "recent_download_count": 26696,
       "changelog": ""
     },
     {
@@ -974,8 +974,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26688,
-      "recent_download_count": 26688,
+      "download_count": 26696,
+      "recent_download_count": 26696,
       "changelog": ""
     },
     {
@@ -1001,8 +1001,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 26688,
-      "recent_download_count": 26688,
+      "download_count": 26696,
+      "recent_download_count": 26696,
       "changelog": ""
     },
     {
@@ -1028,8 +1028,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 321469,
-      "recent_download_count": 321469,
+      "download_count": 321487,
+      "recent_download_count": 321487,
       "changelog": ""
     },
     {
@@ -1055,8 +1055,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 321469,
-      "recent_download_count": 321469,
+      "download_count": 321487,
+      "recent_download_count": 321487,
       "changelog": ""
     },
     {
@@ -1082,8 +1082,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 321469,
-      "recent_download_count": 321469,
+      "download_count": 321487,
+      "recent_download_count": 321487,
       "changelog": ""
     },
     {
@@ -1109,8 +1109,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 321469,
-      "recent_download_count": 321469,
+      "download_count": 321487,
+      "recent_download_count": 321487,
       "changelog": ""
     },
     {
@@ -1136,8 +1136,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 321469,
-      "recent_download_count": 321469,
+      "download_count": 321487,
+      "recent_download_count": 321487,
       "changelog": ""
     },
     {
@@ -1163,8 +1163,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 321469,
-      "recent_download_count": 321469,
+      "download_count": 321487,
+      "recent_download_count": 321487,
       "changelog": ""
     },
     {
