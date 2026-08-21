@@ -569,33 +569,6 @@
       "changelog": "1. Package adds itself to \"Control Panel > Application Permissions\" with only Administrators allowed to see or run the package.\n2. You can modify the permissions in \"Control Panel > Application Permissions\"."
     },
     {
-      "package": "CPUTemp",
-      "version": "2.0.9",
-      "dname": "CPU Temperature",
-      "desc": "Package to log CPU temperature to help troubleshooting Synology randomly shutting down due to overheating",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/Syno_CPU_temperature",
-      "support_url": "https://github.com/007revad/Syno_CPU_temperature/issues",
-      "report_url": "https://github.com/007revad/Syno_CPU_temperature/issues",
-      "link": "https://github.com/007revad/Syno_CPU_Temperature/releases/download/v2.0.9/CPU_Temperature-armv7-v2.0.9-DSM-7.x.spk",
-      "arch": "noarch",
-      "exclude_arch": null,
-      "exclude_model": null,
-      "firmware": "7.0-40337",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_120.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 1024000,
-      "download_count": 326,
-      "recent_download_count": 326,
-      "changelog": "1. Package adds itself to \"Control Panel > Application Permissions\" with only Administrators allowed to see or run the package.\n2. You can the permissions in \"Control Panel > Application Permissions\"."
-    },
-    {
       "package": "Synosmartinfo",
       "version": "2.0.5",
       "dname": "Syno Smart Info",
