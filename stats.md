@@ -36,6 +36,12 @@
         <td><a href="https://hanadigital.github.io/grev/007revad/Syno_DSM_Extractor_GUI" target="_blank">Old download stats</a></td>
       </tr>
       <tr>
+        <td><a href="https://github.com/007revad/Synology_iperf3_Speedtest">Synology iperf3 Speedtest</a></td>
+        <td><a href="https://github.com/007revad/Synology_iperf3_Speedtest/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_iperf3_Speedtest/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://grev.shehryar.ae/?owner=007revad&repo=Synology_iperf3_Speedtest" target="_blank">Download stats</a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/Synology_iperf3_Speedtest" target="_blank">Old download stats</a></td>
+      </tr>
+      <tr>
         <td><a href="https://github.com/007revad/Synology_Ookla_Speedtest">Synology Ookla Speedtest</a></td>
         <td><a href="https://github.com/007revad/Synology_Ookla_Speedtest/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_Ookla_Speedtest/total.svg" alt="Github Releases"></a></td>
         <td><a href="https://grev.shehryar.ae/?owner=007revad&repo=Synology_Ookla_Speedtest" target="_blank">Download stats</a></td>
