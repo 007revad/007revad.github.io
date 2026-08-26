@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 2383,
-      "recent_download_count": 2383,
+      "download_count": 2396,
+      "recent_download_count": 2396,
       "changelog": "1. Removed header from text output when speedtest.sh scheduled to run in Task Scheduler."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 2383,
-      "recent_download_count": 2383,
+      "download_count": 2396,
+      "recent_download_count": 2396,
       "changelog": "1. Removed header from text output when speedtest.sh scheduled to run in Task Scheduler."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 3583,
-      "recent_download_count": 3583,
+      "download_count": 3590,
+      "recent_download_count": 3590,
       "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 3583,
-      "recent_download_count": 3583,
+      "download_count": 3590,
+      "recent_download_count": 3590,
       "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 3583,
-      "recent_download_count": 3583,
+      "download_count": 3590,
+      "recent_download_count": 3590,
       "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 1447,
-      "recent_download_count": 1447,
+      "download_count": 1452,
+      "recent_download_count": 1452,
       "changelog": "1. Changed from a webpage to a DSM app window.\n2. Changed the default Privacy Policy popup window's text because the package doesn't collect any data.\n3. Changed to show the Synology's hostname.\n4. Updated to load the UI faster.\n5. Updated to use multi-threading to be more reliable.\n6. DSM 6 now requires python 3.8 or later.\n7. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n8. DSM 7.2 package works for 7.2, 7.3 and 7.4.\n9. Bug fix for returning \"200 OK\" if there was an error.\n10. Bug fix for v5.5.0-7 showing as beta in package center."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1447,
-      "recent_download_count": 1447,
+      "download_count": 1452,
+      "recent_download_count": 1452,
       "changelog": "1. Changed from a webpage to a DSM app window.\n2. Changed the default Privacy Policy popup window's text because the package doesn't collect any data.\n3. Changed to show the Synology's hostname.\n4. Updated to load the UI faster.\n5. Updated to use multi-threading to be more reliable.\n6. DSM 6 now requires python 3.8 or later.\n7. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n8. DSM 7.2 package works for 7.2, 7.3 and 7.4.\n9. Bug fix for returning \"200 OK\" if there was an error.\n10. Bug fix for v5.5.0-7 showing as beta in package center."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1447,
-      "recent_download_count": 1447,
+      "download_count": 1452,
+      "recent_download_count": 1452,
       "changelog": "1. Changed from a webpage to a DSM app window.\n2. Changed the default Privacy Policy popup window's text because the package doesn't collect any data.\n3. Changed to show the Synology's hostname.\n4. Updated to load the UI faster.\n5. Updated to use multi-threading to be more reliable.\n6. DSM 6 now requires python 3.8 or later.\n7. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n8. DSM 7.2 package works for 7.2, 7.3 and 7.4.\n9. Bug fix for returning \"200 OK\" if there was an error.\n10. Bug fix for v5.5.0-7 showing as beta in package center."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2564,
-      "recent_download_count": 2564,
+      "download_count": 2568,
+      "recent_download_count": 2568,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2564,
-      "recent_download_count": 2564,
+      "download_count": 2568,
+      "recent_download_count": 2568,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 2564,
-      "recent_download_count": 2564,
+      "download_count": 2568,
+      "recent_download_count": 2568,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 450,
-      "recent_download_count": 450,
+      "download_count": 452,
+      "recent_download_count": 452,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 4727,
-      "recent_download_count": 4727,
+      "download_count": 4733,
+      "recent_download_count": 4733,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -415,8 +415,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 4727,
-      "recent_download_count": 4727,
+      "download_count": 4733,
+      "recent_download_count": 4733,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 325,
-      "recent_download_count": 325,
+      "download_count": 326,
+      "recent_download_count": 326,
       "changelog": "1. Bug fix for v1.0.7 not excluding DS925+ (because it does not have a PCIe slot).\n2. Bug fix for v1.0.7 being set as beta."
     },
     {
@@ -510,8 +510,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 716,
-      "recent_download_count": 716,
+      "download_count": 719,
+      "recent_download_count": 719,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -537,8 +537,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 716,
-      "recent_download_count": 716,
+      "download_count": 719,
+      "recent_download_count": 719,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -564,8 +564,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 538,
-      "recent_download_count": 538,
+      "download_count": 546,
+      "recent_download_count": 546,
       "changelog": "1. Bug fix for \"Failed to run syno_cpu_temp.sh\" error.\n2. Bug fix for \"Could not clear log\" error."
     },
     {
@@ -591,8 +591,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 538,
-      "recent_download_count": 538,
+      "download_count": 546,
+      "recent_download_count": 546,
       "changelog": "1. Bug fix for \"Failed to run syno_cpu_temp.sh\" error.\n2. Bug fix for \"Could not clear log\" error."
     },
     {
@@ -618,8 +618,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 538,
-      "recent_download_count": 538,
+      "download_count": 546,
+      "recent_download_count": 546,
       "changelog": "1. Bug fix for \"Failed to run syno_cpu_temp.sh\" error.\n2. Bug fix for \"Could not clear log\" error."
     },
     {
@@ -645,8 +645,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 538,
-      "recent_download_count": 538,
+      "download_count": 546,
+      "recent_download_count": 546,
       "changelog": "1. Bug fix for \"Failed to run syno_cpu_temp.sh\" error.\n2. Bug fix for \"Could not clear log\" error."
     },
     {
@@ -672,8 +672,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 538,
-      "recent_download_count": 538,
+      "download_count": 546,
+      "recent_download_count": 546,
       "changelog": "1. Bug fix for \"Failed to run syno_cpu_temp.sh\" error.\n2. Bug fix for \"Could not clear log\" error."
     },
     {
@@ -699,8 +699,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 5975,
-      "recent_download_count": 5975,
+      "download_count": 5995,
+      "recent_download_count": 5995,
       "changelog": ""
     },
     {
@@ -726,8 +726,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1163,
-      "recent_download_count": 1163,
+      "download_count": 1164,
+      "recent_download_count": 1164,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -758,8 +758,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2108,
-      "recent_download_count": 2108,
+      "download_count": 2109,
+      "recent_download_count": 2109,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -790,8 +790,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 642,
-      "recent_download_count": 642,
+      "download_count": 643,
+      "recent_download_count": 643,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -826,7 +826,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100\n2. Help added, integrated to the Synology Help\n3. Several improvements (Installation Wizzard, Logging, ...)\n4. Several Bugs fixed (LED control, quoting in strings, ...)"
     },
     {
       "package": "synOCR",
@@ -851,8 +851,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 3677,
-      "recent_download_count": 3677,
+      "download_count": 3679,
+      "recent_download_count": 3679,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -899,8 +899,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2649088,
-      "download_count": 3677,
-      "recent_download_count": 3677,
+      "download_count": 3679,
+      "recent_download_count": 3679,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -947,8 +947,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 26797,
-      "recent_download_count": 26797,
+      "download_count": 26805,
+      "recent_download_count": 26805,
       "changelog": ""
     },
     {
@@ -974,8 +974,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 26797,
-      "recent_download_count": 26797,
+      "download_count": 26805,
+      "recent_download_count": 26805,
       "changelog": ""
     },
     {
@@ -1001,8 +1001,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 26797,
-      "recent_download_count": 26797,
+      "download_count": 26805,
+      "recent_download_count": 26805,
       "changelog": ""
     },
     {
@@ -1028,8 +1028,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26797,
-      "recent_download_count": 26797,
+      "download_count": 26805,
+      "recent_download_count": 26805,
       "changelog": ""
     },
     {
@@ -1055,8 +1055,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26797,
-      "recent_download_count": 26797,
+      "download_count": 26805,
+      "recent_download_count": 26805,
       "changelog": ""
     },
     {
@@ -1082,8 +1082,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 26797,
-      "recent_download_count": 26797,
+      "download_count": 26805,
+      "recent_download_count": 26805,
       "changelog": ""
     },
     {
@@ -1109,8 +1109,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 321690,
-      "recent_download_count": 321690,
+      "download_count": 321699,
+      "recent_download_count": 321699,
       "changelog": ""
     },
     {
@@ -1136,8 +1136,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 321690,
-      "recent_download_count": 321690,
+      "download_count": 321699,
+      "recent_download_count": 321699,
       "changelog": ""
     },
     {
@@ -1163,8 +1163,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 321690,
-      "recent_download_count": 321690,
+      "download_count": 321699,
+      "recent_download_count": 321699,
       "changelog": ""
     },
     {
@@ -1190,8 +1190,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 321690,
-      "recent_download_count": 321690,
+      "download_count": 321699,
+      "recent_download_count": 321699,
       "changelog": ""
     },
     {
@@ -1217,8 +1217,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 321690,
-      "recent_download_count": 321690,
+      "download_count": 321699,
+      "recent_download_count": 321699,
       "changelog": ""
     },
     {
@@ -1244,8 +1244,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 321690,
-      "recent_download_count": 321690,
+      "download_count": 321699,
+      "recent_download_count": 321699,
       "changelog": ""
     },
     {
