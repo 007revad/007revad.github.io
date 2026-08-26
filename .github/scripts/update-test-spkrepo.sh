@@ -861,6 +861,8 @@ entries+=( "$(make_entries "007revad" "Synology_drive_info"          "CHANGES.tx
 entries+=( "$(make_entries "007revad" "Synology_AQC_Unlock"          "CHANGES.txt")" )
 entries+=( "$(make_entries "007revad" "Syno_Package_Source_Manager"  "CHANGES.txt")" )
 entries+=( "$(make_entries "007revad" "Syno_CPU_Temperature"         "CHANGES.txt")" )
+entries+=( "$(make_entries "007revad" "Synology_iperf3_Speedtest"    "CHANGES.txt")" )
+#entries+=( "$(make_entries "007revad" "Syno_Toolbox"                "CHANGES.txt")" )
 
 # Friends' repos
 entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo"             "")" )
