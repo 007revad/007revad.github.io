@@ -285,7 +285,7 @@
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
-      "firmware": "7.0-40337",
+      "firmware": "7.2-64570",
       "os_max_ver": null,
       "thumbnail": [
         "https://007revad.github.io/spkrepo/thumbnails/LibreSpeedTest_120.png"
