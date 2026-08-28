@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 2617,
-      "recent_download_count": 2617,
+      "download_count": 2628,
+      "recent_download_count": 2628,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 2617,
-      "recent_download_count": 2617,
+      "download_count": 2628,
+      "recent_download_count": 2628,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 3658,
-      "recent_download_count": 3658,
+      "download_count": 3675,
+      "recent_download_count": 3675,
       "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 3658,
-      "recent_download_count": 3658,
+      "download_count": 3675,
+      "recent_download_count": 3675,
       "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
     },
     {
@@ -131,9 +131,9 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 3658,
-      "recent_download_count": 3658,
-      "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
+      "download_count": 3675,
+      "recent_download_count": 3675,
+      "changelog": "1. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-7.1 package (as well as DSM 6 and 7.2).\n2. DSM 7.2 package works for 7.2, 7.3 and 7.4."
     },
     {
       "package": "OpenSpeedTest",
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": true,
       "size": 583680,
-      "download_count": 3658,
-      "recent_download_count": 3658,
+      "download_count": 3675,
+      "recent_download_count": 3675,
       "changelog": "1. Bug fix for DSM 7.0-7.1."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": true,
       "size": 583680,
-      "download_count": 3658,
-      "recent_download_count": 3658,
+      "download_count": 3675,
+      "recent_download_count": 3675,
       "changelog": "1. Bug fix for DSM 7.0-7.1."
     },
     {
@@ -212,13 +212,13 @@
       "snapshot": [],
       "beta": true,
       "size": 583680,
-      "download_count": 3658,
-      "recent_download_count": 3658,
+      "download_count": 3675,
+      "recent_download_count": 3675,
       "changelog": "1. Bug fix for DSM 7.0-7.1."
     },
     {
       "package": "LibreSpeedTest",
-      "version": "5.5.0-8",
+      "version": "5.5.0-9",
       "dname": "LibreSpeed Speedtest",
       "desc": "LibreSpeed Speedtest GUI to test LAN speed",
       "maintainer": "007revad",
@@ -227,7 +227,7 @@
       "distributor_url": "https://github.com/007revad/Synology_Libre_Speedtest",
       "support_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-8/LibreSpeedtest-noarch-v5.5.0-8-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-9/LibreSpeedtest-noarch-v5.5.0-9-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
@@ -239,13 +239,13 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 1513,
-      "recent_download_count": 1513,
-      "changelog": "1. Changed from a webpage to a DSM app window.\n2. Changed the default Privacy Policy popup window's text because the package doesn't collect any data.\n3. Changed to show the Synology's hostname.\n4. Updated to load the UI faster.\n5. Updated to use multi-threading to be more reliable.\n6. DSM 6 now requires python 3.8 or later.\n7. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n8. DSM 7.2 package works for 7.2, 7.3 and 7.4.\n9. Bug fix for returning \"200 OK\" if there was an error.\n10. Bug fix for v5.5.0-7 showing as beta in package center."
+      "download_count": 1524,
+      "recent_download_count": 1524,
+      "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
       "package": "LibreSpeedTest",
-      "version": "5.5.0-8",
+      "version": "5.5.0-9",
       "dname": "LibreSpeed Speedtest",
       "desc": "LibreSpeed Speedtest GUI to test LAN speed",
       "maintainer": "007revad",
@@ -254,7 +254,7 @@
       "distributor_url": "https://github.com/007revad/Synology_Libre_Speedtest",
       "support_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-8/LibreSpeedtest-noarch-v5.5.0-8-DSM-7.0-7.1.spk",
+      "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-9/LibreSpeedtest-noarch-v5.5.0-9-DSM-7.0-7.1.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
@@ -266,13 +266,13 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1513,
-      "recent_download_count": 1513,
-      "changelog": "1. Changed from a webpage to a DSM app window.\n2. Changed the default Privacy Policy popup window's text because the package doesn't collect any data.\n3. Changed to show the Synology's hostname.\n4. Updated to load the UI faster.\n5. Updated to use multi-threading to be more reliable.\n6. DSM 6 now requires python 3.8 or later.\n7. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n8. DSM 7.2 package works for 7.2, 7.3 and 7.4.\n9. Bug fix for returning \"200 OK\" if there was an error.\n10. Bug fix for v5.5.0-7 showing as beta in package center."
+      "download_count": 1524,
+      "recent_download_count": 1524,
+      "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
       "package": "LibreSpeedTest",
-      "version": "5.5.0-8",
+      "version": "5.5.0-9",
       "dname": "LibreSpeed Speedtest",
       "desc": "LibreSpeed Speedtest GUI to test LAN speed",
       "maintainer": "007revad",
@@ -281,7 +281,7 @@
       "distributor_url": "https://github.com/007revad/Synology_Libre_Speedtest",
       "support_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
       "report_url": "https://github.com/007revad/Synology_Libre_Speedtest/issues",
-      "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-8/LibreSpeedtest-noarch-v5.5.0-8-DSM-7.2.spk",
+      "link": "https://github.com/007revad/Synology_Libre_Speedtest/releases/download/v5.5.0-9/LibreSpeedtest-noarch-v5.5.0-9-DSM-7.2.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
@@ -293,9 +293,9 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1513,
-      "recent_download_count": 1513,
-      "changelog": "1. Changed from a webpage to a DSM app window.\n2. Changed the default Privacy Policy popup window's text because the package doesn't collect any data.\n3. Changed to show the Synology's hostname.\n4. Updated to load the UI faster.\n5. Updated to use multi-threading to be more reliable.\n6. DSM 6 now requires python 3.8 or later.\n7. Bug fix for DSM 7.0 and 7.1. Now creates a DSM 7.0-71 package (as well as DMS 6 and 7.2).\n8. DSM 7.2 package works for 7.2, 7.3 and 7.4.\n9. Bug fix for returning \"200 OK\" if there was an error.\n10. Bug fix for v5.5.0-7 showing as beta in package center."
+      "download_count": 1524,
+      "recent_download_count": 1524,
+      "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
       "package": "TranscodeDrivers",
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2614,
-      "recent_download_count": 2614,
+      "download_count": 2617,
+      "recent_download_count": 2617,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2614,
-      "recent_download_count": 2614,
+      "download_count": 2617,
+      "recent_download_count": 2617,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -374,8 +374,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 2614,
-      "recent_download_count": 2614,
+      "download_count": 2617,
+      "recent_download_count": 2617,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -401,8 +401,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 481,
-      "recent_download_count": 481,
+      "download_count": 484,
+      "recent_download_count": 484,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -428,8 +428,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 4830,
-      "recent_download_count": 4830,
+      "download_count": 4857,
+      "recent_download_count": 4857,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -496,8 +496,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 4830,
-      "recent_download_count": 4830,
+      "download_count": 4857,
+      "recent_download_count": 4857,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -564,8 +564,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 337,
-      "recent_download_count": 337,
+      "download_count": 338,
+      "recent_download_count": 338,
       "changelog": "1. Bug fix for v1.0.7 not excluding DS925+ (because it does not have a PCIe slot).\n2. Bug fix for v1.0.7 being set as beta."
     },
     {
@@ -591,8 +591,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 764,
-      "recent_download_count": 764,
+      "download_count": 769,
+      "recent_download_count": 769,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -618,8 +618,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 764,
-      "recent_download_count": 764,
+      "download_count": 769,
+      "recent_download_count": 769,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -645,8 +645,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 658,
-      "recent_download_count": 658,
+      "download_count": 670,
+      "recent_download_count": 670,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -672,8 +672,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 658,
-      "recent_download_count": 658,
+      "download_count": 670,
+      "recent_download_count": 670,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -699,8 +699,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 658,
-      "recent_download_count": 658,
+      "download_count": 670,
+      "recent_download_count": 670,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -726,8 +726,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 658,
-      "recent_download_count": 658,
+      "download_count": 670,
+      "recent_download_count": 670,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -753,8 +753,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 658,
-      "recent_download_count": 658,
+      "download_count": 670,
+      "recent_download_count": 670,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -780,8 +780,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4904960,
-      "download_count": 111,
-      "recent_download_count": 111,
+      "download_count": 121,
+      "recent_download_count": 121,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -807,8 +807,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 111,
-      "recent_download_count": 111,
+      "download_count": 121,
+      "recent_download_count": 121,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -834,8 +834,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5511168,
-      "download_count": 111,
-      "recent_download_count": 111,
+      "download_count": 121,
+      "recent_download_count": 121,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -861,8 +861,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 111,
-      "recent_download_count": 111,
+      "download_count": 121,
+      "recent_download_count": 121,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -888,8 +888,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 111,
-      "recent_download_count": 111,
+      "download_count": 121,
+      "recent_download_count": 121,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -915,8 +915,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 111,
-      "recent_download_count": 111,
+      "download_count": 121,
+      "recent_download_count": 121,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -942,8 +942,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5365760,
-      "download_count": 111,
-      "recent_download_count": 111,
+      "download_count": 121,
+      "recent_download_count": 121,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -969,8 +969,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 111,
-      "recent_download_count": 111,
+      "download_count": 121,
+      "recent_download_count": 121,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -996,8 +996,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 6254,
-      "recent_download_count": 6254,
+      "download_count": 6274,
+      "recent_download_count": 6274,
       "changelog": ""
     },
     {
@@ -1023,14 +1023,14 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1175,
-      "recent_download_count": 1175,
+      "download_count": 1176,
+      "recent_download_count": 1176,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -1055,14 +1055,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2126,
-      "recent_download_count": 2126,
+      "download_count": 2127,
+      "recent_download_count": 2127,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -1087,8 +1087,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 656,
-      "recent_download_count": 656,
+      "download_count": 657,
+      "recent_download_count": 657,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1148,8 +1148,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 3771,
-      "recent_download_count": 3771,
+      "download_count": 3773,
+      "recent_download_count": 3773,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -1196,8 +1196,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2649088,
-      "download_count": 3771,
-      "recent_download_count": 3771,
+      "download_count": 3773,
+      "recent_download_count": 3773,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1244,8 +1244,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 26888,
-      "recent_download_count": 26888,
+      "download_count": 26895,
+      "recent_download_count": 26895,
       "changelog": ""
     },
     {
@@ -1271,8 +1271,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 26888,
-      "recent_download_count": 26888,
+      "download_count": 26895,
+      "recent_download_count": 26895,
       "changelog": ""
     },
     {
@@ -1298,8 +1298,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 26888,
-      "recent_download_count": 26888,
+      "download_count": 26895,
+      "recent_download_count": 26895,
       "changelog": ""
     },
     {
@@ -1325,8 +1325,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26888,
-      "recent_download_count": 26888,
+      "download_count": 26895,
+      "recent_download_count": 26895,
       "changelog": ""
     },
     {
@@ -1352,8 +1352,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 26888,
-      "recent_download_count": 26888,
+      "download_count": 26895,
+      "recent_download_count": 26895,
       "changelog": ""
     },
     {
@@ -1379,8 +1379,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 26888,
-      "recent_download_count": 26888,
+      "download_count": 26895,
+      "recent_download_count": 26895,
       "changelog": ""
     },
     {
@@ -1406,8 +1406,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 321788,
-      "recent_download_count": 321788,
+      "download_count": 321799,
+      "recent_download_count": 321799,
       "changelog": ""
     },
     {
@@ -1433,8 +1433,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 321788,
-      "recent_download_count": 321788,
+      "download_count": 321799,
+      "recent_download_count": 321799,
       "changelog": ""
     },
     {
@@ -1460,8 +1460,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 321788,
-      "recent_download_count": 321788,
+      "download_count": 321799,
+      "recent_download_count": 321799,
       "changelog": ""
     },
     {
@@ -1487,8 +1487,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 321788,
-      "recent_download_count": 321788,
+      "download_count": 321799,
+      "recent_download_count": 321799,
       "changelog": ""
     },
     {
@@ -1514,8 +1514,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 321788,
-      "recent_download_count": 321788,
+      "download_count": 321799,
+      "recent_download_count": 321799,
       "changelog": ""
     },
     {
@@ -1541,8 +1541,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 321788,
-      "recent_download_count": 321788,
+      "download_count": 321799,
+      "recent_download_count": 321799,
       "changelog": ""
     },
     {
