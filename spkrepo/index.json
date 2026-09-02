@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 2959,
-      "recent_download_count": 2959,
+      "download_count": 2984,
+      "recent_download_count": 2984,
       "changelog": "1. Bug fix for the text view not showing the Download and Upload speeds."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 2959,
-      "recent_download_count": 2959,
+      "download_count": 2984,
+      "recent_download_count": 2984,
       "changelog": "1. Bug fix for the text view not showing the Download and Upload speeds."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 573440,
-      "download_count": 4032,
-      "recent_download_count": 4032,
+      "download_count": 4050,
+      "recent_download_count": 4050,
       "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.\n2. Bug fix for DSM 7.0-7.1 \"Network Error\".\n3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 4032,
-      "recent_download_count": 4032,
+      "download_count": 4050,
+      "recent_download_count": 4050,
       "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.\n2. Bug fix for DSM 7.0-7.1 \"Network Error\".\n3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 4032,
-      "recent_download_count": 4032,
+      "download_count": 4050,
+      "recent_download_count": 4050,
       "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.\n2. Bug fix for DSM 7.0-7.1 \"Network Error\".\n3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 1660,
-      "recent_download_count": 1660,
+      "download_count": 1667,
+      "recent_download_count": 1667,
       "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1660,
-      "recent_download_count": 1660,
+      "download_count": 1667,
+      "recent_download_count": 1667,
       "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1660,
-      "recent_download_count": 1660,
+      "download_count": 1667,
+      "recent_download_count": 1667,
       "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2712,
-      "recent_download_count": 2712,
+      "download_count": 2716,
+      "recent_download_count": 2716,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2712,
-      "recent_download_count": 2712,
+      "download_count": 2716,
+      "recent_download_count": 2716,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 2712,
-      "recent_download_count": 2712,
+      "download_count": 2716,
+      "recent_download_count": 2716,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 527,
-      "recent_download_count": 527,
+      "download_count": 530,
+      "recent_download_count": 530,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 5393,
-      "recent_download_count": 5393,
+      "download_count": 5413,
+      "recent_download_count": 5413,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -415,8 +415,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 5393,
-      "recent_download_count": 5393,
+      "download_count": 5413,
+      "recent_download_count": 5413,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 381,
-      "recent_download_count": 381,
+      "download_count": 382,
+      "recent_download_count": 382,
       "changelog": "1. Bug fix for v1.0.9 failing to start."
     },
     {
@@ -510,8 +510,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 835,
-      "recent_download_count": 835,
+      "download_count": 838,
+      "recent_download_count": 838,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -537,8 +537,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 835,
-      "recent_download_count": 835,
+      "download_count": 838,
+      "recent_download_count": 838,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -564,8 +564,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 815,
-      "recent_download_count": 815,
+      "download_count": 827,
+      "recent_download_count": 827,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -591,8 +591,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 815,
-      "recent_download_count": 815,
+      "download_count": 827,
+      "recent_download_count": 827,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -618,8 +618,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 815,
-      "recent_download_count": 815,
+      "download_count": 827,
+      "recent_download_count": 827,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -645,8 +645,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 815,
-      "recent_download_count": 815,
+      "download_count": 827,
+      "recent_download_count": 827,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -672,8 +672,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 815,
-      "recent_download_count": 815,
+      "download_count": 827,
+      "recent_download_count": 827,
       "changelog": "1. Bug fix for not installing python3 in DSM 6 if python3 not installed."
     },
     {
@@ -699,8 +699,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 269,
-      "recent_download_count": 269,
+      "download_count": 278,
+      "recent_download_count": 278,
       "changelog": "1. Added 186 public iperf3 servers to choose from in settings.\n2. Bug fix for public iperf3 servers list being empty in settings."
     },
     {
@@ -726,8 +726,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4925440,
-      "download_count": 269,
-      "recent_download_count": 269,
+      "download_count": 278,
+      "recent_download_count": 278,
       "changelog": "1. Added 186 public iperf3 servers to choose from in settings.\n2. Bug fix for public iperf3 servers list being empty in settings."
     },
     {
@@ -753,8 +753,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 269,
-      "recent_download_count": 269,
+      "download_count": 278,
+      "recent_download_count": 278,
       "changelog": "1. Added 186 public iperf3 servers to choose from in settings.\n2. Bug fix for public iperf3 servers list being empty in settings."
     },
     {
@@ -780,8 +780,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 269,
-      "recent_download_count": 269,
+      "download_count": 278,
+      "recent_download_count": 278,
       "changelog": "1. Added 186 public iperf3 servers to choose from in settings.\n2. Bug fix for public iperf3 servers list being empty in settings."
     },
     {
@@ -807,8 +807,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 269,
-      "recent_download_count": 269,
+      "download_count": 278,
+      "recent_download_count": 278,
       "changelog": "1. Added 186 public iperf3 servers to choose from in settings.\n2. Bug fix for public iperf3 servers list being empty in settings."
     },
     {
@@ -834,8 +834,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 269,
-      "recent_download_count": 269,
+      "download_count": 278,
+      "recent_download_count": 278,
       "changelog": "1. Added 186 public iperf3 servers to choose from in settings.\n2. Bug fix for public iperf3 servers list being empty in settings."
     },
     {
@@ -861,8 +861,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 269,
-      "recent_download_count": 269,
+      "download_count": 278,
+      "recent_download_count": 278,
       "changelog": "1. Added 186 public iperf3 servers to choose from in settings.\n2. Bug fix for public iperf3 servers list being empty in settings."
     },
     {
@@ -888,8 +888,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 269,
-      "recent_download_count": 269,
+      "download_count": 278,
+      "recent_download_count": 278,
       "changelog": "1. Added 186 public iperf3 servers to choose from in settings.\n2. Bug fix for public iperf3 servers list being empty in settings."
     },
     {
@@ -915,8 +915,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 6911,
-      "recent_download_count": 6911,
+      "download_count": 6956,
+      "recent_download_count": 6956,
       "changelog": ""
     },
     {
@@ -942,13 +942,13 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1195,
-      "recent_download_count": 1195,
+      "download_count": 1196,
+      "recent_download_count": 1196,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
       "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
@@ -974,14 +974,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2149,
-      "recent_download_count": 2149,
+      "download_count": 2150,
+      "recent_download_count": 2150,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -1006,8 +1006,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 674,
-      "recent_download_count": 674,
+      "download_count": 675,
+      "recent_download_count": 675,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1067,8 +1067,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 3953,
-      "recent_download_count": 3953,
+      "download_count": 3970,
+      "recent_download_count": 3970,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -1115,8 +1115,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2648576,
-      "download_count": 3953,
-      "recent_download_count": 3953,
+      "download_count": 3970,
+      "recent_download_count": 3970,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1163,8 +1163,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2897920,
-      "download_count": 27,
-      "recent_download_count": 27,
+      "download_count": 31,
+      "recent_download_count": 31,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -1191,8 +1191,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 27020,
-      "recent_download_count": 27020,
+      "download_count": 27032,
+      "recent_download_count": 27032,
       "changelog": ""
     },
     {
@@ -1218,8 +1218,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 27020,
-      "recent_download_count": 27020,
+      "download_count": 27032,
+      "recent_download_count": 27032,
       "changelog": ""
     },
     {
@@ -1245,8 +1245,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 27020,
-      "recent_download_count": 27020,
+      "download_count": 27032,
+      "recent_download_count": 27032,
       "changelog": ""
     },
     {
@@ -1272,8 +1272,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27020,
-      "recent_download_count": 27020,
+      "download_count": 27032,
+      "recent_download_count": 27032,
       "changelog": ""
     },
     {
@@ -1299,8 +1299,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27020,
-      "recent_download_count": 27020,
+      "download_count": 27032,
+      "recent_download_count": 27032,
       "changelog": ""
     },
     {
@@ -1326,8 +1326,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 27020,
-      "recent_download_count": 27020,
+      "download_count": 27032,
+      "recent_download_count": 27032,
       "changelog": ""
     },
     {
@@ -1353,8 +1353,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 322003,
-      "recent_download_count": 322003,
+      "download_count": 322013,
+      "recent_download_count": 322013,
       "changelog": ""
     },
     {
@@ -1380,8 +1380,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 322003,
-      "recent_download_count": 322003,
+      "download_count": 322013,
+      "recent_download_count": 322013,
       "changelog": ""
     },
     {
@@ -1407,8 +1407,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 322003,
-      "recent_download_count": 322003,
+      "download_count": 322013,
+      "recent_download_count": 322013,
       "changelog": ""
     },
     {
@@ -1434,8 +1434,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 322003,
-      "recent_download_count": 322003,
+      "download_count": 322013,
+      "recent_download_count": 322013,
       "changelog": ""
     },
     {
@@ -1461,8 +1461,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 322003,
-      "recent_download_count": 322003,
+      "download_count": 322013,
+      "recent_download_count": 322013,
       "changelog": ""
     },
     {
@@ -1488,8 +1488,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 322003,
-      "recent_download_count": 322003,
+      "download_count": 322013,
+      "recent_download_count": 322013,
       "changelog": ""
     },
     {
