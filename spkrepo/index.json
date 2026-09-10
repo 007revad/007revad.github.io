@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 3253,
-      "recent_download_count": 3253,
+      "download_count": 3277,
+      "recent_download_count": 3277,
       "changelog": "1. Bug fix for the text view not showing the Download and Upload speeds."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 3253,
-      "recent_download_count": 3253,
+      "download_count": 3277,
+      "recent_download_count": 3277,
       "changelog": "1. Bug fix for the text view not showing the Download and Upload speeds."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 573440,
-      "download_count": 4239,
-      "recent_download_count": 4239,
+      "download_count": 4260,
+      "recent_download_count": 4260,
       "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.\n2. Bug fix for DSM 7.0-7.1 \"Network Error\".\n3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 4239,
-      "recent_download_count": 4239,
+      "download_count": 4260,
+      "recent_download_count": 4260,
       "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.\n2. Bug fix for DSM 7.0-7.1 \"Network Error\".\n3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 4239,
-      "recent_download_count": 4239,
+      "download_count": 4260,
+      "recent_download_count": 4260,
       "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.\n2. Bug fix for DSM 7.0-7.1 \"Network Error\".\n3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 1777,
-      "recent_download_count": 1777,
+      "download_count": 1791,
+      "recent_download_count": 1791,
       "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1777,
-      "recent_download_count": 1777,
+      "download_count": 1791,
+      "recent_download_count": 1791,
       "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1777,
-      "recent_download_count": 1777,
+      "download_count": 1791,
+      "recent_download_count": 1791,
       "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2819,
-      "recent_download_count": 2819,
+      "download_count": 2834,
+      "recent_download_count": 2834,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2819,
-      "recent_download_count": 2819,
+      "download_count": 2834,
+      "recent_download_count": 2834,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 2819,
-      "recent_download_count": 2819,
+      "download_count": 2834,
+      "recent_download_count": 2834,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
     },
     {
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 574,
-      "recent_download_count": 574,
+      "download_count": 578,
+      "recent_download_count": 578,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 5630,
-      "recent_download_count": 5630,
+      "download_count": 5657,
+      "recent_download_count": 5657,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -415,8 +415,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 5630,
-      "recent_download_count": 5630,
+      "download_count": 5657,
+      "recent_download_count": 5657,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 431,
-      "recent_download_count": 431,
+      "download_count": 441,
+      "recent_download_count": 441,
       "changelog": "1. Bug fix for v1.0.9 failing to start."
     },
     {
@@ -510,8 +510,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 919,
-      "recent_download_count": 919,
+      "download_count": 926,
+      "recent_download_count": 926,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -537,8 +537,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 919,
-      "recent_download_count": 919,
+      "download_count": 926,
+      "recent_download_count": 926,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -564,8 +564,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 1012,
-      "recent_download_count": 1012,
+      "download_count": 1029,
+      "recent_download_count": 1029,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -591,8 +591,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 1012,
-      "recent_download_count": 1012,
+      "download_count": 1029,
+      "recent_download_count": 1029,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -618,8 +618,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 1012,
-      "recent_download_count": 1012,
+      "download_count": 1029,
+      "recent_download_count": 1029,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -645,8 +645,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1012,
-      "recent_download_count": 1012,
+      "download_count": 1029,
+      "recent_download_count": 1029,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -672,8 +672,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 1012,
-      "recent_download_count": 1012,
+      "download_count": 1029,
+      "recent_download_count": 1029,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -699,8 +699,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 475,
-      "recent_download_count": 475,
+      "download_count": 492,
+      "recent_download_count": 492,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -726,8 +726,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 475,
-      "recent_download_count": 475,
+      "download_count": 492,
+      "recent_download_count": 492,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -753,8 +753,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 475,
-      "recent_download_count": 475,
+      "download_count": 492,
+      "recent_download_count": 492,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -780,8 +780,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 475,
-      "recent_download_count": 475,
+      "download_count": 492,
+      "recent_download_count": 492,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -807,8 +807,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 475,
-      "recent_download_count": 475,
+      "download_count": 492,
+      "recent_download_count": 492,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -834,8 +834,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4700160,
-      "download_count": 475,
-      "recent_download_count": 475,
+      "download_count": 492,
+      "recent_download_count": 492,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -861,8 +861,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 475,
-      "recent_download_count": 475,
+      "download_count": 492,
+      "recent_download_count": 492,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -888,8 +888,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 475,
-      "recent_download_count": 475,
+      "download_count": 492,
+      "recent_download_count": 492,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -915,8 +915,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1638400,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 141,
+      "recent_download_count": 141,
       "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
@@ -942,8 +942,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1648640,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 141,
+      "recent_download_count": 141,
       "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
@@ -969,8 +969,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1730560,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 141,
+      "recent_download_count": 141,
       "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
@@ -996,8 +996,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1740800,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 141,
+      "recent_download_count": 141,
       "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
@@ -1023,8 +1023,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1771520,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 141,
+      "recent_download_count": 141,
       "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
@@ -1050,8 +1050,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1781760,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 141,
+      "recent_download_count": 141,
       "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
@@ -1077,8 +1077,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1792000,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 141,
+      "recent_download_count": 141,
       "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
@@ -1104,8 +1104,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1802240,
-      "download_count": 122,
-      "recent_download_count": 122,
+      "download_count": 141,
+      "recent_download_count": 141,
       "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
@@ -1131,8 +1131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 7692,
-      "recent_download_count": 7692,
+      "download_count": 7764,
+      "recent_download_count": 7764,
       "changelog": ""
     },
     {
@@ -1158,8 +1158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1218,
-      "recent_download_count": 1218,
+      "download_count": 1220,
+      "recent_download_count": 1220,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -1190,14 +1190,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2176,
-      "recent_download_count": 2176,
+      "download_count": 2177,
+      "recent_download_count": 2177,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -1222,8 +1222,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 703,
-      "recent_download_count": 703,
+      "download_count": 706,
+      "recent_download_count": 706,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1283,8 +1283,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 4278,
-      "recent_download_count": 4278,
+      "download_count": 4299,
+      "recent_download_count": 4299,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -1331,8 +1331,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2648576,
-      "download_count": 4278,
-      "recent_download_count": 4278,
+      "download_count": 4299,
+      "recent_download_count": 4299,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1379,8 +1379,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2908160,
-      "download_count": 107,
-      "recent_download_count": 107,
+      "download_count": 116,
+      "recent_download_count": 116,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -1407,8 +1407,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 27156,
-      "recent_download_count": 27156,
+      "download_count": 27164,
+      "recent_download_count": 27164,
       "changelog": ""
     },
     {
@@ -1434,8 +1434,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 27156,
-      "recent_download_count": 27156,
+      "download_count": 27164,
+      "recent_download_count": 27164,
       "changelog": ""
     },
     {
@@ -1461,8 +1461,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 27156,
-      "recent_download_count": 27156,
+      "download_count": 27164,
+      "recent_download_count": 27164,
       "changelog": ""
     },
     {
@@ -1488,8 +1488,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27156,
-      "recent_download_count": 27156,
+      "download_count": 27164,
+      "recent_download_count": 27164,
       "changelog": ""
     },
     {
@@ -1515,8 +1515,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27156,
-      "recent_download_count": 27156,
+      "download_count": 27164,
+      "recent_download_count": 27164,
       "changelog": ""
     },
     {
@@ -1542,8 +1542,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 27156,
-      "recent_download_count": 27156,
+      "download_count": 27164,
+      "recent_download_count": 27164,
       "changelog": ""
     },
     {
@@ -1569,8 +1569,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 322258,
-      "recent_download_count": 322258,
+      "download_count": 322285,
+      "recent_download_count": 322285,
       "changelog": ""
     },
     {
@@ -1596,8 +1596,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 322258,
-      "recent_download_count": 322258,
+      "download_count": 322285,
+      "recent_download_count": 322285,
       "changelog": ""
     },
     {
@@ -1623,8 +1623,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 322258,
-      "recent_download_count": 322258,
+      "download_count": 322285,
+      "recent_download_count": 322285,
       "changelog": ""
     },
     {
@@ -1650,8 +1650,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 322258,
-      "recent_download_count": 322258,
+      "download_count": 322285,
+      "recent_download_count": 322285,
       "changelog": ""
     },
     {
@@ -1677,8 +1677,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 322258,
-      "recent_download_count": 322258,
+      "download_count": 322285,
+      "recent_download_count": 322285,
       "changelog": ""
     },
     {
@@ -1704,8 +1704,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 322258,
-      "recent_download_count": 322258,
+      "download_count": 322285,
+      "recent_download_count": 322285,
       "changelog": ""
     },
     {
