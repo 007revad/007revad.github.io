@@ -793,6 +793,16 @@ make_entries() {
         changelog_extra=$(printf '%s' "${changelog_json}" | jq -c 'del(.changelog)')
     fi
 
+    # Package Center renders the changelog field as HTML, not plain text,
+    # so a bare "\n" between numbered entries collapses to nothing and the
+    # whole changelog runs together on one line. Everything above this
+    # point (extraction, INFO sanitization, reuse-from-index.json) stores
+    # changelogs in the plain "1. First.\n2. Second." format on purpose,
+    # so it stays comparable and reusable across runs. Convert to real
+    # <br/> line breaks only here, right before publishing.
+    changelog_enu="${changelog_enu//$'\n'/<br/>}"
+    changelog_extra=$(printf '%s' "${changelog_extra}" | jq -c 'map_values(gsub("\n"; "<br/>"))')
+
     jq -n \
         --arg package              "${pkg}" \
         --arg version              "${spk_version}" \
