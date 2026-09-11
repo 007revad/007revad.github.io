@@ -79,7 +79,7 @@
       "size": 573440,
       "download_count": 4260,
       "recent_download_count": 4260,
-      "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.\n2. Bug fix for DSM 7.0-7.1 \"Network Error\".\n3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
+      "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.<br/>2. Bug fix for DSM 7.0-7.1 \"Network Error\".<br/>3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
       "package": "OpenSpeedTest",
@@ -106,7 +106,7 @@
       "size": 583680,
       "download_count": 4260,
       "recent_download_count": 4260,
-      "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.\n2. Bug fix for DSM 7.0-7.1 \"Network Error\".\n3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
+      "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.<br/>2. Bug fix for DSM 7.0-7.1 \"Network Error\".<br/>3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
       "package": "OpenSpeedTest",
@@ -133,7 +133,7 @@
       "size": 583680,
       "download_count": 4260,
       "recent_download_count": 4260,
-      "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.\n2. Bug fix for DSM 7.0-7.1 \"Network Error\".\n3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
+      "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.<br/>2. Bug fix for DSM 7.0-7.1 \"Network Error\".<br/>3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
       "package": "LibreSpeedTest",
@@ -241,7 +241,7 @@
       "size": 2652160,
       "download_count": 2834,
       "recent_download_count": 2834,
-      "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
+      "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/>2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/>3. Added Synology model and DSM version to log."
     },
     {
       "package": "TranscodeDrivers",
@@ -268,7 +268,7 @@
       "size": 2652160,
       "download_count": 2834,
       "recent_download_count": 2834,
-      "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
+      "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/>2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/>3. Added Synology model and DSM version to log."
     },
     {
       "package": "TranscodeDrivers",
@@ -295,7 +295,7 @@
       "size": 2662400,
       "download_count": 2834,
       "recent_download_count": 2834,
-      "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).\n2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).\n3. Added Synology model and DSM version to log."
+      "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/>2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/>3. Added Synology model and DSM version to log."
     },
     {
       "package": "dsm_notify",
@@ -917,7 +917,7 @@
       "size": 1638400,
       "download_count": 141,
       "recent_download_count": 141,
-      "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
+      "changelog": "1. 2nd public beta release.<br/>2. Added new enable_ssh_root module.<br/>3. Added window minimum width and height.<br/>4. Added about tab and help tab.<br/>5. Changed Frequency selection from hours to weeks for synology_config_backup module.<br/>6. Bug fixes and improvements for seagate_lowcurrentspinup module.<br/>7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.<br/>8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.<br/>9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
       "package": "Syno_Toolbox",
@@ -944,7 +944,7 @@
       "size": 1648640,
       "download_count": 141,
       "recent_download_count": 141,
-      "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
+      "changelog": "1. 2nd public beta release.<br/>2. Added new enable_ssh_root module.<br/>3. Added window minimum width and height.<br/>4. Added about tab and help tab.<br/>5. Changed Frequency selection from hours to weeks for synology_config_backup module.<br/>6. Bug fixes and improvements for seagate_lowcurrentspinup module.<br/>7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.<br/>8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.<br/>9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
       "package": "Syno_Toolbox",
@@ -971,7 +971,7 @@
       "size": 1730560,
       "download_count": 141,
       "recent_download_count": 141,
-      "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
+      "changelog": "1. 2nd public beta release.<br/>2. Added new enable_ssh_root module.<br/>3. Added window minimum width and height.<br/>4. Added about tab and help tab.<br/>5. Changed Frequency selection from hours to weeks for synology_config_backup module.<br/>6. Bug fixes and improvements for seagate_lowcurrentspinup module.<br/>7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.<br/>8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.<br/>9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
       "package": "Syno_Toolbox",
@@ -998,7 +998,7 @@
       "size": 1740800,
       "download_count": 141,
       "recent_download_count": 141,
-      "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
+      "changelog": "1. 2nd public beta release.<br/>2. Added new enable_ssh_root module.<br/>3. Added window minimum width and height.<br/>4. Added about tab and help tab.<br/>5. Changed Frequency selection from hours to weeks for synology_config_backup module.<br/>6. Bug fixes and improvements for seagate_lowcurrentspinup module.<br/>7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.<br/>8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.<br/>9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
       "package": "Syno_Toolbox",
@@ -1025,7 +1025,7 @@
       "size": 1771520,
       "download_count": 141,
       "recent_download_count": 141,
-      "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
+      "changelog": "1. 2nd public beta release.<br/>2. Added new enable_ssh_root module.<br/>3. Added window minimum width and height.<br/>4. Added about tab and help tab.<br/>5. Changed Frequency selection from hours to weeks for synology_config_backup module.<br/>6. Bug fixes and improvements for seagate_lowcurrentspinup module.<br/>7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.<br/>8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.<br/>9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
       "package": "Syno_Toolbox",
@@ -1052,7 +1052,7 @@
       "size": 1781760,
       "download_count": 141,
       "recent_download_count": 141,
-      "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
+      "changelog": "1. 2nd public beta release.<br/>2. Added new enable_ssh_root module.<br/>3. Added window minimum width and height.<br/>4. Added about tab and help tab.<br/>5. Changed Frequency selection from hours to weeks for synology_config_backup module.<br/>6. Bug fixes and improvements for seagate_lowcurrentspinup module.<br/>7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.<br/>8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.<br/>9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
       "package": "Syno_Toolbox",
@@ -1079,7 +1079,7 @@
       "size": 1792000,
       "download_count": 141,
       "recent_download_count": 141,
-      "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
+      "changelog": "1. 2nd public beta release.<br/>2. Added new enable_ssh_root module.<br/>3. Added window minimum width and height.<br/>4. Added about tab and help tab.<br/>5. Changed Frequency selection from hours to weeks for synology_config_backup module.<br/>6. Bug fixes and improvements for seagate_lowcurrentspinup module.<br/>7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.<br/>8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.<br/>9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
       "package": "Syno_Toolbox",
@@ -1106,7 +1106,7 @@
       "size": 1802240,
       "download_count": 141,
       "recent_download_count": 141,
-      "changelog": "1. 2nd public beta release.\n2. Added new enable_ssh_root module.\n3. Added window minimum width and height.\n4. Added about tab and help tab.\n5. Changed Frequency selection from hours to weeks for synology_config_backup module.\n6. Bug fixes and improvements for seagate_lowcurrentspinup module.\n7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.\n8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.\n9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
+      "changelog": "1. 2nd public beta release.<br/>2. Added new enable_ssh_root module.<br/>3. Added window minimum width and height.<br/>4. Added about tab and help tab.<br/>5. Changed Frequency selection from hours to weeks for synology_config_backup module.<br/>6. Bug fixes and improvements for seagate_lowcurrentspinup module.<br/>7. Bug fix for nmblookup command not found in ups_status and synology_config_backup modules.<br/>8. Bug fix for armv7 spk files not installing on armada38x, alpine, alpine4k, monaco, armada370, armardaxp, armada375, armarda370 and comcerto2k.<br/>9. Bug fix for restore_rs3621_fan_speed module showing \"Not needed for DSM $version\" instead of \"Not needed for $model\" for other models running DSM 7.3.1 or older."
     },
     {
       "package": "Synosmartinfo",
@@ -1164,8 +1164,8 @@
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootstrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Unterstützung für Basic Backup Skripte wurde eingestellt\n6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootstrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. Support for Basic Backup scripts has been discontinued\n6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/>2. Update Bootstrap JavaScript auf 5.3.8<br/>3. Update Bootstrap Icons auf 1.13.1<br/>4. Update jQuery auf 4.0.0<br/>5. Die Unterstützung für Basic Backup Skripte wurde eingestellt<br/>6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/>2. Update Bootstrap JavaScript to 5.3.8<br/>3. Update Bootstrap Icons to 1.13.1<br/>4. Update jQuery to 4.0.0<br/>5. Support for Basic Backup scripts has been discontinued<br/>6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -1196,8 +1196,8 @@
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8\n2. Update Bootstrap JavaScript auf 5.3.8\n3. Update Bootsrap Icons auf 1.13.1\n4. Update jQuery auf 4.0.0\n5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8\n2. Update Bootstrap JavaScript to 5.3.8\n3. Update Bootsrap Icons to 1.13.1\n4. Update jQuery to 4.0.0\n5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/>2. Update Bootstrap JavaScript auf 5.3.8<br/>3. Update Bootsrap Icons auf 1.13.1<br/>4. Update jQuery auf 4.0.0<br/>5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/>2. Update Bootstrap JavaScript to 5.3.8<br/>3. Update Bootsrap Icons to 1.13.1<br/>4. Update jQuery to 4.0.0<br/>5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -1258,7 +1258,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.\n2. Help added, integrated to the Synology Help.\n3. Several improvements (Installation Wizard, Logging, ...).\n4. Several bugs fixed (LED control, quoting in strings, ...)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.<br/>2. Help added, integrated to the Synology Help.<br/>3. Several improvements (Installation Wizard, Logging, ...).<br/>4. Several bugs fixed (LED control, quoting in strings, ...)."
     },
     {
       "package": "synOCR",
@@ -1306,7 +1306,7 @@
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
       "desc_nld": "synOCR is een eenvoudige GUI voor de Docker container OCRmyPDF. Hiermee kunt u eenvoudig OCR toepassen op PDF-documenten. synOCR kan vervolgens zoeken naar tags en data in de documenten, ze hernoemen volgens een individueel patroon en ze sorteren in submappen volgens categorieën. Door het gebruik van harde koppelingen is er geen grotere opslagruimte nodig als een document in verschillende categoriemappen moet worden gesorteerd.",
-      "changelog": "known issues / limitations:\n-  The check whether a selected folder (OUTPUT, BACKUP) is encrypted and possibly not mounted\ndoes not work when running the program without root privileges (due to the known rights restrictions)\n1.6.2 [2026-07-09]\nBUGFIXES:\n- [GUI]    profile switch in settings did not reload when using English UI (issue #89)\nA JavaScript syntax error from unescaped quotes in translated strings prevented\nthe settings page script from loading.\n- [shell]  blank page removal no longer strips PDF/A conformance from OCRmyPDF output;\npage deletion now uses pikepdf instead of rebuilding the PDF via PyMuPDF (thx @ArnoNuem)\n1.6.1 [2026-06-19]\nBUGFIXES:\n- [shell]  adaption for OCRmyPDF rootless Images (>= OCRmyPDF v17.7.0)\n1.6.0 [2026-06-16]\n⚠️ Version 1.5 is the last version for DSM 6.x\n\nIMPLEMENTATIONS:\n- [GUI]    🔥 A graphical folder picker has been implemented so that folder paths can be selected directly.\nTarget folders can be created automatically in the folder picker.\n- [GUI]    \"title\" can now be set in metadata (GUI ➜ OCR options: --title my title).\nAll rename parameters can also be set as variables.\n- [GUI]    Option to manually restore the configuration database.\n- [GUI]    NameSyntax editor improved: placeholders can now be conveniently inserted as chips via drag & drop.\n- [GUI]    The overview page now features a real-time progress indicator.\n- [GUI]    Package server for convenient updates can now be added automatically to Package Center via a button.\n- [shell]  Backup files are now tracked in the database.\nThis ensures clean rotation even for older files or when the scanner's system time is incorrect. (issue #79)\nIn the GUI, the user can define how to handle orphaned entries.\n⚠️ Existing backup files will fall out of rotation with this update and may need to be deleted manually.\n\nIMPROVEMENT:\n- [GUI]    Hints and instructions for setting up the package server if it has not already been configured in DSM.\n- [GUI]    Immediate display of path validation.\n- [GUI]    Warning about unsaved changes.\n- [shell]  OCR-optimized black and white conversion.\n- [shell]  Delay optimization for the case when the scanner clock is ahead (#82 thanks to @tacarrie).\n- [shell]  Revision of logging, log file layouts and error logging.\n- [shell]  Revision / hardening of database access.\n- [pkg]    preinst/preupgrade: Early check for Python ≥ 3.9 on aarch64.\nBUGFIXES:\n- [shell]  Compatibility with aarch64 restored.\n- [shell]  Minor bug fixes.\n- [YAML]   Tag names containing the character „&\" led to incorrect naming."
+      "changelog": "known issues / limitations:<br/>-  The check whether a selected folder (OUTPUT, BACKUP) is encrypted and possibly not mounted<br/>does not work when running the program without root privileges (due to the known rights restrictions)<br/>1.6.2 [2026-07-09]<br/>BUGFIXES:<br/>- [GUI]    profile switch in settings did not reload when using English UI (issue #89)<br/>A JavaScript syntax error from unescaped quotes in translated strings prevented<br/>the settings page script from loading.<br/>- [shell]  blank page removal no longer strips PDF/A conformance from OCRmyPDF output;<br/>page deletion now uses pikepdf instead of rebuilding the PDF via PyMuPDF (thx @ArnoNuem)<br/>1.6.1 [2026-06-19]<br/>BUGFIXES:<br/>- [shell]  adaption for OCRmyPDF rootless Images (>= OCRmyPDF v17.7.0)<br/>1.6.0 [2026-06-16]<br/>⚠️ Version 1.5 is the last version for DSM 6.x<br/><br/>IMPLEMENTATIONS:<br/>- [GUI]    🔥 A graphical folder picker has been implemented so that folder paths can be selected directly.<br/>Target folders can be created automatically in the folder picker.<br/>- [GUI]    \"title\" can now be set in metadata (GUI ➜ OCR options: --title my title).<br/>All rename parameters can also be set as variables.<br/>- [GUI]    Option to manually restore the configuration database.<br/>- [GUI]    NameSyntax editor improved: placeholders can now be conveniently inserted as chips via drag & drop.<br/>- [GUI]    The overview page now features a real-time progress indicator.<br/>- [GUI]    Package server for convenient updates can now be added automatically to Package Center via a button.<br/>- [shell]  Backup files are now tracked in the database.<br/>This ensures clean rotation even for older files or when the scanner's system time is incorrect. (issue #79)<br/>In the GUI, the user can define how to handle orphaned entries.<br/>⚠️ Existing backup files will fall out of rotation with this update and may need to be deleted manually.<br/><br/>IMPROVEMENT:<br/>- [GUI]    Hints and instructions for setting up the package server if it has not already been configured in DSM.<br/>- [GUI]    Immediate display of path validation.<br/>- [GUI]    Warning about unsaved changes.<br/>- [shell]  OCR-optimized black and white conversion.<br/>- [shell]  Delay optimization for the case when the scanner clock is ahead (#82 thanks to @tacarrie).<br/>- [shell]  Revision of logging, log file layouts and error logging.<br/>- [shell]  Revision / hardening of database access.<br/>- [pkg]    preinst/preupgrade: Early check for Python ≥ 3.9 on aarch64.<br/>BUGFIXES:<br/>- [shell]  Compatibility with aarch64 restored.<br/>- [shell]  Minor bug fixes.<br/>- [YAML]   Tag names containing the character „&\" led to incorrect naming."
     },
     {
       "package": "synOCR",
@@ -1354,7 +1354,7 @@
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
       "desc_enu": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
-      "changelog": "1.9.99.5 [2026-09-01]\nBUGFIX:\n- [GUI]    No warning was displayed regarding a missing repository in the\nPackage Center if no community package source had been created yet.\nfull changelog: https://raw.githubusercontent.com/geimist/synOCR/refs/heads/master/PKG_DSM7/CHANGELOG_BETA"
+      "changelog": "1.9.99.5 [2026-09-01]<br/>BUGFIX:<br/>- [GUI]    No warning was displayed regarding a missing repository in the<br/>Package Center if no community package source had been created yet.<br/>full changelog: https://raw.githubusercontent.com/geimist/synOCR/refs/heads/master/PKG_DSM7/CHANGELOG_BETA"
     },
     {
       "package": "DiskShell",
