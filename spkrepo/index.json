@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3747840,
-      "download_count": 3377,
-      "recent_download_count": 3377,
+      "download_count": 3389,
+      "recent_download_count": 3389,
       "changelog": "1. Bug fix for the text view not showing the Download and Upload speeds."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 3377,
-      "recent_download_count": 3377,
+      "download_count": 3389,
+      "recent_download_count": 3389,
       "changelog": "1. Bug fix for the text view not showing the Download and Upload speeds."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 573440,
-      "download_count": 4313,
-      "recent_download_count": 4313,
+      "download_count": 4326,
+      "recent_download_count": 4326,
       "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.<br/>2. Bug fix for DSM 7.0-7.1 \"Network Error\".<br/>3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 4313,
-      "recent_download_count": 4313,
+      "download_count": 4326,
+      "recent_download_count": 4326,
       "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.<br/>2. Bug fix for DSM 7.0-7.1 \"Network Error\".<br/>3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 583680,
-      "download_count": 4313,
-      "recent_download_count": 4313,
+      "download_count": 4326,
+      "recent_download_count": 4326,
       "changelog": "1. Bug fix https resulting in low or impossibly high Upload speed.<br/>2. Bug fix for DSM 7.0-7.1 \"Network Error\".<br/>3. Bug fix for Package Center's frequent status checks appending blank lines to install.log."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 1840,
-      "recent_download_count": 1840,
+      "download_count": 1846,
+      "recent_download_count": 1846,
       "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1840,
-      "recent_download_count": 1840,
+      "download_count": 1846,
+      "recent_download_count": 1846,
       "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 1840,
-      "recent_download_count": 1840,
+      "download_count": 1846,
+      "recent_download_count": 1846,
       "changelog": "1. Bug fix for package center downloading the DSM 7.2 package for DSM 7.0 and 7.1."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2919,
-      "recent_download_count": 2919,
+      "download_count": 2924,
+      "recent_download_count": 2924,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/>2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/>3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 2919,
-      "recent_download_count": 2919,
+      "download_count": 2924,
+      "recent_download_count": 2924,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/>2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/>3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 2919,
-      "recent_download_count": 2919,
+      "download_count": 2924,
+      "recent_download_count": 2924,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/>2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/>3. Added Synology model and DSM version to log."
     },
     {
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 602,
-      "recent_download_count": 602,
+      "download_count": 604,
+      "recent_download_count": 604,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 5756,
-      "recent_download_count": 5756,
+      "download_count": 5771,
+      "recent_download_count": 5771,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -415,8 +415,8 @@
       "snapshot": [],
       "beta": false,
       "size": 225280,
-      "download_count": 5756,
-      "recent_download_count": 5756,
+      "download_count": 5771,
+      "recent_download_count": 5771,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -461,6 +461,142 @@
       "changelog": "1. Bug fix for the Open button not showing and no icon appearing on the desktop."
     },
     {
+      "package": "drive_info",
+      "version": "2.2.48",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.2.48/Drive_Info-noarch-v2.2.48-DSM-6.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "6.0-7321",
+      "os_max_ver": "6.9-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM6-beta_120.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 194560,
+      "download_count": 5771,
+      "recent_download_count": 5771,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Updated to show SHA passive server's drive info."
+    },
+    {
+      "package": "drive_info",
+      "version": "2.2.48",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.2.48/Drive_Info-noarch-v2.2.48-DSM-7.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info-beta_120.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 225280,
+      "download_count": 5771,
+      "recent_download_count": 5771,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Updated to show SHA passive server's drive info."
+    },
+    {
       "package": "AQC_Unlock",
       "version": "1.0.10",
       "dname": "AQC Unlock",
@@ -483,8 +619,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 466,
-      "recent_download_count": 466,
+      "download_count": 471,
+      "recent_download_count": 471,
       "changelog": "1. Bug fix for v1.0.9 failing to start."
     },
     {
@@ -510,8 +646,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 976,
-      "recent_download_count": 976,
+      "download_count": 985,
+      "recent_download_count": 985,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -537,8 +673,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 976,
-      "recent_download_count": 976,
+      "download_count": 985,
+      "recent_download_count": 985,
       "changelog": "1. Bug fix for \"Failed to load available source list\" introduced in v1.0.7. Issue #1."
     },
     {
@@ -564,8 +700,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 1120,
-      "recent_download_count": 1120,
+      "download_count": 1132,
+      "recent_download_count": 1132,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -591,8 +727,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 1120,
-      "recent_download_count": 1120,
+      "download_count": 1132,
+      "recent_download_count": 1132,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -618,8 +754,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 1120,
-      "recent_download_count": 1120,
+      "download_count": 1132,
+      "recent_download_count": 1132,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -645,8 +781,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1120,
-      "recent_download_count": 1120,
+      "download_count": 1132,
+      "recent_download_count": 1132,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -672,8 +808,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 1120,
-      "recent_download_count": 1120,
+      "download_count": 1132,
+      "recent_download_count": 1132,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -699,8 +835,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 553,
-      "recent_download_count": 553,
+      "download_count": 562,
+      "recent_download_count": 562,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -726,8 +862,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 553,
-      "recent_download_count": 553,
+      "download_count": 562,
+      "recent_download_count": 562,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -753,8 +889,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 553,
-      "recent_download_count": 553,
+      "download_count": 562,
+      "recent_download_count": 562,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -780,8 +916,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 553,
-      "recent_download_count": 553,
+      "download_count": 562,
+      "recent_download_count": 562,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -807,8 +943,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 553,
-      "recent_download_count": 553,
+      "download_count": 562,
+      "recent_download_count": 562,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -834,8 +970,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4700160,
-      "download_count": 553,
-      "recent_download_count": 553,
+      "download_count": 562,
+      "recent_download_count": 562,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -861,8 +997,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 553,
-      "recent_download_count": 553,
+      "download_count": 562,
+      "recent_download_count": 562,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -888,8 +1024,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 553,
-      "recent_download_count": 553,
+      "download_count": 562,
+      "recent_download_count": 562,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -915,8 +1051,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1638400,
-      "download_count": 253,
-      "recent_download_count": 253,
+      "download_count": 268,
+      "recent_download_count": 268,
       "changelog": "1. 3rd public beta release.<br/>2. Added a new Packages tab and pkg_updates module.<br/>3. Added new hardware_info module.<br/>4. Added new mtd_backup module (for Synology models that don't have a USB DOM containing synoboot).<br/>5. Updated synoboot_backup module."
     },
     {
@@ -942,8 +1078,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1648640,
-      "download_count": 253,
-      "recent_download_count": 253,
+      "download_count": 268,
+      "recent_download_count": 268,
       "changelog": "1. 3rd public beta release.<br/>2. Added a new Packages tab and pkg_updates module.<br/>3. Added new hardware_info module.<br/>4. Added new mtd_backup module (for Synology models that don't have a USB DOM containing synoboot).<br/>5. Updated synoboot_backup module."
     },
     {
@@ -969,8 +1105,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1740800,
-      "download_count": 253,
-      "recent_download_count": 253,
+      "download_count": 268,
+      "recent_download_count": 268,
       "changelog": "1. 3rd public beta release.<br/>2. Added a new Packages tab and pkg_updates module.<br/>3. Added new hardware_info module.<br/>4. Added new mtd_backup module (for Synology models that don't have a USB DOM containing synoboot).<br/>5. Updated synoboot_backup module."
     },
     {
@@ -996,8 +1132,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1740800,
-      "download_count": 253,
-      "recent_download_count": 253,
+      "download_count": 268,
+      "recent_download_count": 268,
       "changelog": "1. 3rd public beta release.<br/>2. Added a new Packages tab and pkg_updates module.<br/>3. Added new hardware_info module.<br/>4. Added new mtd_backup module (for Synology models that don't have a USB DOM containing synoboot).<br/>5. Updated synoboot_backup module."
     },
     {
@@ -1023,8 +1159,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1781760,
-      "download_count": 253,
-      "recent_download_count": 253,
+      "download_count": 268,
+      "recent_download_count": 268,
       "changelog": "1. 3rd public beta release.<br/>2. Added a new Packages tab and pkg_updates module.<br/>3. Added new hardware_info module.<br/>4. Added new mtd_backup module (for Synology models that don't have a USB DOM containing synoboot).<br/>5. Updated synoboot_backup module."
     },
     {
@@ -1050,8 +1186,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1781760,
-      "download_count": 253,
-      "recent_download_count": 253,
+      "download_count": 268,
+      "recent_download_count": 268,
       "changelog": "1. 3rd public beta release.<br/>2. Added a new Packages tab and pkg_updates module.<br/>3. Added new hardware_info module.<br/>4. Added new mtd_backup module (for Synology models that don't have a USB DOM containing synoboot).<br/>5. Updated synoboot_backup module."
     },
     {
@@ -1077,8 +1213,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1802240,
-      "download_count": 253,
-      "recent_download_count": 253,
+      "download_count": 268,
+      "recent_download_count": 268,
       "changelog": "1. 3rd public beta release.<br/>2. Added a new Packages tab and pkg_updates module.<br/>3. Added new hardware_info module.<br/>4. Added new mtd_backup module (for Synology models that don't have a USB DOM containing synoboot).<br/>5. Updated synoboot_backup module."
     },
     {
@@ -1104,8 +1240,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1812480,
-      "download_count": 253,
-      "recent_download_count": 253,
+      "download_count": 268,
+      "recent_download_count": 268,
       "changelog": "1. 3rd public beta release.<br/>2. Added a new Packages tab and pkg_updates module.<br/>3. Added new hardware_info module.<br/>4. Added new mtd_backup module (for Synology models that don't have a USB DOM containing synoboot).<br/>5. Updated synoboot_backup module."
     },
     {
@@ -1131,8 +1267,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 8272,
-      "recent_download_count": 8272,
+      "download_count": 8338,
+      "recent_download_count": 8338,
       "changelog": ""
     },
     {
@@ -1158,8 +1294,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1229,
-      "recent_download_count": 1229,
+      "download_count": 1231,
+      "recent_download_count": 1231,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -1190,14 +1326,14 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2189,
-      "recent_download_count": 2189,
+      "download_count": 2190,
+      "recent_download_count": 2190,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/>2. Update Bootstrap JavaScript auf 5.3.8<br/>3. Update Bootsrap Icons auf 1.13.1<br/>4. Update jQuery auf 4.0.0<br/>5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/>2. Update Bootstrap JavaScript to 5.3.8<br/>3. Update Bootsrap Icons to 1.13.1<br/>4. Update jQuery to 4.0.0<br/>5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/>2. Update Bootstrap JavaScript auf 5.3.8<br/>3. Update Bootstrap Icons auf 1.13.1<br/>4. Update jQuery auf 4.0.0<br/>5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/>2. Update Bootstrap JavaScript to 5.3.8<br/>3. Update Bootstrap Icons to 1.13.1<br/>4. Update jQuery to 4.0.0<br/>5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
@@ -1222,8 +1358,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 717,
-      "recent_download_count": 717,
+      "download_count": 720,
+      "recent_download_count": 720,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1283,8 +1419,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2594304,
-      "download_count": 4413,
-      "recent_download_count": 4413,
+      "download_count": 4425,
+      "recent_download_count": 4425,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
@@ -1331,8 +1467,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2648576,
-      "download_count": 4413,
-      "recent_download_count": 4413,
+      "download_count": 4425,
+      "recent_download_count": 4425,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1379,8 +1515,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2908160,
-      "download_count": 144,
-      "recent_download_count": 144,
+      "download_count": 150,
+      "recent_download_count": 150,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -1407,8 +1543,8 @@
       "snapshot": [],
       "beta": false,
       "size": 839680,
-      "download_count": 27227,
-      "recent_download_count": 27227,
+      "download_count": 27234,
+      "recent_download_count": 27234,
       "changelog": ""
     },
     {
@@ -1434,8 +1570,8 @@
       "snapshot": [],
       "beta": false,
       "size": 686080,
-      "download_count": 27227,
-      "recent_download_count": 27227,
+      "download_count": 27234,
+      "recent_download_count": 27234,
       "changelog": ""
     },
     {
@@ -1461,8 +1597,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 27227,
-      "recent_download_count": 27227,
+      "download_count": 27234,
+      "recent_download_count": 27234,
       "changelog": ""
     },
     {
@@ -1488,8 +1624,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27227,
-      "recent_download_count": 27227,
+      "download_count": 27234,
+      "recent_download_count": 27234,
       "changelog": ""
     },
     {
@@ -1515,8 +1651,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27227,
-      "recent_download_count": 27227,
+      "download_count": 27234,
+      "recent_download_count": 27234,
       "changelog": ""
     },
     {
@@ -1542,8 +1678,8 @@
       "snapshot": [],
       "beta": false,
       "size": 911360,
-      "download_count": 27227,
-      "recent_download_count": 27227,
+      "download_count": 27234,
+      "recent_download_count": 27234,
       "changelog": ""
     },
     {
@@ -1569,8 +1705,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 322412,
-      "recent_download_count": 322412,
+      "download_count": 322439,
+      "recent_download_count": 322439,
       "changelog": ""
     },
     {
@@ -1596,8 +1732,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 322412,
-      "recent_download_count": 322412,
+      "download_count": 322439,
+      "recent_download_count": 322439,
       "changelog": ""
     },
     {
@@ -1623,8 +1759,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 322412,
-      "recent_download_count": 322412,
+      "download_count": 322439,
+      "recent_download_count": 322439,
       "changelog": ""
     },
     {
@@ -1650,8 +1786,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 322412,
-      "recent_download_count": 322412,
+      "download_count": 322439,
+      "recent_download_count": 322439,
       "changelog": ""
     },
     {
@@ -1677,8 +1813,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 322412,
-      "recent_download_count": 322412,
+      "download_count": 322439,
+      "recent_download_count": 322439,
       "changelog": ""
     },
     {
@@ -1704,8 +1840,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 322412,
-      "recent_download_count": 322412,
+      "download_count": 322439,
+      "recent_download_count": 322439,
       "changelog": ""
     },
     {
