@@ -800,8 +800,8 @@ make_entries() {
     # changelogs in the plain "1. First.\n2. Second." format on purpose,
     # so it stays comparable and reusable across runs. Convert to real
     # <br/> line breaks only here, right before publishing.
-    changelog_enu="${changelog_enu//$'\n'/<br/>}"
-    changelog_extra=$(printf '%s' "${changelog_extra}" | jq -c 'map_values(gsub("\n"; "<br/>"))')
+    changelog_enu="${changelog_enu//$'\n'/<br/> }"
+    changelog_extra=$(printf '%s' "${changelog_extra}" | jq -c 'map_values(gsub("\n"; "<br/> "))')
 
     jq -n \
         --arg package              "${pkg}" \
