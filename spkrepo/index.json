@@ -1,6 +1,60 @@
 {
   "packages": [
     {
+      "package": "OoklaSpeedtest",
+      "version": "1.1.39",
+      "dname": "Ookla Speedtest",
+      "desc": "Ookla Speedtest GUI to test Internet speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.1.39/OoklaSpeedtest-noarch-v1.1.39-DSM-6.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "6.0-7321",
+      "os_max_ver": "6.9-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_DSM6_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 3758080,
+      "download_count": 3663,
+      "recent_download_count": 3663,
+      "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
+    },
+    {
+      "package": "OoklaSpeedtest",
+      "version": "1.1.39",
+      "dname": "Ookla Speedtest",
+      "desc": "Ookla Speedtest GUI to test Internet speed",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_Ookla_Speedtest",
+      "support_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "report_url": "https://github.com/007revad/Synology_Ookla_Speedtest/issues",
+      "link": "https://github.com/007revad/Synology_Ookla_Speedtest/releases/download/v1.1.39/OoklaSpeedtest-noarch-v1.1.39-DSM-7.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 3768320,
+      "download_count": 3663,
+      "recent_download_count": 3663,
+      "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
+    },
+    {
       "package": "OpenSpeedTest",
       "version": "1.0.17",
       "dname": "OpenSpeedTest",
@@ -336,7 +390,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Now shows \"Volume N SSD Cache\" tooltip for cache drives.<br/> 2. Now shows storage pool tooltip when hovering over \"Storage Pool N\" (as well as RAID type for backward compatibility).<br/> 3. Added missing \"Location\" translation for Swedish.<br/> 4. Set minimum width and height for the main window.<br/> 5. Changed to show HD6500 system drives as \"System Drive N\" as the Drive id instead of \"Drive N\" as the Drive id and \"System Drive\" as the Location.<br/> 6. Synology High Availability passive node - Now shows SHA passive server's drive info - including HD6500 passive node's System Drive info.<br/> 7. Now shows SHA passive node's volume/storage pool info when \"Show volume information\" is enabled.<br/> 8. Now gets SHA passive node's SMART info."
+      "changelog": "1. Now shows \"Volume N SSD Cache\" tooltip for cache drives.<br/> 2. Now shows storage pool tooltip when hovering over \"Storage Pool N\" (as well as RAID type for backward compatibility).<br/> 3. Added missing \"Location\" translation for Swedish.<br/> 4. Set minimum width and height for the main window.<br/> 5. Changed to show HD6500 system drives as \"System Drive N\" as the Drive id instead of \"Drive N\" as the Drive id and \"System Drive\" as the Location.<br/> 6. Synology High Availability passive node now shows SHA passive server's drive info - including HD6500 passive node's System Drive info.<br/> 7. Now shows SHA passive node's volume/storage pool info when \"Show volume information\" is enabled.<br/> 8. Now gets SHA passive node's SMART info."
     },
     {
       "package": "drive_info",
@@ -404,7 +458,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Now shows \"Volume N SSD Cache\" tooltip for cache drives.<br/> 2. Now shows storage pool tooltip when hovering over \"Storage Pool N\" (as well as RAID type for backward compatibility).<br/> 3. Added missing \"Location\" translation for Swedish.<br/> 4. Set minimum width and height for the main window.<br/> 5. Changed to show HD6500 system drives as \"System Drive N\" as the Drive id instead of \"Drive N\" as the Drive id and \"System Drive\" as the Location.<br/> 6. Synology High Availability passive node - Now shows SHA passive server's drive info - including HD6500 passive node's System Drive info.<br/> 7. Now shows SHA passive node's volume/storage pool info when \"Show volume information\" is enabled.<br/> 8. Now gets SHA passive node's SMART info."
+      "changelog": "1. Now shows \"Volume N SSD Cache\" tooltip for cache drives.<br/> 2. Now shows storage pool tooltip when hovering over \"Storage Pool N\" (as well as RAID type for backward compatibility).<br/> 3. Added missing \"Location\" translation for Swedish.<br/> 4. Set minimum width and height for the main window.<br/> 5. Changed to show HD6500 system drives as \"System Drive N\" as the Drive id instead of \"Drive N\" as the Drive id and \"System Drive\" as the Location.<br/> 6. Synology High Availability passive node: Now shows SHA passive server's drive info - including HD6500 passive node's System Drive info.<br/> 7. Now shows SHA passive node's volume/storage pool info when \"Show volume information\" is enabled.<br/> 8. Now gets SHA passive node's SMART info."
     },
     {
       "package": "AQC_Unlock",
@@ -1223,8 +1277,8 @@
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
       "desc_ger": "Das dem DSM zugrunde liegende Linux-System protokolliert in sogenannten Protokoll- oder auch Logdateien (engl. logfiles) sämtliche Ereignisse, Probleme und Fehler des Systems sowie laufender Dienste. Abgelegt werden diese Informationen hierbei in unterschiedlichen Textdateien, welche sich in der Regel im Ordner /var/log sowie angeschlossenen Unterordnern befinden. Das Betrachten dieser Textdateien erfolgt normalerweise in einem beliebigen Editor, welcher über das Terminal ausgeführt wird. Innerhalb des Synology DiskStation Managers (DSM) können diese Dateien nun komfortabel über die GUI von LogAnalysis betrachtet und durchsucht werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/> 2. Update Bootstrap JavaScript auf 5.3.8<br/> 3. Update Bootstrap Icons auf 1.13.1<br/> 4. Update jQuery auf 4.0.0<br/> 5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/> 2. Update Bootstrap JavaScript to 5.3.8<br/> 3. Update Bootstrap Icons to 1.13.1<br/> 4. Update jQuery to 4.0.0<br/> 5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/> 2. Update Bootstrap JavaScript auf 5.3.8<br/> 3. Update Bootsrap Icons auf 1.13.1<br/> 4. Update jQuery auf 4.0.0<br/> 5. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/> 2. Update Bootstrap JavaScript to 5.3.8<br/> 3. Update Bootsrap Icons to 1.13.1<br/> 4. Update jQuery to 4.0.0<br/> 5. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "autorun",
