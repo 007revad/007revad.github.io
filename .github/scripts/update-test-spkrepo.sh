@@ -895,6 +895,9 @@ entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"       "")" )
 # repos with spk files in repo file tree
 entries+=( "$(make_entries "BenjV" "SYNO-packages" ""                "noreleases")" )
 
+# repos with spk files in repo branch file tree
+entries+=( "$(make_entries "phamduybk" "rabitpos/tree/synology-spk"  "noreleases")" )
+
 #--------------------------------------------------------------------
 # Combine into final index.json
 #--------------------------------------------------------------------
