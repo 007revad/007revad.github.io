@@ -179,9 +179,7 @@ maybe_update_thumbnail() {
     local user="$5"
     local repo="$6"
     local is_beta="${7:-false}"
-
     local branch="${8:-HEAD}"
-    local raw_base="https://raw.githubusercontent.com/${user}/${repo}/${branch}"
 
     local dest="${REPO_DIR}/thumbnails/${thumb_key}_120.png"
     local old_version
@@ -203,7 +201,7 @@ maybe_update_thumbnail() {
     # Fall back to full SPK download if neither is found.
     # ------------------------------------------------------------------
     local icon_fetched=0
-    local raw_base="https://raw.githubusercontent.com/${user}/${repo}/HEAD"
+    local raw_base="https://raw.githubusercontent.com/${user}/${repo}/${branch}"
 
     for icon_url in \
         "${raw_base}/PACKAGE_ICON_256.PNG" \
@@ -385,8 +383,8 @@ make_entries() {
     # Fetch raw changelog content once for this repo.
     local change_raw=""
     if [[ -n "$changelog_spec" ]]; then
-        for branch in main master; do
-            local try_url="https://raw.githubusercontent.com/${user}/${repo}/${branch}/${changelog_spec##*:}"
+        for cl_branch in main master; do
+            local try_url="https://raw.githubusercontent.com/${user}/${repo}/${cl_branch}/${changelog_spec##*:}"
             # changelog_spec may be bare filename or "6:path 7:path" — try bare first
             # (DSM-split paths are resolved per-SPK below)
             if [[ "$changelog_spec" != *:* ]]; then
@@ -608,8 +606,8 @@ make_entries() {
 
             spk_change_raw=""
             for path in "${paths_to_try[@]}"; do
-                for branch in main master; do
-                    local try_url="https://raw.githubusercontent.com/${user}/${repo}/${branch}/${path}"
+                for cl_branch in main master; do
+                    local try_url="https://raw.githubusercontent.com/${user}/${repo}/${cl_branch}/${path}"
                     local raw
                     raw=$(curl -sSL --max-time 10 -w "\n%{http_code}" "$try_url" 2>/dev/null || true)
                     local http_code="${raw##*$'\n'}"
