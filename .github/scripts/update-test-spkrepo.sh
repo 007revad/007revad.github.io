@@ -180,6 +180,9 @@ maybe_update_thumbnail() {
     local repo="$6"
     local is_beta="${7:-false}"
 
+    local branch="${8:-HEAD}"
+    local raw_base="https://raw.githubusercontent.com/${user}/${repo}/${branch}"
+
     local dest="${REPO_DIR}/thumbnails/${thumb_key}_120.png"
     local old_version
     old_version=$(current_version "${pkg}")
@@ -283,6 +286,7 @@ make_entries() {
     local repo="$2"
     local changelog_spec="${3:-}"
     local noreleases="${4:-}"
+    local branch="${5:-HEAD}"
     local tag version=""
 
     if [[ -z "$noreleases" ]]; then
@@ -353,7 +357,7 @@ make_entries() {
             return
         fi
     else
-        # No releases — find .spk files directly in the repo file tree.
+        # No releases (noreleases) - find .spk files directly in the repo file tree.
         # download_count will be 0 (no releases = no release download stats).
         local download_count=0
         local releases_to_process="[]"
@@ -364,13 +368,13 @@ make_entries() {
         done < <(curl -fsSL \
             -H "Authorization: Bearer ${GH_TOKEN}" \
             -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${user}/${repo}/git/trees/HEAD?recursive=1" \
+            "https://api.github.com/repos/${user}/${repo}/git/trees/${branch}?recursive=1" \
             | jq -r '
               [.tree[] | select(.type == "blob" and (.path | test("\\.spk$"; "i")))] |
               sort_by(if (.path | test("noarch"; "i")) then 0 else 1 end) |
               .[].path' \
             | grep -v '\[' \
-            | sed 's| |%20|g; s|^|https://raw.githubusercontent.com/'"${user}"'/'"${repo}"'/HEAD/|')
+            | sed 's| |%20|g; s|^|https://raw.githubusercontent.com/'"${user}"'/'"${repo}"'/'"${branch}"'/|')
 
         if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
             echo "WARNING: No .spk files found in ${user}/${repo} file tree" >&2
@@ -538,7 +542,7 @@ make_entries() {
 
         # Update thumbnail once per thumb_key, only if version changed
         if [[ -z "${thumbnail_done[$thumb_key]+x}" ]]; then
-            maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}" "${user}" "${repo}" "${is_prerelease}"
+            maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}" "${user}" "${repo}" "${is_prerelease}" "${branch}"
             thumbnail_done[$thumb_key]=1
         fi
 
@@ -894,6 +898,9 @@ entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"       "")" )
 
 # repos with spk files in repo file tree
 entries+=( "$(make_entries "BenjV" "SYNO-packages" ""                "noreleases")" )
+
+# repos with spk files in repo branch file tree
+entries+=( "$(make_entries "phamduybk" "rabitpos" "" "noreleases" "synology-spk")" )
 
 #--------------------------------------------------------------------
 # Combine into final index.json
