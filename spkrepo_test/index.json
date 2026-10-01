@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 3833,
-      "recent_download_count": 3833,
+      "download_count": 3838,
+      "recent_download_count": 3838,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 3833,
-      "recent_download_count": 3833,
+      "download_count": 3838,
+      "recent_download_count": 3838,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4666,
-      "recent_download_count": 4666,
+      "download_count": 4672,
+      "recent_download_count": 4672,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4666,
-      "recent_download_count": 4666,
+      "download_count": 4672,
+      "recent_download_count": 4672,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4666,
-      "recent_download_count": 4666,
+      "download_count": 4672,
+      "recent_download_count": 4672,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2115,
-      "recent_download_count": 2115,
+      "download_count": 2119,
+      "recent_download_count": 2119,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2115,
-      "recent_download_count": 2115,
+      "download_count": 2119,
+      "recent_download_count": 2119,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2115,
-      "recent_download_count": 2115,
+      "download_count": 2119,
+      "recent_download_count": 2119,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3153,
-      "recent_download_count": 3153,
+      "download_count": 3156,
+      "recent_download_count": 3156,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3153,
-      "recent_download_count": 3153,
+      "download_count": 3156,
+      "recent_download_count": 3156,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 3153,
-      "recent_download_count": 3153,
+      "download_count": 3156,
+      "recent_download_count": 3156,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 710,
-      "recent_download_count": 710,
+      "download_count": 712,
+      "recent_download_count": 712,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1228800,
-      "download_count": 7989,
-      "recent_download_count": 7989,
+      "download_count": 8004,
+      "recent_download_count": 8004,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -415,8 +415,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1116160,
-      "download_count": 7989,
-      "recent_download_count": 7989,
+      "download_count": 8004,
+      "recent_download_count": 8004,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 7989,
-      "recent_download_count": 7989,
+      "download_count": 8004,
+      "recent_download_count": 8004,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -551,8 +551,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1198080,
-      "download_count": 7989,
-      "recent_download_count": 7989,
+      "download_count": 8004,
+      "recent_download_count": 8004,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -619,8 +619,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1239040,
-      "download_count": 7989,
-      "recent_download_count": 7989,
+      "download_count": 8004,
+      "recent_download_count": 8004,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -687,8 +687,8 @@
       "snapshot": [],
       "beta": false,
       "size": 245760,
-      "download_count": 552,
-      "recent_download_count": 552,
+      "download_count": 553,
+      "recent_download_count": 553,
       "changelog": "1. Bug fix for v1.0.9 failing to start."
     },
     {
@@ -714,8 +714,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 1550,
-      "recent_download_count": 1550,
+      "download_count": 1556,
+      "recent_download_count": 1556,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -741,8 +741,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1550,
-      "recent_download_count": 1550,
+      "download_count": 1556,
+      "recent_download_count": 1556,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -768,8 +768,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1167360,
-      "download_count": 1550,
-      "recent_download_count": 1550,
+      "download_count": 1556,
+      "recent_download_count": 1556,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -795,8 +795,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 1550,
-      "recent_download_count": 1550,
+      "download_count": 1556,
+      "recent_download_count": 1556,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -822,8 +822,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 1550,
-      "recent_download_count": 1550,
+      "download_count": 1556,
+      "recent_download_count": 1556,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -849,8 +849,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 1456,
-      "recent_download_count": 1456,
+      "download_count": 1461,
+      "recent_download_count": 1461,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -876,8 +876,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 1456,
-      "recent_download_count": 1456,
+      "download_count": 1461,
+      "recent_download_count": 1461,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -903,8 +903,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 1456,
-      "recent_download_count": 1456,
+      "download_count": 1461,
+      "recent_download_count": 1461,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -930,8 +930,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1456,
-      "recent_download_count": 1456,
+      "download_count": 1461,
+      "recent_download_count": 1461,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -957,8 +957,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 1456,
-      "recent_download_count": 1456,
+      "download_count": 1461,
+      "recent_download_count": 1461,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -984,8 +984,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 942,
-      "recent_download_count": 942,
+      "download_count": 950,
+      "recent_download_count": 950,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1011,8 +1011,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 942,
-      "recent_download_count": 942,
+      "download_count": 950,
+      "recent_download_count": 950,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1038,8 +1038,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 942,
-      "recent_download_count": 942,
+      "download_count": 950,
+      "recent_download_count": 950,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1065,8 +1065,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 942,
-      "recent_download_count": 942,
+      "download_count": 950,
+      "recent_download_count": 950,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1092,8 +1092,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 942,
-      "recent_download_count": 942,
+      "download_count": 950,
+      "recent_download_count": 950,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1119,8 +1119,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4700160,
-      "download_count": 942,
-      "recent_download_count": 942,
+      "download_count": 950,
+      "recent_download_count": 950,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1146,8 +1146,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 942,
-      "recent_download_count": 942,
+      "download_count": 950,
+      "recent_download_count": 950,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1173,8 +1173,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 942,
-      "recent_download_count": 942,
+      "download_count": 950,
+      "recent_download_count": 950,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1200,8 +1200,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1658880,
-      "download_count": 755,
-      "recent_download_count": 755,
+      "download_count": 763,
+      "recent_download_count": 763,
       "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
     },
     {
@@ -1227,8 +1227,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1669120,
-      "download_count": 755,
-      "recent_download_count": 755,
+      "download_count": 763,
+      "recent_download_count": 763,
       "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
     },
     {
@@ -1254,8 +1254,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1751040,
-      "download_count": 755,
-      "recent_download_count": 755,
+      "download_count": 763,
+      "recent_download_count": 763,
       "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
     },
     {
@@ -1281,8 +1281,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1761280,
-      "download_count": 755,
-      "recent_download_count": 755,
+      "download_count": 763,
+      "recent_download_count": 763,
       "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
     },
     {
@@ -1308,8 +1308,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1792000,
-      "download_count": 755,
-      "recent_download_count": 755,
+      "download_count": 763,
+      "recent_download_count": 763,
       "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
     },
     {
@@ -1335,8 +1335,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1802240,
-      "download_count": 755,
-      "recent_download_count": 755,
+      "download_count": 763,
+      "recent_download_count": 763,
       "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
     },
     {
@@ -1362,8 +1362,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1812480,
-      "download_count": 755,
-      "recent_download_count": 755,
+      "download_count": 763,
+      "recent_download_count": 763,
       "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
     },
     {
@@ -1389,8 +1389,8 @@
       "snapshot": [],
       "beta": true,
       "size": 1822720,
-      "download_count": 755,
-      "recent_download_count": 755,
+      "download_count": 763,
+      "recent_download_count": 763,
       "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
     },
     {
@@ -1416,8 +1416,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 9691,
-      "recent_download_count": 9691,
+      "download_count": 9698,
+      "recent_download_count": 9698,
       "changelog": ""
     },
     {
@@ -1443,14 +1443,14 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1282,
-      "recent_download_count": 1282,
+      "download_count": 1283,
+      "recent_download_count": 1283,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/> 2. Update Bootstrap JavaScript auf 5.3.8<br/> 3. Update Bootstrap Icons auf 1.13.1<br/> 4. Update jQuery auf 4.0.0<br/> 5. Die Unterstützung für Basic Backup Skripte wurde eingestellt<br/> 6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/> 2. Update Bootstrap JavaScript to 5.3.8<br/> 3. Update Bootstrap Icons to 1.13.1<br/> 4. Update jQuery to 4.0.0<br/> 5. Support for Basic Backup scripts has been discontinued<br/> 6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/> 2. Update Bootstrap JavaScript auf 5.3.8<br/> 3. Update Bootsrap Icons auf 1.13.1<br/> 4. Update jQuery auf 4.0.0<br/> 5. Die Unterstützung für Basic Backup Skripte wurde eingestellt<br/> 6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/> 2. Update Bootstrap JavaScript to 5.3.8<br/> 3. Update Bootsrap Icons to 1.13.1<br/> 4. Update jQuery to 4.0.0<br/> 5. Support for Basic Backup scripts has been discontinued<br/> 6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -1475,8 +1475,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2257,
-      "recent_download_count": 2257,
+      "download_count": 2258,
+      "recent_download_count": 2258,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -1507,8 +1507,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 769,
-      "recent_download_count": 769,
+      "download_count": 770,
+      "recent_download_count": 770,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1568,8 +1568,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2651136,
-      "download_count": 5125,
-      "recent_download_count": 5125,
+      "download_count": 5127,
+      "recent_download_count": 5127,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1616,8 +1616,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2908160,
-      "download_count": 262,
-      "recent_download_count": 262,
+      "download_count": 264,
+      "recent_download_count": 264,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -1644,8 +1644,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3430400,
-      "download_count": 16,
-      "recent_download_count": 16,
+      "download_count": 17,
+      "recent_download_count": 17,
       "changelog": ""
     },
     {
@@ -1671,8 +1671,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27665,
-      "recent_download_count": 27665,
+      "download_count": 27671,
+      "recent_download_count": 27671,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1698,8 +1698,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 27665,
-      "recent_download_count": 27665,
+      "download_count": 27671,
+      "recent_download_count": 27671,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1725,8 +1725,8 @@
       "snapshot": [],
       "beta": false,
       "size": 788480,
-      "download_count": 27665,
-      "recent_download_count": 27665,
+      "download_count": 27671,
+      "recent_download_count": 27671,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1752,8 +1752,8 @@
       "snapshot": [],
       "beta": false,
       "size": 931840,
-      "download_count": 27665,
-      "recent_download_count": 27665,
+      "download_count": 27671,
+      "recent_download_count": 27671,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1779,8 +1779,8 @@
       "snapshot": [],
       "beta": false,
       "size": 921600,
-      "download_count": 27665,
-      "recent_download_count": 27665,
+      "download_count": 27671,
+      "recent_download_count": 27671,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1806,8 +1806,8 @@
       "snapshot": [],
       "beta": false,
       "size": 952320,
-      "download_count": 27665,
-      "recent_download_count": 27665,
+      "download_count": 27671,
+      "recent_download_count": 27671,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1833,8 +1833,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323045,
-      "recent_download_count": 323045,
+      "download_count": 323051,
+      "recent_download_count": 323051,
       "changelog": ""
     },
     {
@@ -1860,8 +1860,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323045,
-      "recent_download_count": 323045,
+      "download_count": 323051,
+      "recent_download_count": 323051,
       "changelog": ""
     },
     {
@@ -1887,8 +1887,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323045,
-      "recent_download_count": 323045,
+      "download_count": 323051,
+      "recent_download_count": 323051,
       "changelog": ""
     },
     {
@@ -1914,8 +1914,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323045,
-      "recent_download_count": 323045,
+      "download_count": 323051,
+      "recent_download_count": 323051,
       "changelog": ""
     },
     {
@@ -1941,8 +1941,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323045,
-      "recent_download_count": 323045,
+      "download_count": 323051,
+      "recent_download_count": 323051,
       "changelog": ""
     },
     {
@@ -1968,8 +1968,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323045,
-      "recent_download_count": 323045,
+      "download_count": 323051,
+      "recent_download_count": 323051,
       "changelog": ""
     },
     {
@@ -2052,6 +2052,178 @@
       "download_count": 0,
       "recent_download_count": 0,
       "changelog": ""
+    },
+    {
+      "package": "rabitpos",
+      "version": "5.1.1-26092923",
+      "dname": "Rabit POS",
+      "desc": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "maintainer": "Rabit Team",
+      "maintainer_url": "https://rabitpos.com",
+      "distributor": "Rabit Team",
+      "distributor_url": "https://rabitpos.com",
+      "support_url": "https://rabitpos.com/help/",
+      "report_url": "https://rabitpos.com/help/",
+      "link": "https://raw.githubusercontent.com/phamduybk/rabitpos/synology-spk/rabitpos-5.1.1-26092923-armv8.spk",
+      "arch": "armv8",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 0,
+      "download_count": 0,
+      "recent_download_count": 0,
+      "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "changelog": "Rabit POS 5.1.1: important security update, please install it. After setup, only the store owner (root) signed in can open the first-run screen to import data or change the business type; strangers and staff are sent to the sign-in page (previously anyone who could reach the NAS could replace the store data). Settings > Database Backup now downloads the database the store is actually using, including the latest sales (previously it downloaded the sample database). If you used it before to move or keep your data, make a new backup after updating. Clearer messages when importing a damaged or oversized file. Upgrading keeps all your data. The \\\"Public link\\\" (Rabit Cloud domain / Cloudflare Tunnel) feature is removed from the NAS package; for remote access use Synology QuickConnect, DDNS or the DSM reverse proxy. The package no longer includes cloudflared."
+    },
+    {
+      "package": "rabitpos",
+      "version": "5.1.1-26092923",
+      "dname": "Rabit POS",
+      "desc": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "maintainer": "Rabit Team",
+      "maintainer_url": "https://rabitpos.com",
+      "distributor": "Rabit Team",
+      "distributor_url": "https://rabitpos.com",
+      "support_url": "https://rabitpos.com/help/",
+      "report_url": "https://rabitpos.com/help/",
+      "link": "https://raw.githubusercontent.com/phamduybk/rabitpos/synology-spk/rabitpos-5.1.1-26092923-x86_64.spk",
+      "arch": "x86_64",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 0,
+      "download_count": 0,
+      "recent_download_count": 0,
+      "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "changelog": "Rabit POS 5.1.1: important security update, please install it. After setup, only the store owner (root) signed in can open the first-run screen to import data or change the business type; strangers and staff are sent to the sign-in page (previously anyone who could reach the NAS could replace the store data). Settings > Database Backup now downloads the database the store is actually using, including the latest sales (previously it downloaded the sample database). If you used it before to move or keep your data, make a new backup after updating. Clearer messages when importing a damaged or oversized file. Upgrading keeps all your data. The \\\"Public link\\\" (Rabit Cloud domain / Cloudflare Tunnel) feature is removed from the NAS package; for remote access use Synology QuickConnect, DDNS or the DSM reverse proxy. The package no longer includes cloudflared."
+    },
+    {
+      "package": "rabitpos",
+      "version": "5.1.2-26093016",
+      "dname": "Rabit POS",
+      "desc": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "maintainer": "Rabit Team",
+      "maintainer_url": "https://rabitpos.com",
+      "distributor": "Rabit Team",
+      "distributor_url": "https://rabitpos.com",
+      "support_url": "https://rabitpos.com/help/",
+      "report_url": "https://rabitpos.com/help/",
+      "link": "https://raw.githubusercontent.com/phamduybk/rabitpos/synology-spk/rabitpos-5.1.2-26093016-armv8.spk",
+      "arch": "armv8",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.2-64561",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 0,
+      "download_count": 0,
+      "recent_download_count": 0,
+      "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "changelog": "Rabit POS 5.1.2: open Rabit POS at https://<your-NAS-domain>/rabitpos/ like other DSM apps (DSM address on ports 5000/5001 or a custom DSM domain, and ports 80/443). The DSM main-menu icon and the Open button in Package Center now use this address. The direct address http://<NAS-address>:8888/ keeps working on your local network. Requires DSM 7.2 or later. Upgrading keeps all your data."
+    },
+    {
+      "package": "rabitpos",
+      "version": "5.1.2-26093016",
+      "dname": "Rabit POS",
+      "desc": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "maintainer": "Rabit Team",
+      "maintainer_url": "https://rabitpos.com",
+      "distributor": "Rabit Team",
+      "distributor_url": "https://rabitpos.com",
+      "support_url": "https://rabitpos.com/help/",
+      "report_url": "https://rabitpos.com/help/",
+      "link": "https://raw.githubusercontent.com/phamduybk/rabitpos/synology-spk/rabitpos-5.1.2-26093016-x86_64.spk",
+      "arch": "x86_64",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.2-64561",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 0,
+      "download_count": 0,
+      "recent_download_count": 0,
+      "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "changelog": "Rabit POS 5.1.2: open Rabit POS at https://<your-NAS-domain>/rabitpos/ like other DSM apps (DSM address on ports 5000/5001 or a custom DSM domain, and ports 80/443). The DSM main-menu icon and the Open button in Package Center now use this address. The direct address http://<NAS-address>:8888/ keeps working on your local network. Requires DSM 7.2 or later. Upgrading keeps all your data."
+    },
+    {
+      "package": "rabitpos",
+      "version": "5.2.0-26100111",
+      "dname": "Rabit POS",
+      "desc": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English, Vietnamese and Simplified Chinese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "maintainer": "Rabit Team",
+      "maintainer_url": "https://rabitpos.com",
+      "distributor": "Rabit Team",
+      "distributor_url": "https://rabitpos.com",
+      "support_url": "https://rabitpos.com/help/",
+      "report_url": "https://rabitpos.com/help/",
+      "link": "https://raw.githubusercontent.com/phamduybk/rabitpos/synology-spk/rabitpos-5.2.0-26100111-armv8.spk",
+      "arch": "armv8",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.2-64561",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 0,
+      "download_count": 0,
+      "recent_download_count": 0,
+      "dname_chs": "Rabit POS 收银",
+      "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English, Vietnamese and Simplified Chinese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "desc_chs": "在 NAS 上完整运行的收银（POS）与门店管理软件。内置多种经营类型的现成配置：杂货店与零售店、咖啡馆与小餐馆、带厨房单的餐厅、洗衣店、电子产品店与维修店、租赁店和旅馆。在局域网内用任意浏览器收银、打印小票，并管理库存、客户、欠款、钱箱和报表。数据以 SQLite 文件保存在 NAS 本地。界面支持简体中文、English 和 Tiếng Việt（默认 English，可在初次设置、登录页或设置中切换）。",
+      "changelog": "Rabit POS 5.2.0: the interface is now also available in Simplified Chinese (简体中文), next to English and Vietnamese. Pick 中文 at first setup, on the sign-in page or in Settings; a new store set up in Chinese gets Chinese sample products, receipts and print templates, and amounts in words are printed in Chinese. Package Center shows a Chinese description and uninstall wizard on DSM set to Chinese. Upgrading keeps all your data and your current language."
+    },
+    {
+      "package": "rabitpos",
+      "version": "5.2.0-26100111",
+      "dname": "Rabit POS",
+      "desc": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English, Vietnamese and Simplified Chinese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "maintainer": "Rabit Team",
+      "maintainer_url": "https://rabitpos.com",
+      "distributor": "Rabit Team",
+      "distributor_url": "https://rabitpos.com",
+      "support_url": "https://rabitpos.com/help/",
+      "report_url": "https://rabitpos.com/help/",
+      "link": "https://raw.githubusercontent.com/phamduybk/rabitpos/synology-spk/rabitpos-5.2.0-26100111-x86_64.spk",
+      "arch": "x86_64",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.2-64561",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 0,
+      "download_count": 0,
+      "recent_download_count": 0,
+      "dname_chs": "Rabit POS 收银",
+      "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English, Vietnamese and Simplified Chinese (English by default; switch at setup, on the sign-in page or in Settings).",
+      "desc_chs": "在 NAS 上完整运行的收银（POS）与门店管理软件。内置多种经营类型的现成配置：杂货店与零售店、咖啡馆与小餐馆、带厨房单的餐厅、洗衣店、电子产品店与维修店、租赁店和旅馆。在局域网内用任意浏览器收银、打印小票，并管理库存、客户、欠款、钱箱和报表。数据以 SQLite 文件保存在 NAS 本地。界面支持简体中文、English 和 Tiếng Việt（默认 English，可在初次设置、登录页或设置中切换）。",
+      "changelog": "Rabit POS 5.2.0: the interface is now also available in Simplified Chinese (简体中文), next to English and Vietnamese. Pick 中文 at first setup, on the sign-in page or in Settings; a new store set up in Chinese gets Chinese sample products, receipts and print templates, and amounts in words are printed in Chinese. Package Center shows a Chinese description and uninstall wizard on DSM set to Chinese. Upgrading keeps all your data and your current language."
     }
   ]
 }
