@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 3997,
-      "recent_download_count": 3997,
+      "download_count": 4009,
+      "recent_download_count": 4009,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 3997,
-      "recent_download_count": 3997,
+      "download_count": 4009,
+      "recent_download_count": 4009,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4793,
-      "recent_download_count": 4793,
+      "download_count": 4801,
+      "recent_download_count": 4801,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4793,
-      "recent_download_count": 4793,
+      "download_count": 4801,
+      "recent_download_count": 4801,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4793,
-      "recent_download_count": 4793,
+      "download_count": 4801,
+      "recent_download_count": 4801,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2180,
-      "recent_download_count": 2180,
+      "download_count": 2189,
+      "recent_download_count": 2189,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2180,
-      "recent_download_count": 2180,
+      "download_count": 2189,
+      "recent_download_count": 2189,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2180,
-      "recent_download_count": 2180,
+      "download_count": 2189,
+      "recent_download_count": 2189,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3194,
-      "recent_download_count": 3194,
+      "download_count": 3205,
+      "recent_download_count": 3205,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3194,
-      "recent_download_count": 3194,
+      "download_count": 3205,
+      "recent_download_count": 3205,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 3194,
-      "recent_download_count": 3194,
+      "download_count": 3205,
+      "recent_download_count": 3205,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 727,
-      "recent_download_count": 727,
+      "download_count": 733,
+      "recent_download_count": 733,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1228800,
-      "download_count": 8406,
-      "recent_download_count": 8406,
+      "download_count": 8429,
+      "recent_download_count": 8429,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -415,8 +415,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1116160,
-      "download_count": 8406,
-      "recent_download_count": 8406,
+      "download_count": 8429,
+      "recent_download_count": 8429,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 8406,
-      "recent_download_count": 8406,
+      "download_count": 8429,
+      "recent_download_count": 8429,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -526,7 +526,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Changed to no longer need the user to set elevated permissions.<br/>    Installation deletes the old sudoers file if it exists.<br/> 2. Changed so if another window is on top clicking anywhere in the visible part of Drive Info's window brings it to the front.<br/>    Previously you had to click the Drive Info window's title bar.<br/> 3. Changed to remove scheduled task when uninstalling so not to leave an orphan scheduled task."
+      "changelog": "1. Changed to no longer need the user to set elevated permissions.<br/> 2. Installation deletes the old sudoers file if it exists.<br/> 3. Changed so if another window is on top clicking anywhere in the visible part of Drive Info's window brings it to the front.<br/> 4. Previously you had to click the Drive Info window's title bar.<br/> 5. Changed to remove scheduled task when uninstalling so not to leave an orphan scheduled task."
     },
     {
       "package": "drive_info",
@@ -551,8 +551,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1198080,
-      "download_count": 8406,
-      "recent_download_count": 8406,
+      "download_count": 8429,
+      "recent_download_count": 8429,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -619,8 +619,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1239040,
-      "download_count": 8406,
-      "recent_download_count": 8406,
+      "download_count": 8429,
+      "recent_download_count": 8429,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -687,8 +687,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1249280,
-      "download_count": 578,
-      "recent_download_count": 578,
+      "download_count": 580,
+      "recent_download_count": 580,
       "changelog": "1. Changed to no longer need the user to set sudoers permissions."
     },
     {
@@ -702,7 +702,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.11/Source_Manager-noarch-v2.0.11-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.12/Source_Manager-noarch-v2.0.12-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
@@ -714,8 +714,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 1672,
-      "recent_download_count": 1672,
+      "download_count": 1686,
+      "recent_download_count": 1686,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -729,7 +729,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.11/Source_Manager-armv7-v2.0.11-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.12/Source_Manager-armv7-v2.0.12-DSM-7.x.spk",
       "arch": "armv7",
       "exclude_arch": null,
       "exclude_model": null,
@@ -741,8 +741,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1672,
-      "recent_download_count": 1672,
+      "download_count": 1686,
+      "recent_download_count": 1686,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -756,7 +756,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.11/Source_Manager-armv8-v2.0.11-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.12/Source_Manager-armv8-v2.0.12-DSM-7.x.spk",
       "arch": "armv8",
       "exclude_arch": null,
       "exclude_model": null,
@@ -768,8 +768,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1167360,
-      "download_count": 1672,
-      "recent_download_count": 1672,
+      "download_count": 1686,
+      "recent_download_count": 1686,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -783,7 +783,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.11/Source_Manager-i686-v2.0.11-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.12/Source_Manager-i686-v2.0.12-DSM-7.x.spk",
       "arch": "i686",
       "exclude_arch": null,
       "exclude_model": null,
@@ -795,8 +795,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 1672,
-      "recent_download_count": 1672,
+      "download_count": 1686,
+      "recent_download_count": 1686,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -810,7 +810,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.11/Source_Manager-x86_64-v2.0.11-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.12/Source_Manager-x86_64-v2.0.12-DSM-7.x.spk",
       "arch": "x86_64",
       "exclude_arch": null,
       "exclude_model": null,
@@ -822,8 +822,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 1672,
-      "recent_download_count": 1672,
+      "download_count": 1686,
+      "recent_download_count": 1686,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -849,8 +849,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 1508,
-      "recent_download_count": 1508,
+      "download_count": 1520,
+      "recent_download_count": 1520,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -876,8 +876,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 1508,
-      "recent_download_count": 1508,
+      "download_count": 1520,
+      "recent_download_count": 1520,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -903,8 +903,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 1508,
-      "recent_download_count": 1508,
+      "download_count": 1520,
+      "recent_download_count": 1520,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -930,8 +930,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1508,
-      "recent_download_count": 1508,
+      "download_count": 1520,
+      "recent_download_count": 1520,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -957,8 +957,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 1508,
-      "recent_download_count": 1508,
+      "download_count": 1520,
+      "recent_download_count": 1520,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -984,8 +984,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1007,
-      "recent_download_count": 1007,
+      "download_count": 1023,
+      "recent_download_count": 1023,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1011,8 +1011,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1007,
-      "recent_download_count": 1007,
+      "download_count": 1023,
+      "recent_download_count": 1023,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1038,8 +1038,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 1007,
-      "recent_download_count": 1007,
+      "download_count": 1023,
+      "recent_download_count": 1023,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1065,8 +1065,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 1007,
-      "recent_download_count": 1007,
+      "download_count": 1023,
+      "recent_download_count": 1023,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1092,8 +1092,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 1007,
-      "recent_download_count": 1007,
+      "download_count": 1023,
+      "recent_download_count": 1023,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1119,8 +1119,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4700160,
-      "download_count": 1007,
-      "recent_download_count": 1007,
+      "download_count": 1023,
+      "recent_download_count": 1023,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1146,8 +1146,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1007,
-      "recent_download_count": 1007,
+      "download_count": 1023,
+      "recent_download_count": 1023,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1173,8 +1173,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1007,
-      "recent_download_count": 1007,
+      "download_count": 1023,
+      "recent_download_count": 1023,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1200,8 +1200,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1679360,
-      "download_count": 824,
-      "recent_download_count": 824,
+      "download_count": 853,
+      "recent_download_count": 853,
       "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
@@ -1227,8 +1227,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1689600,
-      "download_count": 824,
-      "recent_download_count": 824,
+      "download_count": 853,
+      "recent_download_count": 853,
       "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
@@ -1254,8 +1254,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1771520,
-      "download_count": 824,
-      "recent_download_count": 824,
+      "download_count": 853,
+      "recent_download_count": 853,
       "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
@@ -1281,9 +1281,9 @@
       "snapshot": [],
       "beta": false,
       "size": 1781760,
-      "download_count": 824,
-      "recent_download_count": 824,
-      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\"<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
+      "download_count": 853,
+      "recent_download_count": 853,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
       "package": "Syno_Toolbox",
@@ -1308,9 +1308,9 @@
       "snapshot": [],
       "beta": false,
       "size": 1812480,
-      "download_count": 824,
-      "recent_download_count": 824,
-      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
+      "download_count": 853,
+      "recent_download_count": 853,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\"<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
       "package": "Syno_Toolbox",
@@ -1335,8 +1335,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1822720,
-      "download_count": 824,
-      "recent_download_count": 824,
+      "download_count": 853,
+      "recent_download_count": 853,
       "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
@@ -1362,8 +1362,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1843200,
-      "download_count": 824,
-      "recent_download_count": 824,
+      "download_count": 853,
+      "recent_download_count": 853,
       "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
@@ -1389,9 +1389,9 @@
       "snapshot": [],
       "beta": false,
       "size": 1843200,
-      "download_count": 824,
-      "recent_download_count": 824,
-      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\"<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
+      "download_count": 853,
+      "recent_download_count": 853,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
       "package": "Synosmartinfo",
@@ -1416,8 +1416,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 9941,
-      "recent_download_count": 9941,
+      "download_count": 9962,
+      "recent_download_count": 9962,
       "changelog": ""
     },
     {
@@ -1443,8 +1443,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1292,
-      "recent_download_count": 1292,
+      "download_count": 1294,
+      "recent_download_count": 1294,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -1475,8 +1475,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2270,
-      "recent_download_count": 2270,
+      "download_count": 2272,
+      "recent_download_count": 2272,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -1507,8 +1507,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 779,
-      "recent_download_count": 779,
+      "download_count": 781,
+      "recent_download_count": 781,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1543,7 +1543,7 @@
       "desc_hun": "Futtat egy szkriptet egy külső meghajtón (USB / eSATA), miután azt a lemezállomáshoz csatlakoztatta.",
       "desc_trk": "Disk Station'a bağlandıktan sonra harici sürücü (USB / eSATA) üzerinde/için bir komut dosyası çalıştırır.",
       "desc_csy": "Spustí skript pro externí disk (USB / eSATA) po jeho připojení k diskové stanici.",
-      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.<br/> 2. Help added, integrated to the Synology Help.<br/> 3. Several improvements (Installation Wizard, Logging, ...).<br/> 4. Several bugs fixed (LED control, quoting in strings, ...)."
+      "changelog": "1. Eject can be triggered by a list of exit codes, no more only at exit code 100.<br/> 2. Help added, integrated to the Synology Help.<br/> 3. Several improvements (Installation Wizard, Logging, etc.).<br/> 4. Several bugs fixed (LED control, quoting in strings, etc.)."
     },
     {
       "package": "synOCR",
@@ -1568,8 +1568,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2651136,
-      "download_count": 5311,
-      "recent_download_count": 5311,
+      "download_count": 5330,
+      "recent_download_count": 5330,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1616,8 +1616,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2908160,
-      "download_count": 280,
-      "recent_download_count": 280,
+      "download_count": 282,
+      "recent_download_count": 282,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -1644,8 +1644,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3430400,
-      "download_count": 30,
-      "recent_download_count": 30,
+      "download_count": 33,
+      "recent_download_count": 33,
       "changelog": ""
     },
     {
@@ -1671,8 +1671,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27730,
-      "recent_download_count": 27730,
+      "download_count": 27745,
+      "recent_download_count": 27745,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1698,8 +1698,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 27730,
-      "recent_download_count": 27730,
+      "download_count": 27745,
+      "recent_download_count": 27745,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1725,8 +1725,8 @@
       "snapshot": [],
       "beta": false,
       "size": 788480,
-      "download_count": 27730,
-      "recent_download_count": 27730,
+      "download_count": 27745,
+      "recent_download_count": 27745,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1752,8 +1752,8 @@
       "snapshot": [],
       "beta": false,
       "size": 931840,
-      "download_count": 27730,
-      "recent_download_count": 27730,
+      "download_count": 27745,
+      "recent_download_count": 27745,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1779,8 +1779,8 @@
       "snapshot": [],
       "beta": false,
       "size": 921600,
-      "download_count": 27730,
-      "recent_download_count": 27730,
+      "download_count": 27745,
+      "recent_download_count": 27745,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1806,8 +1806,8 @@
       "snapshot": [],
       "beta": false,
       "size": 952320,
-      "download_count": 27730,
-      "recent_download_count": 27730,
+      "download_count": 27745,
+      "recent_download_count": 27745,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1833,8 +1833,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323169,
-      "recent_download_count": 323169,
+      "download_count": 323188,
+      "recent_download_count": 323188,
       "changelog": ""
     },
     {
@@ -1860,8 +1860,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323169,
-      "recent_download_count": 323169,
+      "download_count": 323188,
+      "recent_download_count": 323188,
       "changelog": ""
     },
     {
@@ -1887,8 +1887,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323169,
-      "recent_download_count": 323169,
+      "download_count": 323188,
+      "recent_download_count": 323188,
       "changelog": ""
     },
     {
@@ -1914,8 +1914,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323169,
-      "recent_download_count": 323169,
+      "download_count": 323188,
+      "recent_download_count": 323188,
       "changelog": ""
     },
     {
@@ -1941,8 +1941,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323169,
-      "recent_download_count": 323169,
+      "download_count": 323188,
+      "recent_download_count": 323188,
       "changelog": ""
     },
     {
@@ -1968,8 +1968,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323169,
-      "recent_download_count": 323169,
+      "download_count": 323188,
+      "recent_download_count": 323188,
       "changelog": ""
     },
     {
@@ -2079,7 +2079,7 @@
       "download_count": 0,
       "recent_download_count": 0,
       "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
-      "changelog": "Rabit POS 5.1.1: important security update, please install it. After setup, only the store owner (root) signed in can open the first-run screen to import data or change the business type; strangers and staff are sent to the sign-in page (previously anyone who could reach the NAS could replace the store data). Settings > Database Backup now downloads the database the store is actually using, including the latest sales (previously it downloaded the sample database). If you used it before to move or keep your data, make a new backup after updating. Clearer messages when importing a damaged or oversized file. Upgrading keeps all your data. The \\\"Public link\\\" (Rabit Cloud domain / Cloudflare Tunnel) feature is removed from the NAS package; for remote access use Synology QuickConnect, DDNS or the DSM reverse proxy. The package no longer includes cloudflared."
+      "changelog": "Rabit POS 5.1.1: important security update, please install it. After setup, only the store owner (root) signed in can open the first-run screen to import data or change the business type; strangers and staff are sent to the sign-in page (previously anyone who could reach the NAS could replace the store data). Settings > Database Backup now downloads the database the store is actually using, including the latest sales (previously it downloaded the sample database). If you used it before to move or keep your data, make a new backup after updating. Clearer messages when importing a damaged or oversized file. Upgrading keeps all your data. The \"Public link\" (Rabit Cloud domain / Cloudflare Tunnel) feature is removed from the NAS package; for remote access use Synology QuickConnect, DDNS or the DSM reverse proxy. The package no longer includes cloudflared."
     },
     {
       "package": "rabitpos",
@@ -2107,7 +2107,7 @@
       "download_count": 0,
       "recent_download_count": 0,
       "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English and Vietnamese (English by default; switch at setup, on the sign-in page or in Settings).",
-      "changelog": "Rabit POS 5.1.1: important security update, please install it. After setup, only the store owner (root) signed in can open the first-run screen to import data or change the business type; strangers and staff are sent to the sign-in page (previously anyone who could reach the NAS could replace the store data). Settings > Database Backup now downloads the database the store is actually using, including the latest sales (previously it downloaded the sample database). If you used it before to move or keep your data, make a new backup after updating. Clearer messages when importing a damaged or oversized file. Upgrading keeps all your data. The \\\"Public link\\\" (Rabit Cloud domain / Cloudflare Tunnel) feature is removed from the NAS package; for remote access use Synology QuickConnect, DDNS or the DSM reverse proxy. The package no longer includes cloudflared."
+      "changelog": "Rabit POS 5.1.1: important security update, please install it. After setup, only the store owner (root) signed in can open the first-run screen to import data or change the business type; strangers and staff are sent to the sign-in page (previously anyone who could reach the NAS could replace the store data). Settings > Database Backup now downloads the database the store is actually using, including the latest sales (previously it downloaded the sample database). If you used it before to move or keep your data, make a new backup after updating. Clearer messages when importing a damaged or oversized file. Upgrading keeps all your data. The \"Public link\" (Rabit Cloud domain / Cloudflare Tunnel) feature is removed from the NAS package; for remote access use Synology QuickConnect, DDNS or the DSM reverse proxy. The package no longer includes cloudflared."
     },
     {
       "package": "rabitpos",
@@ -2267,7 +2267,7 @@
       "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English, Vietnamese, Simplified Chinese, Thai, Lao and Khmer (English by default; switch at setup, on the sign-in page or in Settings).",
       "desc_chs": "在 NAS 上完整运行的收银（POS）与门店管理软件。内置多种经营类型的现成配置：杂货店与零售店、咖啡馆与小餐馆、带厨房单的餐厅、洗衣店、电子产品店与维修店、租赁店和旅馆。在局域网内用任意浏览器收银、打印小票，并管理库存、客户、欠款、钱箱和报表。数据以 SQLite 文件保存在 NAS 本地。界面支持简体中文、English、Tiếng Việt、ไทย、ລາວ 和 ខ្មែរ（默认 English，可在初次设置、登录页或设置中切换）。",
       "desc_tha": "ระบบขายหน้าร้าน (POS) และจัดการร้านค้าที่ทำงานบน NAS ของคุณทั้งหมด มีการตั้งค่าสำเร็จรูปสำหรับร้านขายของชำและร้านค้าปลีก คาเฟ่และร้านอาหารตามสั่ง ร้านอาหารที่มีใบสั่งครัว ร้านซักรีด ร้านอุปกรณ์อิเล็กทรอนิกส์และร้านซ่อม ร้านให้เช่า และเกสต์เฮาส์ ขายหน้าร้านได้จากเบราว์เซอร์ใดก็ได้ในเครือข่ายภายใน พิมพ์ใบเสร็จ และติดตามสต็อก ลูกค้า ยอดค้างชำระ ลิ้นชักเงินสด และรายงาน ข้อมูลเก็บเป็นไฟล์ SQLite บน NAS ภายในเครื่อง หน้าจอรองรับภาษาไทย English Tiếng Việt 简体中文 ລາວ และ ខ្មែរ (ค่าเริ่มต้นคือ English เปลี่ยนได้ตอนตั้งค่าครั้งแรก ที่หน้าเข้าสู่ระบบ หรือในตั้งค่า)",
-      "changelog": "Rabit POS 5.3.2: important fix — file uploads (Excel/CSV import of items, customers and suppliers, product photos, shop logo, repair/rental attachments) failed on every packaged release since 5.0; fixed in the packaging step, your data is unaffected. New for restaurants: \\\"print a customer slip when sending to the kitchen\\\" (off / auto / ask), on web, app and API, with a dedicated Kitchen permission shared by web and app. Money: debt collection is capped by net due, supplier returns refund extra charges only when fully returned (same rule as sales returns, web = API), several returns per document, e-invoices cannot be issued twice and block deleting the sale. Languages: system notes (repair history, room transfers) are translated when viewed, default print templates follow a later store-language change, guesthouse ID types / nationality / timezone / guest-declaration export follow the store language, customer and supplier import templates in 6 languages. Also: clear error when OTP e-mail is not configured, closed-shift summary card, one-time policy consent, logo on POS invoice, barcodes on labels, cleaner sample data, Cloud account hardening. Upgrading keeps all your data."
+      "changelog": "Rabit POS 5.3.2: important fix — file uploads (Excel/CSV import of items, customers and suppliers, product photos, shop logo, repair/rental attachments) failed on every packaged release since 5.0; fixed in the packaging step, your data is unaffected. New for restaurants: \"print a customer slip when sending to the kitchen\" (off / auto / ask), on web, app and API, with a dedicated Kitchen permission shared by web and app. Money: debt collection is capped by net due, supplier returns refund extra charges only when fully returned (same rule as sales returns, web = API), several returns per document, e-invoices cannot be issued twice and block deleting the sale. Languages: system notes (repair history, room transfers) are translated when viewed, default print templates follow a later store-language change, guesthouse ID types / nationality / timezone / guest-declaration export follow the store language, customer and supplier import templates in 6 languages. Also: clear error when OTP e-mail is not configured, closed-shift summary card, one-time policy consent, logo on POS invoice, barcodes on labels, cleaner sample data, Cloud account hardening. Upgrading keeps all your data."
     },
     {
       "package": "rabitpos",
@@ -2299,7 +2299,7 @@
       "desc_enu": "Point-of-sale (POS) and store management software that runs entirely on your NAS. Includes ready-made setups for retail and grocery shops, cafes and small restaurants, restaurants with kitchen tickets, laundries, electronics and repair shops, rentals and guesthouses. Sell at the counter from any browser on your local network, print receipts, and track stock, customers, debts, cash and reports. Data is stored locally in SQLite files on the NAS. The interface is available in English, Vietnamese, Simplified Chinese, Thai, Lao and Khmer (English by default; switch at setup, on the sign-in page or in Settings).",
       "desc_chs": "在 NAS 上完整运行的收银（POS）与门店管理软件。内置多种经营类型的现成配置：杂货店与零售店、咖啡馆与小餐馆、带厨房单的餐厅、洗衣店、电子产品店与维修店、租赁店和旅馆。在局域网内用任意浏览器收银、打印小票，并管理库存、客户、欠款、钱箱和报表。数据以 SQLite 文件保存在 NAS 本地。界面支持简体中文、English、Tiếng Việt、ไทย、ລາວ 和 ខ្មែរ（默认 English，可在初次设置、登录页或设置中切换）。",
       "desc_tha": "ระบบขายหน้าร้าน (POS) และจัดการร้านค้าที่ทำงานบน NAS ของคุณทั้งหมด มีการตั้งค่าสำเร็จรูปสำหรับร้านขายของชำและร้านค้าปลีก คาเฟ่และร้านอาหารตามสั่ง ร้านอาหารที่มีใบสั่งครัว ร้านซักรีด ร้านอุปกรณ์อิเล็กทรอนิกส์และร้านซ่อม ร้านให้เช่า และเกสต์เฮาส์ ขายหน้าร้านได้จากเบราว์เซอร์ใดก็ได้ในเครือข่ายภายใน พิมพ์ใบเสร็จ และติดตามสต็อก ลูกค้า ยอดค้างชำระ ลิ้นชักเงินสด และรายงาน ข้อมูลเก็บเป็นไฟล์ SQLite บน NAS ภายในเครื่อง หน้าจอรองรับภาษาไทย English Tiếng Việt 简体中文 ລາວ และ ខ្មែរ (ค่าเริ่มต้นคือ English เปลี่ยนได้ตอนตั้งค่าครั้งแรก ที่หน้าเข้าสู่ระบบ หรือในตั้งค่า)",
-      "changelog": "Rabit POS 5.3.2: important fix — file uploads (Excel/CSV import of items, customers and suppliers, product photos, shop logo, repair/rental attachments) failed on every packaged release since 5.0; fixed in the packaging step, your data is unaffected. New for restaurants: \\\"print a customer slip when sending to the kitchen\\\" (off / auto / ask), on web, app and API, with a dedicated Kitchen permission shared by web and app. Money: debt collection is capped by net due, supplier returns refund extra charges only when fully returned (same rule as sales returns, web = API), several returns per document, e-invoices cannot be issued twice and block deleting the sale. Languages: system notes (repair history, room transfers) are translated when viewed, default print templates follow a later store-language change, guesthouse ID types / nationality / timezone / guest-declaration export follow the store language, customer and supplier import templates in 6 languages. Also: clear error when OTP e-mail is not configured, closed-shift summary card, one-time policy consent, logo on POS invoice, barcodes on labels, cleaner sample data, Cloud account hardening. Upgrading keeps all your data."
+      "changelog": "Rabit POS 5.3.2: important fix — file uploads (Excel/CSV import of items, customers and suppliers, product photos, shop logo, repair/rental attachments) failed on every packaged release since 5.0; fixed in the packaging step, your data is unaffected. New for restaurants: \"print a customer slip when sending to the kitchen\" (off / auto / ask), on web, app and API, with a dedicated Kitchen permission shared by web and app. Money: debt collection is capped by net due, supplier returns refund extra charges only when fully returned (same rule as sales returns, web = API), several returns per document, e-invoices cannot be issued twice and block deleting the sale. Languages: system notes (repair history, room transfers) are translated when viewed, default print templates follow a later store-language change, guesthouse ID types / nationality / timezone / guest-declaration export follow the store language, customer and supplier import templates in 6 languages. Also: clear error when OTP e-mail is not configured, closed-shift summary card, one-time policy consent, logo on POS invoice, barcodes on labels, cleaner sample data, Cloud account hardening. Upgrading keeps all your data."
     }
   ]
 }
