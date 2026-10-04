@@ -87,6 +87,7 @@ info_get() {
 #--------------------------------------------------------------------
 sanitize_changelog_html() {
     local val="$1"
+    val="${val//\\\"/\"}"
     val=$(sed -E 's#<br[[:space:]]*/?>#\n#gI' <<< "$val")
     val=$(sed -E 's/[[:space:]]+$//; s/^[[:space:]]+//' <<< "$val")
     printf '%s' "$val"
