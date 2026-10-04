@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 3844,
-      "recent_download_count": 3844,
+      "download_count": 3997,
+      "recent_download_count": 3997,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 3844,
-      "recent_download_count": 3844,
+      "download_count": 3997,
+      "recent_download_count": 3997,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4679,
-      "recent_download_count": 4679,
+      "download_count": 4793,
+      "recent_download_count": 4793,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4679,
-      "recent_download_count": 4679,
+      "download_count": 4793,
+      "recent_download_count": 4793,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4679,
-      "recent_download_count": 4679,
+      "download_count": 4793,
+      "recent_download_count": 4793,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2125,
-      "recent_download_count": 2125,
+      "download_count": 2180,
+      "recent_download_count": 2180,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2125,
-      "recent_download_count": 2125,
+      "download_count": 2180,
+      "recent_download_count": 2180,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2125,
-      "recent_download_count": 2125,
+      "download_count": 2180,
+      "recent_download_count": 2180,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3161,
-      "recent_download_count": 3161,
+      "download_count": 3194,
+      "recent_download_count": 3194,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3161,
-      "recent_download_count": 3161,
+      "download_count": 3194,
+      "recent_download_count": 3194,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 3161,
-      "recent_download_count": 3161,
+      "download_count": 3194,
+      "recent_download_count": 3194,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 714,
-      "recent_download_count": 714,
+      "download_count": 727,
+      "recent_download_count": 727,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1228800,
-      "download_count": 8025,
-      "recent_download_count": 8025,
+      "download_count": 8405,
+      "recent_download_count": 8405,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -415,8 +415,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1116160,
-      "download_count": 8025,
-      "recent_download_count": 8025,
+      "download_count": 8405,
+      "recent_download_count": 8405,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -458,7 +458,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. Changed to no longer need the user to set elevated permissions.<br/> 2. Installation deletes the old sudoers file if it exists.<br/> 3. Changed so if another window is on top clicking anywhere in the visible part of Drive Info's window brings it to the front.<br/> 4. Changed to remove scheduled task when uninstalling so not to leave an orphan scheduled task."
+      "changelog": "1. Changed to no longer need the user to set elevated permissions.<br/> 2. Installation deletes the old sudoers file if it exists.<br/> 3. Changed so if another window is on top clicking anywhere in the visible part of Drive Info's window brings it to the front.<br/> 4. Previously you had to click the Drive Info window's title bar.<br/> 5. Changed to remove scheduled task when uninstalling so not to leave an orphan scheduled task."
     },
     {
       "package": "drive_info",
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 8025,
-      "recent_download_count": 8025,
+      "download_count": 8405,
+      "recent_download_count": 8405,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -551,8 +551,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1198080,
-      "download_count": 8025,
-      "recent_download_count": 8025,
+      "download_count": 8405,
+      "recent_download_count": 8405,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -619,8 +619,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1239040,
-      "download_count": 8025,
-      "recent_download_count": 8025,
+      "download_count": 8405,
+      "recent_download_count": 8405,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -666,7 +666,7 @@
     },
     {
       "package": "AQC_Unlock",
-      "version": "1.0.10",
+      "version": "1.1.11",
       "dname": "AQC Unlock",
       "desc": "DSM 7 package that allows you to use non-Synology 10GbE, 5GbE and 2.5GbE PCIe network cards that have a Marvell (Aquantia) AQC100, AQC107, AQC108, AQC111, AQC112, AQC113/AQC113C/AQC113CS and AQC115 chip, and set your preferred LAN port order for DSM to connect to other devices.",
       "maintainer": "007revad",
@@ -675,7 +675,7 @@
       "distributor_url": "https://github.com/007revad/Synology_AQC_Unlock",
       "support_url": "https://github.com/007revad/Synology_AQC_Unlock/issues",
       "report_url": "https://github.com/007revad/Synology_AQC_Unlock/issues",
-      "link": "https://github.com/007revad/Synology_AQC_Unlock/releases/download/v1.0.10/AQC_Unlock-x86_64-v1.0.10-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_AQC_Unlock/releases/download/v1.1.11/AQC_Unlock-x86_64-v1.1.11-DSM-7.x.spk",
       "arch": "avoton broadwell broadwellnk broadwellnkv2 broadwellntbap bromolow denverton epyc7002 epyc7003 grantley icelaked purley r1000 r1000nk v1000 v1000nk",
       "exclude_arch": null,
       "exclude_model": "synology_v1000nk_ds925+",
@@ -686,10 +686,10 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 245760,
-      "download_count": 554,
-      "recent_download_count": 554,
-      "changelog": "1. Bug fix for v1.0.9 failing to start."
+      "size": 1249280,
+      "download_count": 578,
+      "recent_download_count": 578,
+      "changelog": "1. Changed to no longer need the user to set sudoers permissions."
     },
     {
       "package": "SourceManager",
@@ -714,8 +714,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 1563,
-      "recent_download_count": 1563,
+      "download_count": 1672,
+      "recent_download_count": 1672,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -741,8 +741,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1563,
-      "recent_download_count": 1563,
+      "download_count": 1672,
+      "recent_download_count": 1672,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -768,8 +768,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1167360,
-      "download_count": 1563,
-      "recent_download_count": 1563,
+      "download_count": 1672,
+      "recent_download_count": 1672,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -795,8 +795,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 1563,
-      "recent_download_count": 1563,
+      "download_count": 1672,
+      "recent_download_count": 1672,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -822,8 +822,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 1563,
-      "recent_download_count": 1563,
+      "download_count": 1672,
+      "recent_download_count": 1672,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Package Source Manager's window brings it to the front.<br/> 2. Previously you had to click the Package Source Manager window's title bar."
     },
     {
@@ -849,8 +849,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 1466,
-      "recent_download_count": 1466,
+      "download_count": 1508,
+      "recent_download_count": 1508,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -876,8 +876,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 1466,
-      "recent_download_count": 1466,
+      "download_count": 1508,
+      "recent_download_count": 1508,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -903,8 +903,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 1466,
-      "recent_download_count": 1466,
+      "download_count": 1508,
+      "recent_download_count": 1508,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -930,8 +930,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1466,
-      "recent_download_count": 1466,
+      "download_count": 1508,
+      "recent_download_count": 1508,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -957,8 +957,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 1466,
-      "recent_download_count": 1466,
+      "download_count": 1508,
+      "recent_download_count": 1508,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -984,8 +984,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 958,
-      "recent_download_count": 958,
+      "download_count": 1007,
+      "recent_download_count": 1007,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1011,8 +1011,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 958,
-      "recent_download_count": 958,
+      "download_count": 1007,
+      "recent_download_count": 1007,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1038,8 +1038,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 958,
-      "recent_download_count": 958,
+      "download_count": 1007,
+      "recent_download_count": 1007,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1065,8 +1065,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 958,
-      "recent_download_count": 958,
+      "download_count": 1007,
+      "recent_download_count": 1007,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1092,8 +1092,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 958,
-      "recent_download_count": 958,
+      "download_count": 1007,
+      "recent_download_count": 1007,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1119,8 +1119,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4700160,
-      "download_count": 958,
-      "recent_download_count": 958,
+      "download_count": 1007,
+      "recent_download_count": 1007,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1146,8 +1146,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 958,
-      "recent_download_count": 958,
+      "download_count": 1007,
+      "recent_download_count": 1007,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1173,13 +1173,13 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 958,
-      "recent_download_count": 958,
+      "download_count": 1007,
+      "recent_download_count": 1007,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.27",
+      "version": "1.0.28",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1188,25 +1188,25 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.27/SynoToolbox-armv7-v1.0.27-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.28/SynoToolbox-armv7-v1.0.28-DSM-6.x.spk",
       "arch": "alpine alpine4k armada370 armada375 armada38x armadaxp monaco comcerto2k",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6-beta_120.png"
+        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_120.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1658880,
-      "download_count": 771,
-      "recent_download_count": 771,
-      "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
+      "beta": false,
+      "size": 1679360,
+      "download_count": 824,
+      "recent_download_count": 824,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.27",
+      "version": "1.0.28",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1215,25 +1215,25 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.27/SynoToolbox-armv7-v1.0.27-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.28/SynoToolbox-armv7-v1.0.28-DSM-7.x.spk",
       "arch": "alpine alpine4k armada370 armada375 armada38x armadaxp monaco comcerto2k",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox-beta_120.png"
+        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_120.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1669120,
-      "download_count": 771,
-      "recent_download_count": 771,
-      "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
+      "beta": false,
+      "size": 1689600,
+      "download_count": 824,
+      "recent_download_count": 824,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.27",
+      "version": "1.0.28",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1242,25 +1242,25 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.27/SynoToolbox-armv8-v1.0.27-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.28/SynoToolbox-armv8-v1.0.28-DSM-6.x.spk",
       "arch": "armv8",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6-beta_120.png"
+        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_120.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1751040,
-      "download_count": 771,
-      "recent_download_count": 771,
-      "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
+      "beta": false,
+      "size": 1771520,
+      "download_count": 824,
+      "recent_download_count": 824,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.27",
+      "version": "1.0.28",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1269,25 +1269,25 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.27/SynoToolbox-armv8-v1.0.27-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.28/SynoToolbox-armv8-v1.0.28-DSM-7.x.spk",
       "arch": "armv8",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox-beta_120.png"
+        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_120.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1761280,
-      "download_count": 771,
-      "recent_download_count": 771,
-      "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
+      "beta": false,
+      "size": 1781760,
+      "download_count": 824,
+      "recent_download_count": 824,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.27",
+      "version": "1.0.28",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1296,79 +1296,25 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.27/SynoToolbox-i686-v1.0.27-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.28/SynoToolbox-i686-v1.0.28-DSM-6.x.spk",
       "arch": "evansport",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6-beta_120.png"
+        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_120.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1792000,
-      "download_count": 771,
-      "recent_download_count": 771,
-      "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
-    },
-    {
-      "package": "Syno_Toolbox",
-      "version": "1.0.27",
-      "dname": "Syno Toolbox",
-      "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/Syno_Toolbox",
-      "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.27/SynoToolbox-i686-v1.0.27-DSM-7.x.spk",
-      "arch": "evansport",
-      "exclude_arch": null,
-      "exclude_model": null,
-      "firmware": "7.0-40337",
-      "os_max_ver": null,
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox-beta_120.png"
-      ],
-      "snapshot": [],
-      "beta": true,
-      "size": 1802240,
-      "download_count": 771,
-      "recent_download_count": 771,
-      "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
-    },
-    {
-      "package": "Syno_Toolbox",
-      "version": "1.0.27",
-      "dname": "Syno Toolbox",
-      "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/Syno_Toolbox",
-      "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.27/SynoToolbox-x86_64-v1.0.27-DSM-6.x.spk",
-      "arch": "x86_64",
-      "exclude_arch": null,
-      "exclude_model": null,
-      "firmware": "6.0-7321",
-      "os_max_ver": "6.9-99999",
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6-beta_120.png"
-      ],
-      "snapshot": [],
-      "beta": true,
+      "beta": false,
       "size": 1812480,
-      "download_count": 771,
-      "recent_download_count": 771,
-      "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
+      "download_count": 824,
+      "recent_download_count": 824,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.27",
+      "version": "1.0.28",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1377,21 +1323,75 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.27/SynoToolbox-x86_64-v1.0.27-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.28/SynoToolbox-i686-v1.0.28-DSM-7.x.spk",
+      "arch": "evansport",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40337",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 1822720,
+      "download_count": 824,
+      "recent_download_count": 824,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
+    },
+    {
+      "package": "Syno_Toolbox",
+      "version": "1.0.28",
+      "dname": "Syno Toolbox",
+      "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Syno_Toolbox",
+      "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
+      "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.28/SynoToolbox-x86_64-v1.0.28-DSM-6.x.spk",
+      "arch": "x86_64",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "6.0-7321",
+      "os_max_ver": "6.9-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 1843200,
+      "download_count": 824,
+      "recent_download_count": 824,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
+    },
+    {
+      "package": "Syno_Toolbox",
+      "version": "1.0.28",
+      "dname": "Syno Toolbox",
+      "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Syno_Toolbox",
+      "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
+      "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.28/SynoToolbox-x86_64-v1.0.28-DSM-7.x.spk",
       "arch": "x86_64",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox-beta_120.png"
+        "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_120.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1822720,
-      "download_count": 771,
-      "recent_download_count": 771,
-      "changelog": "1. 4th public beta release.<br/> 2. Added new btrfs scrub results module.<br/> 3. Added new CPU Usage tab and module with a graphic chart for the last 30 hours.<br/> 4. Added new memtest_results module to show the results of the last, recent, Memory Test.<br/> 5. Added broken packages table to pkg_updates module (only shown if there are broken packages).<br/> 6. Updated speed of pkg_updates module to be 40 to 78% faster.<br/> 7. 78% faster for old models with slow CPUs like Intel Atom."
+      "beta": false,
+      "size": 1843200,
+      "download_count": 824,
+      "recent_download_count": 824,
+      "changelog": "1. First full release.<br/> 2. Added support for copying DSM Configuration backups to other Synology NAS running Syno Toolbox.<br/> 3. Automatically finds other Synology NAS running Syno Toolbox for you to select as targets.<br/> 4. You need to set the \"DSM Configuration Backup\"'s \"Target dir\" on the target Synology NAS.<br/> 5. Added support for copying synoboot backups to other Synology NAS running Syno Toolbox.<br/> 6. Added support for copying MTD backups to other Synology NAS running Syno Toolbox.<br/> 7. Updated to prevent DSM showing old cached ui file content from the previously installed version.<br/> 8. Changed to update /volumeN backup paths in config file if the shared folder has been moved to a different volume.<br/> 9. Renamed \"DSM Configuration Backup and Export\" to \"DSM Configuration Backup\".<br/> 10. Finished enabling scheduling for the \"DSM Configuration Backup\" module.<br/> 11. Changed to delete all Syno Toolbox scheduled tasks when the package is uninstalled.<br/> 12. Each schedule's settings are retained in case the user later re-installs Syno Toolbox.<br/> 13. Scheduled tasks are retained during an upgrade to a newer Syno Toolbox version.<br/> 14. Improvements and bug fixes for \"Enable Sequential I/O for SSD Cache\".<br/> 15. Changed so modules not supported for the Synology model or DSM version cannot be enabled.<br/> 16. Bug fix for CPU Usage tab, after updating Syno Toolbox, not showing the graph until user clicks Refresh.<br/> 17. Bug fix for all LAN ports listed as having the same MAC address as LAN 1.<br/> 18. Bug fix for \"Restore RS3621 Fan Speed\" getting the model name.<br/> 19. Removed (hid and disabled) \"Check Connect to UPS Server\" module until I decide if it's worth finishing."
     },
     {
       "package": "Synosmartinfo",
@@ -1416,8 +1416,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 9710,
-      "recent_download_count": 9710,
+      "download_count": 9939,
+      "recent_download_count": 9939,
       "changelog": ""
     },
     {
@@ -1443,8 +1443,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1284,
-      "recent_download_count": 1284,
+      "download_count": 1292,
+      "recent_download_count": 1292,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -1475,8 +1475,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2259,
-      "recent_download_count": 2259,
+      "download_count": 2270,
+      "recent_download_count": 2270,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -1507,8 +1507,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 771,
-      "recent_download_count": 771,
+      "download_count": 779,
+      "recent_download_count": 779,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1568,8 +1568,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2651136,
-      "download_count": 5133,
-      "recent_download_count": 5133,
+      "download_count": 5311,
+      "recent_download_count": 5311,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1616,8 +1616,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2908160,
-      "download_count": 265,
-      "recent_download_count": 265,
+      "download_count": 280,
+      "recent_download_count": 280,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -1644,8 +1644,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3430400,
-      "download_count": 18,
-      "recent_download_count": 18,
+      "download_count": 30,
+      "recent_download_count": 30,
       "changelog": ""
     },
     {
@@ -1671,8 +1671,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27677,
-      "recent_download_count": 27677,
+      "download_count": 27730,
+      "recent_download_count": 27730,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1698,8 +1698,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 27677,
-      "recent_download_count": 27677,
+      "download_count": 27730,
+      "recent_download_count": 27730,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1725,8 +1725,8 @@
       "snapshot": [],
       "beta": false,
       "size": 788480,
-      "download_count": 27677,
-      "recent_download_count": 27677,
+      "download_count": 27730,
+      "recent_download_count": 27730,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1752,8 +1752,8 @@
       "snapshot": [],
       "beta": false,
       "size": 931840,
-      "download_count": 27677,
-      "recent_download_count": 27677,
+      "download_count": 27730,
+      "recent_download_count": 27730,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1779,8 +1779,8 @@
       "snapshot": [],
       "beta": false,
       "size": 921600,
-      "download_count": 27677,
-      "recent_download_count": 27677,
+      "download_count": 27730,
+      "recent_download_count": 27730,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1806,8 +1806,8 @@
       "snapshot": [],
       "beta": false,
       "size": 952320,
-      "download_count": 27677,
-      "recent_download_count": 27677,
+      "download_count": 27730,
+      "recent_download_count": 27730,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1833,8 +1833,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323058,
-      "recent_download_count": 323058,
+      "download_count": 323169,
+      "recent_download_count": 323169,
       "changelog": ""
     },
     {
@@ -1860,8 +1860,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323058,
-      "recent_download_count": 323058,
+      "download_count": 323169,
+      "recent_download_count": 323169,
       "changelog": ""
     },
     {
@@ -1887,8 +1887,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323058,
-      "recent_download_count": 323058,
+      "download_count": 323169,
+      "recent_download_count": 323169,
       "changelog": ""
     },
     {
@@ -1914,8 +1914,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323058,
-      "recent_download_count": 323058,
+      "download_count": 323169,
+      "recent_download_count": 323169,
       "changelog": ""
     },
     {
@@ -1941,8 +1941,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323058,
-      "recent_download_count": 323058,
+      "download_count": 323169,
+      "recent_download_count": 323169,
       "changelog": ""
     },
     {
@@ -1968,8 +1968,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323058,
-      "recent_download_count": 323058,
+      "download_count": 323169,
+      "recent_download_count": 323169,
       "changelog": ""
     },
     {
