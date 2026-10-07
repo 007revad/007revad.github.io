@@ -886,10 +886,11 @@ entries+=( "$(make_entries "geimist"     "synOCR"                    "6:PKG_DSM6
 entries+=( "$(make_entries "dei79"       "disk-shell"                "")" )
 entries+=( "$(make_entries "holg"        "ds-video-hevc"             "")" )
 
+entries+=( "$(make_entries "eizedev"         "AirConnect-Synology"   "")" )
+entries+=( "$(make_entries "TechHutTV"       "netbird-dsm"           "")" )
 #entries+=( "$(make_entries "bb-qq"          "aqc111"                "")" )
 #entries+=( "$(make_entries "bb-qq"          "r8152"                 "")" )
 #entries+=( "$(make_entries "bb-qq"          "uas"                   "")" )
-entries+=( "$(make_entries "eizedev"         "AirConnect-Synology"   "")" )
 #entries+=( "$(make_entries "efren-builder"  "synology-uptime-kuma   "CHANGELOG.md")" )  # Newer version on synocommunity
 
 # Company's repos
