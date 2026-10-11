@@ -1,4 +1,4 @@
-<body>
+`<body>
   <h1>My Github Release Download Stats</h1>
   <p><a href="https://007revad.github.io/stats.html">007revad.github.io/stats.html</a> - Stats at <a href="https://grev.shehryar.ae/">grev.shehryar.ae/</a> - Old stats at <a href="https://hanadigital.github.io/grev/">hanadigital.github.io/grev/</a></p>
   <table>
@@ -11,6 +11,12 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a href="https://github.com/007revad/Syno_App_Mover">Syno App Mover</a></td>
+        <td><a href="https://github.com/007revad/Syno_App_Mover/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Syno_App_Mover/total.svg" alt="Github Releases"></a></td>
+        <td><a href="https://grev.shehryar.ae/?owner=007revad&repo=Syno_App_Mover" target="_blank">Download stats</a></td>
+        <td><a href="https://hanadigital.github.io/grev/007revad/Syno_App_Mover" target="_blank">Old download stats</a></td>
+      </tr>
       <tr>
         <td><a href="https://github.com/007revad/Synology_drive_info">Synology Dive Info</a></td>
         <td><a href="https://github.com/007revad/Synology_drive_info/releases" target="_blank"><img src="https://img.shields.io/github/downloads/007revad/Synology_drive_info/total.svg" alt="Github Releases"></a></td>
