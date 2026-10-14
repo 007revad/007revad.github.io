@@ -461,15 +461,30 @@ make_entries() {
         os_min_ver=$( info_get "$info" "os_min_ver")
         os_max_ver=$( info_get "$info" "os_max_ver")
 
-       # For noreleases repos, version comes from INFO rather than a release tag
-       [[ -n "$noreleases" ]] && version=$(info_get "$info" "version")
+        # For noreleases repos, version comes from INFO rather than a release tag
+        [[ -n "$noreleases" ]] && version=$(info_get "$info" "version")
 
-       # Skip packages older than DSM 6
-       local min_ver="${os_min_ver:-$(info_get "$info" "firmware")}"
-       if [[ -n "$min_ver" && "${min_ver%%.*}" -lt 6 ]]; then
-          echo "INFO: Skipping $(basename "${spk_url}") (os_min_ver=${min_ver} < 6)" >&2
-          continue
-       fi
+        # Skip packages older than DSM 6, except SRM (1.x/2.x, small build numbers)
+        # and DSM Enterprise (1.x, build >= 100000).
+        local min_ver="${os_min_ver:-$(info_get "$info" "firmware")}"
+        local min_build="${min_ver##*-}"
+        local os_family="dsm"
+        if [[ -n "$min_ver" && "${min_ver%%.*}" -lt 6 ]]; then
+           if [[ "${min_ver%%.*}" =~ ^[12]$ && "$min_build" =~ ^[0-9]+$ ]]; then
+              if [[ "$min_build" -ge 100000 ]]; then
+                 os_family="dsm_enterprise"
+              else
+                 os_family="srm"
+              fi
+              echo "INFO: Keeping ${os_family} SPK $(basename "${spk_url}") (os_min_ver=${min_ver})" >&2
+              if [[ "$arch" == "noarch" ]]; then
+                 echo "WARNING: ${os_family} SPK $(basename "${spk_url}") has arch=noarch; it should list its platforms in INFO" >&2
+              fi
+           else
+              echo "INFO: Skipping $(basename "${spk_url}") (os_min_ver=${min_ver} < 6)" >&2
+              continue
+           fi
+        fi
 
         # Deduplication — see function header comment for rules.
         local spk_version
@@ -524,11 +539,13 @@ make_entries() {
             *)          beta="false" ;;
         esac
 
-        # Derive a unique thumbnail key per DSM version.
+        # Derive a unique thumbnail key per DSM/SRM version.
         # Packages with an os_max_ver (e.g. DSM6) get a _DSM<major> suffix
         # so they get their own thumbnail file and URL distinct from DSM7+.
         local thumb_key="${pkg}"
-        if [[ -n "$os_max_ver" && "$os_max_ver" != "9.9-99999" ]]; then
+        if [[ "$os_family" == "srm" ]]; then
+            thumb_key="${pkg}_SRM"
+        elif [[ "$os_family" == "dsm" && -n "$os_max_ver" && "$os_max_ver" != "9.9-99999" ]]; then
             local dsm_major="${os_max_ver%%.*}"
             thumb_key="${pkg}_DSM${dsm_major}"
         fi
@@ -887,14 +904,17 @@ entries+=( "$(make_entries "geimist"     "synOCR"                    "6:PKG_DSM6
 entries+=( "$(make_entries "dei79"       "disk-shell"                "")" )
 entries+=( "$(make_entries "holg"        "ds-video-hevc"             "")" )
 
+entries+=( "$(make_entries "eizedev"         "AirConnect-Synology"   "")" )
+
 #entries+=( "$(make_entries "bb-qq"          "aqc111"                "")" )
 #entries+=( "$(make_entries "bb-qq"          "r8152"                 "")" )
 #entries+=( "$(make_entries "bb-qq"          "uas"                   "")" )
-entries+=( "$(make_entries "eizedev"         "AirConnect-Synology"   "")" )
 #entries+=( "$(make_entries "efren-builder"  "synology-uptime-kuma   "CHANGELOG.md")" )  # Newer version on synocommunity
 
 # Company's repos
 entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"       "")" )
+#entries+=( "$(make_entries "TechHutTV"  "netbird-dsm"               "")" )
+entries+=( "$(make_entries "netbirdio"   "netbird"                   "")" )
 
 # repos with spk files in repo file tree
 entries+=( "$(make_entries "BenjV" "SYNO-packages" ""                "noreleases")" )
