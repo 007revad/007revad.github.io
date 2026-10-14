@@ -431,6 +431,7 @@ make_entries() {
     # noarch SPK.  Key: pkg|version|os_min_ver|os_max_ver
     # Once set, any arch-specific SPK with the same key is skipped.
     declare -A seen_noarch_ranges
+    declare -A api_cache
 
     # seen_arch_keys prevents duplicate entries for the same
     # pkg+version+arch+firmware range (safety net).
@@ -656,6 +657,7 @@ make_entries() {
         Map DSM language codes to numbered lists, using these codes: enu, ger, fre, ita, spn, jpn, cht, chs, krn, dan, nor, sve, nld, rus, plk, ptb, hun, trk, csy.
         Only include languages actually present in the changelog. Always include enu (use English entries, or translate from the only language present if English is absent).
         Format each value as a plain numbered list: \"1. First item.\n2. Second item.\"
+        Indented sub-bullets are separate items: give every bullet, including indented sub-bullets, its own number, in the order they appear in the file.
         No markdown, no preamble, no version header, no language label. If the version is not found return {}.
         Example output: {\"enu\":\"1. Fixed login bug.\n2. Improved performance.\",\"ger\":\"1. Login-Fehler behoben.\n2. Leistung verbessert.\"}
 
@@ -664,25 +666,36 @@ make_entries() {
         # ^^^ closing quote of prompt string is above
 
             local api_response=""
-            local _delay=15
-            for _retry in 1 2 3; do
-                api_response=$(curl -s https://api.anthropic.com/v1/messages \
-                    -H "x-api-key: ${ANTHROPIC_API_KEY}" \
-                    -H "anthropic-version: 2023-06-01" \
-                    -H "content-type: application/json" \
-                    -d "$(jq -n --arg prompt "$prompt" '{
-                        model: "claude-haiku-4-5-20251001",
-                        max_tokens: 512,
-                        messages: [{ role: "user", content: $prompt }]
-                    }')" 2>/dev/null || true)
-                # Break if not an overload error
-                if ! echo "$api_response" | jq -e '.error.type == "overloaded_error"' >/dev/null 2>&1; then
-                    break
+            local api_cache_key
+            api_cache_key=$(printf '%s' "$prompt" | md5sum | cut -d' ' -f1)
+            if [[ -n "${api_cache[$api_cache_key]+x}" ]]; then
+                echo "INFO: Reusing changelog API result for ${pkg} ${spk_version}." >&2
+                api_response="${api_cache[$api_cache_key]}"
+            else
+                local _delay=15
+                for _retry in 1 2 3; do
+                    api_response=$(curl -s https://api.anthropic.com/v1/messages \
+                        -H "x-api-key: ${ANTHROPIC_API_KEY}" \
+                        -H "anthropic-version: 2023-06-01" \
+                        -H "content-type: application/json" \
+                        -d "$(jq -n --arg prompt "$prompt" '{
+                            model: "claude-haiku-4-5-20251001",
+                            max_tokens: 512,
+                            temperature: 0,
+                            messages: [{ role: "user", content: $prompt }]
+                        }')" 2>/dev/null || true)
+                    if ! echo "$api_response" | jq -e '.error.type == "overloaded_error"' >/dev/null 2>&1; then
+                        break
+                    fi
+                    echo "WARNING: API overloaded, retrying in ${_delay}s (attempt ${_retry}/3)..." >&2
+                    sleep "${_delay}"
+                    _delay=$(( _delay * 2 ))
+                done
+                # Only cache real responses, not errors
+                if jq -e '.content[0].text' >/dev/null 2>&1 <<< "$api_response"; then
+                    api_cache[$api_cache_key]="$api_response"
                 fi
-                echo "WARNING: API overloaded, retrying in ${_delay}s (attempt ${_retry}/3)..." >&2
-                sleep "${_delay}"
-                delay=$(( _delay * 2 ))
-            done
+            fi
 
             echo "DEBUG api_response=${api_response}" >&2
 
