@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 4361,
-      "recent_download_count": 4361,
+      "download_count": 4377,
+      "recent_download_count": 4377,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 4361,
-      "recent_download_count": 4361,
+      "download_count": 4377,
+      "recent_download_count": 4377,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 5047,
-      "recent_download_count": 5047,
+      "download_count": 5054,
+      "recent_download_count": 5054,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 5047,
-      "recent_download_count": 5047,
+      "download_count": 5054,
+      "recent_download_count": 5054,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 5047,
-      "recent_download_count": 5047,
+      "download_count": 5054,
+      "recent_download_count": 5054,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2378,
-      "recent_download_count": 2378,
+      "download_count": 2386,
+      "recent_download_count": 2386,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2378,
-      "recent_download_count": 2378,
+      "download_count": 2386,
+      "recent_download_count": 2386,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2378,
-      "recent_download_count": 2378,
+      "download_count": 2386,
+      "recent_download_count": 2386,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3353,
-      "recent_download_count": 3353,
+      "download_count": 3393,
+      "recent_download_count": 3393,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3353,
-      "recent_download_count": 3353,
+      "download_count": 3393,
+      "recent_download_count": 3393,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 3353,
-      "recent_download_count": 3353,
+      "download_count": 3393,
+      "recent_download_count": 3393,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -320,8 +320,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 794,
-      "recent_download_count": 794,
+      "download_count": 797,
+      "recent_download_count": 797,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -347,8 +347,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1300480,
-      "download_count": 9595,
-      "recent_download_count": 9595,
+      "download_count": 9757,
+      "recent_download_count": 9757,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -415,8 +415,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2109440,
-      "download_count": 9595,
-      "recent_download_count": 9595,
+      "download_count": 9757,
+      "recent_download_count": 9757,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -483,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1310720,
-      "download_count": 9595,
-      "recent_download_count": 9595,
+      "download_count": 9757,
+      "recent_download_count": 9757,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -551,8 +551,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 9595,
-      "recent_download_count": 9595,
+      "download_count": 9757,
+      "recent_download_count": 9757,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -619,8 +619,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1249280,
-      "download_count": 9595,
-      "recent_download_count": 9595,
+      "download_count": 9757,
+      "recent_download_count": 9757,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -687,8 +687,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1269760,
-      "download_count": 9595,
-      "recent_download_count": 9595,
+      "download_count": 9757,
+      "recent_download_count": 9757,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -755,8 +755,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1310720,
-      "download_count": 9595,
-      "recent_download_count": 9595,
+      "download_count": 9757,
+      "recent_download_count": 9757,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -823,8 +823,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1249280,
-      "download_count": 649,
-      "recent_download_count": 649,
+      "download_count": 651,
+      "recent_download_count": 651,
       "changelog": "1. Changed to no longer need the user to set sudoers permissions."
     },
     {
@@ -850,8 +850,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 2192,
-      "recent_download_count": 2192,
+      "download_count": 2216,
+      "recent_download_count": 2216,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -877,8 +877,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 2192,
-      "recent_download_count": 2192,
+      "download_count": 2216,
+      "recent_download_count": 2216,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -904,8 +904,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1167360,
-      "download_count": 2192,
-      "recent_download_count": 2192,
+      "download_count": 2216,
+      "recent_download_count": 2216,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -931,8 +931,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 2192,
-      "recent_download_count": 2192,
+      "download_count": 2216,
+      "recent_download_count": 2216,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -958,8 +958,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 2192,
-      "recent_download_count": 2192,
+      "download_count": 2216,
+      "recent_download_count": 2216,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -985,8 +985,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 1712,
-      "recent_download_count": 1712,
+      "download_count": 1721,
+      "recent_download_count": 1721,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1012,8 +1012,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 1712,
-      "recent_download_count": 1712,
+      "download_count": 1721,
+      "recent_download_count": 1721,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1039,8 +1039,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 1712,
-      "recent_download_count": 1712,
+      "download_count": 1721,
+      "recent_download_count": 1721,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1066,8 +1066,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1712,
-      "recent_download_count": 1712,
+      "download_count": 1721,
+      "recent_download_count": 1721,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1093,8 +1093,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 1712,
-      "recent_download_count": 1712,
+      "download_count": 1721,
+      "recent_download_count": 1721,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1120,8 +1120,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1297,
-      "recent_download_count": 1297,
+      "download_count": 1305,
+      "recent_download_count": 1305,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1147,8 +1147,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1297,
-      "recent_download_count": 1297,
+      "download_count": 1305,
+      "recent_download_count": 1305,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1174,8 +1174,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 1297,
-      "recent_download_count": 1297,
+      "download_count": 1305,
+      "recent_download_count": 1305,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1201,8 +1201,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 1297,
-      "recent_download_count": 1297,
+      "download_count": 1305,
+      "recent_download_count": 1305,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1228,8 +1228,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 1297,
-      "recent_download_count": 1297,
+      "download_count": 1305,
+      "recent_download_count": 1305,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1255,8 +1255,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4700160,
-      "download_count": 1297,
-      "recent_download_count": 1297,
+      "download_count": 1305,
+      "recent_download_count": 1305,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1282,8 +1282,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1297,
-      "recent_download_count": 1297,
+      "download_count": 1305,
+      "recent_download_count": 1305,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1309,8 +1309,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1297,
-      "recent_download_count": 1297,
+      "download_count": 1305,
+      "recent_download_count": 1305,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1336,8 +1336,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1679360,
-      "download_count": 1304,
-      "recent_download_count": 1304,
+      "download_count": 1320,
+      "recent_download_count": 1320,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1363,8 +1363,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1689600,
-      "download_count": 1304,
-      "recent_download_count": 1304,
+      "download_count": 1320,
+      "recent_download_count": 1320,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1390,8 +1390,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1771520,
-      "download_count": 1304,
-      "recent_download_count": 1304,
+      "download_count": 1320,
+      "recent_download_count": 1320,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1417,8 +1417,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1781760,
-      "download_count": 1304,
-      "recent_download_count": 1304,
+      "download_count": 1320,
+      "recent_download_count": 1320,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1444,8 +1444,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1812480,
-      "download_count": 1304,
-      "recent_download_count": 1304,
+      "download_count": 1320,
+      "recent_download_count": 1320,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1471,8 +1471,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1822720,
-      "download_count": 1304,
-      "recent_download_count": 1304,
+      "download_count": 1320,
+      "recent_download_count": 1320,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1498,8 +1498,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1843200,
-      "download_count": 1304,
-      "recent_download_count": 1304,
+      "download_count": 1320,
+      "recent_download_count": 1320,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1525,8 +1525,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1843200,
-      "download_count": 1304,
-      "recent_download_count": 1304,
+      "download_count": 1320,
+      "recent_download_count": 1320,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1552,8 +1552,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1228800,
-      "download_count": 209,
-      "recent_download_count": 209,
+      "download_count": 230,
+      "recent_download_count": 230,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1579,8 +1579,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1116160,
-      "download_count": 209,
-      "recent_download_count": 209,
+      "download_count": 230,
+      "recent_download_count": 230,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1606,8 +1606,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1177600,
-      "download_count": 209,
-      "recent_download_count": 209,
+      "download_count": 230,
+      "recent_download_count": 230,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1633,8 +1633,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1198080,
-      "download_count": 209,
-      "recent_download_count": 209,
+      "download_count": 230,
+      "recent_download_count": 230,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1660,8 +1660,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1228800,
-      "download_count": 209,
-      "recent_download_count": 209,
+      "download_count": 230,
+      "recent_download_count": 230,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1687,8 +1687,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 11142,
-      "recent_download_count": 11142,
+      "download_count": 11215,
+      "recent_download_count": 11215,
       "changelog": ""
     },
     {
@@ -1714,8 +1714,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1333,
-      "recent_download_count": 1333,
+      "download_count": 1334,
+      "recent_download_count": 1334,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -1746,8 +1746,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2318,
-      "recent_download_count": 2318,
+      "download_count": 2320,
+      "recent_download_count": 2320,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -1778,8 +1778,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 811,
-      "recent_download_count": 811,
+      "download_count": 812,
+      "recent_download_count": 812,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1839,8 +1839,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2651136,
-      "download_count": 5734,
-      "recent_download_count": 5734,
+      "download_count": 5737,
+      "recent_download_count": 5737,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1887,8 +1887,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2928640,
-      "download_count": 435,
-      "recent_download_count": 435,
+      "download_count": 451,
+      "recent_download_count": 451,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -1915,8 +1915,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3430400,
-      "download_count": 79,
-      "recent_download_count": 79,
+      "download_count": 80,
+      "recent_download_count": 80,
       "changelog": ""
     },
     {
@@ -1942,8 +1942,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 28009,
-      "recent_download_count": 28009,
+      "download_count": 28023,
+      "recent_download_count": 28023,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1969,8 +1969,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 28009,
-      "recent_download_count": 28009,
+      "download_count": 28023,
+      "recent_download_count": 28023,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -1996,8 +1996,8 @@
       "snapshot": [],
       "beta": false,
       "size": 788480,
-      "download_count": 28009,
-      "recent_download_count": 28009,
+      "download_count": 28023,
+      "recent_download_count": 28023,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2023,8 +2023,8 @@
       "snapshot": [],
       "beta": false,
       "size": 931840,
-      "download_count": 28009,
-      "recent_download_count": 28009,
+      "download_count": 28023,
+      "recent_download_count": 28023,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2050,8 +2050,8 @@
       "snapshot": [],
       "beta": false,
       "size": 921600,
-      "download_count": 28009,
-      "recent_download_count": 28009,
+      "download_count": 28023,
+      "recent_download_count": 28023,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2077,8 +2077,8 @@
       "snapshot": [],
       "beta": false,
       "size": 952320,
-      "download_count": 28009,
-      "recent_download_count": 28009,
+      "download_count": 28023,
+      "recent_download_count": 28023,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2104,8 +2104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323632,
-      "recent_download_count": 323632,
+      "download_count": 323700,
+      "recent_download_count": 323700,
       "changelog": ""
     },
     {
@@ -2131,8 +2131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323632,
-      "recent_download_count": 323632,
+      "download_count": 323700,
+      "recent_download_count": 323700,
       "changelog": ""
     },
     {
@@ -2158,8 +2158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323632,
-      "recent_download_count": 323632,
+      "download_count": 323700,
+      "recent_download_count": 323700,
       "changelog": ""
     },
     {
@@ -2185,8 +2185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323632,
-      "recent_download_count": 323632,
+      "download_count": 323700,
+      "recent_download_count": 323700,
       "changelog": ""
     },
     {
@@ -2212,8 +2212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323632,
-      "recent_download_count": 323632,
+      "download_count": 323700,
+      "recent_download_count": 323700,
       "changelog": ""
     },
     {
@@ -2239,8 +2239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323632,
-      "recent_download_count": 323632,
+      "download_count": 323700,
+      "recent_download_count": 323700,
       "changelog": ""
     },
     {
