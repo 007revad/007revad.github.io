@@ -23,8 +23,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 4469,
-      "recent_download_count": 4469,
+      "download_count": 4472,
+      "recent_download_count": 4472,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -50,8 +50,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 4469,
-      "recent_download_count": 4469,
+      "download_count": 4472,
+      "recent_download_count": 4472,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -77,8 +77,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 5111,
-      "recent_download_count": 5111,
+      "download_count": 5115,
+      "recent_download_count": 5115,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -104,8 +104,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 5111,
-      "recent_download_count": 5111,
+      "download_count": 5115,
+      "recent_download_count": 5115,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -131,8 +131,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 5111,
-      "recent_download_count": 5111,
+      "download_count": 5115,
+      "recent_download_count": 5115,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -158,8 +158,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2441,
-      "recent_download_count": 2441,
+      "download_count": 2445,
+      "recent_download_count": 2445,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -185,8 +185,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2441,
-      "recent_download_count": 2441,
+      "download_count": 2445,
+      "recent_download_count": 2445,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -212,8 +212,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2441,
-      "recent_download_count": 2441,
+      "download_count": 2445,
+      "recent_download_count": 2445,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -239,8 +239,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3450,
-      "recent_download_count": 3450,
+      "download_count": 3454,
+      "recent_download_count": 3454,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -266,8 +266,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3450,
-      "recent_download_count": 3450,
+      "download_count": 3454,
+      "recent_download_count": 3454,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -293,8 +293,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 3450,
-      "recent_download_count": 3450,
+      "download_count": 3454,
+      "recent_download_count": 3454,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -320,13 +320,13 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 807,
-      "recent_download_count": 807,
+      "download_count": 809,
+      "recent_download_count": 809,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
       "package": "drive_info",
-      "version": "2.4.66",
+      "version": "2.4.67",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -335,7 +335,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.66/Drive_Info-noarch-v2.4.66-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-noarch-v2.4.67-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
@@ -346,9 +346,9 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 1300480,
-      "download_count": 10003,
-      "recent_download_count": 10003,
+      "size": 501760,
+      "download_count": 10015,
+      "recent_download_count": 10015,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -390,11 +390,11 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. SMART info, serial number and drive temperature for USB NVMe drives now works.<br/> 2. DSM needs smartctl7 installed (included in SynoCommunity's synoCli Disk Tools package).<br/> 3. Hot Spare drives now show \"Storage Pool N Hot Spare\" when you hover over their drive id.<br/> 4. Unused drives now show Unused when you hover over their drive id.<br/> 5. Changed package's icon to be larger. You may need to hard refresh the browser to clear it's cache.<br/> 6. Added support for Synology routers running SRM 1.3.<br/> 7. The SRM package includes bash 5.2 and smartctl 7.5.<br/> 8. Changed syno_smart_info.sh to also work with python 2.<br/> 9. Changed to load the language strings file into memory to speed up loading for slow devices.<br/> 10. Changed to show a unique exit number for each error (for easier trouble shooting).<br/> 11. Bug fix for not using smartctl7 when it was installed.<br/> 12. Bug fix for OS name showing as DSM on NAS that has DSMUC or \"DSM Enterprise\".<br/> 13. Bug fix for not showing the error message if drive_info.sh exited with an error."
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' settings, schedules or discover other Synology NAS.<br/> 3. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 4. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 5. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
     },
     {
       "package": "drive_info",
-      "version": "2.4.66",
+      "version": "2.4.67",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -403,7 +403,75 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.66/Drive_Info-noarch-v2.4.66-SRM-1.3.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-noarch-v2.4.67-DSM_Enterprise-1.x.spk",
+      "arch": "x86_64",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "1.0-101188",
+      "os_max_ver": "3.9-999999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_120.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 501760,
+      "download_count": 10015,
+      "recent_download_count": 10015,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' settings, schedules or discover other Synology NAS.<br/> 3. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 4. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 5. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
+    },
+    {
+      "package": "drive_info",
+      "version": "2.4.67",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-noarch-v2.4.67-SRM-1.3.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
@@ -415,8 +483,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2109440,
-      "download_count": 10003,
-      "recent_download_count": 10003,
+      "download_count": 10015,
+      "recent_download_count": 10015,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -458,11 +526,11 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. SMART info, serial number and drive temperature for USB NVMe drives now works.<br/> 2. DSM needs smartctl7 installed (included in SynoCommunity's synoCli Disk Tools package).<br/> 3. Hot Spare drives now show \"Storage Pool N Hot Spare\" when you hover over their drive id.<br/> 4. Unused drives now show Unused when you hover over their drive id.<br/> 5. Changed package's icon to be larger. You may need to hard refresh the browser to clear it's cache.<br/> 6. Added support for Synology routers running SRM 1.3.<br/> 7. The SRM package includes bash 5.2 and smartctl 7.5.<br/> 8. Changed syno_smart_info.sh to also work with python 2.<br/> 9. Changed to load the language strings file into memory to speed up loading for slow devices.<br/> 10. Changed to show a unique exit number for each error (for easier trouble shooting).<br/> 11. Bug fix for not using smartctl7 when it was installed.<br/> 12. Bug fix for OS name showing as DSM on NAS that has DSMUC or \"DSM Enterprise\".<br/> 13. Bug fix for not showing the error message if drive_info.sh exited with an error."
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' settings, schedules or discover other Synology NAS.<br/> 3. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 4. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 5. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
     },
     {
       "package": "drive_info",
-      "version": "2.4.66",
+      "version": "2.4.67",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -471,75 +539,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.66/Drive_Info-noarch-v2.4.66_DSM_Enterprise-1.x.spk",
-      "arch": "x86_64",
-      "exclude_arch": null,
-      "exclude_model": null,
-      "firmware": "1.0-101188",
-      "os_max_ver": "3.9-999999",
-      "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_120.png"
-      ],
-      "snapshot": [],
-      "beta": false,
-      "size": 1310720,
-      "download_count": 10003,
-      "recent_download_count": 10003,
-      "dname_chs": "Drive Info",
-      "dname_cht": "Drive Info",
-      "dname_csy": "Drive Info",
-      "dname_dan": "Drive Info",
-      "dname_enu": "Drive Info",
-      "dname_fre": "Drive Info",
-      "dname_ger": "Drive Info",
-      "dname_hun": "Drive Info",
-      "dname_ita": "Drive Info",
-      "dname_jpn": "Drive Info",
-      "dname_krn": "Drive Info",
-      "dname_nld": "Drive Info",
-      "dname_nor": "Drive Info",
-      "dname_plk": "Drive Info",
-      "dname_ptb": "Drive Info",
-      "dname_ptg": "Drive Info",
-      "dname_rus": "Drive Info",
-      "dname_spn": "Drive Info",
-      "dname_sve": "Drive Info",
-      "dname_trk": "Drive Info",
-      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
-      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
-      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
-      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
-      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
-      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
-      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
-      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
-      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
-      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
-      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
-      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
-      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
-      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
-      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
-      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
-      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
-      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
-      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
-      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
-      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. SMART info, serial number and drive temperature for USB NVMe drives now works.<br/> 2. DSM needs smartctl7 installed (included in SynoCommunity's synoCli Disk Tools package).<br/> 3. Hot Spare drives now show \"Storage Pool N Hot Spare\" when you hover over their drive id.<br/> 4. Unused drives now show Unused when you hover over their drive id.<br/> 5. Changed package's icon to be larger. You may need to hard refresh the browser to clear it's cache.<br/> 6. Added support for Synology routers running SRM 1.3.<br/> 7. The SRM package includes bash 5.2 and smartctl 7.5.<br/> 8. Changed syno_smart_info.sh to also work with python 2.<br/> 9. Changed to load the language strings file into memory to speed up loading for slow devices.<br/> 10. Changed to show a unique exit number for each error (for easier trouble shooting).<br/> 11. Bug fix for not using smartctl7 when it was installed.<br/> 12. Bug fix for OS name showing as DSM on NAS that has DSMUC or \"DSM Enterprise\".<br/> 13. Bug fix for not showing the error message if drive_info.sh exited with an error."
-    },
-    {
-      "package": "drive_info",
-      "version": "2.4.66",
-      "dname": "Drive Info",
-      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
-      "maintainer": "007revad",
-      "maintainer_url": "https://github.com/007revad",
-      "distributor": "007revad",
-      "distributor_url": "https://github.com/007revad/Synology_drive_info",
-      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.66/Drive_Info-armv7-v2.4.66-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-armv7-v2.4.67-DSM-7.x.spk",
       "arch": "alpine alpine4k armada370 armada375 armada38x armadaxp monaco comcerto2k",
       "exclude_arch": null,
       "exclude_model": null,
@@ -550,9 +550,9 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 1187840,
-      "download_count": 10003,
-      "recent_download_count": 10003,
+      "size": 440320,
+      "download_count": 10015,
+      "recent_download_count": 10015,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -594,11 +594,11 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. SMART info, serial number and drive temperature for USB NVMe drives now works.<br/> 2. DSM needs smartctl7 installed (included in SynoCommunity's synoCli Disk Tools package).<br/> 3. Hot Spare drives now show \"Storage Pool N Hot Spare\" when you hover over their drive id.<br/> 4. Unused drives now show Unused when you hover over their drive id.<br/> 5. Changed package's icon to be larger. You may need to hard refresh the browser to clear it's cache.<br/> 6. Added support for Synology routers running SRM 1.3.<br/> 7. The SRM package includes bash 5.2 and smartctl 7.5.<br/> 8. Changed syno_smart_info.sh to also work with python 2.<br/> 9. Changed to load the language strings file into memory to speed up loading for slow devices.<br/> 10. Changed to show a unique exit number for each error (for easier trouble shooting).<br/> 11. Bug fix for not using smartctl7 when it was installed.<br/> 12. Bug fix for OS name showing as DSM on NAS that has DSMUC or \"DSM Enterprise\".<br/> 13. Bug fix for not showing the error message if drive_info.sh exited with an error."
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' settings, schedules or discover other Synology NAS.<br/> 3. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 4. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 5. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
     },
     {
       "package": "drive_info",
-      "version": "2.4.66",
+      "version": "2.4.67",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -607,7 +607,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.66/Drive_Info-armv8-v2.4.66-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-armv8-v2.4.67-DSM-7.x.spk",
       "arch": "armv8",
       "exclude_arch": null,
       "exclude_model": null,
@@ -618,9 +618,9 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 1249280,
-      "download_count": 10003,
-      "recent_download_count": 10003,
+      "size": 460800,
+      "download_count": 10015,
+      "recent_download_count": 10015,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -662,11 +662,11 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. SMART info, serial number and drive temperature for USB NVMe drives now works.<br/> 2. DSM needs smartctl7 installed (included in SynoCommunity's synoCli Disk Tools package).<br/> 3. Hot Spare drives now show \"Storage Pool N Hot Spare\" when you hover over their drive id.<br/> 4. Unused drives now show Unused when you hover over their drive id.<br/> 5. Changed package's icon to be larger. You may need to hard refresh the browser to clear it's cache.<br/> 6. Added support for Synology routers running SRM 1.3.<br/> 7. The SRM package includes bash 5.2 and smartctl 7.5.<br/> 8. Changed syno_smart_info.sh to also work with python 2.<br/> 9. Changed to load the language strings file into memory to speed up loading for slow devices.<br/> 10. Changed to show a unique exit number for each error (for easier trouble shooting).<br/> 11. Bug fix for not using smartctl7 when it was installed.<br/> 12. Bug fix for OS name showing as DSM on NAS that has DSMUC or \"DSM Enterprise\".<br/> 13. Bug fix for not showing the error message if drive_info.sh exited with an error."
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' settings, schedules or discover other Synology NAS.<br/> 3. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 4. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 5. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
     },
     {
       "package": "drive_info",
-      "version": "2.4.66",
+      "version": "2.4.67",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -675,7 +675,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.66/Drive_Info-i686-v2.4.66-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-i686-v2.4.67-DSM-7.x.spk",
       "arch": "evansport",
       "exclude_arch": null,
       "exclude_model": null,
@@ -686,9 +686,9 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 1269760,
-      "download_count": 10003,
-      "recent_download_count": 10003,
+      "size": 501760,
+      "download_count": 10015,
+      "recent_download_count": 10015,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -730,11 +730,11 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. SMART info, serial number and drive temperature for USB NVMe drives now works.<br/> 2. DSM needs smartctl7 installed (included in SynoCommunity's synoCli Disk Tools package).<br/> 3. Hot Spare drives now show \"Storage Pool N Hot Spare\" when you hover over their drive id.<br/> 4. Unused drives now show Unused when you hover over their drive id.<br/> 5. Changed package's icon to be larger. You may need to hard refresh the browser to clear it's cache.<br/> 6. Added support for Synology routers running SRM 1.3.<br/> 7. The SRM package includes bash 5.2 and smartctl 7.5.<br/> 8. Changed syno_smart_info.sh to also work with python 2.<br/> 9. Changed to load the language strings file into memory to speed up loading for slow devices.<br/> 10. Changed to show a unique exit number for each error (for easier trouble shooting).<br/> 11. Bug fix for not using smartctl7 when it was installed.<br/> 12. Bug fix for OS name showing as DSM on NAS that has DSMUC or \"DSM Enterprise\".<br/> 13. Bug fix for not showing the error message if drive_info.sh exited with an error."
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' settings, schedules or discover other Synology NAS.<br/> 3. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 4. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 5. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
     },
     {
       "package": "drive_info",
-      "version": "2.4.66",
+      "version": "2.4.67",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -743,7 +743,7 @@
       "distributor_url": "https://github.com/007revad/Synology_drive_info",
       "support_url": "https://github.com/007revad/Synology_drive_info/issues",
       "report_url": "https://github.com/007revad/Synology_drive_info/issues",
-      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.66/Drive_Info-x86_64-v2.4.66-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-x86_64-v2.4.67-DSM-7.x.spk",
       "arch": "x86_64",
       "exclude_arch": null,
       "exclude_model": null,
@@ -754,9 +754,9 @@
       ],
       "snapshot": [],
       "beta": false,
-      "size": 1310720,
-      "download_count": 10003,
-      "recent_download_count": 10003,
+      "size": 501760,
+      "download_count": 10015,
+      "recent_download_count": 10015,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -798,7 +798,7 @@
       "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
       "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
       "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
-      "changelog": "1. SMART info, serial number and drive temperature for USB NVMe drives now works.<br/> 2. DSM needs smartctl7 installed (included in SynoCommunity's synoCli Disk Tools package).<br/> 3. Hot Spare drives now show \"Storage Pool N Hot Spare\" when you hover over their drive id.<br/> 4. Unused drives now show Unused when you hover over their drive id.<br/> 5. Changed package's icon to be larger. You may need to hard refresh the browser to clear it's cache.<br/> 6. Added support for Synology routers running SRM 1.3.<br/> 7. The SRM package includes bash 5.2 and smartctl 7.5.<br/> 8. Changed syno_smart_info.sh to also work with python 2.<br/> 9. Changed to load the language strings file into memory to speed up loading for slow devices.<br/> 10. Changed to show a unique exit number for each error (for easier trouble shooting).<br/> 11. Bug fix for not using smartctl7 when it was installed.<br/> 12. Bug fix for OS name showing as DSM on NAS that has DSMUC or \"DSM Enterprise\".<br/> 13. Bug fix for not showing the error message if drive_info.sh exited with an error."
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' settings, schedules or discover other Synology NAS.<br/> 3. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 4. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 5. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
     },
     {
       "package": "AQC_Unlock",
@@ -823,8 +823,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1249280,
-      "download_count": 672,
-      "recent_download_count": 672,
+      "download_count": 673,
+      "recent_download_count": 673,
       "changelog": "1. Changed to no longer need the user to set sudoers permissions."
     },
     {
@@ -850,8 +850,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 2284,
-      "recent_download_count": 2284,
+      "download_count": 2289,
+      "recent_download_count": 2289,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -877,8 +877,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 2284,
-      "recent_download_count": 2284,
+      "download_count": 2289,
+      "recent_download_count": 2289,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -904,8 +904,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1167360,
-      "download_count": 2284,
-      "recent_download_count": 2284,
+      "download_count": 2289,
+      "recent_download_count": 2289,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -931,8 +931,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 2284,
-      "recent_download_count": 2284,
+      "download_count": 2289,
+      "recent_download_count": 2289,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -958,8 +958,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 2284,
-      "recent_download_count": 2284,
+      "download_count": 2289,
+      "recent_download_count": 2289,
       "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
@@ -985,8 +985,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 1753,
-      "recent_download_count": 1753,
+      "download_count": 1758,
+      "recent_download_count": 1758,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1012,8 +1012,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 1753,
-      "recent_download_count": 1753,
+      "download_count": 1758,
+      "recent_download_count": 1758,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1039,8 +1039,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 1753,
-      "recent_download_count": 1753,
+      "download_count": 1758,
+      "recent_download_count": 1758,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1066,8 +1066,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1753,
-      "recent_download_count": 1753,
+      "download_count": 1758,
+      "recent_download_count": 1758,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1093,8 +1093,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 1753,
-      "recent_download_count": 1753,
+      "download_count": 1758,
+      "recent_download_count": 1758,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1120,8 +1120,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1350,
-      "recent_download_count": 1350,
+      "download_count": 1359,
+      "recent_download_count": 1359,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1147,8 +1147,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1350,
-      "recent_download_count": 1350,
+      "download_count": 1359,
+      "recent_download_count": 1359,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1174,8 +1174,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 1350,
-      "recent_download_count": 1350,
+      "download_count": 1359,
+      "recent_download_count": 1359,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1201,8 +1201,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 1350,
-      "recent_download_count": 1350,
+      "download_count": 1359,
+      "recent_download_count": 1359,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1228,8 +1228,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 1350,
-      "recent_download_count": 1350,
+      "download_count": 1359,
+      "recent_download_count": 1359,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1255,8 +1255,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4700160,
-      "download_count": 1350,
-      "recent_download_count": 1350,
+      "download_count": 1359,
+      "recent_download_count": 1359,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1282,8 +1282,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1350,
-      "recent_download_count": 1350,
+      "download_count": 1359,
+      "recent_download_count": 1359,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1309,8 +1309,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1350,
-      "recent_download_count": 1350,
+      "download_count": 1359,
+      "recent_download_count": 1359,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1336,8 +1336,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1679360,
-      "download_count": 1377,
-      "recent_download_count": 1377,
+      "download_count": 1385,
+      "recent_download_count": 1385,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1363,8 +1363,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1689600,
-      "download_count": 1377,
-      "recent_download_count": 1377,
+      "download_count": 1385,
+      "recent_download_count": 1385,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1390,8 +1390,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1771520,
-      "download_count": 1377,
-      "recent_download_count": 1377,
+      "download_count": 1385,
+      "recent_download_count": 1385,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1417,8 +1417,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1781760,
-      "download_count": 1377,
-      "recent_download_count": 1377,
+      "download_count": 1385,
+      "recent_download_count": 1385,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1444,8 +1444,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1812480,
-      "download_count": 1377,
-      "recent_download_count": 1377,
+      "download_count": 1385,
+      "recent_download_count": 1385,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1471,8 +1471,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1822720,
-      "download_count": 1377,
-      "recent_download_count": 1377,
+      "download_count": 1385,
+      "recent_download_count": 1385,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1498,8 +1498,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1843200,
-      "download_count": 1377,
-      "recent_download_count": 1377,
+      "download_count": 1385,
+      "recent_download_count": 1385,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1525,8 +1525,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1843200,
-      "download_count": 1377,
-      "recent_download_count": 1377,
+      "download_count": 1385,
+      "recent_download_count": 1385,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1552,8 +1552,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1228800,
-      "download_count": 292,
-      "recent_download_count": 292,
+      "download_count": 297,
+      "recent_download_count": 297,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1579,8 +1579,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1116160,
-      "download_count": 292,
-      "recent_download_count": 292,
+      "download_count": 297,
+      "recent_download_count": 297,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1606,8 +1606,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1177600,
-      "download_count": 292,
-      "recent_download_count": 292,
+      "download_count": 297,
+      "recent_download_count": 297,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1633,8 +1633,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1198080,
-      "download_count": 292,
-      "recent_download_count": 292,
+      "download_count": 297,
+      "recent_download_count": 297,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1660,8 +1660,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1228800,
-      "download_count": 292,
-      "recent_download_count": 292,
+      "download_count": 297,
+      "recent_download_count": 297,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1687,8 +1687,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 11527,
-      "recent_download_count": 11527,
+      "download_count": 11531,
+      "recent_download_count": 11531,
       "changelog": ""
     },
     {
@@ -1714,8 +1714,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1345,
-      "recent_download_count": 1345,
+      "download_count": 1346,
+      "recent_download_count": 1346,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -1746,8 +1746,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2331,
-      "recent_download_count": 2331,
+      "download_count": 2332,
+      "recent_download_count": 2332,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -1778,8 +1778,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 820,
-      "recent_download_count": 820,
+      "download_count": 821,
+      "recent_download_count": 821,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1839,8 +1839,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2645504,
-      "download_count": 5963,
-      "recent_download_count": 5963,
+      "download_count": 5968,
+      "recent_download_count": 5968,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1887,8 +1887,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2690560,
-      "download_count": 5963,
-      "recent_download_count": 5963,
+      "download_count": 5968,
+      "recent_download_count": 5968,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ptb": "synOCR é um simples GUI para o container Docker OCRmyPDF. Com ele, você pode facilmente aplicar OCR a documentos PDF. synOCR pode então procurar por etiquetas e datas nos documentos, renomeá-los de acordo com um padrão individual e classificá-los em subpastas de acordo com as categorias. Ao utilizar links rígidos, não há aumento da necessidade de espaço de armazenamento se um documento tiver que ser classificado em várias pastas de categoria.",
@@ -1935,8 +1935,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2928640,
-      "download_count": 475,
-      "recent_download_count": 475,
+      "download_count": 476,
+      "recent_download_count": 476,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -1963,8 +1963,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3430400,
-      "download_count": 95,
-      "recent_download_count": 95,
+      "download_count": 96,
+      "recent_download_count": 96,
       "changelog": ""
     },
     {
@@ -1990,8 +1990,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 28145,
-      "recent_download_count": 28145,
+      "download_count": 28153,
+      "recent_download_count": 28153,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2017,8 +2017,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 28145,
-      "recent_download_count": 28145,
+      "download_count": 28153,
+      "recent_download_count": 28153,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2044,8 +2044,8 @@
       "snapshot": [],
       "beta": false,
       "size": 788480,
-      "download_count": 28145,
-      "recent_download_count": 28145,
+      "download_count": 28153,
+      "recent_download_count": 28153,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2071,8 +2071,8 @@
       "snapshot": [],
       "beta": false,
       "size": 931840,
-      "download_count": 28145,
-      "recent_download_count": 28145,
+      "download_count": 28153,
+      "recent_download_count": 28153,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2098,8 +2098,8 @@
       "snapshot": [],
       "beta": false,
       "size": 921600,
-      "download_count": 28145,
-      "recent_download_count": 28145,
+      "download_count": 28153,
+      "recent_download_count": 28153,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2125,8 +2125,8 @@
       "snapshot": [],
       "beta": false,
       "size": 952320,
-      "download_count": 28145,
-      "recent_download_count": 28145,
+      "download_count": 28153,
+      "recent_download_count": 28153,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2152,8 +2152,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 28145,
-      "recent_download_count": 28145,
+      "download_count": 28153,
+      "recent_download_count": 28153,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2179,8 +2179,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 28145,
-      "recent_download_count": 28145,
+      "download_count": 28153,
+      "recent_download_count": 28153,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2206,8 +2206,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3225600,
-      "download_count": 15,
-      "recent_download_count": 15,
+      "download_count": 21,
+      "recent_download_count": 21,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2233,8 +2233,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2375680,
-      "download_count": 15,
-      "recent_download_count": 15,
+      "download_count": 21,
+      "recent_download_count": 21,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2260,8 +2260,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2498560,
-      "download_count": 15,
-      "recent_download_count": 15,
+      "download_count": 21,
+      "recent_download_count": 21,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2287,8 +2287,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2918400,
-      "download_count": 15,
-      "recent_download_count": 15,
+      "download_count": 21,
+      "recent_download_count": 21,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2314,8 +2314,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3338240,
-      "download_count": 15,
-      "recent_download_count": 15,
+      "download_count": 21,
+      "recent_download_count": 21,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2341,8 +2341,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3409920,
-      "download_count": 15,
-      "recent_download_count": 15,
+      "download_count": 21,
+      "recent_download_count": 21,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2368,8 +2368,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323864,
-      "recent_download_count": 323864,
+      "download_count": 323870,
+      "recent_download_count": 323870,
       "changelog": ""
     },
     {
@@ -2395,8 +2395,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323864,
-      "recent_download_count": 323864,
+      "download_count": 323870,
+      "recent_download_count": 323870,
       "changelog": ""
     },
     {
@@ -2422,8 +2422,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323864,
-      "recent_download_count": 323864,
+      "download_count": 323870,
+      "recent_download_count": 323870,
       "changelog": ""
     },
     {
@@ -2449,8 +2449,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323864,
-      "recent_download_count": 323864,
+      "download_count": 323870,
+      "recent_download_count": 323870,
       "changelog": ""
     },
     {
@@ -2476,8 +2476,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323864,
-      "recent_download_count": 323864,
+      "download_count": 323870,
+      "recent_download_count": 323870,
       "changelog": ""
     },
     {
@@ -2503,8 +2503,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323864,
-      "recent_download_count": 323864,
+      "download_count": 323870,
+      "recent_download_count": 323870,
       "changelog": ""
     },
     {
