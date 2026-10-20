@@ -462,7 +462,7 @@
     },
     {
       "package": "drive_info",
-      "version": "2.4.67",
+      "version": "2.4.68",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -2131,7 +2131,7 @@
     },
     {
       "package": "AirConnect",
-      "version": "1.12.4-20261017",
+      "version": "1.12.4-20261018",
       "dname": "AirConnect",
       "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices.",
       "maintainer": "philippe44",
