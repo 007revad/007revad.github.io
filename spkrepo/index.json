@@ -462,7 +462,7 @@
     },
     {
       "package": "drive_info",
-      "version": "2.4.68",
+      "version": "2.4.69",
       "dname": "Drive Info",
       "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
       "maintainer": "007revad",
@@ -478,7 +478,8 @@
       "firmware": "1.3-9193",
       "os_max_ver": "2.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png"
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_256.png"
       ],
       "snapshot": [],
       "beta": false,
