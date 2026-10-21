@@ -254,7 +254,7 @@ maybe_update_thumbnail() {
     if [[ "${is_beta}" == "true" ]]; then
         run_convert "${tmp_icon}" \
             -font "${BETA_FONT}" \
-            -gravity SouthEast \
+            -gravity NorthEast \
             -fill white \
             -stroke red \
             -strokewidth 3 \
@@ -275,7 +275,7 @@ maybe_update_thumbnail() {
             -background none \
             -extent 72x72 \
             -font "${BETA_FONT}" \
-            -gravity SouthEast \
+            -gravity NorthEast \
             -fill white \
             -stroke red \
             -strokewidth 1 \
