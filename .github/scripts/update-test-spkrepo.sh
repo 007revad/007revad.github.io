@@ -167,8 +167,8 @@ current_version() {
 #   2. https://raw.githubusercontent.com/<user>/<repo>/HEAD/synology/PACKAGE_ICON_256.PNG
 #   3. Full SPK download — tar-extract PACKAGE_ICON_256.PNG
 #
-# Resizes the icon to 120x120 and writes
-# <repo_dir>/thumbnails/<thumb_key>_120.png.
+# Resizes the icon to 72x72 and writes
+# <repo_dir>/thumbnails/<thumb_key>_72.png.
 #
 # Usage: maybe_update_thumbnail <spk_url> <pkg> <new_version> <thumb_key> <user> <repo>
 #--------------------------------------------------------------------
@@ -182,13 +182,14 @@ maybe_update_thumbnail() {
     local is_beta="${7:-false}"
     local branch="${8:-HEAD}"
 
-    local dest="${REPO_DIR}/thumbnails/${thumb_key}_120.png"
+    local dest72="${REPO_DIR}/thumbnails/${thumb_key}_72.png"
+    local dest256="${REPO_DIR}/thumbnails/${thumb_key}_256.png"
     local old_version
     old_version=$(current_version "${pkg}")
 
-    # Skip if thumbnail already exists and version has not changed
-    if [[ -f "${dest}" && "${old_version}" == "${new_version}" ]]; then
-        echo "INFO: Thumbnail for ${thumb_key} is current (${new_version}) — skipping." >&2
+    # Skip only if BOTH thumbnails exist and the version has not changed
+    if [[ -f "${dest72}" && -f "${dest256}" && "${old_version}" == "${new_version}" ]]; then
+        echo "INFO: Thumbnails for ${thumb_key} are current (${new_version}) — skipping." >&2
         return
     fi
 
@@ -228,31 +229,39 @@ maybe_update_thumbnail() {
       fi
     fi
 
-    # Resize to 120x120, fitting within the canvas
-    if [[ "${is_beta}" == "true" ]]; then
-        /usr/bin/convert "${tmp_icon}" \
-        -resize 120x120 \
-        -gravity center \
-        -background none \
-        -extent 120x120 \
-        -gravity SouthEast \
-        -fill white \
-        -stroke red \
-        -strokewidth 1 \
-        -pointsize 16 \
-        -annotate +2+2 "BETA" \
-        "${dest}"
-    else
-        /usr/bin/convert "${tmp_icon}" \
-        -resize 120x120 \
-        -gravity center \
-        -background none \
-        -extent 120x120 \
-        "${dest}"
-    fi
+    # Write 72x72 and 256x256, fitting within the canvas
+    local size dest pt sw off
+    for size in 72 256; do
+        dest="${REPO_DIR}/thumbnails/${thumb_key}_${size}.png"
+        if [[ "${is_beta}" == "true" ]]; then
+            # BETA label scaled from the 72px values (16pt, stroke 1, offset 2)
+            pt=$(( size * 16 / 72 ))
+            sw=$(( size / 72 ))
+            off=$(( size * 2 / 72 ))
+            /usr/bin/convert "${tmp_icon}" \
+                -resize ${size}x${size} \
+                -gravity center \
+                -background none \
+                -extent ${size}x${size} \
+                -gravity SouthEast \
+                -fill white \
+                -stroke red \
+                -strokewidth ${sw} \
+                -pointsize ${pt} \
+                -annotate +${off}+${off} "BETA" \
+                "${dest}"
+        else
+            /usr/bin/convert "${tmp_icon}" \
+                -resize ${size}x${size} \
+                -gravity center \
+                -background none \
+                -extent ${size}x${size} \
+                "${dest}"
+        fi
+        echo "INFO: Wrote ${dest}" >&2
+    done
 
     rm -f "${tmp_icon}"
-    echo "INFO: Wrote ${dest}" >&2
 }
 
 #--------------------------------------------------------------------
@@ -815,7 +824,9 @@ make_entries() {
         size="${size:-0}"
     fi
 
-    local thumbnail="https://007revad.github.io/${REPO_DIR}/thumbnails/${thumb_key}_120.png"
+    local thumb_base="https://007revad.github.io/${REPO_DIR}/thumbnails/${thumb_key}"
+    local thumbnail_72="${thumb_base}_72.png"
+    local thumbnail_256="${thumb_base}_256.png"
 
     echo "DEBUG changelog_json='${changelog_json}'" >&2
 
@@ -855,7 +866,8 @@ make_entries() {
         --arg exclude_model        "${exclude_model}" \
         --arg firmware             "${firmware}" \
         --argjson os_max_ver       "${max_ver_json}" \
-        --arg thumbnail            "${thumbnail}" \
+        --arg thumbnail_72         "${thumbnail_72}" \
+        --arg thumbnail_256        "${thumbnail_256}" \
         --argjson beta             "${beta}" \
         --argjson size             "${size}" \
         --argjson download_count   "${download_count}" \
@@ -878,7 +890,7 @@ make_entries() {
             exclude_model:         (if $exclude_model == "" then null else $exclude_model end),
             firmware:              $firmware,
             os_max_ver:            $os_max_ver,
-            thumbnail:             [$thumbnail],
+            thumbnail:             [$thumbnail_72, $thumbnail_256],
             snapshot:              [],
             beta:                  $beta,
             size:                  $size,
