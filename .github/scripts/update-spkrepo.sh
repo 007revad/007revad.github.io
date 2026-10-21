@@ -249,9 +249,7 @@ maybe_update_thumbnail() {
       fi
     fi
 
-    # Create thumbnails if needed
-    dest="${REPO_DIR}/thumbnails/${thumb_key}_${size}.png"
-
+    # Copy 256px thumbnail, and overlay BETA, if needed
     # 256px: PACKAGE_ICON_256.PNG is used as-is (BETA gets the overlay)
     if [[ "${is_beta}" == "true" ]]; then
         run_convert "${tmp_icon}" \
@@ -268,6 +266,7 @@ maybe_update_thumbnail() {
     fi
     echo "INFO: Wrote ${dest256}" >&2
 
+    # Create 72px thumbnail, and overlay BETA, if needed
     # 72px: resize (BETA gets the overlay)
     if [[ "${is_beta}" == "true" ]]; then
         run_convert "${tmp_icon}" \
