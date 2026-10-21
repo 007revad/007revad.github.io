@@ -18,13 +18,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/OoklaSpeedtest_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/OoklaSpeedtest_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/OoklaSpeedtest_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 4110,
-      "recent_download_count": 4110,
+      "download_count": 4547,
+      "recent_download_count": 4547,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -45,13 +46,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/OoklaSpeedtest_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/OoklaSpeedtest_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/OoklaSpeedtest_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 4110,
-      "recent_download_count": 4110,
+      "download_count": 4547,
+      "recent_download_count": 4547,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -72,13 +74,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/OpenSpeedTest_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/OpenSpeedTest_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/OpenSpeedTest_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4878,
-      "recent_download_count": 4878,
+      "download_count": 5162,
+      "recent_download_count": 5162,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -99,13 +102,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": "7.1-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/OpenSpeedTest_DSM7_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/OpenSpeedTest_DSM7_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/OpenSpeedTest_DSM7_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4878,
-      "recent_download_count": 4878,
+      "download_count": 5162,
+      "recent_download_count": 5162,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -126,13 +130,14 @@
       "firmware": "7.2-64570",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/OpenSpeedTest_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/OpenSpeedTest_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/OpenSpeedTest_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 4878,
-      "recent_download_count": 4878,
+      "download_count": 5162,
+      "recent_download_count": 5162,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -153,13 +158,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/LibreSpeedTest_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/LibreSpeedTest_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/LibreSpeedTest_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2241,
-      "recent_download_count": 2241,
+      "download_count": 2477,
+      "recent_download_count": 2477,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -180,13 +186,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": "7.1-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/LibreSpeedTest_DSM7_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/LibreSpeedTest_DSM7_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/LibreSpeedTest_DSM7_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2241,
-      "recent_download_count": 2241,
+      "download_count": 2477,
+      "recent_download_count": 2477,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -207,13 +214,14 @@
       "firmware": "7.2-64570",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/LibreSpeedTest_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/LibreSpeedTest_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/LibreSpeedTest_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2241,
-      "recent_download_count": 2241,
+      "download_count": 2477,
+      "recent_download_count": 2477,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -234,13 +242,14 @@
       "firmware": "7.2-72806",
       "os_max_ver": "7.2-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/TranscodeDrivers_DSM7_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/TranscodeDrivers_DSM7_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/TranscodeDrivers_DSM7_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3240,
-      "recent_download_count": 3240,
+      "download_count": 3486,
+      "recent_download_count": 3486,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -261,13 +270,14 @@
       "firmware": "7.3-81180",
       "os_max_ver": "7.3-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/TranscodeDrivers_DSM7_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/TranscodeDrivers_DSM7_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/TranscodeDrivers_DSM7_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3240,
-      "recent_download_count": 3240,
+      "download_count": 3486,
+      "recent_download_count": 3486,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -288,13 +298,14 @@
       "firmware": "7.4-90075",
       "os_max_ver": "7.4-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/TranscodeDrivers_DSM7_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/TranscodeDrivers_DSM7_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/TranscodeDrivers_DSM7_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 3240,
-      "recent_download_count": 3240,
+      "download_count": 3486,
+      "recent_download_count": 3486,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -315,14 +326,498 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/dsm_notify_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/dsm_notify_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/dsm_notify_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 747,
-      "recent_download_count": 747,
+      "download_count": 818,
+      "recent_download_count": 818,
       "changelog": "1. Changed icon so it's more visible on a dark background."
+    },
+    {
+      "package": "drive_info",
+      "version": "2.4.67",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-noarch-v2.4.67-DSM-6.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "6.0-7321",
+      "os_max_ver": "6.9-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_DSM6_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 501760,
+      "download_count": 10558,
+      "recent_download_count": 10558,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' Drive Info settings.<br/> 3. Prevented unauthenticated users using api.cgi to view another NAS' schedules or discover other Synology NAS.<br/> 4. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 5. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 6. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
+    },
+    {
+      "package": "drive_info",
+      "version": "2.4.67",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-noarch-v2.4.67-DSM_Enterprise-1.x.spk",
+      "arch": "x86_64",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "1.0-101188",
+      "os_max_ver": "3.9-999999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 501760,
+      "download_count": 10558,
+      "recent_download_count": 10558,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' Drive Info settings.<br/> 3. Prevented unauthenticated users using api.cgi to view another NAS' schedules or discover other Synology NAS.<br/> 4. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 5. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 6. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
+    },
+    {
+      "package": "drive_info",
+      "version": "2.4.67",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-noarch-v2.4.67-SRM-1.3.x.spk",
+      "arch": "noarch",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "1.3-9193",
+      "os_max_ver": "2.9-99999",
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_SRM_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_SRM_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 2109440,
+      "download_count": 10558,
+      "recent_download_count": 10558,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' Drive Info settings.<br/> 3. Prevented unauthenticated users using api.cgi to view another NAS' schedules or discover other Synology NAS.<br/> 4. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 5. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 6. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
+    },
+    {
+      "package": "drive_info",
+      "version": "2.4.67",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-armv7-v2.4.67-DSM-7.x.spk",
+      "arch": "alpine alpine4k armada370 armada375 armada38x armadaxp monaco comcerto2k",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 440320,
+      "download_count": 10558,
+      "recent_download_count": 10558,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' Drive Info settings.<br/> 3. Prevented unauthenticated users using api.cgi to view another NAS' schedules or discover other Synology NAS.<br/> 4. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 5. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 6. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
+    },
+    {
+      "package": "drive_info",
+      "version": "2.4.67",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-armv8-v2.4.67-DSM-7.x.spk",
+      "arch": "armv8",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 460800,
+      "download_count": 10558,
+      "recent_download_count": 10558,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' Drive Info settings.<br/> 3. Prevented unauthenticated users using api.cgi to view another NAS' schedules or discover other Synology NAS.<br/> 4. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 5. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 6. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
+    },
+    {
+      "package": "drive_info",
+      "version": "2.4.67",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-i686-v2.4.67-DSM-7.x.spk",
+      "arch": "evansport",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 501760,
+      "download_count": 10558,
+      "recent_download_count": 10558,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' Drive Info settings.<br/> 3. Prevented unauthenticated users using api.cgi to view another NAS' schedules or discover other Synology NAS.<br/> 4. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 5. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 6. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
+    },
+    {
+      "package": "drive_info",
+      "version": "2.4.67",
+      "dname": "Drive Info",
+      "desc": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "maintainer": "007revad",
+      "maintainer_url": "https://github.com/007revad",
+      "distributor": "007revad",
+      "distributor_url": "https://github.com/007revad/Synology_drive_info",
+      "support_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "report_url": "https://github.com/007revad/Synology_drive_info/issues",
+      "link": "https://github.com/007revad/Synology_drive_info/releases/download/v2.4.67/Drive_Info-x86_64-v2.4.67-DSM-7.x.spk",
+      "arch": "x86_64",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/drive_info_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 501760,
+      "download_count": 10558,
+      "recent_download_count": 10558,
+      "dname_chs": "Drive Info",
+      "dname_cht": "Drive Info",
+      "dname_csy": "Drive Info",
+      "dname_dan": "Drive Info",
+      "dname_enu": "Drive Info",
+      "dname_fre": "Drive Info",
+      "dname_ger": "Drive Info",
+      "dname_hun": "Drive Info",
+      "dname_ita": "Drive Info",
+      "dname_jpn": "Drive Info",
+      "dname_krn": "Drive Info",
+      "dname_nld": "Drive Info",
+      "dname_nor": "Drive Info",
+      "dname_plk": "Drive Info",
+      "dname_ptb": "Drive Info",
+      "dname_ptg": "Drive Info",
+      "dname_rus": "Drive Info",
+      "dname_spn": "Drive Info",
+      "dname_sve": "Drive Info",
+      "dname_trk": "Drive Info",
+      "desc_chs": "显示您 Synology NAS 中所有硬盘的设备 ID、DSM 硬盘编号、位置、型号、序列号、健康状态和 S.M.A.R.T. 值。",
+      "desc_cht": "顯示您 Synology NAS 中所有硬碟的裝置 ID、DSM 硬碟編號、位置、型號、序號、健康狀態和 S.M.A.R.T. 值。",
+      "desc_csy": "Zobrazuje ID zařízení, číslo disku DSM, umístění, model, sériové číslo, stav a hodnoty S.M.A.R.T. všech disků ve vašem Synology NAS.",
+      "desc_dan": "Viser enheds-id, DSM-disknummer, placering, model, serienummer, helbred og S.M.A.R.T.-værdier for alle diske i din Synology NAS.",
+      "desc_enu": "Show drive device id, DSM drive number, location, model, serial number, health and S.M.A.R.T. values for all drives in your Synology NAS",
+      "desc_fre": "Affiche l'ID du périphérique, le numéro de disque DSM, l'emplacement, le modèle, le numéro de série, l'état de santé et les valeurs S.M.A.R.T. de tous les disques de votre NAS Synology.",
+      "desc_ger": "Zeigt Geräte-ID, DSM-Laufwerksnummer, Standort, Modell, Seriennummer, Zustand und S.M.A.R.T.-Werte aller Laufwerke in Ihrem Synology NAS an.",
+      "desc_hun": "Megjeleníti a Synology NAS összes meghajtójának eszközazonosítóját, DSM-meghajtószámát, helyét, modelljét, sorozatszámát, állapotát és S.M.A.R.T. értékeit.",
+      "desc_ita": "Mostra l'ID del dispositivo, il numero unità DSM, la posizione, il modello, il numero di serie, lo stato di salute e i valori S.M.A.R.T. di tutte le unità nel tuo NAS Synology.",
+      "desc_jpn": "Synology NAS 内のすべてのドライブのデバイス ID、DSM ドライブ番号、場所、モデル、シリアル番号、健全性および S.M.A.R.T. 値を表示します。",
+      "desc_krn": "Synology NAS의 모든 드라이브에 대한 장치 ID, DSM 드라이브 번호, 위치, 모델, 일련 번호, 상태 및 S.M.A.R.T. 값을 표시합니다.",
+      "desc_nld": "Toont het apparaat-ID, het DSM-schijfnummer, de locatie, het model, het serienummer, de gezondheid en de S.M.A.R.T.-waarden van alle schijven in uw Synology NAS.",
+      "desc_nor": "Viser enhets-ID, DSM-disknummer, plassering, modell, serienummer, helse og S.M.A.R.T.-verdier for alle diskene i din Synology NAS.",
+      "desc_plk": "Wyświetla identyfikator urządzenia, numer dysku DSM, lokalizację, model, numer seryjny, stan zdrowia i wartości S.M.A.R.T. wszystkich dysków w Twoim Synology NAS.",
+      "desc_ptb": "Mostra o ID do dispositivo, o número do drive DSM, a localização, o modelo, o número de série, a integridade e os valores S.M.A.R.T. de todos os drives no seu Synology NAS.",
+      "desc_ptg": "Mostra o ID do dispositivo, o número de unidade DSM, a localização, o modelo, o número de série, o estado de saúde e os valores S.M.A.R.T. de todas as unidades no seu Synology NAS.",
+      "desc_rus": "Отображает идентификатор устройства, номер диска DSM, расположение, модель, серийный номер, состояние и значения S.M.A.R.T. всех дисков в вашем Synology NAS.",
+      "desc_spn": "Muestra el ID del dispositivo, el número de unidad DSM, la ubicación, el modelo, el número de serie, el estado y los valores S.M.A.R.T. de todas las unidades de su NAS Synology.",
+      "desc_sve": "Visar enhets-ID, DSM-disknummer, plats, modell, serienummer, hälsa och S.M.A.R.T.-värden för alla diskar i din Synology NAS.",
+      "desc_tha": "แสดงรหัสอุปกรณ์, หมายเลขไดรฟ์ DSM, ตำแหน่ง, รุ่น, หมายเลขซีเรียล, สถานะความสมบูรณ์ และค่า S.M.A.R.T. สำหรับไดรฟ์ทั้งหมดใน Synology NAS ของคุณ",
+      "desc_trk": "Synology NAS'ınızdaki tüm sürücüler için cihaz kimliğini, DSM sürücü numarasını, konumunu, modelini, seri numarasını, sağlık durumunu ve S.M.A.R.T. değerlerini gösterir.",
+      "changelog": "1. Hardened security.<br/> 2. Prevented unauthenticated users using api.cgi to view another NAS' Drive Info settings.<br/> 3. Prevented unauthenticated users using api.cgi to view another NAS' schedules or discover other Synology NAS.<br/> 4. Made the DSM 7 and DSM Enterprise spk files 60% smaller.<br/> 5. Bug fix for 25 series with DSM 7.4.1 showing drives as \"Unknown (acceptable)\" instead of Healthy.<br/> 6. Bug fixes for Drive Info not working in DSM Enterprise (PAS7700)."
     },
     {
       "package": "AQC_Unlock",
@@ -342,18 +837,19 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/AQC_Unlock_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/AQC_Unlock_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AQC_Unlock_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1249280,
-      "download_count": 604,
-      "recent_download_count": 604,
+      "download_count": 684,
+      "recent_download_count": 684,
       "changelog": "1. Changed to no longer need the user to set sudoers permissions."
     },
     {
       "package": "SourceManager",
-      "version": "2.0.13",
+      "version": "2.0.14",
       "dname": "Package Source Manager",
       "desc": "Synology package that allows you disable and enable community package sources you have added to Package Center, and add known working package sources",
       "maintainer": "007revad",
@@ -362,25 +858,26 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.13/Source_Manager-noarch-v2.0.13-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.14/Source_Manager-noarch-v2.0.14-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 1831,
-      "recent_download_count": 1831,
-      "changelog": "1. Added https://rabitpos.com/synology/ as an addable package source.<br/> 2. Bug fix for not showing new sources manually added in Package Center in DSM 7.<br/> 3. Bug fix for v2.0.12 showing as v2.0.11 in package center."
+      "download_count": 2347,
+      "recent_download_count": 2347,
+      "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
       "package": "SourceManager",
-      "version": "2.0.13",
+      "version": "2.0.14",
       "dname": "Package Source Manager",
       "desc": "Synology package that allows you disable and enable community package sources you have added to Package Center, and add known working package sources",
       "maintainer": "007revad",
@@ -389,25 +886,26 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.13/Source_Manager-armv7-v2.0.13-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.14/Source_Manager-armv7-v2.0.14-DSM-7.x.spk",
       "arch": "armv7",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1831,
-      "recent_download_count": 1831,
-      "changelog": "1. Added https://rabitpos.com/synology/ as an addable package source.<br/> 2. Bug fix for not showing new sources manually added in Package Center in DSM 7.<br/> 3. Bug fix for v2.0.12 showing as v2.0.11 in package center."
+      "download_count": 2347,
+      "recent_download_count": 2347,
+      "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
       "package": "SourceManager",
-      "version": "2.0.13",
+      "version": "2.0.14",
       "dname": "Package Source Manager",
       "desc": "Synology package that allows you disable and enable community package sources you have added to Package Center, and add known working package sources",
       "maintainer": "007revad",
@@ -416,25 +914,26 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.13/Source_Manager-armv8-v2.0.13-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.14/Source_Manager-armv8-v2.0.14-DSM-7.x.spk",
       "arch": "armv8",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1167360,
-      "download_count": 1831,
-      "recent_download_count": 1831,
-      "changelog": "1. Added https://rabitpos.com/synology/ as an addable package source.<br/> 2. Bug fix for not showing new sources manually added in Package Center in DSM 7.<br/> 3. Bug fix for v2.0.12 showing as v2.0.11 in package center."
+      "download_count": 2347,
+      "recent_download_count": 2347,
+      "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
       "package": "SourceManager",
-      "version": "2.0.13",
+      "version": "2.0.14",
       "dname": "Package Source Manager",
       "desc": "Synology package that allows you disable and enable community package sources you have added to Package Center, and add known working package sources",
       "maintainer": "007revad",
@@ -443,25 +942,26 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.13/Source_Manager-i686-v2.0.13-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.14/Source_Manager-i686-v2.0.14-DSM-7.x.spk",
       "arch": "i686",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1187840,
-      "download_count": 1831,
-      "recent_download_count": 1831,
-      "changelog": "1. Added https://rabitpos.com/synology/ as an addable package source.<br/> 2. Bug fix for not showing new sources manually added in Package Center in DSM 7.<br/> 3. Bug fix for v2.0.12 showing as v2.0.11 in package center."
+      "download_count": 2347,
+      "recent_download_count": 2347,
+      "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
       "package": "SourceManager",
-      "version": "2.0.13",
+      "version": "2.0.14",
       "dname": "Package Source Manager",
       "desc": "Synology package that allows you disable and enable community package sources you have added to Package Center, and add known working package sources",
       "maintainer": "007revad",
@@ -470,21 +970,22 @@
       "distributor_url": "https://github.com/007revad/Syno_Package_Source_Manager",
       "support_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
       "report_url": "https://github.com/007revad/Syno_Package_Source_Manager/issues",
-      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.13/Source_Manager-x86_64-v2.0.13-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Package_Source_Manager/releases/download/v2.0.14/Source_Manager-x86_64-v2.0.14-DSM-7.x.spk",
       "arch": "x86_64",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SourceManager_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1218560,
-      "download_count": 1831,
-      "recent_download_count": 1831,
-      "changelog": "1. Added https://rabitpos.com/synology/ as an addable package source.<br/> 2. Bug fix for not showing new sources manually added in Package Center in DSM 7.<br/> 3. Bug fix for v2.0.12 showing as v2.0.11 in package center."
+      "download_count": 2347,
+      "recent_download_count": 2347,
+      "changelog": "1. Set minimum package window width and height.<br/> 2. Added https://nas.dante90.mmv.kr/ as an addable package source."
     },
     {
       "package": "CPUTemp",
@@ -504,13 +1005,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 1565,
-      "recent_download_count": 1565,
+      "download_count": 1791,
+      "recent_download_count": 1791,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -531,13 +1033,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 1565,
-      "recent_download_count": 1565,
+      "download_count": 1791,
+      "recent_download_count": 1791,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -558,13 +1061,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 1565,
-      "recent_download_count": 1565,
+      "download_count": 1791,
+      "recent_download_count": 1791,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -585,13 +1089,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 1565,
-      "recent_download_count": 1565,
+      "download_count": 1791,
+      "recent_download_count": 1791,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -612,13 +1117,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/CPUTemp_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 1565,
-      "recent_download_count": 1565,
+      "download_count": 1791,
+      "recent_download_count": 1791,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -639,13 +1145,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1090,
-      "recent_download_count": 1090,
+      "download_count": 1391,
+      "recent_download_count": 1391,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -666,13 +1173,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1090,
-      "recent_download_count": 1090,
+      "download_count": 1391,
+      "recent_download_count": 1391,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -693,13 +1201,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 1090,
-      "recent_download_count": 1090,
+      "download_count": 1391,
+      "recent_download_count": 1391,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -720,13 +1229,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 1090,
-      "recent_download_count": 1090,
+      "download_count": 1391,
+      "recent_download_count": 1391,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -747,13 +1257,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 1090,
-      "recent_download_count": 1090,
+      "download_count": 1391,
+      "recent_download_count": 1391,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -774,13 +1285,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 4700160,
-      "download_count": 1090,
-      "recent_download_count": 1090,
+      "download_count": 1391,
+      "recent_download_count": 1391,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -801,13 +1313,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1090,
-      "recent_download_count": 1090,
+      "download_count": 1391,
+      "recent_download_count": 1391,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -828,13 +1341,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synoiperf3_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1090,
-      "recent_download_count": 1090,
+      "download_count": 1391,
+      "recent_download_count": 1391,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -855,13 +1369,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1679360,
-      "download_count": 1001,
-      "recent_download_count": 1001,
+      "download_count": 1427,
+      "recent_download_count": 1427,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -882,13 +1397,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1689600,
-      "download_count": 1001,
-      "recent_download_count": 1001,
+      "download_count": 1427,
+      "recent_download_count": 1427,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -909,13 +1425,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1771520,
-      "download_count": 1001,
-      "recent_download_count": 1001,
+      "download_count": 1427,
+      "recent_download_count": 1427,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -936,13 +1453,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1781760,
-      "download_count": 1001,
-      "recent_download_count": 1001,
+      "download_count": 1427,
+      "recent_download_count": 1427,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -963,13 +1481,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1812480,
-      "download_count": 1001,
-      "recent_download_count": 1001,
+      "download_count": 1427,
+      "recent_download_count": 1427,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -990,13 +1509,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1822720,
-      "download_count": 1001,
-      "recent_download_count": 1001,
+      "download_count": 1427,
+      "recent_download_count": 1427,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1017,13 +1537,14 @@
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_DSM6_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1843200,
-      "download_count": 1001,
-      "recent_download_count": 1001,
+      "download_count": 1427,
+      "recent_download_count": 1427,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
@@ -1044,18 +1565,19 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Syno_Toolbox_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 1843200,
-      "download_count": 1001,
-      "recent_download_count": 1001,
+      "download_count": 1427,
+      "recent_download_count": 1427,
       "changelog": "1. Security bug fix against unauthorised cgi requests able to run modules as root."
     },
     {
       "package": "App_Mover",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1064,25 +1586,26 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.0/App_Mover-noarch-v1.0.0-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.3/App_Mover-noarch-v1.0.3-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "6.0-7321",
       "os_max_ver": "6.9-99999",
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_DSM6-beta_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_DSM6_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_DSM6_256.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1167360,
-      "download_count": 0,
-      "recent_download_count": 0,
-      "changelog": "1. First beta release."
+      "beta": false,
+      "size": 1228800,
+      "download_count": 494,
+      "recent_download_count": 494,
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
       "package": "App_Mover",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1091,25 +1614,26 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.0/App_Mover-armv7-v1.0.0-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.3/App_Mover-armv7-v1.0.3-DSM-7.x.spk",
       "arch": "alpine alpine4k armada370 armada375 armada38x armadaxp monaco comcerto2k",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover-beta_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_256.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1064960,
-      "download_count": 0,
-      "recent_download_count": 0,
-      "changelog": "1. First beta release."
+      "beta": false,
+      "size": 1116160,
+      "download_count": 494,
+      "recent_download_count": 494,
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
       "package": "App_Mover",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1118,25 +1642,26 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.0/App_Mover-armv8-v1.0.0-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.3/App_Mover-armv8-v1.0.3-DSM-7.x.spk",
       "arch": "armv8",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover-beta_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_256.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1126400,
-      "download_count": 0,
-      "recent_download_count": 0,
-      "changelog": "1. First beta release."
+      "beta": false,
+      "size": 1177600,
+      "download_count": 494,
+      "recent_download_count": 494,
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
       "package": "App_Mover",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1145,25 +1670,26 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.0/App_Mover-i686-v1.0.0-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.3/App_Mover-i686-v1.0.3-DSM-7.x.spk",
       "arch": "evansport",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover-beta_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_256.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1146880,
-      "download_count": 0,
-      "recent_download_count": 0,
-      "changelog": "1. First beta release."
+      "beta": false,
+      "size": 1198080,
+      "download_count": 494,
+      "recent_download_count": 494,
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
       "package": "App_Mover",
-      "version": "1.0.0",
+      "version": "1.0.3",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1172,21 +1698,22 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.0/App_Mover-x86_64-v1.0.0-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.3/App_Mover-x86_64-v1.0.3-DSM-7.x.spk",
       "arch": "x86_64",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover-beta_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/App_Mover_256.png"
       ],
       "snapshot": [],
-      "beta": true,
-      "size": 1177600,
-      "download_count": 0,
-      "recent_download_count": 0,
-      "changelog": "1. First beta release."
+      "beta": false,
+      "size": 1228800,
+      "download_count": 494,
+      "recent_download_count": 494,
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
       "package": "Synosmartinfo",
@@ -1206,13 +1733,14 @@
       "firmware": "7.0-40337",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/Synosmartinfo_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synosmartinfo_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/Synosmartinfo_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 10300,
-      "recent_download_count": 10300,
+      "download_count": 11810,
+      "recent_download_count": 11810,
       "changelog": ""
     },
     {
@@ -1233,19 +1761,20 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/AutoPilot_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/AutoPilot_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AutoPilot_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1303,
-      "recent_download_count": 1303,
+      "download_count": 1353,
+      "recent_download_count": 1353,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
       "desc_ger": "AutoPilot für externe Datenträger ermöglicht das Ausführen von Shell-Script Anweisungen, die nach dem Anschluss eines externen Datenträgers automatisch ausgeführt werden. Nach der Ausführung kann der externe Datenträger auf Wunsch wieder automatisch ausgeworfen werden.",
-      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/> 2. Update Bootstrap JavaScript auf 5.3.8<br/> 3. Update Bootstrap Icons auf 1.13.1<br/> 4. Update jQuery auf 4.0.0<br/> 5. Die Unterstützung für Basic Backup Skripte wurde eingestellt<br/> 6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
-      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/> 2. Update Bootstrap JavaScript to 5.3.8<br/> 3. Update Bootstrap Icons to 1.13.1<br/> 4. Update jQuery to 4.0.0<br/> 5. Support for Basic Backup scripts has been discontinued<br/> 6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
+      "changelog_ger": "1. Update Bootstrap Framework auf 5.3.8<br/> 2. Update Bootstrap JavaScript auf 5.3.8<br/> 3. Update Bootsrap Icons auf 1.13.1<br/> 4. Update jQuery auf 4.0.0<br/> 5. Die Unterstützung für Basic Backup Skripte wurde eingestellt<br/> 6. Die Spracheinstellungen wurden angepasst. Wenn die Anzeigesprache Deutsch ist, wird Deutsch ausgewählt. Bei jeder anderen Sprache wird Englisch ausgewählt.",
+      "changelog": "1. Update Bootstrap Framework to 5.3.8<br/> 2. Update Bootstrap JavaScript to 5.3.8<br/> 3. Update Bootsrap Icons to 1.13.1<br/> 4. Update jQuery to 4.0.0<br/> 5. Support for Basic Backup scripts has been discontinued<br/> 6. The language settings have been adjusted. If the display language is German, German will be selected. For any other language, English will be selected."
     },
     {
       "package": "LogAnalysis",
@@ -1265,13 +1794,14 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/LogAnalysis_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/LogAnalysis_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/LogAnalysis_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2284,
-      "recent_download_count": 2284,
+      "download_count": 2340,
+      "recent_download_count": 2340,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -1297,13 +1827,14 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/autorun_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/autorun_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/autorun_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 788,
-      "recent_download_count": 788,
+      "download_count": 826,
+      "recent_download_count": 826,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1342,7 +1873,7 @@
     },
     {
       "package": "synOCR",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "dname": "synOCR",
       "desc": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
       "maintainer": "geimist",
@@ -1351,20 +1882,21 @@
       "distributor_url": "https://github.com/geimist/synOCR/releases",
       "support_url": "",
       "report_url": "",
-      "link": "https://github.com/geimist/synOCR/releases/download/v2.0.0/synOCR_v2.0.0.spk",
+      "link": "https://github.com/geimist/synOCR/releases/download/v2.0.1/synOCR_v2.0.1.spk",
       "arch": "x86_64 armv8",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/synOCR_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/synOCR_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/synOCR_256.png"
       ],
       "snapshot": [],
       "beta": false,
-      "size": 2651136,
-      "download_count": 5437,
-      "recent_download_count": 5437,
+      "size": 2645504,
+      "download_count": 6237,
+      "recent_download_count": 6237,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1386,11 +1918,60 @@
       "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
       "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
       "desc_enu": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
-      "changelog": "known issues / limitations:<br/> -  The check whether a selected folder (OUTPUT, BACKUP) is encrypted and possibly not mounted<br/> does not work when running the program without root privileges (due to the known rights restrictions)<br/> 2.0.0 [2026-09-25]<br/> 💡 With this version, all features can now be configured via the GUIe (a YAML configuration is no longer required).<br/> IMPLEMENTATIONS:<br/> - [GUI]    🔥 Visual rule editor implemented<br/> Existing YAML rules can be imported into an empty rule set for quick further editing<br/> - [YAML]   🔥 Rules can now be related to each other<br/> - [GUI]    🔥 Simple RegEx editor for a few basic expressions<br/> - [GUI]    Live preview for RegEx against a PDF of your choice<br/> - [GUI]    Tooltips try to explain advanced RegEx to the user<br/> - [YAML]   MultiLine Regex now also possible for the target path<br/> IMPROVEMENT:<br/> - [GUI]    Statistics on the overview page are updated live<br/> - [GUI]    Processing history on the overview page (last 100 jobs, live updated, with profile and target files)<br/> ➜ Target paths can be opened directly in File Station with a click<br/> ➜ Job duration as a tooltip on the timestamp<br/> - [GUI]    The left navigation bar can now be minimized to icon size<br/> - [GUI]    Positive confirmation dialogs show a countdown bar above the footer (auto-close)<br/> - [shell]  🔥 International date formats: synOCR now recognizes dates in various country formats more reliably.<br/> ➜ The OCR language set in the profile is automatically used as a hint to correctly resolve ambiguous notations (e.g. 02.07.2026 vs. 07/02/2026).<br/> More robust detection of OCR errors: Typical reading errors for digits (O<>0, l<>1, A<>4, …) and separators (\".<>,\", \"-<>–\") are corrected automatically<br/> - [shell]  The virtual Python environment is now migrated on update and no longer has to be recreated every time.<br/> - [shell]  Python modules pinned (Py≥3.8): e.g. numpy 1.24.4, pikepdf 9.2.1, pymupdf 1.24.11, Pillow 10.4.0, dateparser 1.2.2; pypdf removed<br/> - [shell]  x86_64: newest suitable python3.x (≥3.8) analogous to aarch64 (≥3.9)<br/> - [shell]  §tagname_RegEx / §dirname_RegEx: if a RegEx is defined but has no match, the placeholder is replaced (tag: empty, folder: -) instead of ending up literally in the path/tag<br/> - [shell]  Postscripts are no longer processed internally as aliases, which previously required additional naming conventions<br/> - [spk]    removed unnecessary parameters from conf/privilege (@DaveR)<br/> - [spk]    removed the unnecessary help icon from the title bar (@DaveR)<br/> - [spk]    tooltip for unused rules to set in profile<br/> BUGFIX:<br/> - [shell]  cap Python interpreter selection at 3.12 (aligned with pin wheels);<br/> skip newer 3rd-party Pythons (e.g. Immich 3.14 in /usr/local/bin)<br/> - [GUI]    No message regarding a missing repository was displayed in the<br/> Package Center if no community package source had been created yet.<br/> - [shell]  hard links were not created correctly<br/> - [shell]  prepare_python failed on Python 3.12 (numpy==1.24.4 has no cp312 wheels); fixed #90"
+      "changelog": "known issues / limitations:<br/> -  The check whether a selected folder (OUTPUT, BACKUP) is encrypted and possibly not mounted<br/> does not work when running the program without root privileges (due to the known rights restrictions)<br/> 2.0.1 [2026-10-15]<br/> BUGFIX:<br/> ● [spk]    new installations may have failed<br/> ● [GUI]    history-viewer: a bug that prevented FileStation from opening properly has been fixed.<br/> ● [shell]  minor bugfixes"
+    },
+    {
+      "package": "synOCR",
+      "version": "2.0.99.1",
+      "dname": "synOCR beta",
+      "desc": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
+      "maintainer": "geimist",
+      "maintainer_url": "https://github.com/geimist/synOCR",
+      "distributor": "geimist",
+      "distributor_url": "https://github.com/geimist/synOCR/releases",
+      "support_url": "",
+      "report_url": "",
+      "link": "https://github.com/geimist/synOCR/releases/download/v2.0.99.1-beta/synOCR_v2.0.99.1.spk",
+      "arch": "x86_64 armv8",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/synOCR-beta_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/synOCR-beta_256.png"
+      ],
+      "snapshot": [],
+      "beta": true,
+      "size": 2690560,
+      "download_count": 6237,
+      "recent_download_count": 6237,
+      "dname_enu": "synOCR beta",
+      "dname_ger": "synOCR beta",
+      "desc_ptb": "synOCR é um simples GUI para o container Docker OCRmyPDF. Com ele, você pode facilmente aplicar OCR a documentos PDF. synOCR pode então procurar por etiquetas e datas nos documentos, renomeá-los de acordo com um padrão individual e classificá-los em subpastas de acordo com as categorias. Ao utilizar links rígidos, não há aumento da necessidade de espaço de armazenamento se um documento tiver que ser classificado em várias pastas de categoria.",
+      "desc_ptg": "synOCR é um simples GUI para o contentor Docker OCRmyPDF. Com ele, pode facilmente aplicar OCR a documentos PDF. synOCR pode então procurar etiquetas e datas nos documentos, renomeá-los de acordo com um padrão individual e classificá-los em subpastas de acordo com as categorias. Ao utilizar ligações rígidas, não há aumento da necessidade de espaço de armazenamento se um documento tiver de ser classificado em várias pastas de categoria.",
+      "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
+      "desc_hun": "A synOCR egy egyszerű GUI az OCRmyPDF Docker konténerhez. Segítségével könnyedén alkalmazhat OCR-t PDF dokumentumokra. A synOCR ezután képes címkéket és dátumokat keresni a dokumentumokban, egyedi minta szerint átnevezni és kategóriák szerint almappákba rendezni őket. A kemény hivatkozások használatával nem növekszik a tárhelyigény, ha egy dokumentumot több kategóriás mappába kell rendezni.",
+      "desc_sve": "synOCR är ett enkelt gränssnitt för Docker-behållaren OCRmyPDF. Med den kan du enkelt tillämpa OCR på PDF-dokument. synOCR kan sedan söka efter taggar och datum i dokumenten, byta namn på dem enligt ett individuellt mönster och sortera dem i undermappar enligt kategorier. Genom att använda hårda länkar ökar inte behovet av lagringsutrymme om ett dokument måste sorteras i flera kategorimappar.",
+      "desc_spn": "synOCR es una sencilla interfaz gráfica de usuario para el contenedor Docker OCRmyPDF. Con él, puede aplicar fácilmente el OCR a los documentos PDF. synOCR puede entonces buscar etiquetas y fechas en los documentos, renombrarlos según un patrón individual y ordenarlos en subcarpetas según las categorías. Al utilizar enlaces duros, no se necesita más espacio de almacenamiento si un documento tiene que ser clasificado en varias carpetas de categorías.",
+      "desc_rus": "synOCR - это простой графический интерфейс для Docker-контейнера OCRmyPDF. С его помощью вы можете легко применять OCR к PDF-документам. synOCR может искать в документах теги и даты, переименовывать их по индивидуальному шаблону и сортировать по категориям в подпапках. Использование жестких ссылок позволяет не увеличивать объем памяти, если документ необходимо рассортировать по нескольким папкам категорий.",
+      "desc_plk": "synOCR to proste GUI dla kontenera Docker OCRmyPDF. Program synOCR może wyszukiwać znaczniki i daty w dokumentach, zmieniać ich nazwy według indywidualnego wzorca oraz sortować je w podfolderach według kategorii. Dzięki zastosowaniu twardych łączy nie zwiększa się zapotrzebowanie na miejsce w pamięci, jeśli dokument musi być posortowany w kilku folderach kategorii.",
+      "desc_nor": "synOCR er et enkelt grensesnitt for Docker-containeren OCRmyPDF. Med den kan du enkelt bruke OCR på PDF-dokumenter. synOCR kan deretter søke etter tagger og datoer i dokumentene, gi dem nytt navn etter et individuelt mønster og sortere dem i undermapper etter kategorier. Ved å bruke harde lenker er det ikke behov for økt lagringsplass hvis et dokument må sorteres i flere kategorimapper.",
+      "desc_nld": "synOCR is een eenvoudige GUI voor de Docker container OCRmyPDF. Hiermee kunt u eenvoudig OCR toepassen op PDF-documenten. synOCR kan vervolgens zoeken naar tags en data in de documenten, ze hernoemen volgens een individueel patroon en ze sorteren in submappen volgens categorieën. Door het gebruik van harde koppelingen is er geen grotere opslagruimte nodig als een document in verschillende categoriemappen moet worden gesorteerd.",
+      "desc_ita": "synOCR è una semplice interfaccia grafica per il contenitore Docker OCRmyPDF. Con esso è possibile applicare facilmente l'OCR ai documenti PDF. synOCR può quindi cercare tag e date nei documenti, rinominarli secondo uno schema individuale e ordinarli in sottocartelle in base alle categorie. Grazie all'utilizzo di collegamenti rigidi, non è necessario aumentare lo spazio di archiviazione se un documento deve essere ordinato in diverse cartelle di categoria.",
+      "desc_fre": "synOCR est une interface graphique simple pour le conteneur Docker OCRmyPDF. Il te permet d'appliquer facilement l'OCR aux documents PDF. synOCR peut ensuite rechercher les balises et les dates dans les documents, les renommer selon un modèle individuel et les classer par catégories dans des sous-dossiers. En utilisant des liens en dur, il n'y a pas d'augmentation de l'espace de stockage lorsqu'un document doit être classé dans plusieurs dossiers de catégories",
+      "desc_dan": "synOCR er en simpel GUI for Docker-containeren OCRmyPDF. Med den kan du nemt anvende OCR til PDF-dokumenter. synOCR kan derefter søge efter tags og datoer i dokumenterne, omdøbe dem efter et individuelt mønster og sortere dem i undermapper efter kategorier. Ved at bruge hardlinks er der ikke behov for øget lagerplads, hvis et dokument skal sorteres i flere kategorimapper.",
+      "desc_krn": "synOCR은 Docker 컨테이너 OCRmyPDF를 위한 간단한 GUI입니다. synOCR은 문서에서 태그와 날짜를 검색하고, 개별 패턴에 따라 이름을 바꾸고, 카테고리에 따라 하위 폴더로 정렬할 수 있습니다. 하드 링크를 사용하면 문서를 여러 카테고리 폴더로 분류해야 하는 경우 저장 공간 요구량이 증가하지 않습니다.",
+      "desc_jpn": "synOCRは、DockerコンテナOCRmyPDFのためのシンプルなGUIです。それを使って、簡単にPDF文書にOCRを適用することができます。そして、synOCRは、文書内のタグや日付を検索し、個々のパターンに従ってそれらをリネームし、カテゴリに従ってサブフォルダにそれらを並べ替えることができます。ハードリンクを使用することで、1つの文書を複数のカテゴリーフォルダーに分類する場合でも、ストレージの容量を増やす必要はありません。",
+      "desc_csy": "synOCR je jednoduché grafické rozhraní pro kontejner Docker OCRmyPDF. Pomocí něj můžete snadno aplikovat OCR na dokumenty PDF. synOCR pak dokáže v dokumentech vyhledávat značky a data, přejmenovávat je podle individuálního vzoru a třídit je do podsložek podle kategorií. Při použití pevných odkazů se nezvyšují nároky na úložný prostor, pokud je třeba dokument roztřídit do několika složek kategorií.",
+      "desc_chs": "synOCR是Docker容器OCRmyPDF的一个简单GUI。有了它，你可以轻松地将OCR应用于PDF文档。然后，synOCR可以搜索文档中的标签和日期，根据个别模式重命名，并根据类别将它们分类到子文件夹中。通过使用硬链接，如果一份文件需要被分类到几个类别的文件夹中，就不会增加存储空间的要求。",
+      "desc_enu": "synOCR is a simple GUI for the Dockercontainer OCRmyPDF. This allows you to easily apply OCR to PDF documents. synOCR can then search for tags and dates in the documents, rename them according to an individual pattern and sort them by categories in subfolders. Using hard links does not increase the amount of storage space required if a document has to be sorted into several category folders.",
+      "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
+      "changelog": "full changelog: https://raw.githubusercontent.com/geimist/synOCR/refs/heads/master/PKG_DSM7/CHANGELOG_BETA<br/> 2.0.99.1 [2026-10-17]<br/> IMPLEMENTATIONS:<br/> ● [shell]  inotify start waits for encrypted source folders<br/> ● [shell]  OUTPUT/BACKUP: detect encrypted shares that are not mounted (enc-enum) and abort with a clear log line<br/> ● [spk]    permissions are set via a setuid helper after — no manual root start of synOCR-start.sh is required<br/> ● [shell]  inotify debug log and package system logs are written to target/log (profile LOGDIR unchanged)<br/> ● [gui]    help page: download support data (package logs, configuration, DSM package log, /tmp/synOCR.history when present)"
     },
     {
       "package": "DiskShell",
-      "version": "1.2.0-1",
+      "version": "1.3.0-1",
       "dname": "DiskShell",
       "desc": "Open a secure terminal for DSM administrators from the DSM desktop.",
       "maintainer": "dei79",
@@ -1399,20 +1980,21 @@
       "distributor_url": "https://github.com/dei79/disk-shell",
       "support_url": "https://github.com/dei79/disk-shell/issues",
       "report_url": "https://github.com/dei79/disk-shell/issues",
-      "link": "https://github.com/dei79/disk-shell/releases/download/v1.2.0/DiskShell-1.2.0-1.spk",
+      "link": "https://github.com/dei79/disk-shell/releases/download/v1.3.0/DiskShell-1.3.0-1.spk",
       "arch": "x86_64",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.2-72806",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/DiskShell_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/DiskShell_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/DiskShell_256.png"
       ],
       "snapshot": [],
       "beta": false,
-      "size": 2908160,
-      "download_count": 305,
-      "recent_download_count": 305,
+      "size": 2928640,
+      "download_count": 501,
+      "recent_download_count": 501,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -1434,230 +2016,407 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/dsvideo_passthrough_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/dsvideo_passthrough_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/dsvideo_passthrough_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 3430400,
-      "download_count": 45,
-      "recent_download_count": 45,
+      "download_count": 106,
+      "recent_download_count": 106,
       "changelog": ""
     },
     {
       "package": "AirConnect",
-      "version": "1.12.4-20260928",
+      "version": "1.12.4-20261017",
       "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices. Also works on Synology Routers (SRM).",
+      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices.",
       "maintainer": "philippe44",
       "maintainer_url": "https://github.com/philippe44/AirConnect",
       "distributor": "eizedev",
       "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
       "support_url": "https://eizedev.github.io/AirConnect-Synology/",
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20260928/AirConnect-dsm7-aarch64-1.12.4-20260928.spk",
-      "arch": "rtd1296 rtd1619b armada37xx cypress",
+      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20261017/AirConnect-dsm7-aarch64-1.12.4-20261017.spk",
+      "arch": "rtd1296 rtd1619b armada37xx",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 27813,
-      "recent_download_count": 27813,
-      "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
+      "download_count": 28253,
+      "recent_download_count": 28253,
+      "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
       "package": "AirConnect",
-      "version": "1.12.4-20260928",
+      "version": "1.12.4-20261017",
       "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices. Also works on Synology Routers (SRM).",
+      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices.",
       "maintainer": "philippe44",
       "maintainer_url": "https://github.com/philippe44/AirConnect",
       "distributor": "eizedev",
       "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
       "support_url": "https://eizedev.github.io/AirConnect-Synology/",
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20260928/AirConnect-dsm7-arm-1.12.4-20260928.spk",
-      "arch": "ipq806x armada370 armadaxp armada375 armada38x alpine alpine4k monaco comcerto2k hi3535 dakota northstarplus hawkeye",
+      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20261017/AirConnect-dsm7-arm-1.12.4-20261017.spk",
+      "arch": "armada370 armadaxp armada375 armada38x alpine alpine4k monaco comcerto2k hi3535",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 27813,
-      "recent_download_count": 27813,
-      "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
+      "download_count": 28253,
+      "recent_download_count": 28253,
+      "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
       "package": "AirConnect",
-      "version": "1.12.4-20260928",
+      "version": "1.12.4-20261017",
       "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices. Also works on Synology Routers (SRM).",
+      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices.",
       "maintainer": "philippe44",
       "maintainer_url": "https://github.com/philippe44/AirConnect",
       "distributor": "eizedev",
       "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
       "support_url": "https://eizedev.github.io/AirConnect-Synology/",
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20260928/AirConnect-dsm7-armv5-1.12.4-20260928.spk",
+      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20261017/AirConnect-dsm7-armv5-1.12.4-20261017.spk",
       "arch": "88f6282 88f6281 88f628x",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 788480,
-      "download_count": 27813,
-      "recent_download_count": 27813,
-      "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
+      "download_count": 28253,
+      "recent_download_count": 28253,
+      "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
       "package": "AirConnect",
-      "version": "1.12.4-20260928",
+      "version": "1.12.4-20261017",
       "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices. Also works on Synology Routers (SRM).",
+      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices.",
       "maintainer": "philippe44",
       "maintainer_url": "https://github.com/philippe44/AirConnect",
       "distributor": "eizedev",
       "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
       "support_url": "https://eizedev.github.io/AirConnect-Synology/",
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20260928/AirConnect-dsm7-powerpc-1.12.4-20260928.spk",
+      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20261017/AirConnect-dsm7-powerpc-1.12.4-20261017.spk",
       "arch": "qoriq ppc853x",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 931840,
-      "download_count": 27813,
-      "recent_download_count": 27813,
-      "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
+      "download_count": 28253,
+      "recent_download_count": 28253,
+      "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
       "package": "AirConnect",
-      "version": "1.12.4-20260928",
+      "version": "1.12.4-20261017",
       "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices. Also works on Synology Routers (SRM).",
+      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices.",
       "maintainer": "philippe44",
       "maintainer_url": "https://github.com/philippe44/AirConnect",
       "distributor": "eizedev",
       "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
       "support_url": "https://eizedev.github.io/AirConnect-Synology/",
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20260928/AirConnect-dsm7-x86-1.12.4-20260928.spk",
+      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20261017/AirConnect-dsm7-x86-1.12.4-20261017.spk",
       "arch": "x86 cedarview bromolow evansport braswell broadwell dockerx64 kvmx64 denverton grantley broadwellnk broadwellntbap",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 921600,
-      "download_count": 27813,
-      "recent_download_count": 27813,
-      "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
+      "download_count": 28253,
+      "recent_download_count": 28253,
+      "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
       "package": "AirConnect",
-      "version": "1.12.4-20260928",
+      "version": "1.12.4-20261017",
       "dname": "AirConnect",
-      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices. Also works on Synology Routers (SRM).",
+      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices.",
       "maintainer": "philippe44",
       "maintainer_url": "https://github.com/philippe44/AirConnect",
       "distributor": "eizedev",
       "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
       "support_url": "https://eizedev.github.io/AirConnect-Synology/",
       "report_url": "https://eizedev.github.io/AirConnect-Synology/",
-      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20260928/AirConnect-dsm7-x86_64-1.12.4-20260928.spk",
+      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20261017/AirConnect-dsm7-x86_64-1.12.4-20261017.spk",
       "arch": "x86_64 x64 cedarview bromolow avoton braswell broadwell apollolake dockerx64 epyc7002 r1000 r1000nk kvmx64 denverton grantley broadwellnk broadwellnkv2 broadwellntbap v1000 v1000nk geminilake geminilakenk purley",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 952320,
-      "download_count": 27813,
-      "recent_download_count": 27813,
-      "changelog": "AirConnect-Synology packaging:<br/> 1. Fixed: 'What's New' lists this release's changes.<br/> 2. Fixed: An update stops when it cannot save or restore your settings, instead of reporting success without them.<br/> 3. Fixed: Package Center shows AirConnect as running whenever it runs, and Stop always works.<br/> 4. Fixed: Run after a crash of one of the two services no longer starts the other one twice.<br/> 5. Fixed: The running check no longer counts other processes whose command line merely contains airupnp or aircast, for example someone viewing a log file of that name.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
+      "download_count": 28253,
+      "recent_download_count": 28253,
+      "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
-      "package": "netbird",
-      "version": "0.80.0",
-      "dname": "NetBird",
-      "desc": "NetBird is an Open Source Zero Trust Networking platform that allows you to create secure private networks for your organization or home. We designed NetBird to be simple and fast, requiring near-zero configuration effort and leaving behind the hassle of opening ports, complex firewall rules, VPN gateways, etc.",
-      "maintainer": "NetBird",
-      "maintainer_url": "https://github.com/netbirdio/netbird",
-      "distributor": "",
-      "distributor_url": "",
-      "support_url": "",
-      "report_url": "",
-      "link": "https://github.com/TechHutTV/netbird-dsm/releases/download/v0.80.0/netbird_0.80.0_synology_amd64.spk",
-      "arch": "apollolake avoton braswell broadwell broadwellnk broadwellnkv2 broadwellntbap bromolow cedarview coffeelake denverton epyc7002 geminilake geminilakenk grantley icelaked kvmx64 purley r1000 r1000nk skylaked v1000 v1000nk",
+      "package": "AirConnect",
+      "version": "1.12.4-20261017",
+      "dname": "AirConnect",
+      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices.",
+      "maintainer": "philippe44",
+      "maintainer_url": "https://github.com/philippe44/AirConnect",
+      "distributor": "eizedev",
+      "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
+      "support_url": "https://eizedev.github.io/AirConnect-Synology/",
+      "report_url": "https://eizedev.github.io/AirConnect-Synology/",
+      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20261017/AirConnect-srm-aarch64-1.12.4-20261017.spk",
+      "arch": "cypress",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "1.3-9193",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_SRM_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_SRM_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 880640,
+      "download_count": 28253,
+      "recent_download_count": 28253,
+      "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
+    },
+    {
+      "package": "AirConnect",
+      "version": "1.12.4-20261017",
+      "dname": "AirConnect",
+      "desc": "Use AirPlay to stream to UPnP/Sonos & Chromecast devices.",
+      "maintainer": "philippe44",
+      "maintainer_url": "https://github.com/philippe44/AirConnect",
+      "distributor": "eizedev",
+      "distributor_url": "https://github.com/eizedev/AirConnect-Synology",
+      "support_url": "https://eizedev.github.io/AirConnect-Synology/",
+      "report_url": "https://eizedev.github.io/AirConnect-Synology/",
+      "link": "https://github.com/eizedev/AirConnect-Synology/releases/download/1.12.4-20261017/AirConnect-srm-arm-1.12.4-20261017.spk",
+      "arch": "ipq806x dakota northstarplus hawkeye",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "1.3-9193",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_SRM_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/AirConnect_SRM_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 727040,
+      "download_count": 28253,
+      "recent_download_count": 28253,
+      "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
+    },
+    {
+      "package": "SpotConnect",
+      "version": "0.20.11-20261017",
+      "dname": "SpotConnect",
+      "desc": "Turn UPnP/Sonos and AirPlay speakers into real Spotify Connect devices. Your NAS holds the stream, so the music keeps playing after your phone leaves - and Android, Windows and Linux can control it too.",
+      "maintainer": "philippe44",
+      "maintainer_url": "https://github.com/philippe44/SpotConnect",
+      "distributor": "eizedev",
+      "distributor_url": "https://github.com/eizedev/SpotConnect-Synology",
+      "support_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "report_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "link": "https://github.com/eizedev/SpotConnect-Synology/releases/download/0.20.11-20261017/SpotConnect-dsm7-aarch64-0.20.11-20261017.spk",
+      "arch": "rtd1296 rtd1619b armada37xx cypress",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/netbird_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_256.png"
       ],
       "snapshot": [],
       "beta": false,
-      "size": 15636480,
-      "download_count": 342,
-      "recent_download_count": 342,
-      "changelog": ""
+      "size": 3225600,
+      "download_count": 46,
+      "recent_download_count": 46,
+      "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
-      "package": "netbird",
-      "version": "0.80.0",
-      "dname": "NetBird",
-      "desc": "NetBird is an Open Source Zero Trust Networking platform that allows you to create secure private networks for your organization or home. We designed NetBird to be simple and fast, requiring near-zero configuration effort and leaving behind the hassle of opening ports, complex firewall rules, VPN gateways, etc.",
-      "maintainer": "NetBird",
-      "maintainer_url": "https://github.com/netbirdio/netbird",
-      "distributor": "",
-      "distributor_url": "",
-      "support_url": "",
-      "report_url": "",
-      "link": "https://github.com/TechHutTV/netbird-dsm/releases/download/v0.80.0/netbird_0.80.0_synology_arm64.spk",
-      "arch": "armada37xx rtd1296 rtd1619 rtd1619b",
+      "package": "SpotConnect",
+      "version": "0.20.11-20261017",
+      "dname": "SpotConnect",
+      "desc": "Turn UPnP/Sonos and AirPlay speakers into real Spotify Connect devices. Your NAS holds the stream, so the music keeps playing after your phone leaves - and Android, Windows and Linux can control it too.",
+      "maintainer": "philippe44",
+      "maintainer_url": "https://github.com/philippe44/SpotConnect",
+      "distributor": "eizedev",
+      "distributor_url": "https://github.com/eizedev/SpotConnect-Synology",
+      "support_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "report_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "link": "https://github.com/eizedev/SpotConnect-Synology/releases/download/0.20.11-20261017/SpotConnect-dsm7-arm-0.20.11-20261017.spk",
+      "arch": "ipq806x armada370 armadaxp armada375 armada38x alpine alpine4k monaco comcerto2k hi3535 dakota northstarplus hawkeye",
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/netbird_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_256.png"
       ],
       "snapshot": [],
       "beta": false,
-      "size": 14172160,
-      "download_count": 342,
-      "recent_download_count": 342,
-      "changelog": ""
+      "size": 2375680,
+      "download_count": 46,
+      "recent_download_count": 46,
+      "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
+    },
+    {
+      "package": "SpotConnect",
+      "version": "0.20.11-20261017",
+      "dname": "SpotConnect",
+      "desc": "Turn UPnP/Sonos and AirPlay speakers into real Spotify Connect devices. Your NAS holds the stream, so the music keeps playing after your phone leaves - and Android, Windows and Linux can control it too.",
+      "maintainer": "philippe44",
+      "maintainer_url": "https://github.com/philippe44/SpotConnect",
+      "distributor": "eizedev",
+      "distributor_url": "https://github.com/eizedev/SpotConnect-Synology",
+      "support_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "report_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "link": "https://github.com/eizedev/SpotConnect-Synology/releases/download/0.20.11-20261017/SpotConnect-dsm7-armv5-0.20.11-20261017.spk",
+      "arch": "88f6282 88f6281 88f628x",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 2498560,
+      "download_count": 46,
+      "recent_download_count": 46,
+      "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
+    },
+    {
+      "package": "SpotConnect",
+      "version": "0.20.11-20261017",
+      "dname": "SpotConnect",
+      "desc": "Turn UPnP/Sonos and AirPlay speakers into real Spotify Connect devices. Your NAS holds the stream, so the music keeps playing after your phone leaves - and Android, Windows and Linux can control it too.",
+      "maintainer": "philippe44",
+      "maintainer_url": "https://github.com/philippe44/SpotConnect",
+      "distributor": "eizedev",
+      "distributor_url": "https://github.com/eizedev/SpotConnect-Synology",
+      "support_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "report_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "link": "https://github.com/eizedev/SpotConnect-Synology/releases/download/0.20.11-20261017/SpotConnect-dsm7-powerpc-0.20.11-20261017.spk",
+      "arch": "qoriq ppc853x",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 2918400,
+      "download_count": 46,
+      "recent_download_count": 46,
+      "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
+    },
+    {
+      "package": "SpotConnect",
+      "version": "0.20.11-20261017",
+      "dname": "SpotConnect",
+      "desc": "Turn UPnP/Sonos and AirPlay speakers into real Spotify Connect devices. Your NAS holds the stream, so the music keeps playing after your phone leaves - and Android, Windows and Linux can control it too.",
+      "maintainer": "philippe44",
+      "maintainer_url": "https://github.com/philippe44/SpotConnect",
+      "distributor": "eizedev",
+      "distributor_url": "https://github.com/eizedev/SpotConnect-Synology",
+      "support_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "report_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "link": "https://github.com/eizedev/SpotConnect-Synology/releases/download/0.20.11-20261017/SpotConnect-dsm7-x86-0.20.11-20261017.spk",
+      "arch": "x86 cedarview bromolow evansport braswell broadwell dockerx64 kvmx64 denverton grantley broadwellnk broadwellntbap",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 3338240,
+      "download_count": 46,
+      "recent_download_count": 46,
+      "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
+    },
+    {
+      "package": "SpotConnect",
+      "version": "0.20.11-20261017",
+      "dname": "SpotConnect",
+      "desc": "Turn UPnP/Sonos and AirPlay speakers into real Spotify Connect devices. Your NAS holds the stream, so the music keeps playing after your phone leaves - and Android, Windows and Linux can control it too.",
+      "maintainer": "philippe44",
+      "maintainer_url": "https://github.com/philippe44/SpotConnect",
+      "distributor": "eizedev",
+      "distributor_url": "https://github.com/eizedev/SpotConnect-Synology",
+      "support_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "report_url": "https://github.com/eizedev/SpotConnect-Synology/issues",
+      "link": "https://github.com/eizedev/SpotConnect-Synology/releases/download/0.20.11-20261017/SpotConnect-dsm7-x86_64-0.20.11-20261017.spk",
+      "arch": "x86_64 x64 cedarview bromolow avoton braswell broadwell apollolake dockerx64 epyc7002 r1000 r1000nk kvmx64 denverton grantley broadwellnk broadwellnkv2 broadwellntbap v1000 v1000nk geminilake geminilakenk purley",
+      "exclude_arch": null,
+      "exclude_model": null,
+      "firmware": "7.0-40000",
+      "os_max_ver": null,
+      "thumbnail": [
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/SpotConnect_256.png"
+      ],
+      "snapshot": [],
+      "beta": false,
+      "size": 3409920,
+      "download_count": 46,
+      "recent_download_count": 46,
+      "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
       "package": "homebridge",
@@ -1677,13 +2436,14 @@
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323291,
-      "recent_download_count": 323291,
+      "download_count": 324149,
+      "recent_download_count": 324149,
       "changelog": ""
     },
     {
@@ -1704,13 +2464,14 @@
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323291,
-      "recent_download_count": 323291,
+      "download_count": 324149,
+      "recent_download_count": 324149,
       "changelog": ""
     },
     {
@@ -1731,13 +2492,14 @@
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 323291,
-      "recent_download_count": 323291,
+      "download_count": 324149,
+      "recent_download_count": 324149,
       "changelog": ""
     },
     {
@@ -1758,13 +2520,14 @@
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323291,
-      "recent_download_count": 323291,
+      "download_count": 324149,
+      "recent_download_count": 324149,
       "changelog": ""
     },
     {
@@ -1785,13 +2548,14 @@
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 323291,
-      "recent_download_count": 323291,
+      "download_count": 324149,
+      "recent_download_count": 324149,
       "changelog": ""
     },
     {
@@ -1812,13 +2576,14 @@
       "firmware": "7.0-40761",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/homebridge_256.png"
       ],
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 323291,
-      "recent_download_count": 323291,
+      "download_count": 324149,
+      "recent_download_count": 324149,
       "changelog": ""
     },
     {
@@ -1839,7 +2604,8 @@
       "firmware": "6.0",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/medusa_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/medusa_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/medusa_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -1866,7 +2632,8 @@
       "firmware": "6.0",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/medusa_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/medusa_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/medusa_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -1893,7 +2660,8 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/medusa_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/medusa_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/medusa_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -1920,7 +2688,8 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -1948,7 +2717,8 @@
       "firmware": "7.0-40000",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -1976,7 +2746,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -2008,7 +2779,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -2040,7 +2812,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -2072,7 +2845,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -2104,7 +2878,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -2136,7 +2911,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -2168,7 +2944,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -2200,7 +2977,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -2232,7 +3010,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
@@ -2264,7 +3043,8 @@
       "firmware": "7.2-64561",
       "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_120.png"
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_72.png",
+        "https://007revad.github.io/spkrepo_test/thumbnails/rabitpos_256.png"
       ],
       "snapshot": [],
       "beta": false,
