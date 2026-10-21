@@ -5,6 +5,26 @@ REPO_DIR=spkrepo_test
 set -euo pipefail
 mkdir -p "${REPO_DIR}/thumbnails"
 
+# ImageMagick has no default font here, so -annotate needs one named explicitly
+BETA_FONT=$(dpkg -L fonts-dejavu-core 2>/dev/null | grep -i 'DejaVuSans-Bold\.ttf$' | head -1 || true)
+if [[ -z "${BETA_FONT}" || ! -f "${BETA_FONT}" ]]; then
+    echo "ERROR: DejaVu Sans Bold not found (is fonts-dejavu-core installed?)" >&2
+    exit 1
+fi
+
+# Used for the BETA overlays only: any output from convert counts as a failure
+run_convert() {
+    local out
+    if ! out=$(/usr/bin/convert "$@" 2>&1); then
+        echo "ERROR: convert failed: ${out}" >&2
+        return 1
+    fi
+    if [[ -n "${out}" ]]; then
+        echo "ERROR: convert printed warnings: ${out}" >&2
+        return 1
+    fi
+}
+
 #--------------------------------------------------------------------
 # Helper: sum download counts for all .spk assets across all releases.
 # Usage: get_total_downloads <user> <repo>
@@ -230,48 +250,48 @@ maybe_update_thumbnail() {
     fi
 
     # Create thumbnails if needed
-    local size dest pt sw off
-    for size in 72 256; do
-        dest="${REPO_DIR}/thumbnails/${thumb_key}_${size}.png"
-        # 256px: PACKAGE_ICON_256.PNG is used as-is (BETA gets the overlay)
-        if [[ "${is_beta}" == "true" ]]; then
-            /usr/bin/convert "${tmp_icon}" \
-                -gravity SouthEast \
-                -fill white \
-                -stroke red \
-                -strokewidth 3 \
-                -pointsize 56 \
-                -annotate +7+7 "BETA" \
-                "${dest256}"
-        else
-            cp "${tmp_icon}" "${dest256}"
-        fi
-        echo "INFO: Wrote ${dest256}" >&2
+    dest="${REPO_DIR}/thumbnails/${thumb_key}_${size}.png"
 
-        # 72px: resize (BETA gets the overlay)
-        if [[ "${is_beta}" == "true" ]]; then
-            /usr/bin/convert "${tmp_icon}" \
-                -resize 72x72 \
-                -gravity center \
-                -background none \
-                -extent 72x72 \
-                -gravity SouthEast \
-                -fill white \
-                -stroke red \
-                -strokewidth 1 \
-                -pointsize 16 \
-                -annotate +2+2 "BETA" \
-                "${dest72}"
-        else
-            /usr/bin/convert "${tmp_icon}" \
-                -resize 72x72 \
-                -gravity center \
-                -background none \
-                -extent 72x72 \
-                "${dest72}"
-        fi
-        echo "INFO: Wrote ${dest72}" >&2
-    done
+    # 256px: PACKAGE_ICON_256.PNG is used as-is (BETA gets the overlay)
+    if [[ "${is_beta}" == "true" ]]; then
+        run_convert "${tmp_icon}" \
+            -font "${BETA_FONT}" \
+            -gravity SouthEast \
+            -fill white \
+            -stroke red \
+            -strokewidth 3 \
+            -pointsize 56 \
+            -annotate +7+7 "BETA" \
+            "${dest256}"
+    else
+        cp "${tmp_icon}" "${dest256}"
+    fi
+    echo "INFO: Wrote ${dest256}" >&2
+
+    # 72px: resize (BETA gets the overlay)
+    if [[ "${is_beta}" == "true" ]]; then
+        run_convert "${tmp_icon}" \
+            -resize 72x72 \
+            -gravity center \
+            -background none \
+            -extent 72x72 \
+            -font "${BETA_FONT}" \
+            -gravity SouthEast \
+            -fill white \
+            -stroke red \
+            -strokewidth 1 \
+            -pointsize 16 \
+            -annotate +2+2 "BETA" \
+            "${dest72}"
+    else
+        /usr/bin/convert "${tmp_icon}" \
+            -resize 72x72 \
+            -gravity center \
+            -background none \
+            -extent 72x72 \
+            "${dest72}"
+    fi
+    echo "INFO: Wrote ${dest72}" >&2
 
     rm -f "${tmp_icon}"
 }
