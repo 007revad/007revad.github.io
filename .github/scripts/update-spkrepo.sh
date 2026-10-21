@@ -229,36 +229,48 @@ maybe_update_thumbnail() {
       fi
     fi
 
-    # Write 72x72 and 256x256, fitting within the canvas
+    # Create thumbnails if needed
     local size dest pt sw off
     for size in 72 256; do
         dest="${REPO_DIR}/thumbnails/${thumb_key}_${size}.png"
+        # 256px: PACKAGE_ICON_256.PNG is used as-is (BETA gets the overlay)
         if [[ "${is_beta}" == "true" ]]; then
-            # BETA label scaled from the 72px values (16pt, stroke 1, offset 2)
-            pt=$(( size * 16 / 72 ))
-            sw=$(( size / 72 ))
-            off=$(( size * 2 / 72 ))
             /usr/bin/convert "${tmp_icon}" \
-                -resize ${size}x${size} \
-                -gravity center \
-                -background none \
-                -extent ${size}x${size} \
                 -gravity SouthEast \
                 -fill white \
                 -stroke red \
-                -strokewidth ${sw} \
-                -pointsize ${pt} \
-                -annotate +${off}+${off} "BETA" \
-                "${dest}"
+                -strokewidth 3 \
+                -pointsize 56 \
+                -annotate +7+7 "BETA" \
+                "${dest256}"
         else
+            cp "${tmp_icon}" "${dest256}"
+        fi
+        echo "INFO: Wrote ${dest256}" >&2
+
+        # 72px: resize (BETA gets the overlay)
+        if [[ "${is_beta}" == "true" ]]; then
             /usr/bin/convert "${tmp_icon}" \
-                -resize ${size}x${size} \
+                -resize 72x72 \
                 -gravity center \
                 -background none \
-                -extent ${size}x${size} \
-                "${dest}"
+                -extent 72x72 \
+                -gravity SouthEast \
+                -fill white \
+                -stroke red \
+                -strokewidth 1 \
+                -pointsize 16 \
+                -annotate +2+2 "BETA" \
+                "${dest72}"
+        else
+            /usr/bin/convert "${tmp_icon}" \
+                -resize 72x72 \
+                -gravity center \
+                -background none \
+                -extent 72x72 \
+                "${dest72}"
         fi
-        echo "INFO: Wrote ${dest}" >&2
+        echo "INFO: Wrote ${dest72}" >&2
     done
 
     rm -f "${tmp_icon}"
