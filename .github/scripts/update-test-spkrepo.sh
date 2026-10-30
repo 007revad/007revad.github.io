@@ -964,8 +964,8 @@ entries+=( "$(make_entries "holg"        "ds-video-hevc"             "")" )
 entries+=( "$(make_entries "eizedev"     "AirConnect-Synology"       "")" )
 entries+=( "$(make_entries "eizedev"     "SpotConnect-Synology"      "")" )
 
-entries+=( "$(make_entries "rylos"       "synofile"                  "")" )
-entries+=( "$(make_entries "rylos"       "btrbk-nas"                 "")" )
+entries+=( "$(make_entries "rylos"       "synofile"                  "CHANGES.txt")" )
+entries+=( "$(make_entries "rylos"       "btrbk-nas"                 "CHANGES.txt")" )
 
 #entries+=( "$(make_entries "bb-qq"          "aqc111"                "")" )
 #entries+=( "$(make_entries "bb-qq"          "r8152"                 "")" )
