@@ -682,7 +682,8 @@ make_entries() {
         # For version matching, also prepare a date-stripped fallback version
         local match_version="${spk_version}"
         local match_version_short=""
-        if [[ "$match_version" =~ ^([0-9]+\.[0-9]+\.[0-9]+)-[0-9]{8}$ ]]; then
+        #if [[ "$match_version" =~ ^([0-9]+\.[0-9]+\.[0-9]+)-[0-9]{8}$ ]]; then
+        if [[ "$match_version" =~ ^([0-9]+\.[0-9]+\.[0-9]+)-[0-9]+$ ]]; then
             match_version_short="${BASH_REMATCH[1]}"
         fi
 
