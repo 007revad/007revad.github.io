@@ -957,7 +957,7 @@ entries+=( "$(make_entries "toafez"      "AutoPilot"                 "CHANGELOG"
 entries+=( "$(make_entries "toafez"      "LogAnalysis"               "CHANGELOG")" )
 entries+=( "$(make_entries "schmidhorst" "synology-autorun"          "CHANGELOG")" )
 entries+=( "$(make_entries "geimist"     "synOCR"                    "6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG")" )
-entries+=( "$(make_entries "geimist"     "Update_Blocklist"          "CHANGELOG")" )
+entries+=( "$(make_entries "geimist"     "Update_Blocklist"          "spk/CHANGELOG")" )
 entries+=( "$(make_entries "dei79"       "disk-shell"                "")" )
 entries+=( "$(make_entries "holg"        "ds-video-hevc"             "")" )
 
