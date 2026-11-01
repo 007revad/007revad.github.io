@@ -7,7 +7,7 @@ env:
 # Triggers:
 #   1. Called via repository_dispatch from each package repo (on new release)
 #   2. Manual run from Actions tab
-#   3. Weekly daily at 12:17 UTC (safety net catch-up) - 23:17 AEST, 00:17 ADST
+#   3. Weekly daily at 12:17 UTC (safety net catch-up) - 22:17 AEST, 23:17 AEDT
 on:
   repository_dispatch:
     types: [spk-release]
