@@ -951,6 +951,7 @@ entries+=( "$(make_entries "007revad" "Syno_CPU_Temperature"         "CHANGES.tx
 entries+=( "$(make_entries "007revad" "Synology_iperf3_Speedtest"    "CHANGES.txt")" )
 entries+=( "$(make_entries "007revad" "Syno_Toolbox"                 "CHANGES.txt")" )
 entries+=( "$(make_entries "007revad" "Syno_App_Mover"               "CHANGES.txt")" )
+entries+=( "$(make_entries "007revad" "Synology_Medusa"              "CHANGES.txt")" )
 
 # Friends' repos
 entries+=( "$(make_entries "PeterSuh-Q3" "SynoSmartInfo"             "")" )
@@ -979,7 +980,7 @@ entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"       "")" )
 entries+=( "$(make_entries "netbirdio"   "netbird"                   "")" )
 
 # repos with spk files in repo file tree
-entries+=( "$(make_entries "BenjV" "SYNO-packages" ""                "noreleases")" )
+#entries+=( "$(make_entries "BenjV" "SYNO-packages" ""                "noreleases")" )
 
 # repos with spk files in repo branch file tree
 entries+=( "$(make_entries "phamduybk" "rabitpos" "" "noreleases" "synology-spk")" )
