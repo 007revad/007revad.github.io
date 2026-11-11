@@ -24,8 +24,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3758080,
-      "download_count": 5149,
-      "recent_download_count": 5149,
+      "download_count": 5153,
+      "recent_download_count": 5153,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -52,8 +52,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3768320,
-      "download_count": 5149,
-      "recent_download_count": 5149,
+      "download_count": 5153,
+      "recent_download_count": 5153,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -80,8 +80,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 5534,
-      "recent_download_count": 5534,
+      "download_count": 5538,
+      "recent_download_count": 5538,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -108,8 +108,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 5534,
-      "recent_download_count": 5534,
+      "download_count": 5538,
+      "recent_download_count": 5538,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -136,8 +136,8 @@
       "snapshot": [],
       "beta": false,
       "size": 604160,
-      "download_count": 5534,
-      "recent_download_count": 5534,
+      "download_count": 5538,
+      "recent_download_count": 5538,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -164,8 +164,8 @@
       "snapshot": [],
       "beta": false,
       "size": 194560,
-      "download_count": 2821,
-      "recent_download_count": 2821,
+      "download_count": 2825,
+      "recent_download_count": 2825,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -192,8 +192,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2821,
-      "recent_download_count": 2821,
+      "download_count": 2825,
+      "recent_download_count": 2825,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -220,8 +220,8 @@
       "snapshot": [],
       "beta": false,
       "size": 204800,
-      "download_count": 2821,
-      "recent_download_count": 2821,
+      "download_count": 2825,
+      "recent_download_count": 2825,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -248,8 +248,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3827,
-      "recent_download_count": 3827,
+      "download_count": 3830,
+      "recent_download_count": 3830,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -276,8 +276,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2652160,
-      "download_count": 3827,
-      "recent_download_count": 3827,
+      "download_count": 3830,
+      "recent_download_count": 3830,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -304,8 +304,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2662400,
-      "download_count": 3827,
-      "recent_download_count": 3827,
+      "download_count": 3830,
+      "recent_download_count": 3830,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -332,8 +332,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 961,
-      "recent_download_count": 961,
+      "download_count": 963,
+      "recent_download_count": 963,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -360,8 +360,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1648640,
-      "download_count": 14441,
-      "recent_download_count": 14441,
+      "download_count": 14456,
+      "recent_download_count": 14456,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -429,8 +429,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2129920,
-      "download_count": 14441,
-      "recent_download_count": 14441,
+      "download_count": 14456,
+      "recent_download_count": 14456,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -498,8 +498,8 @@
       "snapshot": [],
       "beta": false,
       "size": 747520,
-      "download_count": 14441,
-      "recent_download_count": 14441,
+      "download_count": 14456,
+      "recent_download_count": 14456,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -567,8 +567,8 @@
       "snapshot": [],
       "beta": false,
       "size": 808960,
-      "download_count": 14441,
-      "recent_download_count": 14441,
+      "download_count": 14456,
+      "recent_download_count": 14456,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -636,8 +636,8 @@
       "snapshot": [],
       "beta": false,
       "size": 870400,
-      "download_count": 14441,
-      "recent_download_count": 14441,
+      "download_count": 14456,
+      "recent_download_count": 14456,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -705,8 +705,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 14441,
-      "recent_download_count": 14441,
+      "download_count": 14456,
+      "recent_download_count": 14456,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -774,8 +774,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1249280,
-      "download_count": 825,
-      "recent_download_count": 825,
+      "download_count": 826,
+      "recent_download_count": 826,
       "changelog": "1. Changed to no longer need the user to set sudoers permissions."
     },
     {
@@ -802,8 +802,8 @@
       "snapshot": [],
       "beta": false,
       "size": 419840,
-      "download_count": 3127,
-      "recent_download_count": 3127,
+      "download_count": 3133,
+      "recent_download_count": 3133,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -830,8 +830,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1177600,
-      "download_count": 3127,
-      "recent_download_count": 3127,
+      "download_count": 3133,
+      "recent_download_count": 3133,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -858,8 +858,8 @@
       "snapshot": [],
       "beta": false,
       "size": 348160,
-      "download_count": 3127,
-      "recent_download_count": 3127,
+      "download_count": 3133,
+      "recent_download_count": 3133,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -886,8 +886,8 @@
       "snapshot": [],
       "beta": false,
       "size": 378880,
-      "download_count": 3127,
-      "recent_download_count": 3127,
+      "download_count": 3133,
+      "recent_download_count": 3133,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -914,8 +914,8 @@
       "snapshot": [],
       "beta": false,
       "size": 419840,
-      "download_count": 3127,
-      "recent_download_count": 3127,
+      "download_count": 3133,
+      "recent_download_count": 3133,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -942,8 +942,8 @@
       "snapshot": [],
       "beta": false,
       "size": 419840,
-      "download_count": 3127,
-      "recent_download_count": 3127,
+      "download_count": 3133,
+      "recent_download_count": 3133,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -970,8 +970,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1136640,
-      "download_count": 2179,
-      "recent_download_count": 2179,
+      "download_count": 2184,
+      "recent_download_count": 2184,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -998,8 +998,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1024000,
-      "download_count": 2179,
-      "recent_download_count": 2179,
+      "download_count": 2184,
+      "recent_download_count": 2184,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1026,8 +1026,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 2179,
-      "recent_download_count": 2179,
+      "download_count": 2184,
+      "recent_download_count": 2184,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1054,8 +1054,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1105920,
-      "download_count": 2179,
-      "recent_download_count": 2179,
+      "download_count": 2184,
+      "recent_download_count": 2184,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1082,8 +1082,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1146880,
-      "download_count": 2179,
-      "recent_download_count": 2179,
+      "download_count": 2184,
+      "recent_download_count": 2184,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1110,8 +1110,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1922,
-      "recent_download_count": 1922,
+      "download_count": 1930,
+      "recent_download_count": 1930,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1138,8 +1138,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4915200,
-      "download_count": 1922,
-      "recent_download_count": 1922,
+      "download_count": 1930,
+      "recent_download_count": 1930,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1166,8 +1166,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5519360,
-      "download_count": 1922,
-      "recent_download_count": 1922,
+      "download_count": 1930,
+      "recent_download_count": 1930,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1194,8 +1194,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5529600,
-      "download_count": 1922,
-      "recent_download_count": 1922,
+      "download_count": 1930,
+      "recent_download_count": 1930,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1222,8 +1222,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4689920,
-      "download_count": 1922,
-      "recent_download_count": 1922,
+      "download_count": 1930,
+      "recent_download_count": 1930,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1250,8 +1250,8 @@
       "snapshot": [],
       "beta": false,
       "size": 4700160,
-      "download_count": 1922,
-      "recent_download_count": 1922,
+      "download_count": 1930,
+      "recent_download_count": 1930,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1278,8 +1278,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1922,
-      "recent_download_count": 1922,
+      "download_count": 1930,
+      "recent_download_count": 1930,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1306,8 +1306,8 @@
       "snapshot": [],
       "beta": false,
       "size": 5376000,
-      "download_count": 1922,
-      "recent_download_count": 1922,
+      "download_count": 1930,
+      "recent_download_count": 1930,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1334,8 +1334,8 @@
       "snapshot": [],
       "beta": false,
       "size": 952320,
-      "download_count": 3116,
-      "recent_download_count": 3116,
+      "download_count": 3136,
+      "recent_download_count": 3136,
       "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
     },
     {
@@ -1362,8 +1362,8 @@
       "snapshot": [],
       "beta": false,
       "size": 962560,
-      "download_count": 3116,
-      "recent_download_count": 3116,
+      "download_count": 3136,
+      "recent_download_count": 3136,
       "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
     },
     {
@@ -1390,8 +1390,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1013760,
-      "download_count": 3116,
-      "recent_download_count": 3116,
+      "download_count": 3136,
+      "recent_download_count": 3136,
       "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
     },
     {
@@ -1418,8 +1418,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1013760,
-      "download_count": 3116,
-      "recent_download_count": 3116,
+      "download_count": 3136,
+      "recent_download_count": 3136,
       "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
     },
     {
@@ -1446,8 +1446,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1075200,
-      "download_count": 3116,
-      "recent_download_count": 3116,
+      "download_count": 3136,
+      "recent_download_count": 3136,
       "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
     },
     {
@@ -1474,8 +1474,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1085440,
-      "download_count": 3116,
-      "recent_download_count": 3116,
+      "download_count": 3136,
+      "recent_download_count": 3136,
       "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
     },
     {
@@ -1502,8 +1502,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1064960,
-      "download_count": 3116,
-      "recent_download_count": 3116,
+      "download_count": 3136,
+      "recent_download_count": 3136,
       "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
     },
     {
@@ -1530,8 +1530,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1075200,
-      "download_count": 3116,
-      "recent_download_count": 3116,
+      "download_count": 3136,
+      "recent_download_count": 3136,
       "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
     },
     {
@@ -1558,8 +1558,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1228800,
-      "download_count": 1230,
-      "recent_download_count": 1230,
+      "download_count": 1236,
+      "recent_download_count": 1236,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1586,8 +1586,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1116160,
-      "download_count": 1230,
-      "recent_download_count": 1230,
+      "download_count": 1236,
+      "recent_download_count": 1236,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1614,8 +1614,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1177600,
-      "download_count": 1230,
-      "recent_download_count": 1230,
+      "download_count": 1236,
+      "recent_download_count": 1236,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1642,8 +1642,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1198080,
-      "download_count": 1230,
-      "recent_download_count": 1230,
+      "download_count": 1236,
+      "recent_download_count": 1236,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1670,8 +1670,8 @@
       "snapshot": [],
       "beta": false,
       "size": 1228800,
-      "download_count": 1230,
-      "recent_download_count": 1230,
+      "download_count": 1236,
+      "recent_download_count": 1236,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1698,8 +1698,8 @@
       "snapshot": [],
       "beta": false,
       "size": 112640,
-      "download_count": 22,
-      "recent_download_count": 22,
+      "download_count": 23,
+      "recent_download_count": 23,
       "changelog": "1. First release of 007revad's Medusa package. Upgrades over BenjV's Medusa package and keeps your existing config, database and cache.<br/> 2. Requires SynoCommunity Git and Python 3.14 packages.<br/> 3. Medusa is cloned from GitHub, so Medusa's \"Update Now\" keeps working.<br/> 4. Bug fix for \"Sorry, requires Python 3.10 and above\". The newest installed Python that meets Medusa's minimum version is now used (Python 3.9 is no longer supported).<br/> 5. Bug fix for Medusa's web UI \"Restart\" and \"Update Now\" hanging on \"Performing Restart\".<br/> 6. Medusa is now run by a small supervisor, which picks the Python version again each time Medusa restarts.<br/> 7. Medusa's \"Shutdown\" button now restarts Medusa instead of stopping it. Use Package Center to stop Medusa.<br/> 8. Package Center no longer shows a \"Send Term signal to package\" message when stopping Medusa.<br/> 9. The supervisor's log is saved in the package's var folder as supervisor.log.<br/> 10. Uninstalling the package asks the user if they want to delete Medusa's data (config, database, cache). Keeping it is the default, so the data is still there if you reinstall. Upgrading never deletes data."
     },
     {
@@ -1726,8 +1726,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 12911,
-      "recent_download_count": 12911,
+      "download_count": 12914,
+      "recent_download_count": 12914,
       "changelog": ""
     },
     {
@@ -1754,8 +1754,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1435,
-      "recent_download_count": 1435,
+      "download_count": 1436,
+      "recent_download_count": 1436,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -1787,8 +1787,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2446,
-      "recent_download_count": 2446,
+      "download_count": 2447,
+      "recent_download_count": 2447,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -1820,8 +1820,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 904,
-      "recent_download_count": 904,
+      "download_count": 905,
+      "recent_download_count": 905,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1882,8 +1882,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2645504,
-      "download_count": 7362,
-      "recent_download_count": 7362,
+      "download_count": 7365,
+      "recent_download_count": 7365,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1931,8 +1931,8 @@
       "snapshot": [],
       "beta": true,
       "size": 2690048,
-      "download_count": 7362,
-      "recent_download_count": 7362,
+      "download_count": 7365,
+      "recent_download_count": 7365,
       "dname_enu": "synOCR beta",
       "dname_ger": "synOCR beta",
       "desc_ger": "synOCR ist eine einfache GUI für den Dockercontainer OCRmyPDF. Damit kannst du einfach OCR auf PDF-Dokumente anwenden. synOCR kann anschließend nach Tags und Datum in den Dokumenten suchen, diese nach einem individuellen Muster umbennenn und nach Kategorien in Unterordner einsortieren. Durch Verwendung von Hardlinks entsteht kein erhöhter Speicherplatzbedarf, wenn ein Dokument in mehrere Kategorieordner einsortiert werden muss.",
@@ -1980,8 +1980,8 @@
       "snapshot": [],
       "beta": true,
       "size": 19043328,
-      "download_count": 179,
-      "recent_download_count": 179,
+      "download_count": 180,
+      "recent_download_count": 180,
       "dname_ger": "AutoBan",
       "desc_enu": "Automatically imports IP block lists into the DSM IP block list.",
       "desc_cht": "自動將 IP 封鎖清單匯入 DSM 的 IP 封鎖清單。",
@@ -2029,8 +2029,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2928640,
-      "download_count": 787,
-      "recent_download_count": 787,
+      "download_count": 788,
+      "recent_download_count": 788,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -2058,8 +2058,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3430400,
-      "download_count": 185,
-      "recent_download_count": 185,
+      "download_count": 186,
+      "recent_download_count": 186,
       "changelog": ""
     },
     {
@@ -2086,8 +2086,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 28995,
-      "recent_download_count": 28995,
+      "download_count": 29006,
+      "recent_download_count": 29006,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2114,8 +2114,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 28995,
-      "recent_download_count": 28995,
+      "download_count": 29006,
+      "recent_download_count": 29006,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2142,8 +2142,8 @@
       "snapshot": [],
       "beta": false,
       "size": 788480,
-      "download_count": 28995,
-      "recent_download_count": 28995,
+      "download_count": 29006,
+      "recent_download_count": 29006,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2170,8 +2170,8 @@
       "snapshot": [],
       "beta": false,
       "size": 931840,
-      "download_count": 28995,
-      "recent_download_count": 28995,
+      "download_count": 29006,
+      "recent_download_count": 29006,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2198,8 +2198,8 @@
       "snapshot": [],
       "beta": false,
       "size": 921600,
-      "download_count": 28995,
-      "recent_download_count": 28995,
+      "download_count": 29006,
+      "recent_download_count": 29006,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2226,8 +2226,8 @@
       "snapshot": [],
       "beta": false,
       "size": 952320,
-      "download_count": 28995,
-      "recent_download_count": 28995,
+      "download_count": 29006,
+      "recent_download_count": 29006,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2254,8 +2254,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 28995,
-      "recent_download_count": 28995,
+      "download_count": 29006,
+      "recent_download_count": 29006,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2282,8 +2282,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 28995,
-      "recent_download_count": 28995,
+      "download_count": 29006,
+      "recent_download_count": 29006,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2310,8 +2310,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3225600,
-      "download_count": 386,
-      "recent_download_count": 386,
+      "download_count": 392,
+      "recent_download_count": 392,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2338,8 +2338,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2375680,
-      "download_count": 386,
-      "recent_download_count": 386,
+      "download_count": 392,
+      "recent_download_count": 392,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2366,8 +2366,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2498560,
-      "download_count": 386,
-      "recent_download_count": 386,
+      "download_count": 392,
+      "recent_download_count": 392,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2394,8 +2394,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2918400,
-      "download_count": 386,
-      "recent_download_count": 386,
+      "download_count": 392,
+      "recent_download_count": 392,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2422,8 +2422,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3338240,
-      "download_count": 386,
-      "recent_download_count": 386,
+      "download_count": 392,
+      "recent_download_count": 392,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2450,8 +2450,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3409920,
-      "download_count": 386,
-      "recent_download_count": 386,
+      "download_count": 392,
+      "recent_download_count": 392,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2478,8 +2478,8 @@
       "snapshot": [],
       "beta": false,
       "size": 7802880,
-      "download_count": 371,
-      "recent_download_count": 371,
+      "download_count": 372,
+      "recent_download_count": 372,
       "desc_ita": "Un file manager veloce e scuro per le cartelle condivise, con schede, doppio pannello, icone e colori di eza, filtro fuzzy e un dialogo di trasferimento dettagliato: grafico della velocità, tempo rimanente, pausa, limite di velocità, conflitti file per file, reflink btrfs e verifica.",
       "desc_ger": "Ein schneller, dunkler Dateimanager für die freigegebenen Ordner, mit Tabs, geteilter Ansicht, den Symbolen und Farben von eza, unscharfem Filter und einem ausführlichen Übertragungsdialog: Geschwindigkeitsdiagramm, verbleibende Zeit, Anhalten, Geschwindigkeitslimit, Konflikte Datei für Datei, btrfs-Reflinks und Prüfung.",
       "desc_fre": "Un gestionnaire de fichiers rapide et sombre pour les dossiers partagés, avec onglets, double volet, icônes et couleurs d'eza, filtre approximatif et une fenêtre de transfert détaillée : graphique de vitesse, temps restant, pause, limite de vitesse, conflits fichier par fichier, reflinks btrfs et vérification.",
@@ -2514,8 +2514,8 @@
       "snapshot": [],
       "beta": false,
       "size": 573440,
-      "download_count": 59,
-      "recent_download_count": 59,
+      "download_count": 60,
+      "recent_download_count": 60,
       "desc_ita": "Visualizza i backup btrbk che arrivano su questo NAS: aggiornamento di ogni subvolume, ricezioni incomplete e i file di ogni snapshot, pronti da scaricare.",
       "desc_ger": "Zeigt die btrbk-Sicherungen, die dieses NAS empfängt: Aktualität jedes Subvolumes, unvollständige Empfänge und die Dateien in jedem Schnappschuss, bereit zum Herunterladen.",
       "desc_fre": "Consultez les sauvegardes btrbk reçues par ce NAS : l'état à jour de chaque sous-volume, les réceptions incomplètes et les fichiers de n'importe quel instantané, prêts à être téléchargés.",
@@ -2550,8 +2550,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 326719,
-      "recent_download_count": 326719,
+      "download_count": 326728,
+      "recent_download_count": 326728,
       "changelog": ""
     },
     {
@@ -2578,8 +2578,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 326719,
-      "recent_download_count": 326719,
+      "download_count": 326728,
+      "recent_download_count": 326728,
       "changelog": ""
     },
     {
@@ -2606,8 +2606,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 326719,
-      "recent_download_count": 326719,
+      "download_count": 326728,
+      "recent_download_count": 326728,
       "changelog": ""
     },
     {
@@ -2634,8 +2634,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 326719,
-      "recent_download_count": 326719,
+      "download_count": 326728,
+      "recent_download_count": 326728,
       "changelog": ""
     },
     {
@@ -2662,8 +2662,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 326719,
-      "recent_download_count": 326719,
+      "download_count": 326728,
+      "recent_download_count": 326728,
       "changelog": ""
     },
     {
@@ -2690,8 +2690,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 326719,
-      "recent_download_count": 326719,
+      "download_count": 326728,
+      "recent_download_count": 326728,
       "changelog": ""
     },
     {
