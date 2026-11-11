@@ -67,6 +67,29 @@ fetch_info_from_spk() {
 }
 
 #--------------------------------------------------------------------
+# Helper: list the .spk download URLs on a vendor's own package page
+# (e.g. https://pkgs.tailscale.com/stable/).
+#
+# Matches file names only (<prefix>-<platform>-<version>-<build>-dsm<N>.spk)
+# and prefixes each with the page URL, so it works whether the page's
+# hrefs are absolute or relative. Output is sorted (C locale) and
+# de-duplicated. Prints nothing if the page can't be fetched or has no
+# matching links; the caller decides what to do about that.
+#
+# Usage: list_pkgsite_spks <page_url> <file_name_prefix>
+#--------------------------------------------------------------------
+list_pkgsite_spks() {
+    local page_url="${1%/}/"
+    local prefix="$2"
+    curl -fsSL --max-time 30 \
+        -A "007revad-spkrepo (+https://github.com/007revad/Synology_package_source)" \
+        "${page_url}" \
+        | grep -oE "${prefix}-[A-Za-z0-9_]+-[0-9]+\.[0-9]+\.[0-9]+-[0-9]+-dsm[0-9]+\.spk" \
+        | LC_ALL=C sort -u \
+        | sed "s|^|${page_url}|" || true
+}
+
+#--------------------------------------------------------------------
 # Helper: extract a single key from INFO content.
 # INFO values can legitimately span multiple physical lines (e.g. a
 # multi-paragraph changelog with embedded raw newlines inside the
@@ -318,7 +341,16 @@ maybe_update_thumbnail() {
 #
 # Thumbnails are updated only when the package version has changed.
 #
-# Usage: make_entries <user> <repo> [noreleases]
+# pkgsite mode (4th arg = "pkgsite"): the .spk links come from scanning a
+# vendor's package page (6th arg) for files starting with the 7th arg,
+# instead of from GitHub. Nothing is mirrored: each entry's "link" points
+# at the vendor's own server. An spk whose URL is already in index.json
+# is reused as-is (its URL contains the version), so a daily run costs one
+# page fetch until the vendor publishes a new version. Set
+# SPK_FORCE_REFRESH=1 to rebuild everything. If the page yields no links,
+# the entries already in index.json for that page are carried forward.
+#
+# Usage: make_entries <user> <repo> [changelog_spec] [noreleases|pkgsite] [branch] [page_url] [file_prefix]
 #--------------------------------------------------------------------
 make_entries() {
     local user="$1"
@@ -326,6 +358,8 @@ make_entries() {
     local changelog_spec="${3:-}"
     local noreleases="${4:-}"
     local branch="${5:-HEAD}"
+    local pkgsite_url="${6:-}"
+    local pkgsite_prefix="${7:-}"
     local tag version=""
 
     if [[ -z "$noreleases" ]]; then
@@ -393,6 +427,26 @@ make_entries() {
 
         if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
             echo "WARNING: No .spk assets found in ${user}/${repo} ${tag}" >&2
+            return
+        fi
+    elif [[ "$noreleases" == "pkgsite" ]]; then
+        # Vendor package page - scan it for .spk links (see header comment).
+        # download_count will be 0 and size 0, same as the noreleases mode.
+        local download_count=0
+        local releases_to_process="[]"
+
+        local all_spk_urls=()
+        while IFS= read -r spk_url; do
+            all_spk_urls+=( "$spk_url" )
+        done < <(list_pkgsite_spks "${pkgsite_url}" "${pkgsite_prefix}")
+
+        if [[ ${#all_spk_urls[@]} -eq 0 ]]; then
+            echo "WARNING: No .spk links found at ${pkgsite_url} (fetch failed or page layout changed) — keeping the entries already in index.json." >&2
+            if [[ -f "${REPO_DIR}/index.json" ]]; then
+                jq -c --arg u "${pkgsite_url%/}/" \
+                    '.packages[] | select((.link // "") | startswith($u))' \
+                    "${REPO_DIR}/index.json" || true
+            fi
             return
         fi
     else
@@ -485,6 +539,20 @@ make_entries() {
 
     local spk_url
     for spk_url in "${all_spk_urls[@]}"; do
+        # pkgsite mode: this exact URL (version included) is already in
+        # index.json, so reuse the entry and skip the INFO/icon downloads.
+        if [[ "$noreleases" == "pkgsite" && -z "${SPK_FORCE_REFRESH:-}" && -f "${REPO_DIR}/index.json" ]]; then
+            local cached
+            cached=$(jq -c --arg l "${spk_url}" \
+                'first(.packages[] | select(.link == $l)) // empty' \
+                "${REPO_DIR}/index.json" 2>/dev/null || true)
+            if [[ -n "$cached" ]]; then
+                echo "INFO: ${spk_url##*/} is already in index.json — reusing entry." >&2
+                printf '%s\n' "$cached"
+                continue
+            fi
+        fi
+
         local info
         info=$(fetch_info_from_spk "${spk_url}")
 
@@ -984,6 +1052,10 @@ entries+=( "$(make_entries "netbirdio"   "netbird"                   "")" )
 
 # repos with spk files in repo branch file tree
 entries+=( "$(make_entries "phamduybk" "rabitpos" "" "noreleases" "synology-spk")" )
+
+# Vendor package pages: the spk files stay on the vendor's server and index.json
+# only links to them. Tailscale's own spks (DSM 6 and DSM 7) from pkgs.tailscale.com.
+#entries+=( "$(make_entries "tailscale" "tailscale" "" "pkgsite" "HEAD" "https://pkgs.tailscale.com/stable/" "tailscale")" )
 
 #--------------------------------------------------------------------
 # Combine into final index.json
