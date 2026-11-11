@@ -3083,7 +3083,7 @@
       "changelog": "Rabit POS 5.3.4: old Rabit POS databases (1.x to 4.0, MySQL/XAMPP dumps) are now converted directly on the NAS, without sending the file anywhere, both at first-run and from Settings > Import data from an old version (preview, automatic backup of the current data, one-click restore). Every 2.x generation is verified end to end, plus dumps from HeidiSQL, Navicat, Workbench, Adminer, DBeaver, dbForge, MySQL 5.5, per-table phpMyAdmin zips, the old app's own .gz backups, latin1-garbled Vietnamese text and partial exports. Conversion adjustments (old cash fund merged, stock corrected) are shown on the dashboard. Fixes: cash drawer did not move after importing an early 5.0 .db file; A4 invoices printed barcoded item codes with a stray dash; revoked permissions were re-granted automatically; SMS parameter names restored. Upgrading keeps all your data."
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3111,7 +3111,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3139,7 +3139,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3167,7 +3167,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3195,7 +3195,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3223,7 +3223,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3251,7 +3251,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3279,7 +3279,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3307,7 +3307,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3335,7 +3335,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3363,7 +3363,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3391,7 +3391,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3419,7 +3419,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3447,7 +3447,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3475,7 +3475,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3503,7 +3503,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3531,7 +3531,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3559,7 +3559,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3587,7 +3587,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3615,7 +3615,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3643,7 +3643,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3671,7 +3671,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3699,7 +3699,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3727,7 +3727,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3755,7 +3755,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3783,7 +3783,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3811,7 +3811,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3839,7 +3839,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3867,7 +3867,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-600104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
@@ -3895,7 +3895,7 @@
       "changelog": ""
     },
     {
-      "package": "Tailscale",
+      "package": "Tailscale_stable",
       "version": "1.104.6-700104006",
       "dname": "Tailscale",
       "desc": "Connect all your devices using WireGuard, without the hassle.",
