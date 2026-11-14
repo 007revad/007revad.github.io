@@ -1045,7 +1045,7 @@ entries+=( "$(make_entries "rylos"       "btrbk-nas"                 "CHANGES.tx
 # Company's repos
 entries+=( "$(make_entries "homebridge"  "homebridge-syno-spk"       "")" )
 #entries+=( "$(make_entries "TechHutTV"  "netbird-dsm"               "")" )
-entries+=( "$(make_entries "netbirdio"   "netbird"                   "")" )
+entries+=( "$(make_entries "netbirdio"   "netbird-synology"          "")" )
 
 # repos with spk files in repo file tree
 #entries+=( "$(make_entries "BenjV" "SYNO-packages" ""                "noreleases")" )
