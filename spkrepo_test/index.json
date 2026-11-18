@@ -1695,7 +1695,9 @@
         "https://007revad.github.io/spkrepo_test/thumbnails/medusa_DSM9_72.png",
         "https://007revad.github.io/spkrepo_test/thumbnails/medusa_DSM9_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo_test/screenshots/medusa_1.png"
+      ],
       "beta": false,
       "size": 112640,
       "download_count": 43,
