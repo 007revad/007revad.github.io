@@ -4,6 +4,7 @@ REPO_DIR=spkrepo
 
 set -euo pipefail
 mkdir -p "${REPO_DIR}/thumbnails"
+mkdir -p "${REPO_DIR}/screenshots"
 
 # ImageMagick has no default font here, so -annotate needs one named explicitly
 BETA_FONT=$(dpkg -L fonts-dejavu-core 2>/dev/null | grep -i 'DejaVuSans-Bold\.ttf$' | head -1 || true)
@@ -319,6 +320,124 @@ maybe_update_thumbnail() {
 }
 
 #--------------------------------------------------------------------
+# Helper: copy a package's screenshots from its repo into the spkrepo
+# and print the JSON array of snapshot URLs for index.json.
+#
+# Screenshots live in a "screenshots" folder in the package repo's root:
+#   screenshots/*.png|jpg|jpeg    default (DSM 7+) SPKs
+#   screenshots/DSM6/*            DSM 6 SPKs (falls back to the root folder)
+#   screenshots/SRM/*             SRM SPKs   (falls back to the root folder)
+#
+# Files are ordered with sort -V (so _2 comes before _10) and copied to
+# <repo_dir>/screenshots/<shot_key>_<n>.<ext>. Unchanged files are not
+# rewritten, and files that are no longer in the repo are removed.
+# If the GitHub API fails (not a 404), nothing is touched and the
+# snapshot array already in index.json is reused.
+#
+# Always prints a JSON array ("[]" if there are none). Logs go to stderr.
+#
+# Usage: maybe_update_screenshots <user> <repo> <shot_key> <variant> <branch>
+#--------------------------------------------------------------------
+maybe_update_screenshots() {
+    local user="$1"
+    local repo="$2"
+    local shot_key="$3"
+    local variant="${4:-}"
+    local branch="${5:-HEAD}"
+    local dest_dir="${REPO_DIR}/screenshots"
+    local url_base="https://007revad.github.io/${REPO_DIR}/screenshots"
+
+    local ref_arg=""
+    [[ "$branch" != "HEAD" ]] && ref_arg="?ref=${branch}"
+
+    local listing="" api_failed=0 dir resp code body
+    for dir in ${variant:+"screenshots/${variant}"} "screenshots"; do
+        resp=$(curl -sSL --max-time 20 \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -w "\n%{http_code}" \
+            "https://api.github.com/repos/${user}/${repo}/contents/${dir}${ref_arg}" 2>/dev/null || true)
+        code="${resp##*$'\n'}"
+        body="${resp%$'\n'*}"
+        if [[ "$code" != "200" ]]; then
+            [[ "$code" != "404" ]] && api_failed=1
+            continue
+        fi
+        listing=$(jq -r '
+            if type == "array" then
+                .[] | select(.type == "file" and (.name | test("\\.(png|jpe?g)$"; "i")))
+                | [.name, .download_url] | @tsv
+            else empty end' <<< "$body" 2>/dev/null | LC_ALL=C sort -V || true)
+        if [[ -n "$listing" ]]; then
+            [[ "$dir" != "screenshots" ]] && echo "INFO: Using ${dir}/ screenshots for ${shot_key}" >&2
+            break
+        fi
+    done
+
+    if [[ -z "$listing" && "$api_failed" -eq 1 ]]; then
+        echo "WARNING: GitHub API error listing screenshots for ${user}/${repo} — reusing snapshot from index.json." >&2
+        local prev='[]'
+        if [[ -f "${REPO_DIR}/index.json" ]]; then
+            prev=$(jq -c --arg k "$shot_key" '
+                first(.packages[] | select((.snapshot // []) |
+                    any(test("/screenshots/" + $k + "_[0-9]+\\.(png|jpg)$")))) | .snapshot
+                // []' "${REPO_DIR}/index.json" 2>/dev/null || echo '[]')
+        fi
+        printf '%s\n' "${prev:-[]}"
+        return 0
+    fi
+
+    local urls=() kept=() n=0 name url ext fname tmp
+    if [[ -n "$listing" ]]; then
+        while IFS=$'\t' read -r name url; do
+            [[ -z "$name" || -z "$url" || "$url" == "null" ]] && continue
+            ext="${name##*.}"
+            ext="${ext,,}"
+            [[ "$ext" == "jpeg" ]] && ext="jpg"
+            n=$(( n + 1 ))
+            fname="${shot_key}_${n}.${ext}"
+            tmp=$(mktemp)
+            if curl -fsSL --globoff --max-time 60 -o "${tmp}" "${url}" 2>/dev/null && [[ -s "${tmp}" ]]; then
+                if [[ ! -f "${dest_dir}/${fname}" ]] || ! cmp -s "${tmp}" "${dest_dir}/${fname}"; then
+                    mv "${tmp}" "${dest_dir}/${fname}"
+                    echo "INFO: Wrote ${dest_dir}/${fname}" >&2
+                else
+                    rm -f "${tmp}"
+                fi
+            else
+                rm -f "${tmp}"
+                if [[ ! -f "${dest_dir}/${fname}" ]]; then
+                    echo "WARNING: Could not download ${url} — skipping." >&2
+                    continue
+                fi
+                echo "WARNING: Could not download ${url} — keeping existing ${fname}." >&2
+            fi
+            kept+=( "${fname}" )
+            urls+=( "${url_base}/${fname}" )
+        done <<< "$listing"
+    fi
+
+    # Remove screenshots for this key that are no longer in the repo.
+    # The suffix check keeps "<pkg>_<n>.png" from matching "<pkg>_DSM6_<n>.png".
+    local f rest k keep
+    for f in "${dest_dir}/${shot_key}_"[0-9]*; do
+        [[ -e "$f" ]] || continue
+        rest="${f#"${dest_dir}/${shot_key}_"}"
+        [[ "$rest" =~ ^[0-9]+\.(png|jpg)$ ]] || continue
+        keep=0
+        for k in ${kept[@]+"${kept[@]}"}; do
+            [[ "$k" == "${f##*/}" ]] && keep=1
+        done
+        if [[ "$keep" -eq 0 ]]; then
+            rm -f "$f"
+            echo "INFO: Removed stale ${f}" >&2
+        fi
+    done
+
+    jq -nc '$ARGS.positional' --args ${urls[@]+"${urls[@]}"}
+}
+
+#--------------------------------------------------------------------
 # Helper: fetch latest release SPKs for a repo and emit one
 # index.json entry per unique SPK.
 #
@@ -537,6 +656,9 @@ make_entries() {
     # attempt the thumbnail once per thumb_key.
     declare -A thumbnail_done
 
+    # Screenshot snapshot arrays, one per shot_key, fetched once per run.
+    declare -A snapshot_cache
+
     local spk_url
     for spk_url in "${all_spk_urls[@]}"; do
         # pkgsite mode: this exact URL (version included) is already in
@@ -654,10 +776,18 @@ make_entries() {
         local thumb_key="${pkg}"
         if [[ "$os_family" == "srm" ]]; then
             thumb_key="${pkg}_SRM"
-        elif [[ "$os_family" == "dsm" && -n "$os_max_ver" && "$os_max_ver" != "9.9-99999" ]]; then
+        elif [[ "$os_family" == "dsm" && -n "$os_max_ver" && ! "$os_max_ver" =~ ^9\.9-9{5,6}$ ]]; then
             local dsm_major="${os_max_ver%%.*}"
             thumb_key="${pkg}_DSM${dsm_major}"
         fi
+
+        # Screenshots are shared by stable and beta, so key them on the
+        # thumb_key before the -beta suffix is added. The variant is the
+        # part after "<pkg>_" ("" for DSM 7+, "DSM6", "SRM") and is also the
+        # name of the optional screenshots/ sub-folder in the package repo.
+        local shot_key="${thumb_key}"
+        local shot_variant="${thumb_key#"${pkg}"}"
+        shot_variant="${shot_variant#_}"
 
         # Append -beta suffix for pre-release packages so they get a distinct
         # thumbnail with a BETA overlay rather than sharing the stable thumbnail.
@@ -670,6 +800,17 @@ make_entries() {
             maybe_update_thumbnail "${spk_url}" "${pkg}" "${version}" "${thumb_key}" "${user}" "${repo}" "${is_prerelease}" "${branch}"
             thumbnail_done[$thumb_key]=1
         fi
+
+        # Screenshots: copied from the package repo's screenshots/ folder.
+        # Vendor package pages (pkgsite) have no repo to read from.
+        if [[ -z "${snapshot_cache[$shot_key]+x}" ]]; then
+            if [[ "$noreleases" == "pkgsite" ]]; then
+                snapshot_cache[$shot_key]='[]'
+            else
+                snapshot_cache[$shot_key]=$(maybe_update_screenshots "${user}" "${repo}" "${shot_key}" "${shot_variant}" "${branch}")
+            fi
+        fi
+        local snapshot_json="${snapshot_cache[$shot_key]}"
 
         #---- Changelog extraction ------------------------------------------------
         local changelog_json='{}'
@@ -912,7 +1053,7 @@ make_entries() {
 
     # os_max_ver: treat "9.9-99999" or absent as no upper bound
     local max_ver_json="null"
-    if [[ -n "$os_max_ver" && "$os_max_ver" != "9.9-99999" ]]; then
+    if [[ -n "$os_max_ver" && ! "$os_max_ver" =~ ^9\.9-9{5,6}$ ]]; then
         max_ver_json="\"${os_max_ver}\""
     fi
 
@@ -970,6 +1111,7 @@ make_entries() {
         --arg thumbnail_256        "${thumbnail_256}" \
         --argjson beta             "${beta}" \
         --argjson size             "${size}" \
+        --argjson snapshot         "${snapshot_json}" \
         --argjson download_count   "${download_count}" \
         --arg changelog            "${changelog_enu}" \
         --argjson changelog_extra  "${changelog_extra}" \
@@ -991,7 +1133,7 @@ make_entries() {
             firmware:              $firmware,
             os_max_ver:            $os_max_ver,
             thumbnail:             [$thumbnail_72, $thumbnail_256],
-            snapshot:              [],
+            snapshot:              $snapshot,
             beta:                  $beta,
             size:                  $size,
             download_count:        $download_count,

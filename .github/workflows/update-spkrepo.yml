@@ -1,4 +1,4 @@
-name: Update spkrepo index.json and thumbnails
+name: Update spkrepo index.json, thumbnails and screenshots
 
 # Change spkrepo to spkrepo_test or vice versa 
 env:
@@ -41,16 +41,16 @@ jobs:
           DISPATCH_REPO: ${{ github.event.client_payload.repo }}
         run: bash .github/scripts/update-spkrepo.sh
 
-      - name: Commit and push index.json and any updated thumbnails
+      - name: Commit and push index.json and any updated thumbnails and screenshots
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ${{ env.REPO_DIR }}/index.json ${{ env.REPO_DIR }}/thumbnails/
+          git add ${{ env.REPO_DIR }}/index.json ${{ env.REPO_DIR }}/thumbnails/ ${{ env.REPO_DIR }}/screenshots/
           if git diff --cached --quiet; then
             echo "No changes — skipping commit."
             exit 0
           fi
-          git commit -m "chore: update spkrepo index.json and thumbnails [skip ci]"
+          git commit -m "chore: update spkrepo index.json, thumbnails and screenshots [skip ci]"
           for i in 1 2 3 4 5; do
             git push && exit 0
             echo "Push rejected, pulling and retrying (${i})..."
