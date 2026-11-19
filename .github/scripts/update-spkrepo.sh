@@ -207,8 +207,8 @@ current_version() {
 # package version has changed since the last run.
 #
 # Icon source priority (stops at first success):
-#   1. https://raw.githubusercontent.com/<user>/<repo>/HEAD/PACKAGE_ICON_256.PNG
-#   2. https://raw.githubusercontent.com/<user>/<repo>/HEAD/synology/PACKAGE_ICON_256.PNG
+#   1. https://api.github.com/repos/<user>/<repo>/contents/PACKAGE_ICON_256.PNG
+#   2. https://api.github.com/repos/<user>/<repo>/contents/synology/PACKAGE_ICON_256.PNG
 #   3. Full SPK download — tar-extract PACKAGE_ICON_256.PNG
 #
 # Resizes the icon to 72x72 and writes
@@ -247,19 +247,23 @@ maybe_update_thumbnail() {
     # Fall back to full SPK download if neither is found.
     # ------------------------------------------------------------------
     local icon_fetched=0
-    local raw_base="https://raw.githubusercontent.com/${user}/${repo}/${branch}"
+    local api_base="https://api.github.com/repos/${user}/${repo}/contents"
+    local icon_ref=""
+    [[ "${branch}" != "HEAD" ]] && icon_ref="?ref=${branch}"
 
     for icon_url in \
-        "${raw_base}/PACKAGE_ICON_256.PNG" \
-        "${raw_base}/synology/PACKAGE_ICON_256.PNG"; do
+        "${api_base}/PACKAGE_ICON_256.PNG${icon_ref}" \
+        "${api_base}/synology/PACKAGE_ICON_256.PNG${icon_ref}"; do
             local http_status
             http_status=$(curl -sSL --globoff -o "${tmp_icon}" \
+                -H "Authorization: Bearer ${GH_TOKEN}" \
+                -H "Accept: application/vnd.github.raw+json" \
                 -w "%{http_code}" "${icon_url}" 2>/dev/null)
-            if [[ "$http_status" == "200" && -s "${tmp_icon}" ]]; then
-                echo "INFO: Got icon from ${icon_url}" >&2
-                icon_fetched=1
-                break
-            fi
+        if [[ "$http_status" == "200" && -s "${tmp_icon}" ]]; then
+            echo "INFO: Got icon from ${icon_url}" >&2
+            icon_fetched=1
+            break
+        fi
     done
 
     if [[ "$icon_fetched" -eq 0 ]]; then
@@ -851,7 +855,6 @@ make_entries() {
         elif [[ -n "$changelog_spec" ]]; then
             local spk_change_raw="$change_raw"
             echo "DEBUG spk_change_raw assigned length=${#spk_change_raw} changelog_spec='${changelog_spec}'" >&2
-            echo "DEBUG spk_change_raw assigned length=${#spk_change_raw} changelog_spec='${changelog_spec}'" >&2
 
             # For DSM-split specs ("6:PKG_DSM6/CHANGELOG 7:PKG_DSM7/CHANGELOG"),
             # pick the path matching this SPK's DSM major version.
@@ -1181,6 +1184,8 @@ entries+=( "$(make_entries "eizedev"     "SpotConnect-Synology"      "")" )
 
 entries+=( "$(make_entries "rylos"       "synofile"                  "CHANGES.txt")" )
 entries+=( "$(make_entries "rylos"       "btrbk-nas"                 "CHANGES.txt")" )
+
+#entries+=( "$(make_entries "jbdemonte"   "synology-archive-station"  "")" )
 
 #entries+=( "$(make_entries "bb-qq"          "aqc111"                "")" )
 #entries+=( "$(make_entries "bb-qq"          "r8152"                 "")" )
