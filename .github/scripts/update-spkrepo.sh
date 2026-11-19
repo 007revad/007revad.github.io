@@ -366,7 +366,7 @@ maybe_update_screenshots() {
         listing=$(jq -r '
             if type == "array" then
                 .[] | select(.type == "file" and (.name | test("\\.(png|jpe?g)$"; "i")))
-                | [.name, .download_url] | @tsv
+                | [.name, .url] | @tsv
             else empty end' <<< "$body" 2>/dev/null | LC_ALL=C sort -V || true)
         if [[ -n "$listing" ]]; then
             [[ "$dir" != "screenshots" ]] && echo "INFO: Using ${dir}/ screenshots for ${shot_key}" >&2
@@ -397,7 +397,10 @@ maybe_update_screenshots() {
             n=$(( n + 1 ))
             fname="${shot_key}_${n}.${ext}"
             tmp=$(mktemp)
-            if curl -fsSL --globoff --max-time 60 -o "${tmp}" "${url}" 2>/dev/null && [[ -s "${tmp}" ]]; then
+            if curl -fsSL --globoff --max-time 60 \
+                -H "Authorization: Bearer ${GH_TOKEN}" \
+                -H "Accept: application/vnd.github.raw+json" \
+                -o "${tmp}" "${url}" 2>/dev/null && [[ -s "${tmp}" ]]; then
                 if [[ ! -f "${dest_dir}/${fname}" ]] || ! cmp -s "${tmp}" "${dest_dir}/${fname}"; then
                     mv "${tmp}" "${dest_dir}/${fname}"
                     echo "INFO: Wrote ${dest_dir}/${fname}" >&2
