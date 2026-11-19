@@ -21,11 +21,16 @@
         "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/OoklaSpeedtest_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/OoklaSpeedtest_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/OoklaSpeedtest_DSM6_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/OoklaSpeedtest_DSM6_4.png"
+      ],
       "beta": false,
       "size": 3758080,
-      "download_count": 5339,
-      "recent_download_count": 5339,
+      "download_count": 5347,
+      "recent_download_count": 5347,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -49,11 +54,16 @@
         "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/OoklaSpeedtest_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/OoklaSpeedtest_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/OoklaSpeedtest_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/OoklaSpeedtest_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/OoklaSpeedtest_4.png"
+      ],
       "beta": false,
       "size": 3768320,
-      "download_count": 5339,
-      "recent_download_count": 5339,
+      "download_count": 5347,
+      "recent_download_count": 5347,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Ookla Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Ookla Speedtest window's title bar."
     },
     {
@@ -77,11 +87,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/OpenSpeedTest_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/OpenSpeedTest_DSM6_2.png"
+      ],
       "beta": false,
       "size": 604160,
-      "download_count": 5630,
-      "recent_download_count": 5630,
+      "download_count": 5640,
+      "recent_download_count": 5640,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -105,11 +118,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_DSM7_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_DSM7_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/OpenSpeedTest_DSM7_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/OpenSpeedTest_DSM7_2.png"
+      ],
       "beta": false,
       "size": 604160,
-      "download_count": 5630,
-      "recent_download_count": 5630,
+      "download_count": 5640,
+      "recent_download_count": 5640,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -133,11 +149,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/OpenSpeedTest_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/OpenSpeedTest_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/OpenSpeedTest_2.png"
+      ],
       "beta": false,
       "size": 604160,
-      "download_count": 5630,
-      "recent_download_count": 5630,
+      "download_count": 5640,
+      "recent_download_count": 5640,
       "changelog": "1. Changed icon to have rounded corners.<br/> 2. Bug fix for DSM 6 package upgrade not reloading nginx."
     },
     {
@@ -161,11 +180,13 @@
         "https://007revad.github.io/spkrepo/thumbnails/LibreSpeedTest_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/LibreSpeedTest_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/LibreSpeedTest_DSM6_1.png"
+      ],
       "beta": false,
       "size": 194560,
-      "download_count": 2910,
-      "recent_download_count": 2910,
+      "download_count": 2919,
+      "recent_download_count": 2919,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -189,11 +210,13 @@
         "https://007revad.github.io/spkrepo/thumbnails/LibreSpeedTest_DSM7_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/LibreSpeedTest_DSM7_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/LibreSpeedTest_DSM7_1.png"
+      ],
       "beta": false,
       "size": 204800,
-      "download_count": 2910,
-      "recent_download_count": 2910,
+      "download_count": 2919,
+      "recent_download_count": 2919,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -217,11 +240,13 @@
         "https://007revad.github.io/spkrepo/thumbnails/LibreSpeedTest_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/LibreSpeedTest_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/LibreSpeedTest_1.png"
+      ],
       "beta": false,
       "size": 204800,
-      "download_count": 2910,
-      "recent_download_count": 2910,
+      "download_count": 2919,
+      "recent_download_count": 2919,
       "changelog": "1. Changed so if another window is on top clicking anywhere in the visible part of Libre Speedtest's window brings it to the front.<br/> 2. Previously you had to click the Libre Speedtest window's title bar."
     },
     {
@@ -245,11 +270,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/TranscodeDrivers_DSM7_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/TranscodeDrivers_DSM7_2.png"
+      ],
       "beta": false,
       "size": 2652160,
-      "download_count": 3919,
-      "recent_download_count": 3919,
+      "download_count": 3925,
+      "recent_download_count": 3925,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -273,11 +301,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/TranscodeDrivers_DSM7_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/TranscodeDrivers_DSM7_2.png"
+      ],
       "beta": false,
       "size": 2652160,
-      "download_count": 3919,
-      "recent_download_count": 3919,
+      "download_count": 3925,
+      "recent_download_count": 3925,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -301,11 +332,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/TranscodeDrivers_DSM7_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/TranscodeDrivers_DSM7_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/TranscodeDrivers_DSM7_2.png"
+      ],
       "beta": false,
       "size": 2662400,
-      "download_count": 3919,
-      "recent_download_count": 3919,
+      "download_count": 3925,
+      "recent_download_count": 3925,
       "changelog": "1. Bug fix for loading the default drivers instead of the package's drivers (introduced in v4.1.16).<br/> 2. Changed log message when DSM is running as a virtual machine under a hypervisor (Proxmox, ESXi).<br/> 3. Added Synology model and DSM version to log."
     },
     {
@@ -332,8 +366,8 @@
       "snapshot": [],
       "beta": false,
       "size": 184320,
-      "download_count": 998,
-      "recent_download_count": 998,
+      "download_count": 1002,
+      "recent_download_count": 1002,
       "changelog": "1. Changed icon so it's more visible on a dark background."
     },
     {
@@ -352,16 +386,23 @@
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "6.0-7321",
-      "os_max_ver": "9.9-999999",
+      "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_72.png",
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_256.png"
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_6.png"
+      ],
       "beta": false,
       "size": 1648640,
-      "download_count": 15486,
-      "recent_download_count": 15486,
+      "download_count": 15524,
+      "recent_download_count": 15524,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -426,11 +467,18 @@
         "https://007revad.github.io/spkrepo/thumbnails/drive_info_SRM_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/drive_info_SRM_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_SRM_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_SRM_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_SRM_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_SRM_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_SRM_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_SRM_6.png"
+      ],
       "beta": false,
       "size": 2129920,
-      "download_count": 15486,
-      "recent_download_count": 15486,
+      "download_count": 15524,
+      "recent_download_count": 15524,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -490,16 +538,23 @@
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
-      "os_max_ver": "9.9-999999",
+      "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_72.png",
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_256.png"
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_6.png"
+      ],
       "beta": false,
       "size": 747520,
-      "download_count": 15486,
-      "recent_download_count": 15486,
+      "download_count": 15524,
+      "recent_download_count": 15524,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -559,16 +614,23 @@
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
-      "os_max_ver": "9.9-999999",
+      "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_72.png",
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_256.png"
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_6.png"
+      ],
       "beta": false,
       "size": 808960,
-      "download_count": 15486,
-      "recent_download_count": 15486,
+      "download_count": 15524,
+      "recent_download_count": 15524,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -628,16 +690,23 @@
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
-      "os_max_ver": "9.9-999999",
+      "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_72.png",
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_256.png"
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_6.png"
+      ],
       "beta": false,
       "size": 870400,
-      "download_count": 15486,
-      "recent_download_count": 15486,
+      "download_count": 15524,
+      "recent_download_count": 15524,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -697,16 +766,23 @@
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
-      "os_max_ver": "9.9-999999",
+      "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_72.png",
-        "https://007revad.github.io/spkrepo/thumbnails/drive_info_DSM9_256.png"
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_72.png",
+        "https://007revad.github.io/spkrepo/thumbnails/drive_info_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/drive_info_6.png"
+      ],
       "beta": false,
       "size": 880640,
-      "download_count": 15486,
-      "recent_download_count": 15486,
+      "download_count": 15524,
+      "recent_download_count": 15524,
       "dname_chs": "Drive Info",
       "dname_cht": "Drive Info",
       "dname_csy": "Drive Info",
@@ -771,11 +847,13 @@
         "https://007revad.github.io/spkrepo/thumbnails/AQC_Unlock_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/AQC_Unlock_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/AQC_Unlock_1.png"
+      ],
       "beta": false,
       "size": 1249280,
-      "download_count": 862,
-      "recent_download_count": 862,
+      "download_count": 865,
+      "recent_download_count": 865,
       "changelog": "1. Changed to no longer need the user to set sudoers permissions."
     },
     {
@@ -799,11 +877,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_DSM6_3.png"
+      ],
       "beta": false,
       "size": 419840,
-      "download_count": 3269,
-      "recent_download_count": 3269,
+      "download_count": 3282,
+      "recent_download_count": 3282,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -827,11 +909,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_SRM_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_SRM_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_SRM_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_SRM_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_SRM_3.png"
+      ],
       "beta": false,
       "size": 1177600,
-      "download_count": 3269,
-      "recent_download_count": 3269,
+      "download_count": 3282,
+      "recent_download_count": 3282,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -855,11 +941,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_3.png"
+      ],
       "beta": false,
       "size": 348160,
-      "download_count": 3269,
-      "recent_download_count": 3269,
+      "download_count": 3282,
+      "recent_download_count": 3282,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -883,11 +973,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_3.png"
+      ],
       "beta": false,
       "size": 378880,
-      "download_count": 3269,
-      "recent_download_count": 3269,
+      "download_count": 3282,
+      "recent_download_count": 3282,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -911,11 +1005,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_3.png"
+      ],
       "beta": false,
       "size": 419840,
-      "download_count": 3269,
-      "recent_download_count": 3269,
+      "download_count": 3282,
+      "recent_download_count": 3282,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -939,11 +1037,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/SourceManager_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/SourceManager_3.png"
+      ],
       "beta": false,
       "size": 419840,
-      "download_count": 3269,
-      "recent_download_count": 3269,
+      "download_count": 3282,
+      "recent_download_count": 3282,
       "changelog": "1. Updated to be compatible with python 2.7 and python 3.<br/> 2. Changed so the spk files are 60% smaller.<br/> 3. Bug fix for \"No feeds found on this NAS\" error after first install.<br/> 4. Bug fix for package not being listed in 007revad community package source for:<br/> 5. armv7 platforms: alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k.<br/> 6. i686 platform: evansport."
     },
     {
@@ -967,11 +1069,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_DSM6_2.png"
+      ],
       "beta": false,
       "size": 1136640,
-      "download_count": 2279,
-      "recent_download_count": 2279,
+      "download_count": 2290,
+      "recent_download_count": 2290,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -995,11 +1100,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_2.png"
+      ],
       "beta": false,
       "size": 1024000,
-      "download_count": 2279,
-      "recent_download_count": 2279,
+      "download_count": 2290,
+      "recent_download_count": 2290,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1023,11 +1131,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_2.png"
+      ],
       "beta": false,
       "size": 1085440,
-      "download_count": 2279,
-      "recent_download_count": 2279,
+      "download_count": 2290,
+      "recent_download_count": 2290,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1051,11 +1162,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_2.png"
+      ],
       "beta": false,
       "size": 1105920,
-      "download_count": 2279,
-      "recent_download_count": 2279,
+      "download_count": 2290,
+      "recent_download_count": 2290,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1079,11 +1193,14 @@
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/CPUTemp_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/CPUTemp_2.png"
+      ],
       "beta": false,
       "size": 1146880,
-      "download_count": 2279,
-      "recent_download_count": 2279,
+      "download_count": 2290,
+      "recent_download_count": 2290,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1107,11 +1224,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_3.png"
+      ],
       "beta": false,
       "size": 4915200,
-      "download_count": 2078,
-      "recent_download_count": 2078,
+      "download_count": 2096,
+      "recent_download_count": 2096,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1135,11 +1256,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_3.png"
+      ],
       "beta": false,
       "size": 4915200,
-      "download_count": 2078,
-      "recent_download_count": 2078,
+      "download_count": 2096,
+      "recent_download_count": 2096,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1163,11 +1288,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_3.png"
+      ],
       "beta": false,
       "size": 5519360,
-      "download_count": 2078,
-      "recent_download_count": 2078,
+      "download_count": 2096,
+      "recent_download_count": 2096,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1191,11 +1320,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_3.png"
+      ],
       "beta": false,
       "size": 5529600,
-      "download_count": 2078,
-      "recent_download_count": 2078,
+      "download_count": 2096,
+      "recent_download_count": 2096,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1219,11 +1352,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_3.png"
+      ],
       "beta": false,
       "size": 4689920,
-      "download_count": 2078,
-      "recent_download_count": 2078,
+      "download_count": 2096,
+      "recent_download_count": 2096,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1247,11 +1384,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_3.png"
+      ],
       "beta": false,
       "size": 4700160,
-      "download_count": 2078,
-      "recent_download_count": 2078,
+      "download_count": 2096,
+      "recent_download_count": 2096,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1275,11 +1416,15 @@
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_DSM6_3.png"
+      ],
       "beta": false,
       "size": 5376000,
-      "download_count": 2078,
-      "recent_download_count": 2078,
+      "download_count": 2096,
+      "recent_download_count": 2096,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
@@ -1303,16 +1448,20 @@
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Synoiperf3_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Synoiperf3_3.png"
+      ],
       "beta": false,
       "size": 5376000,
-      "download_count": 2078,
-      "recent_download_count": 2078,
+      "download_count": 2096,
+      "recent_download_count": 2096,
       "changelog": "1. Bug fix for failing to install on alpine, alpine4k, armada370, armada375, armada38x, armadaxp, monaco, comcerto2k and evansport."
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.36",
+      "version": "1.0.37",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1321,7 +1470,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.36/SynoToolbox-armv7-v1.0.36-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.037/SynoToolbox-armv7-v1.037-DSM-6.x.spk",
       "arch": "alpine alpine4k armada370 armada375 armada38x armadaxp monaco comcerto2k",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1331,16 +1480,24 @@
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_6.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_7.png"
+      ],
       "beta": false,
       "size": 952320,
-      "download_count": 3604,
-      "recent_download_count": 3604,
-      "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
+      "download_count": 3623,
+      "recent_download_count": 3623,
+      "changelog": ""
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.36",
+      "version": "1.0.37",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1349,7 +1506,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.36/SynoToolbox-armv7-v1.0.36-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.037/SynoToolbox-armv7-v1.037-DSM-7.x.spk",
       "arch": "alpine alpine4k armada370 armada375 armada38x armadaxp monaco comcerto2k",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1359,16 +1516,24 @@
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_6.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_7.png"
+      ],
       "beta": false,
       "size": 962560,
-      "download_count": 3604,
-      "recent_download_count": 3604,
-      "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
+      "download_count": 3623,
+      "recent_download_count": 3623,
+      "changelog": ""
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.36",
+      "version": "1.0.37",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1377,7 +1542,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.36/SynoToolbox-armv8-v1.0.36-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.037/SynoToolbox-armv8-v1.037-DSM-6.x.spk",
       "arch": "armv8",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1387,16 +1552,24 @@
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_6.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_7.png"
+      ],
       "beta": false,
       "size": 1013760,
-      "download_count": 3604,
-      "recent_download_count": 3604,
-      "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
+      "download_count": 3623,
+      "recent_download_count": 3623,
+      "changelog": ""
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.36",
+      "version": "1.0.37",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1405,7 +1578,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.36/SynoToolbox-armv8-v1.0.36-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.037/SynoToolbox-armv8-v1.037-DSM-7.x.spk",
       "arch": "armv8",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1415,16 +1588,24 @@
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_6.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_7.png"
+      ],
       "beta": false,
       "size": 1013760,
-      "download_count": 3604,
-      "recent_download_count": 3604,
-      "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
+      "download_count": 3623,
+      "recent_download_count": 3623,
+      "changelog": ""
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.36",
+      "version": "1.0.37",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1433,7 +1614,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.36/SynoToolbox-i686-v1.0.36-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.037/SynoToolbox-i686-v1.037-DSM-6.x.spk",
       "arch": "evansport",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1443,16 +1624,24 @@
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_6.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_7.png"
+      ],
       "beta": false,
       "size": 1075200,
-      "download_count": 3604,
-      "recent_download_count": 3604,
-      "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
+      "download_count": 3623,
+      "recent_download_count": 3623,
+      "changelog": ""
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.36",
+      "version": "1.0.37",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1461,7 +1650,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.36/SynoToolbox-i686-v1.0.36-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.037/SynoToolbox-i686-v1.037-DSM-7.x.spk",
       "arch": "evansport",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1471,16 +1660,24 @@
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_6.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_7.png"
+      ],
       "beta": false,
       "size": 1085440,
-      "download_count": 3604,
-      "recent_download_count": 3604,
-      "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
+      "download_count": 3623,
+      "recent_download_count": 3623,
+      "changelog": ""
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.36",
+      "version": "1.0.37",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1489,7 +1686,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.36/SynoToolbox-x86_64-v1.0.36-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.037/SynoToolbox-x86_64-v1.037-DSM-6.x.spk",
       "arch": "x86_64",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1499,16 +1696,24 @@
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_6.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_DSM6_7.png"
+      ],
       "beta": false,
       "size": 1064960,
-      "download_count": 3604,
-      "recent_download_count": 3604,
-      "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
+      "download_count": 3623,
+      "recent_download_count": 3623,
+      "changelog": ""
     },
     {
       "package": "Syno_Toolbox",
-      "version": "1.0.36",
+      "version": "1.0.37",
       "dname": "Syno Toolbox",
       "desc": "Package containing many 007revad scripts that are too small to have their own package, as well as new ones that were never released as a script",
       "maintainer": "007revad",
@@ -1517,7 +1722,7 @@
       "distributor_url": "https://github.com/007revad/Syno_Toolbox",
       "support_url": "https://github.com/007revad/Syno_Toolbox/issues",
       "report_url": "https://github.com/007revad/Syno_Toolbox/issues",
-      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.0.36/SynoToolbox-x86_64-v1.0.36-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_Toolbox/releases/download/v1.037/SynoToolbox-x86_64-v1.037-DSM-7.x.spk",
       "arch": "x86_64",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1527,12 +1732,20 @@
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/Syno_Toolbox_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_5.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_6.png",
+        "https://007revad.github.io/spkrepo/screenshots/Syno_Toolbox_7.png"
+      ],
       "beta": false,
       "size": 1075200,
-      "download_count": 3604,
-      "recent_download_count": 3604,
-      "changelog": "1. Added Check Synology Security Advisory module to show when Synology publishes new, or updates existing, Security Advisories.<br/> 2. Includes clickable links to the new or updated security advisory pages.<br/> 3. Added QuickConnect module to show if QuickConnect is enabled and warn if DSM is access via QuickConnect is enabled.<br/> 4. Updated Packages tab's Packages at Risk table to show the type of exploit (PHP2Shell, Plex2Shell etc).<br/> 5. Check Access from Internet now also checks the https and http ports configured in DSM (443 and 80).<br/> 6. Made Check Access from Internet 50% faster.<br/> 7. Updated the Help and About tabs."
+      "download_count": 3623,
+      "recent_download_count": 3623,
+      "changelog": ""
     },
     {
       "package": "App_Mover",
@@ -1555,11 +1768,17 @@
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_DSM6_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_DSM6_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_DSM6_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_DSM6_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_DSM6_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_DSM6_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_DSM6_5.png"
+      ],
       "beta": false,
       "size": 1228800,
-      "download_count": 1411,
-      "recent_download_count": 1411,
+      "download_count": 1424,
+      "recent_download_count": 1424,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1583,11 +1802,17 @@
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_5.png"
+      ],
       "beta": false,
       "size": 1116160,
-      "download_count": 1411,
-      "recent_download_count": 1411,
+      "download_count": 1424,
+      "recent_download_count": 1424,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1611,11 +1836,17 @@
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_5.png"
+      ],
       "beta": false,
       "size": 1177600,
-      "download_count": 1411,
-      "recent_download_count": 1411,
+      "download_count": 1424,
+      "recent_download_count": 1424,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1639,11 +1870,17 @@
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_5.png"
+      ],
       "beta": false,
       "size": 1198080,
-      "download_count": 1411,
-      "recent_download_count": 1411,
+      "download_count": 1424,
+      "recent_download_count": 1424,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1667,11 +1904,17 @@
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_72.png",
         "https://007revad.github.io/spkrepo/thumbnails/App_Mover_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_1.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_2.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_3.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_4.png",
+        "https://007revad.github.io/spkrepo/screenshots/App_Mover_5.png"
+      ],
       "beta": false,
       "size": 1228800,
-      "download_count": 1411,
-      "recent_download_count": 1411,
+      "download_count": 1424,
+      "recent_download_count": 1424,
       "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume.<br/> 2. Improved the messages when clicking on Backup or Restore when you haven't set the backup path.<br/> 3. Changed package's icon to be larger."
     },
     {
@@ -1690,16 +1933,18 @@
       "exclude_arch": null,
       "exclude_model": null,
       "firmware": "7.0-40000",
-      "os_max_ver": "9.9-999999",
+      "os_max_ver": null,
       "thumbnail": [
-        "https://007revad.github.io/spkrepo/thumbnails/medusa_DSM9_72.png",
-        "https://007revad.github.io/spkrepo/thumbnails/medusa_DSM9_256.png"
+        "https://007revad.github.io/spkrepo/thumbnails/medusa_72.png",
+        "https://007revad.github.io/spkrepo/thumbnails/medusa_256.png"
       ],
-      "snapshot": [],
+      "snapshot": [
+        "https://007revad.github.io/spkrepo/screenshots/medusa_1.png"
+      ],
       "beta": false,
       "size": 112640,
-      "download_count": 51,
-      "recent_download_count": 51,
+      "download_count": 53,
+      "recent_download_count": 53,
       "changelog": "1. First release of 007revad's Medusa package. Upgrades over BenjV's Medusa package and keeps your existing config, database and cache.<br/> 2. Requires SynoCommunity Git and Python 3.14 packages.<br/> 3. Medusa is cloned from GitHub, so Medusa's \"Update Now\" keeps working.<br/> 4. Bug fix for \"Sorry, requires Python 3.10 and above\". The newest installed Python that meets Medusa's minimum version is now used (Python 3.9 is no longer supported).<br/> 5. Bug fix for Medusa's web UI \"Restart\" and \"Update Now\" hanging on \"Performing Restart\".<br/> 6. Medusa is now run by a small supervisor, which picks the Python version again each time Medusa restarts.<br/> 7. Medusa's \"Shutdown\" button now restarts Medusa instead of stopping it. Use Package Center to stop Medusa.<br/> 8. Package Center no longer shows a \"Send Term signal to package\" message when stopping Medusa.<br/> 9. The supervisor's log is saved in the package's var folder as supervisor.log.<br/> 10. Uninstalling the package asks the user if they want to delete Medusa's data (config, database, cache). Keeping it is the default, so the data is still there if you reinstall. Upgrading never deletes data."
     },
     {
@@ -1726,8 +1971,8 @@
       "snapshot": [],
       "beta": false,
       "size": 532480,
-      "download_count": 13135,
-      "recent_download_count": 13135,
+      "download_count": 13139,
+      "recent_download_count": 13139,
       "changelog": ""
     },
     {
@@ -1754,8 +1999,8 @@
       "snapshot": [],
       "beta": false,
       "size": 11438080,
-      "download_count": 1455,
-      "recent_download_count": 1455,
+      "download_count": 1457,
+      "recent_download_count": 1457,
       "dname_enu": "AutoPilot",
       "dname_ger": "AutoPilot",
       "desc_enu": "AutoPilot for external drives enables shell script instructions to be executed automatically after connecting an external data carrier. After execution, the external data medium can be automatically ejected again if desired.",
@@ -1787,8 +2032,8 @@
       "snapshot": [],
       "beta": false,
       "size": 10516480,
-      "download_count": 2466,
-      "recent_download_count": 2466,
+      "download_count": 2468,
+      "recent_download_count": 2468,
       "dname_enu": "LogAnalysis",
       "dname_ger": "LogAnalysis",
       "desc_enu": "The Linux system on which the DSM is based logs all events, problems and errors of the system and running services in so-called log files. This information is stored in various text files, which are usually located in the /var/log folder and in connected subfolders. The viewing of these text files is normally done in any editor, which is executed via the terminal. Within Synology DiskStation Manager (DSM), these files can now be conveniently viewed and searched using the GUI of LogAnalysis.",
@@ -1820,8 +2065,8 @@
       "snapshot": [],
       "beta": false,
       "size": 829440,
-      "download_count": 929,
-      "recent_download_count": 929,
+      "download_count": 931,
+      "recent_download_count": 931,
       "dname_enu": "Autorun",
       "dname_chs": "自动运行",
       "dname_ger": "Autorun",
@@ -1882,8 +2127,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2691584,
-      "download_count": 7843,
-      "recent_download_count": 7843,
+      "download_count": 7859,
+      "recent_download_count": 7859,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -1931,8 +2176,8 @@
       "snapshot": [],
       "beta": false,
       "size": 19087872,
-      "download_count": 314,
-      "recent_download_count": 314,
+      "download_count": 320,
+      "recent_download_count": 320,
       "dname_ger": "AutoBan",
       "desc_enu": "Automatically imports IP block lists into the DSM IP block list.",
       "desc_cht": "自動將 IP 封鎖清單匯入 DSM 的 IP 封鎖清單。",
@@ -1980,8 +2225,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2928640,
-      "download_count": 863,
-      "recent_download_count": 863,
+      "download_count": 865,
+      "recent_download_count": 865,
       "desc_ger": "Ein sicheres Terminal für DSM-Administratoren direkt vom DSM-Desktop öffnen.",
       "changelog": ""
     },
@@ -2009,8 +2254,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3430400,
-      "download_count": 206,
-      "recent_download_count": 206,
+      "download_count": 208,
+      "recent_download_count": 208,
       "changelog": ""
     },
     {
@@ -2037,8 +2282,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 29178,
-      "recent_download_count": 29178,
+      "download_count": 29197,
+      "recent_download_count": 29197,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2065,8 +2310,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 29178,
-      "recent_download_count": 29178,
+      "download_count": 29197,
+      "recent_download_count": 29197,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2093,8 +2338,8 @@
       "snapshot": [],
       "beta": false,
       "size": 788480,
-      "download_count": 29178,
-      "recent_download_count": 29178,
+      "download_count": 29197,
+      "recent_download_count": 29197,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2121,8 +2366,8 @@
       "snapshot": [],
       "beta": false,
       "size": 931840,
-      "download_count": 29178,
-      "recent_download_count": 29178,
+      "download_count": 29197,
+      "recent_download_count": 29197,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2149,8 +2394,8 @@
       "snapshot": [],
       "beta": false,
       "size": 921600,
-      "download_count": 29178,
-      "recent_download_count": 29178,
+      "download_count": 29197,
+      "recent_download_count": 29197,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2177,8 +2422,8 @@
       "snapshot": [],
       "beta": false,
       "size": 952320,
-      "download_count": 29178,
-      "recent_download_count": 29178,
+      "download_count": 29197,
+      "recent_download_count": 29197,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2205,8 +2450,8 @@
       "snapshot": [],
       "beta": false,
       "size": 880640,
-      "download_count": 29178,
-      "recent_download_count": 29178,
+      "download_count": 29197,
+      "recent_download_count": 29197,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2233,8 +2478,8 @@
       "snapshot": [],
       "beta": false,
       "size": 727040,
-      "download_count": 29178,
-      "recent_download_count": 29178,
+      "download_count": 29197,
+      "recent_download_count": 29197,
       "changelog": "AirConnect-Synology packaging:<br/> 1. Added: Separate packages for Synology Routers.<br/> 2. Fixed: Updates work on Synology Routers again.<br/> <br/> Bundled AirConnect 1.12.4:<br/> - fix crosstool regression<br/> <br/> Full packaging changelog: https://github.com/eizedev/AirConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full AirConnect changelog: https://github.com/philippe44/AirConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2261,8 +2506,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3225600,
-      "download_count": 482,
-      "recent_download_count": 482,
+      "download_count": 494,
+      "recent_download_count": 494,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2289,8 +2534,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2375680,
-      "download_count": 482,
-      "recent_download_count": 482,
+      "download_count": 494,
+      "recent_download_count": 494,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2317,8 +2562,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2498560,
-      "download_count": 482,
-      "recent_download_count": 482,
+      "download_count": 494,
+      "recent_download_count": 494,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2345,8 +2590,8 @@
       "snapshot": [],
       "beta": false,
       "size": 2918400,
-      "download_count": 482,
-      "recent_download_count": 482,
+      "download_count": 494,
+      "recent_download_count": 494,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2373,8 +2618,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3338240,
-      "download_count": 482,
-      "recent_download_count": 482,
+      "download_count": 494,
+      "recent_download_count": 494,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2401,8 +2646,8 @@
       "snapshot": [],
       "beta": false,
       "size": 3409920,
-      "download_count": 482,
-      "recent_download_count": 482,
+      "download_count": 494,
+      "recent_download_count": 494,
       "changelog": "SpotConnect-Synology packaging:<br/> 1. Added: Older DSM releases can now run the package.<br/> 2. Changed: SpotConnect updated from 0.20.8 to 0.20.11.<br/> 3. Changed: Sonos speakers no longer get a second Spotify Connect entry from spotupnp.<br/> 4. Fixed: 'What's New' for an automatically published update lists that update's changes.<br/> 5. Fixed: An update stops when it cannot carry your settings over, instead of continuing without them.<br/> 6. Fixed: Package Center shows SpotConnect as running whenever it runs, and Stop always works.<br/> 7. Fixed: Run after one of the two programs crashed no longer starts the other one twice.<br/> 8. Fixed: With both programs switched off in the config, the package is no longer shown as running.<br/> 9. Known issues: spotupnp can still crash after running for days.<br/> 10. Known issues: Sonos speakers with AirPlay 2 still appear as Sonos-<id>+ through spotraop, which names them after their host name and cannot recognise them as Sonos.<br/> <br/> Bundled SpotConnect 0.20.11:<br/> - cspot core fix on readBlock upon EINTR<br/> - spotraop: notifyAudio according to new I/F<br/> <br/> Full packaging changelog: https://github.com/eizedev/SpotConnect-Synology/blob/HEAD/CHANGELOG.md<br/> Full SpotConnect changelog: https://github.com/philippe44/SpotConnect/blob/HEAD/CHANGELOG"
     },
     {
@@ -2429,8 +2674,8 @@
       "snapshot": [],
       "beta": false,
       "size": 8038400,
-      "download_count": 510,
-      "recent_download_count": 510,
+      "download_count": 514,
+      "recent_download_count": 514,
       "desc_ita": "Un file manager veloce e scuro per le cartelle condivise, con schede, doppio pannello, icone e colori di eza, filtro fuzzy e un dialogo di trasferimento dettagliato: grafico della velocità, tempo rimanente, pausa, limite di velocità, conflitti file per file, reflink btrfs e verifica.",
       "desc_ger": "Ein schneller, dunkler Dateimanager für die freigegebenen Ordner, mit Tabs, geteilter Ansicht, den Symbolen und Farben von eza, unscharfem Filter und einem ausführlichen Übertragungsdialog: Geschwindigkeitsdiagramm, verbleibende Zeit, Anhalten, Geschwindigkeitslimit, Konflikte Datei für Datei, btrfs-Reflinks und Prüfung.",
       "desc_fre": "Un gestionnaire de fichiers rapide et sombre pour les dossiers partagés, avec onglets, double volet, icônes et couleurs d'eza, filtre approximatif et une fenêtre de transfert détaillée : graphique de vitesse, temps restant, pause, limite de vitesse, conflits fichier par fichier, reflinks btrfs et vérification.",
@@ -2465,8 +2710,8 @@
       "snapshot": [],
       "beta": false,
       "size": 573440,
-      "download_count": 76,
-      "recent_download_count": 76,
+      "download_count": 78,
+      "recent_download_count": 78,
       "desc_ita": "Visualizza i backup btrbk che arrivano su questo NAS: aggiornamento di ogni subvolume, ricezioni incomplete e i file di ogni snapshot, pronti da scaricare.",
       "desc_ger": "Zeigt die btrbk-Sicherungen, die dieses NAS empfängt: Aktualität jedes Subvolumes, unvollständige Empfänge und die Dateien in jedem Schnappschuss, bereit zum Herunterladen.",
       "desc_fre": "Consultez les sauvegardes btrbk reçues par ce NAS : l'état à jour de chaque sous-volume, les réceptions incomplètes et les fichiers de n'importe quel instantané, prêts à être téléchargés.",
@@ -2501,8 +2746,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 327567,
-      "recent_download_count": 327567,
+      "download_count": 327596,
+      "recent_download_count": 327596,
       "changelog": ""
     },
     {
@@ -2529,8 +2774,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 327567,
-      "recent_download_count": 327567,
+      "download_count": 327596,
+      "recent_download_count": 327596,
       "changelog": ""
     },
     {
@@ -2557,8 +2802,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 327567,
-      "recent_download_count": 327567,
+      "download_count": 327596,
+      "recent_download_count": 327596,
       "changelog": ""
     },
     {
@@ -2585,8 +2830,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 327567,
-      "recent_download_count": 327567,
+      "download_count": 327596,
+      "recent_download_count": 327596,
       "changelog": ""
     },
     {
@@ -2613,8 +2858,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 327567,
-      "recent_download_count": 327567,
+      "download_count": 327596,
+      "recent_download_count": 327596,
       "changelog": ""
     },
     {
@@ -2641,8 +2886,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 327567,
-      "recent_download_count": 327567,
+      "download_count": 327596,
+      "recent_download_count": 327596,
       "changelog": ""
     },
     {
@@ -2669,8 +2914,8 @@
       "snapshot": [],
       "beta": false,
       "size": 15800320,
-      "download_count": 63,
-      "recent_download_count": 63,
+      "download_count": 67,
+      "recent_download_count": 67,
       "changelog": ""
     },
     {
@@ -2697,8 +2942,8 @@
       "snapshot": [],
       "beta": false,
       "size": 14325760,
-      "download_count": 63,
-      "recent_download_count": 63,
+      "download_count": 67,
+      "recent_download_count": 67,
       "changelog": ""
     },
     {
