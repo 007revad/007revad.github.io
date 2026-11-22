@@ -1185,7 +1185,9 @@ entries+=( "$(make_entries "eizedev"     "SpotConnect-Synology"      "")" )
 entries+=( "$(make_entries "rylos"       "synofile"                  "CHANGES.txt")" )
 entries+=( "$(make_entries "rylos"       "btrbk-nas"                 "CHANGES.txt")" )
 
-#entries+=( "$(make_entries "jbdemonte"   "synology-archive-station"  "")" )
+entries+=( "$(make_entries "jbdemonte"   "synology-archive-station"  "")" )
+
+entries+=( "$(make_entries "Drax1984"     "DS-Video-Revival"         "")" )
 
 #entries+=( "$(make_entries "bb-qq"          "aqc111"                "")" )
 #entries+=( "$(make_entries "bb-qq"          "r8152"                 "")" )

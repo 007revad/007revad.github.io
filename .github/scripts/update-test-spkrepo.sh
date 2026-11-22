@@ -1187,6 +1187,8 @@ entries+=( "$(make_entries "rylos"       "btrbk-nas"                 "CHANGES.tx
 
 entries+=( "$(make_entries "jbdemonte"   "synology-archive-station"  "")" )
 
+entries+=( "$(make_entries "Drax1984"     "DS-Video-Revival"         "")" )
+
 #entries+=( "$(make_entries "bb-qq"          "aqc111"                "")" )
 #entries+=( "$(make_entries "bb-qq"          "r8152"                 "")" )
 #entries+=( "$(make_entries "bb-qq"          "uas"                   "")" )
