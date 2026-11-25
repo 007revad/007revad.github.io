@@ -1743,7 +1743,7 @@
     },
     {
       "package": "App_Mover",
-      "version": "1.0.4",
+      "version": "1.1.5",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1752,7 +1752,7 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.4/App_Mover-noarch-v1.0.4-DSM-6.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.1.5/App_Mover-noarch-v1.1.5-DSM-6.x.spk",
       "arch": "noarch",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1773,11 +1773,11 @@
       "size": 419840,
       "download_count": 1764,
       "recent_download_count": 1764,
-      "changelog": "1. Bug fix for rejecting usernames containing non-English letters.<br/> 2. Improved error messages if user is not authorised."
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume."
     },
     {
       "package": "App_Mover",
-      "version": "1.0.4",
+      "version": "1.1.5",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1786,7 +1786,7 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.4/App_Mover-armv7-v1.0.4-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.1.5/App_Mover-armv7-v1.1.5-DSM-7.x.spk",
       "arch": "alpine alpine4k armada370 armada375 armada38x armadaxp monaco comcerto2k",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1807,11 +1807,11 @@
       "size": 358400,
       "download_count": 1764,
       "recent_download_count": 1764,
-      "changelog": "1. Bug fix for rejecting usernames containing non-English letters.<br/> 2. Improved error messages if user is not authorised."
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume."
     },
     {
       "package": "App_Mover",
-      "version": "1.0.4",
+      "version": "1.1.5",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1820,7 +1820,7 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.4/App_Mover-armv8-v1.0.4-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.1.5/App_Mover-armv8-v1.1.5-DSM-7.x.spk",
       "arch": "armv8",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1841,11 +1841,11 @@
       "size": 389120,
       "download_count": 1764,
       "recent_download_count": 1764,
-      "changelog": "1. Bug fix for rejecting usernames containing non-English letters.<br/> 2. Improved error messages if user is not authorised."
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume."
     },
     {
       "package": "App_Mover",
-      "version": "1.0.4",
+      "version": "1.1.5",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1854,7 +1854,7 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.4/App_Mover-i686-v1.0.4-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.1.5/App_Mover-i686-v1.1.5-DSM-7.x.spk",
       "arch": "evansport",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1875,11 +1875,11 @@
       "size": 430080,
       "download_count": 1764,
       "recent_download_count": 1764,
-      "changelog": "1. Bug fix for rejecting usernames containing non-English letters.<br/> 2. Improved error messages if user is not authorised."
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume."
     },
     {
       "package": "App_Mover",
-      "version": "1.0.4",
+      "version": "1.1.5",
       "dname": "App Mover",
       "desc": "Move, back up and restore Synology packages",
       "maintainer": "007revad",
@@ -1888,7 +1888,7 @@
       "distributor_url": "https://github.com/007revad/Syno_App_Mover",
       "support_url": "https://github.com/007revad/Syno_App_Mover/issues",
       "report_url": "https://github.com/007revad/Syno_App_Mover/issues",
-      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.0.4/App_Mover-x86_64-v1.0.4-DSM-7.x.spk",
+      "link": "https://github.com/007revad/Syno_App_Mover/releases/download/v1.1.5/App_Mover-x86_64-v1.1.5-DSM-7.x.spk",
       "arch": "x86_64",
       "exclude_arch": null,
       "exclude_model": null,
@@ -1909,7 +1909,7 @@
       "size": 430080,
       "download_count": 1764,
       "recent_download_count": 1764,
-      "changelog": "1. Bug fix for rejecting usernames containing non-English letters.<br/> 2. Improved error messages if user is not authorised."
+      "changelog": "1. Changed to update /volumeN backup path in config file if the shared folder has been moved to a different volume."
     },
     {
       "package": "medusa",
@@ -2126,8 +2126,8 @@
       ],
       "beta": false,
       "size": 2691584,
-      "download_count": 8344,
-      "recent_download_count": 8344,
+      "download_count": 8345,
+      "recent_download_count": 8345,
       "dname_enu": "synOCR",
       "dname_ger": "synOCR",
       "desc_trk": "synOCR, Docker konteyneri OCRmyPDF için basit bir GUI'dir. Bununla PDF belgelerine kolayca OCR uygulayabilirsiniz. synOCR daha sonra belgelerdeki etiketleri ve tarihleri arayabilir, bunları ayrı bir desene göre yeniden adlandırabilir ve kategorilere göre alt klasörler halinde sıralayabilir. Sabit bağlantılar kullanıldığında, bir belgenin birkaç kategori klasörüne ayrılması gerekiyorsa, depolama alanı gereksinimi artmaz.",
@@ -2820,8 +2820,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 328454,
-      "recent_download_count": 328454,
+      "download_count": 328458,
+      "recent_download_count": 328458,
       "changelog": ""
     },
     {
@@ -2848,8 +2848,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 328454,
-      "recent_download_count": 328454,
+      "download_count": 328458,
+      "recent_download_count": 328458,
       "changelog": ""
     },
     {
@@ -2876,8 +2876,8 @@
       "snapshot": [],
       "beta": false,
       "size": 37877760,
-      "download_count": 328454,
-      "recent_download_count": 328454,
+      "download_count": 328458,
+      "recent_download_count": 328458,
       "changelog": ""
     },
     {
@@ -2904,8 +2904,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 328454,
-      "recent_download_count": 328454,
+      "download_count": 328458,
+      "recent_download_count": 328458,
       "changelog": ""
     },
     {
@@ -2932,8 +2932,8 @@
       "snapshot": [],
       "beta": false,
       "size": 42332160,
-      "download_count": 328454,
-      "recent_download_count": 328454,
+      "download_count": 328458,
+      "recent_download_count": 328458,
       "changelog": ""
     },
     {
@@ -2960,8 +2960,8 @@
       "snapshot": [],
       "beta": false,
       "size": 41236480,
-      "download_count": 328454,
-      "recent_download_count": 328454,
+      "download_count": 328458,
+      "recent_download_count": 328458,
       "changelog": ""
     },
     {
